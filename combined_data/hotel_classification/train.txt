@@ -1,0 +1,4000 @@
+overpriced restaurant	food
+enough hot water	bathroom
+comfortable area	comfort
+nice staff	staff
+dirty room	cleanliness
+not a great hotel room	room
+nice breakfast	food
+5 block walk bart embarcadero stop	location
+very good service	staff
+very uncomfortable walking	comfort
+highly unprofessional front desk	staff
+great access to transportation	location
+competent staff	staff
+dampened accomodations	staff
+very nice food	food
+nice room	room
+clean bathrooms	cleanliness
+tolerable room	room
+friendly reception staff	staff
+huge bars	drink
+rich mahogany	wrong
+old carpet	style
+very central location	location
+a couple blocks from mall	location
+okay place	general
+lit city	general
+large dog	wrong
+substantial room	room
+very good places	general
+clean room	cleanliness
+5 minute walk chinatown	location
+good quality sandwiches	food
+glowing review	general
+so close to phoenix	location
+great staff	staff
+inexpensive dining options	food
+wonderful hotel	general
+huge bustling	wrong
+tiny room	size
+nice room	room
+spotlessly clean place	cleanliness
+fun bar	drink
+border corrider	size
+lots of lunch	food
+terrible hotel	general
+ratty carpet	room
+awesome doormen	staff
+fine breakfast	food
+decent hotel	general
+excellent staff	staff
+a bit upset busy	staff
+very quiet noise	quietness
+limited hours	staff
+nicer a view	view
+convenient location to numerous public transit centers	location
+stains walls	cleanliness
+great fish	food
+attentive desk clerk	staff
+fine chinatown	location
+very friendly staff	staff
+stale urine	bathroom
+good location	location
+great rooms	room
+beautiful view of the bay bridge	style
+wonderful complimentary	price
+sparkled bathroom	bathroom
+spacious bathroom	bathroom
+full of noise	quietness
+plenty of hot water	bathroom
+best hotel	general
+poor shower	bathroom
+large wet bar	drink
+very large room	size
+friendly staff	staff
+free internet	wifi
+wonderful stay	general
+helpful manager	staff
+ok bathroom	bathroom
+incredible parking	parking
+friendly staff	staff
+very large beds	bed
+pleasant hotel staff	staff
+modestly furnished room	style
+noisy hotels	quietness
+clean bed	cleanliness
+friendly staff	staff
+near location	location
+quiet rooms	quietness
+very clean rooms	cleanliness
+really helpful castle inn	general
+expensive drinks	price
+very friendly place	general
+very reasonably priced property	price
+pretty invisbile staff	staff
+only 3 blocks from hotel	location
+very nice spread	general
+so tired sleep	comfort
+close to everything	location
+very friendly hotel staff	staff
+great weeks	general
+packed restaurant	food
+well equipped room	room
+very nicely sized room	size
+huge signage	size
+unpleasant sausage links	comfort
+very adequate breakfast	food
+not much fun suitcases	wrong
+king size bed	bed
+a little too business oriented hotel	style
+contemporary boutique	style
+great service	staff
+comfortable beds	bed
+very clean rooms	cleanliness
+beautiful lobby	style
+great hyde park	location
+clean room	cleanliness
+close to amenities	facility
+intimate lobby	style
+less street noise	quietness
+very friendly staff	staff
+poshest areas	safety
+2 blocks from pier	location
+perfect room temperature	comfort
+lacked customer service	staff
+very friendly staff	staff
+comfy pillows	comfort
+only one block away financial district	location
+clean rooms	cleanliness
+extremely narrow driveway	size
+nice mark	staff
+great hotel	general
+noisy rooms	quietness
+plenty breakfast	food
+responsive to managers	staff
+new hotel	general
+small room	size
+very friendly staff	staff
+enormous tub	bathroom
+so friendly hotel staff	staff
+, adjacent internet hookup	wifi
+favourite accommodation	general
+clean bathroom	cleanliness
+apprehensive deal	price
+exceptional gourmet	food
+best meal	food
+lovely view of the bay	view
+walk places	location
+modern front	style
+very pleasant stay	comfort
+not as good room	room
+tasty drinks	drink
+ridiculous room service	staff
+hot location	location
+great location	location
+comfy bed	bed
+proper lighting	facility
+missing suite	general
+lack of air conditioning	facility
+very entertaining decor	style
+less windows	room
+free wireless	wifi
+clogged whose	bathroom
+traditionally built hotel	style
+right in front streetcar	location
+spacious rooms	size
+very weird facade	general
+clean room	cleanliness
+great stay	general
+classy shops	location
+breathtaking view	view
+painted concrete walls	room
+firm bed	bed
+roomy staff	staff
+spacious bed	bed
+very nice xmas decorations	style
+love mall	location
+beautiful location	location
+really great cheese receptions	staff
+decorated amenities	facility
+scratched furniture	room
+far hospitality	staff
+effusive staff	staff
+higher speed	wifi
+generous room size	size
+gorgeous ballroom	facility
+double the street	wrong
+attentive staff	staff
+bigger rooms	size
+just left empty morning	facility
+clean size	wrong
+good room	room
+extremely friendly everyone	staff
+open place	general
+right near bus	location
+wonderful price	price
+centrally located hotel	location
+quieter area	quietness
+are really location	location
+nice soaps	bathroom
+great value	price
+very comfortable rooms	comfort
+interesting colours	style
+very noisy air conditioning	quietness
+bad bathroom	bathroom
+interesting stains	cleanliness
+happy cocktail	drink
+5 min to cable cars	location
+recently painted bedspread	bed
+happy traveling	general
+old free	style
+amazing views over the	view
+complimentary range	price
+nice touch	style
+quiet room	quietness
+good workout facility	facility
+outrageous parking	parking
+expensive parking	parking
+very clean bathrooms	cleanliness
+terrific rooms	room
+lowest price	price
+7 blocks away gardens	location
+perfect for location	location
+very small toilets	size
+fairly new condition furnishings	facility
+slightly more expensive room	price
+clean rooms	cleanliness
+large closet	size
+warmer heat	wrong
+great price	price
+nightmare place	general
+super sightseeing	location
+very comfortable rooms	comfort
+very nice tv	facility
+complimentary everything	price
+not too cramped rooms	size
+beautiful room	style
+snooty bar	drink
+free computer setup	facility
+right there gate to chinatown	location
+comfortable hotel	comfort
+great value	price
+great staff	staff
+small rooms	size
+; 1 block to cable	location
+very good inn	general
+not a lot of noise	quietness
+windy weather	general
+glorious ocean	view
+perfect union square	location
+right outside dome	location
+excellent places	general
+nicked up furniture	room
+outstanding job	general
+good walking shoes	location
+spotless class	cleanliness
+spacious room	size
+good choice	general
+right across center	location
+fabulous view	view
+very reasonable rates	price
+big art	wrong
+very small room	size
+great food	food
+well decorated rooms	style
+not large rooms	size
+friendly staff	staff
+indeed very exceptional	general
+clean comfort	cleanliness
+sweet romantic nice	vibe
+accommodating owners	staff
+enclosed rooms	room
+incredibly comfortable pillows	bed
+friendly staff	staff
+little flair	wrong
+complimentary cups	food
+very nice rooftop patio	view
+outside ice machine	facility
+ok furniture	facility
+clean rooms	cleanliness
+crazy dangerous driving	parking
+very impressive hotel	general
+outrageous parking	parking
+less than helpful front desk staff	staff
+clean room	cleanliness
+clean rooms	cleanliness
+drag mornings	wrong
+free parking	parking
+pleasent staff	staff
+loved location	location
+nice price	price
+fantastic area	location
+centric quot	location
+across bart station	location
+simple room	room
+warm air conditioning	facility
+laid back atmosphere	vibe
+gorgeous lobby	style
+very late flight	general
+accurate hotel	general
+cheap hotel	price
+friendly staff	staff
+great guys	staff
+smarter wharf	wrong
+reasonable room rates	price
+quot neighbourhood	location
+nice rooms	room
+decent stay	general
+foggy night	comfort
+a bit noisy hotel	quietness
+cruddy shower	bathroom
+accommodating staff	staff
+very strong emphasis	general
+small thin towels	bathroom
+amazing caviar	food
+old building	style
+super restaurant	food
+, very close exellant	location
+good food	food
+two blocks to cable car stop	location
+very spacious room	size
+awfully loud noise	quietness
+relatively solid service	staff
+really nice free	wrong
+comfy bed	bed
+made bed	bed
+really tight budget	price
+nice touch tv	facility
+classy hotel	style
+near cable car	location
+well stocked room	room
+terrible sleep	comfort
+very comprehensive gym	gym
+free wireless internet	wifi
+great union square	location
+warm clothes	wrong
+full places	general
+richly appointed suite	general
+heavenly beds	bed
+very reasonable room rates	price
+ample reading lamps	facility
+expensive drinks	price
+hot location	location
+great location	location
+great rooms	room
+good location	location
+high expectations	general
+great hotels	general
+courteous staff	staff
+nearly ready pool	pool
+amazing bathroom	bathroom
+clean rooms	cleanliness
+very close to location	location
+soothing ambiance	vibe
+rude clerks	staff
+cool restaurant	food
+plenty of pillows	bed
+within walking distance shopping	location
+great bank	location
+regular milk	food
+close to cable car	location
+very reasonable hotel	general
+great stay	general
+great foods	food
+old fashioned bathroom	bathroom
+beautiful suite	style
+poor service	staff
+distant fridge	facility
+most amazing city	general
+wonderful hosts	staff
+right price	price
+choice hotel	general
+shabby looking	style
+not work air conditioner	comfort
+nice lounge	general
+focused job	wrong
+great pleasant	general
+charming food	food
+amazing hotel	general
+friendly lady	staff
+beautiful everything	style
+generally so friendly restaurant selection	food
+free nice	wrong
+very nice stay	general
+well furnished room	room
+fantastic staff	staff
+very busy conversation	staff
+large flat	size
+full shops	location
+safe place	safety
+clean towels	cleanliness
+comfortable sheets	bed
+trolly hotel	style
+serviceable cafe	staff
+very close bart	location
+small pool	pool
+helpful staff	staff
+ok service	staff
+fine restaurant	food
+clean enough room	cleanliness
+nice bright colors	style
+excellent location	location
+good location	location
+shopworn room	room
+walkable to city	location
+small rooms	size
+quiet talking	quietness
+high end elyptical	gym
+lovely hotel	style
+bay room	view
+outstanding hotel	general
+great noise	quietness
+extremely friendly staff	staff
+right in the heart location	location
+loved hotel	general
+great location	location
+perfect hotel	general
+not friendly front desk staff	staff
+lovely meal	food
+polite parking valet service	staff
+warm smile	staff
+wonderful building	style
+close bars	facility
+charming fire places	style
+plenty good diners	food
+great price	price
+refreshing curiousity	wrong
+plenty of business	general
+good size amenities	facility
+inviting spa	pool
+not facing rooms	room
+beautiful hotel	style
+great hotel	general
+not open business center	facility
+most comfiest king size	size
+ideal location	location
+enough room	room
+beautiful church	style
+great location	location
+really brilliant guy	staff
+audible sound	quietness
+luxuriously comfortable bed	bed
+good music	style
+close to all location	location
+close to location	location
+good location	location
+courteous staff	staff
+clean bathroom	cleanliness
+nice week	general
+piled high king sized	size
+excellent wine hour	drink
+floor windows	room
+great lounges	general
+very clean room	cleanliness
+helpful staff	staff
+not at the front car park entrance	parking
+only stocked rooms	room
+right outside cabs	location
+loved bar	drink
+authentic chinese	food
+irritating practice	staff
+helpful people	staff
+free parking	parking
+much larger	size
+terrific location	location
+huge bottle of	wrong
+incredibly pleasant stanford	comfort
+great location	location
+directly above valet area	parking
+safe parking	parking
+very easy to travel	location
+relatively spacious room	size
+perfect fishermanns wharf area	location
+bad tram	location
+very good location	location
+fine room	general
+a block away places	location
+loved hotel	general
+consistently magnificent dinner	food
+lots of extra	general
+nice oriental decor	style
+large flat screen tv	size
+close to location	location
+well equipped fitness room	gym
+nice big hotel	size
+nice room	room
+queen room	room
+great breakfast	food
+delicious cocktail	food
+very warm people	staff
+wonderful station	location
+right price	price
+nice sleep	bed
+excellent hotel	general
+low cost	price
+very decent hotel	general
+comfy the housekeeping	comfort
+intimate cafe restaurant	food
+expensive night	price
+ugly motel	style
+great internet access	wifi
+nice weekend guys	staff
+pleasant room	comfort
+very happy experience	general
+small space	size
+excellent neighborhood	location
+clean sheets	cleanliness
+nearby drugstores	location
+wonderful dinner	food
+great area	location
+very comfortable room	comfort
+close fisherman 's wharf	location
+small lobby	size
+nice bathroom counter	bathroom
+great weekend getaway	general
+very spacious rooms	size
+very helpful concierge	staff
+good location	location
+wide variety bars	drink
+beautiful lobby	style
+cool bar	drink
+genuinely so service	staff
+spacious room	size
+correct posts	general
+within walking distance places	location
+loved place	general
+thin rooms	room
+small beds	bed
+spacious rooms	size
+clean rooms	cleanliness
+very good room	general
+large bed	bed
+terrible views	view
+smaller room	size
+a bit high drink prices	drink
+wonderful view	view
+next galleria mall	location
+loved decor	style
+most helpful staff	staff
+small room	size
+expensive breakfast buffet	food
+badly decorated club	style
+very friendly hotel staff	staff
+relaxing luxury	comfort
+expensive room service	food
+terrific city	general
+cheesy decor	style
+standard rooms	room
+free jar	facility
+always front desk	staff
+just across starbucks	location
+great location	location
+loud hotel	quietness
+helpful staff	staff
+helpful concierge	staff
+inviting common areas	location
+herbal spa	pool
+big turn off	wrong
+nice water	bathroom
+quieter street noise	quietness
+comfortable stay	comfort
+newer carpet	room
+convenient location	location
+free internet	wifi
+positive experience	general
+tight bathroom	bathroom
+large views	view
+a bit old hotel building	style
+great rate	price
+fantastic location	location
+real gem	general
+pleasant staff	staff
+very impressed room	room
+reliable service	staff
+beautiful building	view
+double vanity	wrong
+clean quiet room	cleanliness
+easy access to	location
+perfect place	general
+great location	location
+extremely kind staff	staff
+right next door steakhouse	food
+small rooms	size
+helpful staff	staff
+very helpful employees	staff
+historic hotel	style
+accommodating service	staff
+very friendly staff	staff
+lovely bath	bathroom
+fine heat	comfort
+functional room	room
+good size amenities	facility
+clean room	cleanliness
+slightly odd sliding door	facility
+modern comfort	comfort
+very clean rooms	cleanliness
+excellent location	location
+a bit steep parking fee	parking
+expensive location	location
+good room	room
+cool bar	drink
+clean views of	view
+good size rooms	size
+less rooms	room
+clean rooms	cleanliness
+nice hotel	general
+great place	general
+tastefully furnished property	room
+able restaurants	food
+very loud generator	quietness
+little markets	wrong
+well kept everything	room
+nice heated	comfort
+standoffish staff	staff
+comfortable room designs	comfort
+very very small room	size
+super good salads	food
+free hang	facility
+none coffee machines	coffee
+2 foot wide opening	room
+also really service	staff
+excellent stay	general
+just minutes from cable car to	location
+very helpful directions	staff
+immaculate rooms	room
+great water	bathroom
+excellent sound	quietness
+quot hotel	general
+very friendly hotel staff	staff
+extremely small bathroom	bathroom
+short walk away parking	parking
+decent size room	size
+exceptionally close shopping	location
+dirty rag	cleanliness
+inexpensive valet	parking
+one block away bus	location
+reasonably priced hotel	price
+clean bathrooms	cleanliness
+fine workout room	gym
+pleasant service	staff
+close to bus	location
+very convenient to dining	location
+clean rooms	cleanliness
+new rooms	style
+20 minute walk walking	location
+intimate restaurant	food
+exceptionally friendly housekeeping staff	staff
+very smart hotel	general
+great location	location
+amazing rolls	food
+rather seedy part	wrong
+not too many businesses	style
+clean everything	cleanliness
+very good rate	price
+recommended cabs	facility
+nice size rooms	size
+star rated restaurant	food
+right next to room	location
+old dingy	style
+burned out lights	room
+overpriced staff	staff
+not a comfortable place	comfort
+nice rooms	room
+old worn weightsswimming	style
+great location	location
+great staff	staff
+nice cable cars	location
+convenient location	location
+cozy room	vibe
+loved wine tasting evenings	drink
+little bathroom decor	bathroom
+safe rooms	safety
+small bars	drink
+informative staff	staff
+very rare statement	general
+perfect location	location
+very close to hotel	location
+nice bath	bathroom
+bad rooms	room
+out dated rooms	room
+welcoming atmospshere	vibe
+much cheaper price	price
+cold quiche	comfort
+cool vibe	vibe
+conveniently located room	location
+guaranteed parking	parking
+very small room	size
+great pool	pool
+excellent value for money	price
+best  kept inn	general
+no real noise issues	quietness
+really good location	location
+friendly people	staff
+great view	view
+helpful staff	staff
+well presented room	room
+excellent front desk	staff
+adequate fitness room	gym
+nice rooftop garden	view
+nice room	room
+not spacious rooms	size
+plenty of places to	general
+so good service	staff
+very comfortable rooms	comfort
+extremely friendly staff	staff
+very clean hotel	cleanliness
+enjoyed pillows	bed
+clean room	cleanliness
+lack air conditioning	facility
+modernised rooms	style
+was fairly night	wrong
+friendly staff	staff
+great coffee	coffee
+a block away cable car station	location
+close to location	location
+quiet room	quietness
+near cable cars	location
+bath iron	bathroom
+complimentary coffee	coffee
+cozy overall temperature	vibe
+good experience	general
+clean location	cleanliness
+friendly hotel	staff
+wonderful bellmen	staff
+cute breakfast service	food
+beautiful high ceilings	style
+huge room	size
+great experience	general
+very large fridge	size
+small chair	size
+very safe area	safety
+walking distance trolley station	location
+fantastic hospitality	general
+flawless room	room
+plenty of space	size
+interesting individuals	style
+bad windows	room
+good value	price
+horrible hotel	general
+smaller room	size
+safe place	safety
+always immaculate towels	bathroom
+very nice pillows	bed
+accommodating staff	staff
+great location	location
+very expensive sf	price
+extremely basic tv	facility
+overstuffed watermelon	food
+upscale decorations	style
+couple of blocks away union square	location
+great ferry terminal	location
+very safe atmosphere	safety
+small rooms	size
+not enough information	staff
+old heater	style
+reasonable price	price
+wonderful restaurant	food
+within walking distance access to	location
+easy walking distance hotel	location
+best rooms	room
+a bit small bathroom	bathroom
+extremely friendly hotel staff	staff
+incredibly comfortable bed	bed
+clean room	cleanliness
+good price	price
+very convenient market bart station	location
+free internet access	wifi
+very helpful directions	staff
+good size rooms	size
+helpful employees	staff
+very cool room design	style
+centrally located downtown attractions	location
+excellent city	general
+centrally located starbucks	location
+heavenly large flat	size
+very helpful dinner	staff
+good trip	general
+fantastic amenities	facility
+helpful people	staff
+large room	size
+very comfortable rooms	comfort
+quot location	location
+clean rooms	cleanliness
+last shuttle	location
+easy walk bars	location
+tons pillows	bed
+fantastic knowledge	staff
+fairly priced transportation	price
+nicest hotels	general
+excellent hotel	general
+free internet	wifi
+very small room	size
+nice coffee shop	coffee
+great sightseeing	location
+great deals	price
+bad area	safety
+flat area	safety
+good larger	size
+faded carpets	cleanliness
+fresh flower vendors	facility
+very nice attractions	location
+small room	size
+surprisingly quiet swimming pool	pool
+very convenient bus line	location
+right price	price
+much station	location
+clean carpet	cleanliness
+tiny dresser	size
+scenic ride	view
+nicer neighborhoods	location
+excellent location	location
+old furniture	style
+always very doorman	wrong
+hotels guides ,	wrong
+the area amp	general
+outdated feeling	style
+five blocks walking location	location
+a bit dodgy area	safety
+complimentary basic	price
+so comfortable beds	bed
+quiet room	quietness
+ominous entrance to	wrong
+great balcony	view
+excellent personnel	staff
+close to chinatown	location
+very clean room	cleanliness
+bargain room	room
+really good breakfast	food
+good size standard	size
+decorated nicely queen	style
+very clean room	cleanliness
+perfect location	location
+hot assets	general
+unimpressive wine	drink
+free wireless internet	wifi
+complimentary newspapers	price
+within walking distance hotel	location
+helpful staff	staff
+nearby price	location
+larger room	size
+located room	location
+spaced supervisor	size
+tight parking	parking
+not much extra room	room
+depressing room	style
+spacious bathroom	bathroom
+mixed reviews	general
+most disgusting area	safety
+accommodating perfect	staff
+timely bus routes	location
+very close to everything	location
+worn room	cleanliness
+loved room	room
+very personable staff	staff
+large rooms	size
+not the least comfortable beds	bed
+virtually counter space	size
+helpful manager	staff
+very comfortable bed	bed
+nice restaurant	food
+facing queens	view
+small boutique	size
+360 degrees views of the city	view
+comfy bed	bed
+great kitchen	facility
+fabulous hotel	general
+fabulous hotel	general
+very prompt service	staff
+good buses	location
+dank hallways	style
+really excellent staff	staff
+great views	view
+friendly staff	staff
+ideal union square area	location
+great location	location
+perfect service	staff
+bright pictures	view
+attractive lobby	style
+incredibly loud hotel	quietness
+great hotel	general
+very small room	size
+great staff	staff
+friendly staff	staff
+pleasant experience	comfort
+much staff	staff
+many towels	bathroom
+very easy room	room
+loud room	quietness
+a genuinely easy access to public	location
+horrible decor	style
+friendly staff	staff
+very nice working	wrong
+definately fantastic location	location
+beautiful everything	style
+excellent bed	bed
+great location	location
+fantastic breakfasts	food
+closed room	room
+quiet room	quietness
+not functional bathroom	bathroom
+very friendly hotel staff	staff
+awesome shower	bathroom
+convienent location	location
+small restaurant	food
+american breakfast	food
+expensive valet	parking
+very busy conference hotel	style
+decent room	room
+great atmosphere	vibe
+amazing comfort levels	comfort
+free parking	parking
+best concierge service	staff
+very convenient bus stop	location
+courteous desk staff	staff
+clean rooms	cleanliness
+beautiful lobby	style
+good location	location
+awesome location	location
+clean tv	cleanliness
+fabulous basil	food
+great big rooms	size
+not happy staff	staff
+friendly staff	staff
+very satisfactory stay	general
+horrible experience	general
+great location	location
+very clean toilets	cleanliness
+small elevator	size
+less expensive hotel	price
+incredible housekeepers	staff
+always available apples	food
+always clean room	cleanliness
+good drinks	drink
+large bath	size
+cheaper hotels	price
+good hotel	general
+very old elevator	facility
+comfortable bed	bed
+very helpful staff	staff
+high population	wrong
+awkwardly arranged  bathroom	bathroom
+small fitness room	gym
+complimentary hors	price
+better hotels	general
+very helpful information sheet	staff
+short walk local	location
+clean room	cleanliness
+snobby town	location
+free high internet	wifi
+enjoyed bar	drink
+5 minute walk from breakfast	location
+fresh raspberries	food
+very nice pool	pool
+away from elevators	wrong
+great hotel	general
+nice touch	style
+weird noise	quietness
+so small bathroom	bathroom
+clean room	cleanliness
+very busy hotel	general
+awful quality	general
+good location	location
+lovely decor	style
+clean place	cleanliness
+a little dingy rooms	room
+flawless room	room
+nicer nondescript	style
+free parking	parking
+small rooms	size
+adjustable mattresses	bed
+free freezer	facility
+smart deal	price
+5 minute pier	location
+beautiful tapestries	style
+corner city views	view
+very pretty room	room
+more reasonable price	price
+very high quality room	room
+looking furniture	room
+perfect location	location
+great menu options	food
+comfortable motel	comfort
+facing room	view
+funky bathrooms	bathroom
+very comfortable bed	bed
+reasonable front desk	staff
+peeling paint	room
+very good size rooms	size
+no frills hotel	style
+extremely helpful front desk	staff
+extremely small room	size
+dirty window	cleanliness
+clean hotel	cleanliness
+adequate size	size
+charming tub	bathroom
+much better rates	price
+best shopping districts	location
+tight budget	price
+about 30 years old doors	style
+wonderful lovely	general
+handy highways	location
+bad condition furniture	room
+compact rooms	size
+very good staff	staff
+situated location	location
+enough room	room
+modern decor	style
+good rate	price
+small rooms	size
+free internet access	wifi
+only ten minutes walk to union square	location
+a little dated rooms	room
+seem extremely the front	wrong
+2 1/2 blocks from cafe	location
+2 blocks from location	location
+small room	size
+easy walking distance eating places	location
+easy directions	location
+excellent service	staff
+quiet room	quietness
+free parking	parking
+hotel close little	wrong
+old charm	style
+unavailable inn	general
+fabulous breakfast	food
+low water pressure	bathroom
+bizarre place	general
+very small rooms	size
+unexciting free	wrong
+eco friendly hotel	style
+small rooms	size
+great lunch	food
+dated rooms	room
+great city	general
+very nice water	facility
+very helpful staff	staff
+excellent tea service	coffee
+smelling room	cleanliness
+delicious fruit	food
+inconvenient parking lot	parking
+newly renovated resturaunt	food
+great honeymoon	general
+wonderful hotel	general
+old buildings	style
+larger rooms	size
+late la	wrong
+paper walls	room
+nice receptionist	staff
+v dated carpets	room
+great bus service	staff
+excellent reviews	general
+clean bathroom	cleanliness
+never too hot weather	comfort
+hours long line	staff
+weird smell	cleanliness
+quite a bit street noise	quietness
+drinks decore	food
+very basic breakfast	food
+expensive places	price
+amazing coffee	coffee
+great hotel bar	drink
+adjacent to embarcadero stop	location
+a few blocks from embarcadero	location
+very well located hotel	location
+within walking distance restaurants	food
+loved wine	drink
+reasonable service	staff
+juices great	food
+available drinks	food
+not sound proof hotel	quietness
+right location	location
+not well set up hotel	general
+cozy queen	vibe
+big beautiful marble	room
+nice furnishings	room
+very near location	location
+always staff	staff
+extremely friendly cabs	staff
+great area	location
+wonderful location	location
+not a bad walk	location
+lots of exercise walking	gym
+very nice cafes	food
+crisp linens	bed
+nice menu	food
+beautiful city	style
+very courteous staff	staff
+best morning coffee	coffee
+plenty of bars	drink
+huge closet	size
+fresh muffins	food
+good breakfast	food
+very rude front desk staff	staff
+efficient staff	staff
+courteous lobby	style
+40 minutes food	food
+great coffee	coffee
+cosmopolitan service	staff
+comfortable everything	comfort
+great shape	general
+beautiful wide view of the	view
+overlooked courtyard	view
+nice showers	bathroom
+good hotel	general
+excellent breakfast	food
+great location	location
+large rooms	size
+within easy walking distance monaco	location
+really awesome location	location
+simple hotel	general
+beautiful vanity area	style
+smallish lobby	size
+customer staff	staff
+not jetted tub	bathroom
+small bed bugs	bed
+unable to deep	wrong
+pretty quiet room	quietness
+early check in	checkin
+walkable shopping	location
+outstanding views	view
+excellent accomodations	general
+fantastic bathroom	bathroom
+a few blocks from buses	location
+close walk	location
+outdated internet fee	wifi
+5 minute walk away parking	location
+beautiful views	view
+musty comforters	bed
+particularly high ingredients	food
+quiet rooms	quietness
+thorough cleaning team	cleanliness
+seedy area	location
+complimentary check out	checkin
+very nice rooms	room
+a little dark hallway	style
+highly dissapointing experience	general
+very contemporary design	style
+easy location	location
+small room	size
+large rooms	size
+opulent hotel	general
+extremly clean hotel	cleanliness
+very comfy beds	bed
+short staff	staff
+very helpful concierge	staff
+close to trams	location
+dismally lobby	style
+lit up ice skating rink	style
+nicely decorated rooms	style
+walking distance from location	location
+rudest most ignorant parking staff	staff
+near to everything trams	location
+staff very , front	staff
+wonderful hotel	general
+far tv	facility
+excellent location	location
+loud cable cars	quietness
+great staff	staff
+very cozy nautical breakfast experience	food
+not acceptable hotel	general
+very weak bathroom	bathroom
+spacious room	size
+great parking	parking
+great maid service	staff
+capable front desk staff	staff
+stellar service	staff
+nicely appointed rooms	style
+premier location	location
+much cheaper prices	price
+just a couple of blocks great	location
+tucked away hustle	general
+large room	size
+crazy ride	parking
+near theatres	location
+big hotel	size
+quite expensive parking	parking
+shiny new foyer	cleanliness
+good deal	price
+clean room	cleanliness
+ok hotel	general
+efficiency extra	staff
+great motor inn	general
+pretty quiet room	quietness
+free internet access	wifi
+friendly enough hotel	staff
+small rooms	size
+nearby union square	location
+yummy toasted	food
+acceptable place	general
+convenient to location	location
+clean rooms	cleanliness
+clean hotel	cleanliness
+great location	location
+a little strange setting	style
+fabulous admenities	facility
+great location	location
+lovely location	location
+close to cable car lines	location
+real bonus restaurant	food
+so close to everything	location
+get decent	wrong
+funky decor	style
+great cafe	food
+fantastic for presidio	style
+love diner	food
+2 blocks from location	location
+wonderful bed	bed
+exciting energy	general
+very impatient table	staff
+only ok bed	bed
+would airconditioning	facility
+tiny bathrooms	bathroom
+so impressed hotel	general
+dislike starbucks	coffee
+nearby dining tip	location
+spotless expected	cleanliness
+reasonable size rooms	size
+properly stored luggage	staff
+cramped room	room
+amazing bose radio	facility
+clean gateway	cleanliness
+clean rooms	cleanliness
+great location	location
+crammed with vent over	room
+not work service	staff
+room was us	wrong
+clean base	cleanliness
+fantastic atmosphere	vibe
+great location	location
+phenomenal hotel	general
+luxurious surroundings	style
+ideal location	location
+mild climate	comfort
+plenty of towels	bathroom
+great public transportation	location
+spotless room	cleanliness
+well organized hotel	general
+so weak signal	wifi
+nice hotel	general
+luxurious room	style
+very helpful staff	staff
+rudely front desk people	staff
+excellent nearby	location
+very convenient location	location
+large convention business	size
+bottled water	facility
+decent size shower	bathroom
+free muffins	food
+afternoon nice	wrong
+drab interior	room
+a truly amazing	wrong
+ready room	room
+tidy everything	room
+live up to suites	general
+very friendly staff	staff
+is always hotels	wrong
+friendly staff	staff
+clean room	cleanliness
+helpful bellman	staff
+really dirty carpet	cleanliness
+offers full	wrong
+unlimited trolleys	location
+good breakfast	food
+nice pillows	bed
+beautifully furnished penthouse	style
+fresh grocery store	food
+large toilet	size
+lifted carpet	room
+older hotel	style
+great experience	general
+three milk	food
+ok hotel	general
+good budget	price
+minutes from bart station	location
+short walk area attractions	location
+average bed	bed
+excellent service	staff
+conveniently near everything	location
+within walking distance hotel	location
+hot hot water	bathroom
+right outside shopping	location
+great views of the bay	view
+uncomfortable room	comfort
+immaculate place	general
+great time	general
+excellent quality food	food
+free coffee	coffee
+ready room	room
+adequate room	size
+french restaurant	food
+2 blocks trolley	location
+cute restaurants	food
+only 20 minute walk china town	location
+extremely reasonable price	price
+nice view over the city	view
+clean location	cleanliness
+nice ceiling fan	facility
+much nicer warwick	general
+one location	location
+beyond slow room service	staff
+historic interior decor	style
+short cable car	location
+enormous suite	size
+centrally located busses	location
+very nicely done cheese	food
+wonderful prescott	general
+great location	location
+lots of restaurants	food
+free fitness	gym
+very helpful bart	location
+fantastic space	size
+nice lobby	style
+very spacious lobby	size
+great live jazz	vibe
+nice hotels	general
+clean place	cleanliness
+cold room	comfort
+noisier post	quietness
+great location	location
+wonderful stay	general
+good service	staff
+few minutes walk location	location
+helpful staff	staff
+nice stereo system	location
+very reasonable eat	food
+major walk location	location
+great location	location
+elegant atmosphere	vibe
+extremely steep climb	location
+smooth staff	staff
+great assistance	staff
+very good location	location
+nowhere near enough staff	staff
+spacious room	size
+cool shower	bathroom
+disgusting windows	room
+overlooked room	view
+nicely decorated rooms	style
+adequate couple	wrong
+concierge staff  concierge	staff
+good value for	price
+wonderful city	view
+nice hotel	general
+clean hotel	cleanliness
+lovely interior stairs	style
+thin walls	room
+large hotel	size
+worst streets	location
+nothing worn rooms	room
+huge plasma	size
+loved hotel	general
+less than half a block from waterfront	location
+one block public parking	parking
+good size room	size
+very basic cereal bars	drink
+nice computer	facility
+comfortable room	comfort
+spacious room	size
+very shabby hotel	style
+happy food	food
+very small rooms	size
+lumpy pillows	bed
+spacious rooms	size
+friendly staff	staff
+a bit chintzy evening snacks	food
+lovely hyatt	style
+great experience	general
+prompt tea service	staff
+very hilly walking	location
+full bathroom	bathroom
+different rooms	room
+award winning restaurant	food
+high floor	room
+relaxing retreat	comfort
+obscuring view	view
+perfect room	general
+problem parking	parking
+extremely friendly staff	staff
+bit room furnishings	room
+enjoyed chinatown	location
+one block crowds	location
+friendly staff	staff
+exceptionally large bath	size
+vivid rooms	room
+family places	general
+low key guests	staff
+fabulous breakfast	food
+pretty spartan good	wrong
+modern tv	facility
+very good location	location
+very bright sunshine	general
+powerful heating	comfort
+wonderful experience	general
+great service	staff
+very practical room	room
+inflexible breakfasts	food
+nice service	staff
+a few blocks market street	location
+nice wall	room
+and extremely staff	staff
+extremely comfortable hotel	comfort
+nice coffee shops	coffee
+helpful front desk	staff
+cheap sleep	price
+incredible room	room
+close to everything	location
+were quiet cute	quietness
+great place	general
+good size rooms	size
+good location	location
+excellent hotel	general
+also a little prices	price
+awkward space	room
+new modern furniture	room
+very fresh breakfast	food
+very nice personnel	staff
+great time	general
+clean everything	cleanliness
+nearby to theater district	location
+immaculate rooms	room
+small washbasin	size
+well maintained hotel	general
+great place	general
+very clean rooms	cleanliness
+great location	location
+cheap place	price
+overpriced central	price
+nice room	room
+lots of musicians	style
+reasonable rooms	room
+helpful staff	staff
+trolly cable car locations	location
+absolutely first class staff	staff
+immaculate room	room
+excessive wine	drink
+great stay	general
+fine crib	bed
+small hotel	size
+few minutes ' walk cable car	location
+abundance of restaurants	food
+separated shower	bathroom
+closed parking spaces	parking
+fantastic room	room
+cheap rate	price
+large bathroom	bathroom
+black grout	cleanliness
+warm people	staff
+recently updated decor	style
+incredibly well located hotel	location
+very close to road	location
+cute room	style
+great service	staff
+quiet area	quietness
+ok hotel	general
+fine breakfast	food
+small gym	gym
+extremely safe hotel	safety
+great service	staff
+out front cable car	location
+updated room	room
+great cafe	food
+friendly staff	staff
+most comfortable bed	bed
+exceptional omni service	staff
+complete breakfast	food
+wonderful wine	drink
+bright room	room
+knowledgeable ambience	vibe
+small bathroom	bathroom
+lovely room	style
+not huge bathroom	bathroom
+very nice hotel	general
+good staff	staff
+a little elements	style
+comfortable beds	bed
+unlimited bus lines	location
+a bit scary looking view	view
+good repair hotel	general
+excellent food	food
+excellent staff	staff
+free parking	parking
+recently remodeled hotel	style
+very welcome kids	staff
+a little grumpy manager	style
+compact room	size
+extremely unprofessional place	staff
+great job	general
+fantastic views	view
+good breakfast	food
+tiny bathroom	bathroom
+comfortable bed	bed
+just so pleasant staff	staff
+very friendly staff	staff
+most uncomfortable microwave	comfort
+nice lobby	style
+great tourist	general
+good breakfast	food
+comfy pillows	comfort
+good condition machines	facility
+musty smelling ventilation	cleanliness
+ok food	food
+limited seating	room
+perfect hotel	general
+good hotel restaurant	food
+oustanding service	staff
+attractive bed	bed
+terribly tiny bathroom	bathroom
+excellent service	staff
+border corrider	size
+great food	food
+comfy bed	bed
+clean room	cleanliness
+highest quality buffet	food
+nice touches coffee	coffee
+cozy rooms	vibe
+stunning views of the city	view
+well maintained hotel	general
+good walk to everything	location
+small room	size
+fresh fruit	food
+friendly staff	staff
+large bathroom	bathroom
+well trained staff	staff
+best location	location
+reasonably priced elephant bar	drink
+rusty paint	cleanliness
+worst hotel	general
+expensive breakfast	food
+well maintained hotel	general
+small bathrooms	bathroom
+good place	general
+big bathrooms	bathroom
+quiet room	quietness
+good internet	wifi
+exceptional omni service	staff
+well cleaned room	cleanliness
+best views	view
+friendly sales pressure	staff
+nice cd player	facility
+great cable car stop	location
+nice lobby	style
+plenty restaurants	food
+terrible room	room
+big easy chairs	room
+rate within walking inns	location
+wondrfull service	staff
+unusual dinner	food
+clean bathroom	cleanliness
+very friendly staff	staff
+fantastic value for money	price
+not safe area	safety
+very small bathroom	bathroom
+not enough chairs	room
+friendly breakfast service	food
+fairly small room	size
+recently mosser	wrong
+decent reviews	general
+4 blocks away cable car	location
+very friendly staff	staff
+helpfull staff	staff
+nice window	room
+clean room	cleanliness
+way cheaper room service	food
+fantastic city	general
+like handlery	wrong
+modern fitness center	gym
+charming hotel	style
+quick valet	parking
+nice touch cheese	food
+excellent hotel	general
+clean everything	cleanliness
+rather house	wrong
+free concierge staff	staff
+very helpfull manager	staff
+small indoor pool	pool
+always available management	staff
+nice hotel	general
+great breakfast	food
+old bathroom	bathroom
+helpful staff	staff
+very pretty room	room
+clean bathroom	cleanliness
+much bigger rooms	size
+easy shopping	location
+perfect location	location
+beautiful lobby	style
+free local calls	price
+free parking	parking
+horrible experience	general
+very smart choice	general
+great hotel	general
+cool breeze	comfort
+to expensive rooms	price
+right across mall	location
+good value	price
+great staff	staff
+lovely idea	style
+very good breakfast	food
+nice hotel	general
+nice shopping district	location
+10 mins to union square area	location
+good location	location
+very old gym	gym
+clean room	cleanliness
+large room	size
+great price	price
+reasonable priceline bid	price
+not speak very good staff	staff
+very helpful staff	staff
+great windows	room
+very average hotel rooms	room
+right in front cable cars	location
+mighty bosstones	wrong
+very small rooms	size
+extremely basic hotel	general
+good view	view
+great water pressure	bathroom
+relatively affordable hotels	price
+large plates	size
+lovely body lotion	bathroom
+friendly staff	staff
+cheap prices	price
+old elevator	style
+small lobby	size
+not elaborate hotel	general
+spacious double beds	bed
+very disappointing experience	general
+nice surprise	general
+very restful night	bed
+only two doors away restaurant	food
+low places	general
+best staff members	staff
+clean rooms	cleanliness
+delicious morning buffet	food
+recently redone accent wall	room
+large walk	size
+excellent find	general
+pretty comfortable blanket	comfort
+very quick valet	parking
+dirty hotel	cleanliness
+walk telegraph	location
+well away from traffic noise	quietness
+very clean bed	bed
+friendly staff	staff
+useful amenities	facility
+slight view	view
+great value	price
+clean bed	cleanliness
+very spacious room	size
+comfortable rooms	comfort
+patched plaster	room
+slightly dated room	style
+close to chinatown	location
+beautiful lobby	style
+pleasant rooms	comfort
+great location	location
+brilliant location	location
+very nice restaurant	food
+close to art	location
+plenty things	general
+big steaks	food
+non smoking rooms	room
+not all white room	room
+efficient staff	staff
+admittedly hotels	general
+not large rooms	size
+best value for	price
+best sushi	food
+lit up room	room
+cleaner service	staff
+conveniently located kabuki	location
+very close bart	location
+clean room	cleanliness
+decent restaurants	food
+comfortable rooms	comfort
+very helpful staff	staff
+amazing bed	bed
+clean hotel	cleanliness
+a little disappointing washbasin	bathroom
+exceptionally good standard of service	staff
+so cute hotel	style
+overpriced wifi	wifi
+extremely helpful directions	staff
+clean hoover	cleanliness
+average hotel	general
+right buses	location
+bay room	view
+nice touch butler service	staff
+friendly staff	staff
+not better hotel	general
+rooms quite and room	quietness
+very charming lobby	style
+great pacific tours	facility
+good breakfast	food
+nice bedding	bed
+excellent cable cars	location
+grand cafe	food
+nice decent	wrong
+rather suspect streets	safety
+right price	price
+lovely rooms	style
+moderate traffic noise	quietness
+cleaned rooms	cleanliness
+just nice rooms	room
+exciting elevator ride	facility
+impressive lobby area	style
+extremely comfortable bed	bed
+facing the window	view
+lots of coffee	coffee
+convenient hotel	location
+hates shopping	general
+complimentary breakfast	food
+close to value	price
+easy access to the	location
+amazing rose	room
+love walking	location
+great restaurants	food
+wonderful feather bed	bed
+very close hotel	location
+clean rooms	cleanliness
+terrible restaurant	food
+pleasant rooms	comfort
+nice size rooms	size
+so friendly hotel	staff
+great location	location
+great experience	general
+beautiful attractions	location
+live bar	drink
+convenient location to the wharf	location
+so close to convention center	location
+perfect location	location
+extremely pleasant staff	staff
+professional hotels	general
+breakfasts including	food
+a few blocks from hotel	location
+helpful reception staff	staff
+great location	location
+good value for money	price
+clean rooms	cleanliness
+not spectacular view	view
+reasonably priced hotel	price
+quiet room	quietness
+familiar courtyard	view
+big room	size
+happy staff	staff
+central to bart station	location
+very helpful staff	staff
+dirty rooms	cleanliness
+very friendly reception staff	staff
+friendly staff	staff
+small room	size
+really small room	size
+efficiently requests	staff
+near location	location
+dress doormen	staff
+nice restaurants	food
+smelled room	cleanliness
+great location	location
+clean motel	cleanliness
+room was king	room
+perfect location	location
+functional everything	general
+cold water	bathroom
+well maintained hotel building	general
+easy parking	parking
+friendly staff	staff
+small fridge	facility
+great bar scene	drink
+excellent food	food
+nice pillows	bed
+small room	size
+heavenly beds	bed
+wonderful hotel	general
+a couple of blocks from court	location
+hard bed	bed
+great value	price
+reasonably priced hotels	price
+most comfortable bed	bed
+large rooms	size
+good price	price
+relatively basic bathroom	bathroom
+close to public transit	location
+absolutely perfect everything	general
+excellent sevice	staff
+a bit larger room	size
+excellent staff	staff
+good room service	food
+microwave glases	cleanliness
+slow staff	staff
+convenient to car service	staff
+ok view	view
+very friendly bed	bed
+uncomfortable mattresses	comfort
+helpful staff	staff
+very individual touches	style
+outrageous fee	price
+a bit irritating street noise	quietness
+ok view	view
+not worth breakfast	food
+a little scary daytime	safety
+huge mall	size
+amazing bridge	view
+tops in service location	location
+comfortable rooms	comfort
+bottled water	facility
+good quality drinks	drink
+nice tv	facility
+limited storage	size
+reasonably spacious rooms	size
+plenty towels	bathroom
+incredibly slow internet access	wifi
+very quiet heating	quietness
+huge tv	size
+good shape hotel	style
+always available staff	staff
+excellent hotel	general
+very pleasant stay	comfort
+good nordstroms	location
+within easy walking distance gay leather bars	location
+very small room	size
+perfect hotel	general
+older room	style
+one block in gateway to chinatown	location
+quite new elevator	facility
+good size lobby	style
+close by shopping	location
+high view of	view
+very friendly lounge	staff
+very nice bellman	staff
+spacious room	size
+great restaurant	food
+unpredictable radiator	facility
+fabulous trip	general
+nice location	location
+more satisfying front desk	staff
+good location	location
+terrific soaking	bathroom
+good hotel	general
+at good central	location
+huge bathroom	bathroom
+great rooms	room
+wonderful hotel	general
+comfy bed	bed
+friendly staff	staff
+very nice dinner	food
+clean counter	cleanliness
+marble bathroom	bathroom
+extremely helpful staff	staff
+lovely old hotel	style
+very clean room	cleanliness
+cool property	vibe
+quite good service	staff
+quite large kitchen	size
+huge window screen	size
+contemporary design aesthetic	style
+good indian	food
+worthless electric fireplace	general
+massive rooms	size
+gated parking area	parking
+awful meal	food
+small room service	food
+worst room	room
+great lounge	general
+lovely setting	style
+generous wine reception	drink
+limited hours	staff
+friendlier staff	staff
+spotless rooms	cleanliness
+not exactly neighborhood	location
+comfortable room	comfort
+tidy everything	room
+just as nice check out	checkin
+fantastic cable	location
+ridiculously expensive parking	parking
+lots of choice	general
+clean breakfast	wrong
+fantastic bar	drink
+not friendly staff	staff
+clean room	cleanliness
+unique charm	vibe
+very friendly staff	staff
+great location	location
+tiny bathroom	bathroom
+clean hotel	cleanliness
+old tile	style
+nuturing thriving	wrong
+good hotel	general
+utilized kitchen	facility
+clean sights	cleanliness
+helpful staff	staff
+fruity food selections	food
+free ride	facility
+most expensive parking	parking
+large rooms	size
+free parking	parking
+clean rooms	cleanliness
+spacious rooms	size
+very small lot	size
+within walking distance restaurants	food
+well stocked towels	bathroom
+were extremely rare	wrong
+quiet room	quietness
+not clean place	cleanliness
+great color scheme	style
+great location	location
+fabulous selection of food	food
+old bathroom	bathroom
+courteous employees	staff
+ample board supplies	room
+close to location	location
+not too far car ride	location
+nice room	room
+wireless interneet	wifi
+old hotel	style
+great property	general
+amazing array of	wrong
+small bathroom	bathroom
+much option	food
+overlooked bathroom	view
+polite staff	staff
+wonderful gem	general
+awful bell staff	staff
+overpriced accomodations	price
+great time	general
+very warmly staff	staff
+free parking	parking
+not big breakfast eaters	food
+ideal amount space	size
+complimentary town car transportation	price
+good bed	bed
+inexpensive hotels	price
+perfect location	location
+good location	location
+lovely living area	style
+fabulous hotel	general
+good juice	food
+modern decor	style
+helpful people	staff
+lovely hotel	style
+wonderful stay	general
+great location	location
+generously sized closets	size
+blast food	food
+were extremely rooms	room
+cheap room	price
+very clean room	cleanliness
+nice staff	staff
+expensive internet access	wifi
+excellent pool	pool
+easy public transportation	location
+great service	staff
+shady hotel	style
+kind enough woman	staff
+poor quality bedding	bed
+very quiet place	quietness
+two minute walk away union square	location
+a tad shady lombard street	location
+very friendly check	staff
+very spacious room	size
+and near lots car turnaround	quietness
+really unpleasant experience	comfort
+very budget hotel	price
+larger doubles	size
+complimentary wine tasting	price
+not surprising wharf	location
+facing queens	view
+great room	room
+conveniently located hotel	location
+king room	room
+very clean room	cleanliness
+trendy decor	style
+very good concierge	staff
+great showers	bathroom
+shows lack of customer	general
+located bus stop	location
+not bad noise of	quietness
+awesome room	room
+large bath towels	size
+knowledgeable staff	staff
+close to bus stops	location
+pleasant enough rooms	comfort
+beautiful hammocks	style
+very friendly staff	staff
+big time shopping	location
+filling continental breakfast	food
+clean rooms	cleanliness
+wireless rooms	wifi
+nice place	general
+superb service	staff
+excellent service	staff
+good restaurants	food
+nicer hotel	general
+great place	general
+small room	size
+great staff	staff
+next to modem	wifi
+great hotel	general
+open areas	style
+clean room	cleanliness
+high parking fee	parking
+big flashing	wrong
+nice noise	quietness
+average stay	general
+nothing rooms	room
+very clean office	cleanliness
+friendly service	staff
+great hilton	general
+pretty nice hotel	general
+very comfortable room	comfort
+convenient place	location
+simple manners	wrong
+mildly helpful staff	staff
+amazing concierge desk	staff
+good coffee	coffee
+way to stale dougnuts	food
+ok service	staff
+ok staff	staff
+great shops	location
+very spacious room	size
+very helpful check in	checkin
+charming hotel	style
+friendly staff	staff
+good rate	price
+professional staff	staff
+cold coffee	coffee
+delicious prime	food
+nice place	general
+really large mission	size
+always helpful restaurant	food
+otherwise lovely	wrong
+very friendly desk staff	staff
+great shopping nearby	location
+very quiet room	quietness
+quiet room	quietness
+kept the sign	wrong
+great location	location
+fantastic views	view
+great value for	price
+very small lobby	size
+friendly staff	staff
+lots of fresh coffees	coffee
+knowledgeable staff	staff
+very nice gift shop	facility
+quot room	room
+with incredibly end bath	bathroom
+painfully expensive parking	parking
+very loud toilets	quietness
+very helpful man	staff
+very clean rooms	cleanliness
+quiet room	quietness
+king size bed	bed
+has lots restaurants	food
+fun pier	location
+room suitable reception staff	staff
+always cleaned rooms	cleanliness
+a bit room	room
+small room	size
+terrific inn	general
+great staff	staff
+like atmosphere	vibe
+happy hour	general
+narrow room	size
+courteous staff	staff
+larger rooms	size
+unenjoyable area	comfort
+clean character	cleanliness
+near baldwin	location
+nearby bars	location
+very nice stay	general
+useless staff	staff
+clean silverware	cleanliness
+wet rats paying passengers	wrong
+recommended great	wrong
+free coffee	coffee
+excellent hotel	general
+tiny view	view
+great view	view
+door was upholstery	room
+fine rooms	general
+late checkout	checkin
+very clean linens	cleanliness
+very clean rooms	cleanliness
+great location	location
+lovely bed	bed
+fairly small bathrooms	bathroom
+quiet rooms	quietness
+great end	wrong
+nice lobby	style
+lots of ironing board	facility
+great location	location
+too much smoking	room
+more beautiful court	style
+great staff	staff
+just 2 block from central	location
+a bit dim room	room
+fine hotel	general
+close to location	location
+located cable car line	location
+very quaint small	size
+smiling serve	staff
+nice rooms	room
+great food	food
+great bakery	food
+comfortable rooms	comfort
+valuable information	staff
+certainly views	view
+small room	size
+tiny rooms	size
+not interested enough staff	staff
+clean room	cleanliness
+free breakfast	food
+disappointing room	room
+excellent food	food
+quiet staff	staff
+great reviews	general
+is great fun	general
+love location	location
+no large towels	bathroom
+wonderful job staff	staff
+older hotel	style
+good location	location
+comfortable rooms	comfort
+like location	location
+friendliest city	general
+friendly hotel	staff
+double paned windows	room
+never room	room
+face rooms	view
+right at cab ride	location
+old building	style
+modern reception area	style
+competent moral	staff
+great work surface	room
+within a streetcar	location
+comfortable beds	bed
+nice to owners	staff
+right in line room	location
+delightful suggestions	style
+double new	wrong
+neat rooms	room
+fun concierge	staff
+helpful front desk staff	staff
+helpful staff	staff
+easily accessible hotel	location
+incredible views	view
+couple blocks from renaissance	location
+not posh bathroom	bathroom
+very perfunctory experiences	general
+gross shower	bathroom
+experience property	price
+delicious photos	food
+across salons	location
+smartly appointed rooms	room
+fantastic views	view
+friendly staff	staff
+friendly concierge	staff
+nice lobby	style
+ok service	staff
+fantastic location	location
+clean rooms	cleanliness
+plenty of room	room
+clean rooms	cleanliness
+well furnished room	room
+clean room	cleanliness
+one block away atmosphere	location
+cheerful staff	staff
+nice pastries	food
+great place	general
+right on thoroughfare	location
+cool room	vibe
+very good bagels	food
+amazing view overlooking the bay	view
+very fishy smell	cleanliness
+amazing rooms	room
+really spacious room	size
+unbeatable location	location
+relaxed comfort	comfort
+subpar furnishings	room
+always appreciated staff	staff
+extremely clean hotel	cleanliness
+amazing price	price
+twice maid service	staff
+very good value for the money	price
+king sized bed	bed
+right next to street cars	location
+but nicely room	room
+enough space	size
+very close reception	location
+bitter irish	wrong
+within walking distance to wharf	location
+perfect location	location
+2 blocks away location	location
+short shopping district	location
+very clean room	cleanliness
+cheap meal	price
+roomier room	size
+clean room	cleanliness
+free wine tasting	drink
+comfortable bed	bed
+awesome location	location
+smallish bathroom	bathroom
+empty rooms	room
+excellent staff	staff
+nice rooms	room
+great knowledgable crew	staff
+very good coffee	coffee
+impressive morning breakfast buffet	food
+clean place	cleanliness
+very nice time	general
+were unquestionably stains	cleanliness
+hip views	view
+smelled rooms	cleanliness
+large rooms	size
+great value	price
+affordable place	price
+good pizza	food
+yummy breakfast	food
+ideal spot	general
+really nice touch	general
+exciting rooms	room
+great cafes	food
+shared bathrooms	bathroom
+helpful husband managers	staff
+right past buses	location
+clean room	cleanliness
+vintage elevator	facility
+quiet neighbors	quietness
+nice size rooms	size
+a little pricey good	price
+gorgeous store	style
+exceptional value	price
+so convenient to the parking	parking
+comfortable bathroom facilities	bathroom
+brilliant location	location
+large closet	size
+very friendly front desk staff	staff
+excellent cable car	location
+very clean toilets	cleanliness
+tight bathroom	bathroom
+comfortable location	location
+helpful pricecons	staff
+nice people	staff
+was not a bad room	room
+ten clerk	staff
+good place	general
+spacious bathroom	bathroom
+expensive restaurant	food
+perfect location	location
+situated rooms	room
+helpful people	staff
+excellent restaurant	food
+very helpful bell staff	staff
+deceiving pictures	general
+great linens	bed
+always friendly staff	staff
+lots of fun parking	parking
+without space	size
+fantastic area	location
+nicest hotels	general
+clean room	cleanliness
+excellent spa	pool
+adequate amenities	facility
+not too bad market	location
+location very close good	location
+extremely friendly staff	staff
+amazing city	general
+most amazing thai	food
+comfortable hotel	comfort
+helpful staff	staff
+very large beds	bed
+unavailable trail	location
+great service	staff
+huge room	size
+very clean room	cleanliness
+great end	wrong
+clean room	cleanliness
+efficient room service	staff
+amazing place	general
+decorated perfectly rooms	style
+excellent service	staff
+dark room	room
+easy location	location
+beautifully appointed room	style
+never too loud sleep	quietness
+nice room	room
+very spacious bathroom	bathroom
+steps away shops	location
+bore tea	coffee
+very helpful staff	staff
+extremely close to cable car stations	location
+are very nicely building	style
+very expansive feel	price
+good place	general
+fresh fruit	food
+comfortable room	comfort
+would windows	wrong
+short walking distance marina	location
+great location	location
+ok staff	staff
+funky stairways	facility
+nice room	room
+great shower	bathroom
+so soiled duvet	bed
+ubiquitous nautical theme	style
+across bart	location
+was plenty furniture	room
+nice room	room
+good time	general
+best white chocolate	food
+pretty large rooms	size
+very sleek lobby	style
+great flat screen	facility
+good hot	wrong
+very good strong breakfast	food
+most fabulous location	location
+very nice hotel	general
+perfect location	location
+fabulous place	general
+quite noisy cable	quietness
+relatively cheap hotels	price
+very good service	staff
+within restaurants	food
+directly across gate	location
+simple hotel	general
+was only three blocks bus line	location
+nice shower	bathroom
+clean rooms	cleanliness
+small closets	size
+great shopping	location
+located bar	drink
+similar price	price
+so thin walls	room
+select beverages	drink
+free parking	parking
+available room service	staff
+pricey spa	price
+ugly rooms	style
+closed office	staff
+nice location	location
+spacious rooms	size
+right room	room
+wonderful big beds	bed
+great location	location
+loved desk	staff
+so awesome hotel	general
+rickety furniture	room
+great view of the	view
+was less than cheap	price
+most amazing restaurant	food
+just outside restaurants	food
+long night	comfort
+adequate size bed	bed
+a little room	room
+wonderful hotel	general
+spacious bed	bed
+right across union square	location
+small bathroom	bathroom
+dark interior	style
+pleasant furnishings	room
+giant tub	bathroom
+not easy sleep	quietness
+perfect evening	general
+snooty front desk workers	staff
+very informative personality	staff
+very conveniently located bart	location
+perfect everything	general
+nearby union square	location
+clean room	cleanliness
+not far from hotel	general
+biggish closet	size
+conveniently located location	location
+a bit small room	size
+near location	location
+phenomenally comfortable beds	bed
+great hotel	general
+quiet hotel	quietness
+helpful staff	staff
+clean lobby	cleanliness
+very quiet lights	quietness
+great city	general
+new fixtures	style
+less than desirable hotel amenities	facility
+nice decored large	style
+small lane	facility
+comfortable room	comfort
+early check in	checkin
+very good furnishings	room
+smelled everything	cleanliness
+sooo comfortable queen	comfort
+easy access to public transportation	location
+friendly location	location
+cheezy decor	style
+very welcome valet parking	parking
+quiet room	quietness
+big club rooms	size
+too much room service	food
+perfect stay	general
+friendly place	staff
+love carpet	room
+two blocks north location	location
+accommodating hotel staff	staff
+ideal location	location
+nicely decorated room	style
+free hot coffee	coffee
+comfy bed matress	bed
+homey friendly	staff
+convenient hotel	location
+noisy guests	quietness
+expensive parking	parking
+, friendly helpful	staff
+delicious food	food
+helpful fisherman 's wharf	location
+awful roll away	general
+very nice room	room
+clean sheets	cleanliness
+clean room	cleanliness
+right across cafe	food
+unbeatable location	location
+bad condition furniture	room
+extremely comfortable stay	comfort
+great staff	staff
+extremely clean place	cleanliness
+ridiculously inefficient restaurant	food
+large bathroom	bathroom
+fantastic everything	general
+very polite staff	staff
+quick cab ride	staff
+free bay	view
+decent restos	food
+direct access	location
+lacking facilities	facility
+nice size	size
+well maintained hotel	general
+sloped down tub	bathroom
+small tour	general
+much cheaper hotels	price
+quot location	location
+really busy concierge	staff
+dark colours	style
+huge walk	size
+great staff	staff
+great location	location
+right buses	location
+clean rooms	cleanliness
+( slightly the greyhound bus	location
+not cheap side portions	food
+adequate bagels	food
+breathtaking views from	view
+truely well located location	location
+free beds	bed
+lovely time	style
+large beds	bed
+beautifully decorated inn	style
+open exterior	style
+excellent pool	pool
+dirty stuff	cleanliness
+comfortable room	comfort
+packed restaurant	food
+a tad bigger rooms	size
+so relaxing continental breakfast	food
+neat rooms	room
+very nice view	view
+smelled bathroom	bathroom
+big expense	price
+newer tv	facility
+did not work water	facility
+hum city	general
+great place	general
+accommodating front desk staff	staff
+80 's looking room	style
+not decently clean room	cleanliness
+within walking distance cable car stop	location
+good location	location
+free breakfast	food
+wonderful class	price
+great location	location
+great place	general
+reasonable parking	parking
+late breakfast	food
+very nice staff	staff
+no free wifi	wifi
+expensive bar	drink
+quiet room	quietness
+easy access to the	location
+with immaculately white	wrong
+cool weather	comfort
+helpful staff	staff
+a bit outdated bathroom	bathroom
+helpful tour	staff
+right at embarcadero bart stop	location
+so bad room	room
+a block from union square	location
+terrible location	location
+perfect place	general
+pricey room	price
+fantastic location	location
+very confortable stay	comfort
+perfect room	general
+very happy location	location
+fabulous staff	staff
+a bit of everything	general
+excellent selection of	wrong
+extravagant decoration	style
+clean rooms	cleanliness
+overpriced hotel	price
+fantastic masseuse	style
+very nice room	room
+few available spaces	size
+fairvalue stay	price
+a few blocks from streetcars	location
+very nice decor	style
+good boarding number	wrong
+fantastic location	location
+non smoking rooms	room
+not the best staff	staff
+clean rooms	cleanliness
+great location	location
+king bed	bed
+very professional staff	staff
+always street parking	parking
+good decor	style
+clean amenities	cleanliness
+comfortable pillows	bed
+well located hotel	location
+very nice room	room
+easy union square	location
+immaculate rooms	room
+a couple of blocks away tram terminal	location
+very upscale atmosphere	vibe
+clean towels	cleanliness
+fresh coffee	coffee
+large dark wood	size
+always smiling staff	staff
+ideal location	location
+very nice rooms	room
+furniture room	room
+interesting artwork	style
+spacious rooms	size
+right on location	location
+large bathroom	bathroom
+breeze check in	checkin
+very close to hotel	location
+crowded reception area	staff
+spacious room	size
+pampered service	staff
+decent place	general
+small fridge	facility
+very small bathroom	bathroom
+great find in downtown	location
+easy staff	staff
+nice rooftop garden	view
+a nice long location	location
+wonderful city view	view
+few feet from cable car	location
+beautiful residential area	style
+friendly staff	staff
+always hot room service staff	staff
+walking distance cable cars	location
+friendly service	staff
+very good staff	staff
+free refrigerator	price
+prime location	location
+very quiet hotel	quietness
+very quiet chinatown	quietness
+small room	size
+best hotels	general
+free cheese	food
+fairly quiet back	quietness
+nice public transportation	location
+free parking	parking
+close to union square	location
+very quiet furnishings	quietness
+average size bathrooms	bathroom
+always useful room	room
+incredible price	price
+within walking distance shopping	location
+very nice turndown service	staff
+very reasonable price	price
+really good jacuzzi	pool
+not bad size	size
+centrally located to everything	location
+ample closets	facility
+good value	price
+not fantastic food	food
+free parking	parking
+very nice lobby	style
+great dine	food
+right outside cable car	location
+more pleasant bathroom	bathroom
+in walking distance everything	location
+not ready room	staff
+nicer hotels	general
+safe location	safety
+great dining	food
+big ceiling fan	room
+clog toilets	bathroom
+great room	room
+huge closet	size
+close to union square	location
+close to restaurants	food
+great view of the	view
+perfect room	general
+acceptable breakfast	food
+special wine reception	drink
+great staff	staff
+well equiped room	room
+prompt valet service	staff
+right in front parking	parking
+clean room	cleanliness
+so relaxing continental breakfast	food
+helpful areas	staff
+very noisy room	quietness
+decent amount television	facility
+very accommodating friendly	staff
+several restaurants	food
+able to internet access	wifi
+great help bellmen	staff
+easy access to fisherman	location
+nice hotel	general
+very small room	size
+unbelievable views	view
+big bathroom	bathroom
+great parking garage	parking
+excellent location	location
+new hotel	general
+good street	location
+great value	price
+plenty of restaurants	food
+very touristy great	general
+great rates	price
+well lit enterance	style
+close to cable cars	location
+breath taking view	view
+excellent comforters	bed
+larger rooms	size
+right next to room	location
+never door	wrong
+rather nice hotel	general
+safe parking	parking
+great breakfasts	food
+perfect mattress	bed
+extremely small room	size
+bad reviews	general
+, a short location	location
+comfortable room	comfort
+friendliness location	location
+great neighborhood	location
+plenty of storage	size
+willing staff	staff
+depressing halls	style
+free fruit	food
+miss sitting area	style
+good accessibility	facility
+deep tub	bathroom
+long showers	bathroom
+superb location	location
+nice neighborhood	safety
+beautiful rooms	style
+comfortable bed	bed
+comfortable walking	comfort
+free price	price
+excellent location	location
+prompt service	staff
+small table	size
+spectacular view	view
+fair amount travel	wrong
+okay hotel	general
+handy staff	staff
+friendly housekeeping	staff
+clean room	cleanliness
+modern hotel	style
+fairly spacious room	size
+nice room	room
+very quiet cable	quietness
+recently renovated room	style
+inviting dining room	room
+very clean hotel	cleanliness
+nice bedding	bed
+inconvenient location	location
+nice restaurant	food
+free internet access	wifi
+fresh fruit	food
+high touristy	wrong
+neatly packaged blanket	room
+very comfortable memory	bed
+comfortable accomodation	comfort
+few blocks away hair salon	location
+very nice staff	staff
+great location	location
+pretty good tour	staff
+cool room	vibe
+good hotel	general
+lovely hotel	style
+charming surrounding	style
+lots of shopping	location
+not comfy beds	bed
+clean room	cleanliness
+perfect location	location
+great lobby bar	drink
+proper working iron	facility
+very helpful staff	staff
+excellent tea service	coffee
+uncomfortable furniture	comfort
+very convenient location	location
+lovely rooms	style
+extremely clean room	cleanliness
+great room	room
+centrally located hotel	location
+cute walls	style
+rock solid rooms	room
+very clean hotel	cleanliness
+very helpful staff	staff
+excellent food	food
+spectacular view of the city	view
+good wine	drink
+great stay	general
+super restaurant	food
+great breakfast	food
+beautiful hotel	style
+very nice staff	staff
+free parking	parking
+very easy access to the	location
+packed choice	wrong
+very chic outside	style
+very impressed galleria	wrong
+very helpful hotel staff	staff
+fine continental breakfasts	food
+great staff	staff
+cars are screech	general
+excellent transportation	location
+very accomodating hotel staff	staff
+convenient breakfast	food
+very clean room	cleanliness
+fantastic bed	bed
+peeling wallpaper	style
+very large beds	bed
+very modern bathroom	bathroom
+ideal location	location
+best meals	food
+very tiny hallway	size
+easy walking distance eating places	location
+great night	general
+clean rooms	cleanliness
+free shuttle to the airport	facility
+nosey streets	quietness
+very close restaurants	food
+closed hot tub	bathroom
+expensive gourmet	price
+great price	price
+high end breakfast place	food
+great front desk people	staff
+perfect union square	location
+great cable	location
+small bathroom	bathroom
+very friendly staff	staff
+not bad discount	price
+helpful staff	staff
+very pleasant desk	comfort
+good union square	general
+great location	location
+very close to shopping	location
+much less rate	price
+perfect location	location
+clean room	cleanliness
+available rooms	room
+large rooms	size
+very classy place	style
+very comfortable bed	bed
+well maintained rooms	general
+excellent room	general
+couple of minutes away cable car stop	location
+nice parks	location
+incredibly convenient to neighborhood	location
+small rooms	size
+access market	wrong
+good place	general
+a little over a mile chinatown	location
+outstanding breakfast	food
+bad service	staff
+better rates	price
+small bathroom	bathroom
+lovely room	style
+great service	staff
+walkable distance to chinatown	location
+full toaster	facility
+close to shopping	location
+very close to wharf	location
+great staff	staff
+central location	location
+just great restaurants	food
+great place	general
+clean room	cleanliness
+works entertainment	facility
+a few blocks from hotel	location
+30 minutes ride	location
+wonderful great	general
+free water	facility
+definitely not the most pleasant	comfort
+very small view	wrong
+very good value	price
+one block from shopping	location
+small lobby	size
+bigger room	size
+somewhat dated hotel	style
+relatively inexpensive taxi fare	price
+pushy guests	general
+good food	food
+very comfortable bed	bed
+good bathroom	bathroom
+very central hotel	location
+nice bathroom	bathroom
+clean property	cleanliness
+clean shower	cleanliness
+partial bay views	view
+cracked open ceiling	room
+fantastic check in	checkin
+laid out pastries	food
+comfortable place	comfort
+directly balcony	view
+essential location	location
+good place	general
+spacious condo	size
+clean room	cleanliness
+not working properly sink	bathroom
+love sheets	location
+high end linen	bed
+very nice decor of	style
+decent room	room
+very interesting fog	general
+very comfortable room	comfort
+poor service	staff
+great starbucks	coffee
+large room	size
+pretty pricey hotels	price
+free cheese	food
+not open window	room
+helpful staff	staff
+wonderful martini	food
+ready room	room
+congenial manager	staff
+easy check in	checkin
+half a block up cable car	location
+clean hotel rooms	cleanliness
+big rooms	size
+weird hallways	style
+not the thickest walls	room
+very friendly staff	staff
+randomly toilet	bathroom
+walking distance restaurants	food
+thin bathroom	bathroom
+an extremely excellent	wrong
+large bathroom	bathroom
+amazing views	view
+lavendar rooms	room
+300 yards from heart	location
+about 3 blocks away entrance to chinatown	location
+located road	location
+very good location	location
+very helpful people	staff
+delightful place	style
+perfect location	location
+quiet rooms	quietness
+great executive suite	general
+comfortable pullout	comfort
+great palace	general
+beautifully appointed rooms	style
+noisy airwell	quietness
+ideal for location	location
+lots of bagels	food
+fine restaurants	food
+immediate service	staff
+narrow rooms	size
+warm room	room
+clean rooms	cleanliness
+small room	size
+outrageous parking	parking
+convenient spa	pool
+very clean towels	cleanliness
+great location	location
+great hotel staff	staff
+good bed	bed
+well equipped room	room
+adequate rooms	size
+large flat screens	size
+huge circular mall	location
+highest level room	room
+perfect location	location
+quiet area	quietness
+pleasurable ferry building	location
+really nice double beds	bed
+friendly lady	staff
+perfect location	location
+available smoking rooms	room
+courteous staff	staff
+small plush	facility
+friendly staff	staff
+worthwhile upgrade	price
+very friendly staff	staff
+excellent price ranges	price
+charming lobby	style
+free hot chocolate	food
+impressed stay	general
+good place	general
+unique furniture	room
+able to staff	staff
+near shopping district	location
+large closet	size
+warmer coffeemaker	coffee
+nice staff	staff
+very friendly parking	parking
+room front desk staff	staff
+close by restaurants	food
+beautiful view of the	style
+best place	general
+great door	style
+definitely historical room	style
+not much area	size
+great value	price
+nice staff	staff
+very good temperature	comfort
+great location	location
+comfortable bed	bed
+adequite rooms	room
+unfriendly front desk	staff
+plenty of space	size
+good value	price
+great service	staff
+very small bathroom	bathroom
+small continental breakfast	food
+clean room	cleanliness
+spacious tub	bathroom
+friendly service	staff
+quite small rooms	size
+walkable to fisherman	location
+responsive attitudes	staff
+worn carpet	cleanliness
+very good service	staff
+endless cookies	food
+right price	price
+very close to action	location
+very small room	size
+raw chicken	food
+very bad layouts	style
+nice interior	style
+not far from curtain locations	location
+plentiful bath towels	bathroom
+nearby shopping	location
+available rooms	room
+five mintue walk union square	location
+three blocks hotel	location
+loves fooddownstairs	food
+great staff	staff
+never used walking	location
+excellent price	price
+conveniently located bart	location
+great boutique	style
+away from noise	quietness
+very nice front desk	staff
+fabulous orchard	general
+readily available public transport	location
+inexpensive for location	location
+comfortable rooms	comfort
+wonderful selection of foods	food
+juice and fruit	food
+very attentive heated	wrong
+bigger rooms	size
+dry carpeting	room
+so disgusting bed	bed
+clean rooms	cleanliness
+reasonable hotel	general
+friendly staff	staff
+moderately priced boutique	price
+awesome murals	style
+extremely enjoyable stay	general
+convenient location	location
+nice rooms	room
+squeak room	room
+fresh fruit	food
+great views	view
+perfect retreat	general
+rather limited menu	food
+helpful staffs	staff
+steep walk	safety
+liked location	location
+annoying traffic	quietness
+just behind area	location
+100 degrees wind	view
+ok decor	style
+clean room	cleanliness
+good service	staff
+free morning	facility
+nice rooms	room
+fresh juices	food
+clean bathroom	cleanliness
+clean decor	cleanliness
+nice viewsecond	view
+very comfortable room	comfort
+large rooms	size
+nice pampering	staff
+sublime lobby	style
+helpful staff	staff
+beautiful roofotp	style
+better hotels	general
+loved room	room
+awesome continental breakfast	food
+convenient location	location
+wonderful nights	general
+great fixtures	food
+ideal place	general
+unattractive wallpaper	room
+most comfortable beds	bed
+terrible place	general
+charming experiences	style
+easy walk	location
+big closet	size
+helpful staff	staff
+outstanding breakfast	food
+spacious bed	bed
+nice fridge	facility
+great value for the money	price
+noisy street noise	quietness
+naroow bathroom	bathroom
+positively unbeatable telegraph	location
+beautiful area	location
+good option	general
+ugly place	general
+good restaurants	food
+small rooms	size
+couple of blocks from buslines	location
+halfway setting	style
+nice stay	general
+great hotel	general
+expensive hotels	price
+excellent staff	staff
+good restaurants	food
+great hotel	general
+great decor	style
+a welcome turndown service	staff
+tight entrance	size
+lively area	location
+convenient hotel	location
+good room service quality	food
+very close by places	location
+plentiful breakfast	food
+queen cushioined	bed
+great area	location
+comfortable bed	bed
+great service	staff
+outstanding views	view
+large room	size
+delicious food	food
+nice staff	staff
+neat restaruants	food
+great downtown	location
+worst hotel	general
+pretty decent pictures	style
+efficient desk	staff
+clean room	cleanliness
+interesting decor	style
+interesting artwork	style
+quiet view	quietness
+fine bathroom	bathroom
+best price	price
+lots of view over the square	view
+complimentary bath products	bathroom
+great hotel	general
+very convenient to hotel	location
+willing staff	staff
+very pleasant staff	staff
+awesome restaurant	food
+good place	general
+filthy hall ways	cleanliness
+super   just across pier	location
+attractive room	style
+nicer staff	staff
+easily accessible to trolleys	location
+within walking distance hotel	location
+nicer hotels	general
+broken blow dryer	facility
+lots of coffee	coffee
+very helpful staff	staff
+helpful staff	staff
+cozy room	vibe
+very large room	size
+nice art galleries	location
+not impressed decor	style
+available art	style
+close to cable car line	location
+extremely professional staff	staff
+very cozy lounge	style
+free continental breakfast	food
+high profile cars	wrong
+very warm staff	staff
+little room	room
+a bit tired walk	location
+king sized room	size
+paper thin walls	room
+well fitted out view	view
+old shower	bathroom
+fresh fruit	food
+small rooms	size
+busy room	room
+quiet shops	quietness
+very comfortable room	comfort
+clean noise	wrong
+spacious bedroom	bed
+brilliant city	general
+close to the station	location
+very well situated hotel	general
+gone cheese	food
+perfect location for walking	location
+high bigger breakfast	food
+well away from room	location
+very well located hotel	location
+compact room	size
+delightful hotel	style
+flashy friendly	wrong
+dingy room	cleanliness
+unusually large big	size
+beautiful tile	style
+small rooms	size
+larger rooms	size
+homey room	room
+high quality pillows	bed
+expensive parking	parking
+noisier rooms	quietness
+only one block away bus terminal station	location
+great pasta	food
+nice work	staff
+are only minutes wharf	location
+not the safest neighborhood	safety
+scratchy sheets	bed
+great stay	general
+lots of hot water	bathroom
+dirty bathroom	cleanliness
+clean room	cleanliness
+not replenished chicken	food
+nice atmosphere	vibe
+terrible mattresses	bed
+fresh rooms	room
+nice place	general
+substandard executive lounge	general
+convenient sights	location
+broken toilet	bathroom
+great great	general
+not great place	general
+very clean conditioner	cleanliness
+not good experience	general
+good reviews	general
+take long	staff
+self service breakfast	food
+quieter end	quietness
+love location	location
+available nearby bart	location
+tiny sink	bathroom
+rusting bathroom	bathroom
+fast service	staff
+cheap parking	parking
+lots of places to eat	food
+tiny bathroom	bathroom
+located walgreens	location
+dangerous hotel	safety
+plenty big enough room	size
+a lot nicer room	room
+always helpful front desk	staff
+great value	price
+excellent room	general
+near union square	location
+perfectly adequate rooms	room
+very helpfull staff	staff
+next to bathroom	bathroom
+very well situated shopping	location
+very comfortable mattress	bed
+best bed	bed
+pale pastries	food
+excellent service	staff
+responsible pet owners	staff
+steady breeze	comfort
+thin wallpaper	room
+lovely hotel	style
+long flight	comfort
+very nice hotel	general
+larger king bed room	bed
+comfortable room	comfort
+very well located place	location
+clean room	cleanliness
+incredible location	location
+near food court	food
+very quick cleaning	cleanliness
+very comfortable stay	comfort
+city location	location
+flimsy shower door	bathroom
+well cooked food	food
+pretty pretty	wrong
+crisp linens	bed
+worst hotel	general
+short on price	price
+spacious room	size
+very friendly staff	staff
+10 min cable cars	location
+special ambience	vibe
+helpful staff	staff
+most expensive valet	parking
+beautiful hotel	style
+great bar	drink
+great location	location
+a little small rooms	size
+dirty incessant	cleanliness
+short walk away cable cars	location
+wonderful food	food
+available restaurant	food
+just 2 blocks downhill union square	location
+within several city	location
+clean room	cleanliness
+great access to	location
+very clean everything	cleanliness
+well designed sleeping rooms	room
+face rooms	view
+accomodating staff	staff
+rundown character	style
+a bit dated decor	style
+great union square	location
+great position	location
+good public transport	location
+unbelievable language	wrong
+very contemporary design	style
+small bathroom	bathroom
+lots of towels	bathroom
+quite clear channels	facility
+tacky hotel	general
+a few doors up safeways	location
+hospitable staff	staff
+updated amenities	facility
+efficient service	staff
+steamy mirror	room
+friendly service	staff
+very interesting architecture	style
+cold room	comfort
+small rooms	size
+very nice room	room
+overcharged room service	staff
+water stained blinds	cleanliness
+large bathroom	bathroom
+good impression	general
+short stroll market street	location
+free coffee	coffee
+wonderful place	general
+friendly heart	staff
+old elevators	style
+friendly hotel staff	staff
+comfortable beds	bed
+comfy bed	bed
+friendly staff	staff
+extremely expensive valet parking	parking
+immediate underground	location
+a bit overrated mattress	bed
+good pool	pool
+packed with rooms	room
+very nice hotel	general
+clean rooms	cleanliness
+a very short walk get	location
+simple room	room
+full hotel	general
+lumpy bed	bed
+centrally located views	location
+clean room	cleanliness
+very nice room	room
+very quiet room	quietness
+nice penhaligon	style
+not the best area	safety
+friendly service	staff
+lots of pillows	bed
+miles above rooms	room
+free internet	wifi
+big cost	price
+very clean room	cleanliness
+not uncomfortable bed	bed
+cloudy decor	style
+welcoming staff	staff
+small hotel	size
+spacious standard	size
+nice china town	location
+good restarants	food
+not impressed transportation	location
+large rooms	size
+best rate	price
+very helpful hotel staff	staff
+nicely decorated corner room	style
+lots of sheets	bed
+nothing fancy bathroom	bathroom
+very nice touch	general
+faced street	view
+better hyatt rooms	room
+rectangular room	room
+so tacky toiltries	bathroom
+big rooms	size
+very friendly pleasant	comfort
+very pleasant atmosphere	vibe
+obnoxiously loud rooms	quietness
+was almost food	food
+excellent public transit	location
+easy walk shopping	location
+very reasonably priced hotel	price
+nicely decorated room	style
+a couple of blocks away restaurant	food
+best weather	general
+not ready room	staff
+not bad travel time	general
+small room	size
+very small rooms	size
+large of flowering	size
+great dining area	food
+tastefully decorated rooms	style
+5 minute walk trams	location
+expensive drinks	price
+real banana	food
+thinnish walls	room
+1 block from bart	location
+appreciated cookies	food
+spacious lobbys	size
+nearby parks	location
+a bit small rooms	size
+dirty windows	cleanliness
+beautiful continental	style
+most pleasant hotel experiences	comfort
+exceptionally comfortable chairs	room
+comfortable hotel	comfort
+in good excellent	wrong
+extremely helpful concierge	staff
+not very accomodating late	staff
+very comfortable room	comfort
+relaxed reading	comfort
+cute wine bars	drink
+nice place	general
+plenty of room	room
+convenient hotel	location
+ok best	wrong
+fine bathroom	bathroom
+tight schedule	general
+good restaurants	food
+facing city noise	quietness
+friendly staff	staff
+full union square	location
+close to location	location
+very accomdating elevators	staff
+pretty efficient valet service	staff
+smallest inn	size
+as low price	price
+mostly clean room	cleanliness
+big internet access	wifi
+not much help	staff
+dignified comfotable	comfort
+quite imaginative tv	facility
+overflowing plants	wrong
+excellent views of the city	view
+spectacular views	view
+excellent value	price
+helpful staff	staff
+really nice hotel	general
+pretty bad noise	quietness
+within in walking distance chinatown	location
+really helpful staff	staff
+away from busyiness	location
+very comfortable room	comfort
+free wireless	wifi
+welcoming door man	staff
+fantastic book sale	price
+cheaper cabs	price
+great value for money	price
+very clean hotel	cleanliness
+difficult sink	bathroom
+quick to price	price
+a couple blocks chinatown	location
+fine hotel	general
+clean rooms	cleanliness
+slow front desk personnel	staff
+must place	general
+very nice restaurant areas	food
+good level of finish	style
+pleasant desk staff	staff
+pleasant enough decor	style
+right out front cable car	location
+elegant bathroom	bathroom
+good value	price
+good service	staff
+fabulous beds	bed
+very very nice people	staff
+dark rooms	room
+enjoyable room	room
+dirty bathroom	cleanliness
+tub mirror ,	bathroom
+helpful staff	staff
+fairly typical room	general
+short beds	bed
+standard rooms	room
+upgraded room	room
+quiet hotel	quietness
+plenty of places	general
+adequate juice	food
+great price	price
+brilliant city beer bar	drink
+plenty characters	style
+great location	location
+more satisfying front desk	staff
+happy restaurant	food
+located next to diner	location
+good order rooms	room
+obliging staff	staff
+great location	location
+good restaurant	food
+nice paint	style
+excellent value	price
+not far from union square	location
+very good value	price
+great accomodations	general
+helpful staff	staff
+perfect location	location
+quick arrival	checkin
+close to freeway access	location
+comfy beds	bed
+lovely meal	food
+not entirely crowded late breakfast	food
+non smoking room	room
+great location	location
+great weekend	general
+great parking	parking
+accommodating staff	staff
+a generally good	location
+funny smell	cleanliness
+clean parking	wrong
+not working internet	wifi
+excellent walking shoes	facility
+as great prices	price
+quite big hairdryer	facility
+located cable	location
+very good tv	facility
+countless broken bathtub	bathroom
+friendly front desk	staff
+close to restaurants	food
+old including	style
+very elegant hotel	style
+great rate	price
+clean bathroom	cleanliness
+clean double beds	cleanliness
+large size rooms	size
+small rooms	size
+helpful staff	staff
+luxurious beauty products	style
+very helpful hotel concierge	staff
+well located service	wrong
+good location	location
+great stay	general
+great staff	staff
+king size bed	bed
+very very quiet traffic noise	quietness
+right near chinatown	location
+stunning room	view
+large room	size
+small property	size
+very clean common areas	cleanliness
+very convenient bottled water station	facility
+within walking distance restaurants	food
+quite charming boutique	style
+also porridge ,	wrong
+clean bathrooms	cleanliness
+cool photos	vibe
+very pleasant staff	staff
+really hard beds	bed
+so welcoming people	staff
+convenient location	location
+good location	location
+stocked soap	bathroom
+ridiculous valet fee	parking
+great price	price
+shrunken bed	bed
+great location	location
+one block away bus	location
+bay room	view
+very helpful staff	staff
+unbeatable location	location
+reasonably polite parking	parking
+most beautiful rainbow	view
+fully equipped freezer	facility
+very nice room	room
+great lcd	facility
+cheap parking	parking
+scary balcony	safety
+magical hotel	style
+great location	location
+delicious rib	food
+nice rooms	room
+fine place	general
+less attractive rooms	room
+not much neighborhood	location
+very large room	size
+spacious rooms	size
+also resturant recamendations	food
+beautiful entrance	style
+great value	price
+cold hotel	comfort
+okay food	food
+renovated bathroom	bathroom
+comfortable sleep	bed
+clean hotel room	cleanliness
+awful food	food
+a little slow check in	checkin
+nice decor	style
+great place	general
+extra large room	size
+very good location	location
+perfect location	location
+offerred space	size
+10 minute bus	location
+amazingly comfortable bed	bed
+very hot sun	general
+nice restaurant	food
+great internet	wifi
+very comfy bednice	bed
+free wine	drink
+centrally located union square	location
+great bakery	food
+unpretentious hotel staff	staff
+spacious staircase	size
+chipped drapes	cleanliness
+great service	staff
+very good choice of	wrong
+good location	location
+good hotel	general
+free breakfast	food
+great shower	bathroom
+great chinatown	location
+very nice hotel	general
+well looked after everywhere	style
+numerous restaurants	food
+extremely helpful hotel staff	staff
+right out transport options	location
+clean hotel	cleanliness
+quick art	style
+nice staff	staff
+okay food	food
+great pillow	bed
+unbelievable rooms	room
+plenty of room	room
+large tv	size
+excellent location	location
+good neighbourhood	location
+interesting decor	style
+good cereal	food
+great internet access	wifi
+warm hotel	comfort
+great restaurant	food
+comfy microwave	comfort
+very bad experience	general
+nice view of the city	view
+a bit too small room	size
+very nice gym	gym
+2 minutes away supermarket	location
+best best	wrong
+very nicely refurbished room	room
+not greeted staff	staff
+tidy room	room
+great place	general
+updated curtains	bed
+cracked glass shower	bathroom
+small rooms	size
+very good location	location
+really small conditioner	size
+competative price	price
+literally shopping	location
+canny tourists	general
+good deals	price
+understanding staff	staff
+very close chinatown	location
+great cheap city	price
+tiny room	size
+interesting luggagethat	wrong
+charming staff	staff
+very prompt bedding	bed
+crazy pricing	price
+plenty of shops	location
+clean room	cleanliness
+cheaper budget	price
+airy room	room
+expensive parking	parking
+friendly service	staff
+prefectly fine room	room
+better room	room
+tiny drake	size
+amazing view of the bay area	view
+clean rooms	cleanliness
+great location	location
+so dirty carpet	cleanliness
+good lunch	food
+top notch room	room
+short walk to hotel	location
+old windows	style
+very large closet	size
+very large city	size
+bad policy	staff
+free lemonade	food
+ridiculous parking	parking
+fantastic hotel service	staff
+well equipped gym	gym
+clean breakfast	wrong
+clean room	cleanliness
+charming stay	style
+good location	location
+friendly staff	staff
+great cocktails	drink
+centrally located starbucks	location
+not shabby furniture	room
+fluffy pillows	bed
+good information	staff
+great items	general
+spotless baths	bathroom
+overlooking quot	view
+nice lobby	style
+easy access to fun	location
+within walking distance restaurants	food
+s completely noise	quietness
+cool air	comfort
+6 blocks cable	location
+pleasantly furnished rooms	style
+large room	size
+sensitive noise	quietness
+top hotel	general
+easy to get cable car line	location
+so comfortable bed	bed
+great stay	general
+great setting	general
+few blocks away foods	food
+not available room	room
+free breakfast	food
+great micro	facility
+great games	vibe
+clean shower	cleanliness
+were easily within walking good	location
+brand new furniture	room
+short walk chinatown	location
+fun wine	drink
+great for knuckles	food
+amazing omlettes	food
+right the public	location
+great location	location
+not too small room	size
+were far to busy	wrong
+good value	price
+complementary coffee	coffee
+relaxing escape	comfort
+amazing views of	view
+helpful staff	staff
+great value for the money	price
+chilly nights	general
+good breakfast	food
+are absolutely pleasant	wrong
+always crowded breakfast	food
+delicious room service food	food
+close to everything	location
+tons bus	location
+tasty breakfast	food
+very quiet area	quietness
+close by bus	location
+great coffee shop	coffee
+definietley worn hotel	style
+really big rooms	size
+far quieter rooms	quietness
+very helpful hotel staff	staff
+big parking	parking
+very positive experience	general
+old hotel	style
+very helpful personalities	staff
+very popular restaurant	food
+highly recommended avenue	general
+okay service	staff
+meticulously clean rooms	cleanliness
+helpful staff	staff
+located hotel	location
+fun value	price
+quite nice rooms	room
+excellent central location	location
+great garden	vibe
+clean hotel	cleanliness
+fabulous place	general
+better pillows	bed
+free upgrade	price
+safe area	safety
+good bed	bed
+nice room	room
+very very clean plumbing fixtures	cleanliness
+very flexible room service	staff
+a little slow check in	checkin
+extremely comfortable stay	comfort
+spotty internet service	wifi
+quite wonderful experience	general
+spotlessly clean bathroom	cleanliness
+very friendly staff	staff
+a bit steep prices	price
+great complimentaries	facility
+clean place	cleanliness
+large flat screen	size
+friendly staff	staff
+great value	price
+very comfortable bed	bed
+late food	food
+cereal , croissant	food
+a bit cool maine	general
+great microwave	facility
+free parking	parking
+great convention center	location
+excellent staff	staff
+classic wine	drink
+comfy chairs	comfort
+only one block away bus terminal station	location
+very spacious fittings	size
+excellent ella	facility
+lovely place	style
+very small room	size
+nice view of the city	view
+one block from cable car line	location
+plenty of towels	bathroom
+beautiful courtyard flowers	style
+clean rooms	cleanliness
+good movie	style
+quiet elevator	quietness
+tiny shower	bathroom
+shabby hallways	style
+high end the water	facility
+a walk away transport links	location
+two blocks from location	location
+small microwave	facility
+friendly staff	staff
+great priceline	price
+easy access	location
+half a short block from convention center	location
+helpful staff	staff
+clean decor	cleanliness
+excellent bay	view
+lovely hotel	style
+good water pressure	bathroom
+historic heart	style
+good value	price
+wonderful location	location
+great access to the	location
+helpful staff	staff
+near union square	location
+huge bathroom	bathroom
+way too many commercials	general
+great location	location
+enjoyable stay	general
+top shops	location
+located bart station	location
+located tram services	location
+friendly staff	staff
+wonderful room	room
+old fashioned shower	bathroom
+light corridors	style
+easily accessed bart	location
+darling hotel	general
+literally steps away location	location
+very warm doorman	staff
+best indoor swimming pool	pool
+very central conference centre	location
+busy city	general
+daily cleaned room	cleanliness
+mojitos food	food
+large front door	size
+walking distance attractions	location
+limited amenities	facility
+easy walk union square	location
+though a bit room	room
+efficient experience	staff
+covered parking	parking
+very wet area	room
+not so great for business	general
+many inexpensive	price
+safe area	safety
+very soft bedding material	bed
+big comfy chairs	room
+best restaurants	food
+occupied rooms	room
+free computers	facility
+easy access to public transportation	location
+wonderful service	staff
+favourite hotel	general
+lot of traffic	quietness
+lightning fast elevator	facility
+a bit in need of work pool	pool
+heated panini	food
+filthyand carpets	cleanliness
+thorough daily	wrong
+good location to	location
+many restaurants	food
+spacious room	size
+nice furniture	room
+not nearly as spacious rooms	size
+ratty blanket	bed
+very dark wine reception	drink
+clean sheets	cleanliness
+obnoxious porters	wrong
+5 blocks away food	location
+larger room	size
+plenty of shopping	location
+great bars	drink
+a little sketchy area	safety
+perfectly located hotel	location
+helpful staff	staff
+great location	location
+not much view	view
+a well toiletries	bathroom
+good hotel	general
+extremely helpful staff	staff
+spotless new	cleanliness
+clean bed	cleanliness
+two blocks from ghiradelli	location
+clean everything	cleanliness
+very helpful staff	staff
+big room	size
+nicer room	general
+old hotel	style
+quite small connecting rooms	size
+helpful management	staff
+very quick tv	facility
+equipped hotel	facility
+different pastries	food
+great robes	bathroom
+plenty of restaurants	food
+barely room room	room
+available restaurants	food
+breeze parking	parking
+closer to location	location
+close to location	location
+pretty doors	room
+very nice robes	general
+tiny bathroom	bathroom
+clean room	cleanliness
+spotlessly clean hotel	cleanliness
+so low location	location
+comfortable linens	bed
+very clean rooms	cleanliness
+always packed bar	drink
+unusual color choices	style
+noisy quiet	quietness
+very modern elevator	facility
+new mini bar	drink
+large enough closet	size
+nice size room	size
+small bathroom	bathroom
+nice beds	bed
+comfortable bed	bed
+gorgeous room	room
+clean pillow cases	cleanliness
+great food	food
+incredible views	view
+complimentary wine	price
+ecclectic decoration	style
+beautiful lobby	style
+very tiny room	size
+minimal design	style
+close to shopping	location
+small fridge	facility
+nice veiw	view
+clean hotel	cleanliness
+free hang	facility
+guarded door	safety
+full kitchenette	facility
+great location	location
+free wireless	wifi
+helpful staff	staff
+enough room	room
+huge room	size
+somewhat convenient location	location
+clean room	cleanliness
+great parking	parking
+decent view	view
+great restaurants	food
+friendly staff	staff
+top class front desk	staff
+quiet location	quietness
+secure parking	parking
+way over designed hotel	style
+pleasant rooms	comfort
+fresh cheerios	food
+tile furnishings	room
+friendly staff	staff
+useless front desk staff	staff
+right next to cable car stop	location
+, easy , public bus	location
+best sleep	quietness
+very helpful suggestions	staff
+friendly staff	staff
+good experiences	general
+excellent location	location
+hollow architecture	style
+tiny room	size
+spacious rooms	size
+best location	location
+surrounded market district	location
+offer helpful	staff
+perfect place	general
+plenty of fresh juice	food
+dirty floor	cleanliness
+great union square	location
+good value for the money	price
+pleasent staff	staff
+really clean service	staff
+right next to chinatown gate	location
+wonderful location	location
+aaa staff	staff
+near market street	location
+beautiful hotel	style
+reasonably priced location	location
+within walking distance accommodations	location
+great place	general
+most comfortable bed	bed
+very good hotel	general
+fun tonga room	room
+friendly bellboys	staff
+very helpful staff	staff
+always wonderful staff	staff
+adequate size	size
+great meal	food
+clean rooms	cleanliness
+great view	view
+superb hotel	general
+pretty good location	location
+ok room	room
+a bit old looking bathroom	bathroom
+a block away location	location
+remodeled place	general
+not good view to the side of	view
+clean room	cleanliness
+friendly staff	staff
+treat shower	bathroom
+beautiful hotel	style
+spitting distance corners	size
+good value	price
+modern service	staff
+colourful room	style
+small fitness	gym
+outstanding atmosphere	vibe
+within walking distance places	location
+beautifully appointed entry	style
+basic rooms	room
+very warm feeling	comfort
+fine hotels	general
+great chance	wrong
+small tv	facility
+private conversation area	style
+within walking distance to fishermans wharf	location
+really potent drinks	drink
+very attentitive staff	staff
+understated starbucks	coffee
+great bagel	food
+great time	general
+amazing view	view
+very good furnishings	room
+professional staff	staff
+great concierge	staff
+very helpful front desk staff	staff
+expensive parking	parking
+real close to wharf	location
+very friendly staff	staff
+very large windows	size
+very accessible union square	location
+lacked ambience	vibe
+adequate bedding	bed
+ideal bed	bed
+hot weather	comfort
+good size bathroom	bathroom
+relaxing design	comfort
+modern room decor	style
+great location	location
+slightly shabby rooms	room
+broken horrible	wrong
+terse staff	staff
+liked walking	location
+friendly service	staff
+very helpful staff	staff
+large roomscons	size
+literally everything	general
+best breakfast	food
+complimentary breaskfasts	food
+good chinatown	location
+comfortable rooms	comfort
+cheap rate	price
+crazy hot room	room
+available valet parking	parking
+shabby property	style
+very nice lobby	style
+great for hotel	general
+clean bathroom	cleanliness
+great rates	price
+humble breakfast	food
+clean place	cleanliness
+great 360 views of the city	view
+very nice accommodations	general
+easy walk details	location
+huge rooms	size
+helpful front desk personnel	staff
+friendly staff	staff
+best shopping	location

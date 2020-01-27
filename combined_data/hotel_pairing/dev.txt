@@ -1,0 +1,561 @@
+Nice room size, friendly and helpful staff, but somewhat loud at night.	friendly and helpful night	UNPAIR
+As for the hotel, great service, especially the front desk workers late at night, they could help with local events and cared about answering any of your general city questions, and they are great at hailing a cab.	local events	UNPAIR
+If you want to be close to the Wharf and the action there or the cable cars or bus tours	close to action	UNPAIR
+The location is excellent: we walked to Union Square, toured the area around the hotel which includes a splendid display of magnificent SF architecture, and the uniquely gorgeous St.	splendid walked	UNPAIR
+We are not happy with this hotel.	not happy hotel	UNPAIR
+the club regency lounge has amazing views & the staff at the lounge were very attentive, our room on the 16th floor had amazing views of the the bay & the bridge	very attentive amazing views	UNPAIR
+The staff at the Herb & Market were rude and the food and drinks were way overpriced.	way overpriced food	PAIR
+The breakfast was in fact a marketing action for each participant to acquire shares with 90 minutes presentation : unexpected when you are looking for a good coffee with toasts and others traditional food you could find in a breakfast as a result no breakfast. . . .	good coffee	PAIR
+The bed was good but the room needs redecorating.	bed room	UNPAIR
+I liked this location, value & hotel staff.	hotel staff	UNPAIR
+Stayed here plenty of times with no issues with the beds, but our bed was very squeaky.	very squeaky Stayed	UNPAIR
+Location was good, and value for money.	good Location	PAIR
+It's a short walk to North Beach and China Town and close to the famous Swans Oyster Depot.	short walk to China Town	PAIR
+The only major reservations with this hotel is the limited space in the bathroom and the check-in staff tended to be cold and distance.	cold bathroom	UNPAIR
+the room was super tiny, there were not enough towels, and the carpets were all pretty gross.	pretty gross carpets	PAIR
+If no access to shuttle do not offer it.	shuttle access	PAIR
+Overall, very charming hotel at an excellent location.	excellent location	PAIR
+Hotel was under serious renovation , but very friendly staff.	very friendly Hotel	UNPAIR
+Other than the fact that we had to move rooms due to the toilet being out of order, the room was fine for the price in San Fran for just one night.	price room	UNPAIR
+The room was more than adequate and we picked a 'quiet' room -- no view but no noise.	more than adequate room	PAIR
+My room had electrical cables across the ground, and a 13 inch television without a remote, and a sink with rust on it.	sink room	UNPAIR
+The room was very comfortable, quiet and great place to relax and unwind after a long day or for a quick nap during the day.	very comfortable day	UNPAIR
+Unfortunately our first room didn’t have a window that would stay open due to this we had issues with airflow and allergies did flare up.	issues allergies	UNPAIR
+they charged me $10 for a bottle of water, super expensive for the small room that we got, the parking was worst, we had to park in another building because the ballet parking there was super expensive,	worst bottle	UNPAIR
+Friendly people, clean rooms, great pricing and free parking!	great pricing	PAIR
+Renovated rooms were very comfortable, and the pillow menu was nice to take advantage of for sleeping comfort.	nice to advantage	UNPAIR
+Jasper's, the restaurant/ bar just off the lobby.	restaurant/ bar	UNPAIR
+The room was more than adequate and we picked a 'quiet' room -- no view but no noise.	room room	UNPAIR
+My credit card got charge various times holding my credit up to 1, 800 on a charge that should have been 247. 00	charge credit card	UNPAIR
+No water or sleepers in the room, room wasn’t quiet as you can hear people talking, moving around and was hard to sleep.	room people	UNPAIR
+Friendly people, clean rooms, great pricing and free parking!	free great pricing	UNPAIR
+But the room did have a new fridge and microwave so meal preparation was possible.	new room	UNPAIR
+Boutique hotel and great location.	Boutique hotel	PAIR
+Great coffee shop just up the street	Great street	UNPAIR
+good clean room free coffee and tea at the lobby located at union square alot of high end shopping near the hotel right next to the entrance of chinatown 10-15mins walk from bart ceiling fan.	good clean entrance	UNPAIR
+The rooms were very small, none with two double beds, which we had requested and had confirmed by booking.	booking rooms	UNPAIR
+The Serrano is in a great location, has a great vibe, and offered a great price.	great vibe, and offered a great price	PAIR
+To be frank, these areas are often pretty grim, with lots of people sitting around, sleeping in the streets, wandering around drunk or drug affected.	lots areas	UNPAIR
+- Room cleaned thoroughly if requested, including carpet shampooed : ) - Fast W-fi - Clean bathroom - Hot water in bath with strong water pressure - Courteous staff.	cleaned staff	UNPAIR
+That would have reduced our anxiety, an unnecessary call to accounting and the need for your accounting staff to need to make the explanation.	explanation accounting staff	UNPAIR
+they charged me $10 for a bottle of water, super expensive for the small room that we got, the parking was worst, we had to park in another building because the ballet parking there was super expensive,	parking ballet parking	UNPAIR
+we thought from the rating at the tine, we were getting a so so room in and old hotel in a great location.	great rating	UNPAIR
+Mattress was wore out pillows were about 1 inch thick, and the police were in the parking lot during the night with sirens at least 3 times during the night.	about 1 inch thick police	UNPAIR
+The rooms were alright and the bathroom was ok.	alright bathroom	UNPAIR
+The breakfast was in fact a marketing action for each participant to acquire shares with 90 minutes presentation : unexpected when you are looking for a good coffee with toasts and others traditional food you could find in a breakfast as a result no breakfast. . . .	others traditional food breakfast	UNPAIR
+A 20 minute walk to Union Square and a 2o minute walk to.	minute minute walk	UNPAIR
+The location was perfect, the staff were superb and the hotel was very modern.	very modern staff	UNPAIR
+- Room cleaned thoroughly if requested, including carpet shampooed : ) - Fast W-fi - Clean bathroom - Hot water in bath with strong water pressure - Courteous staff.	Clean water pressure	UNPAIR
+The only major reservations with this hotel is the limited space in the bathroom and the check-in staff tended to be cold and distance.	limited hotel	UNPAIR
+We walked across the street to an excellent Mexican Restaurant called.	excellent street	UNPAIR
+The price is typically San Francisco- overpriced for a substandard hotel.	San Francisco-	UNPAIR
+Wi-Fi weak but for free.	weak Wi	UNPAIR
+hotel is convenient to Union Square and China Town, also easy to catch the city sightseeing bus to Golden Gate and.	easy to catch Union Square	UNPAIR
+I felt completely safe in the area, and there was only one homeless person outside, who was pleasant.	completely area	UNPAIR
+That would have reduced our anxiety, an unnecessary call to accounting and the need for your accounting staff to need to make the explanation.	unnecessary call accounting staff	UNPAIR
+Location was good, and value for money.	value for money	UNPAIR
+I've had a good stay here.	good stay	PAIR
+Quiet overlooking courtyard	Quiet overlooking courtyard	PAIR
+Fantastic location, great attention to detail and friendly staff made a great trip even better.	Fantastic location	PAIR
+There are many restaurants and shopping near by in Union Square.	many Union Square	UNPAIR
+Rooms have been upgraded and were clean.	upgraded Rooms	PAIR
+Ice machine is broken and covered in bird feces.	bird feces	UNPAIR
+We were given excellent advice and directions for dining and sightseeing.	directions for dining	UNPAIR
+Fisherman's Wharf, and in a safe location.	safe Fisherman	UNPAIR
+The breakfast was in fact a marketing action for each participant to acquire shares with 90 minutes presentation : unexpected when you are looking for a good coffee with toasts and others traditional food you could find in a breakfast as a result no breakfast. . . .	good shares	UNPAIR
+- Room cleaned thoroughly if requested, including carpet shampooed : ) - Fast W-fi - Clean bathroom - Hot water in bath with strong water pressure - Courteous staff.	strong staff	UNPAIR
+The only major reservations with this hotel is the limited space in the bathroom and the check-in staff tended to be cold and distance.	cold check	UNPAIR
+Bathroom was clean, but shower couldn't be turned on from the side without getting wet-- poor design.	poor shower	UNPAIR
+The room was very dated and the bathroom has not been updated in may years.	may years room	UNPAIR
+Fantastic location, great attention to detail and friendly staff made a great trip even better.	Fantastic great attention to detail	PAIR
+Hotel is well maintained and rooms are very clean.	very clean rooms	PAIR
+We valet our car and in the morning when we were leaving we noticed that our car was broken into and multiple items were stolen.	broken car	UNPAIR
+Parc 55 by Hilton held a $1000 dollar deposit on my card for 2 nights of stay.	dollar deposit Parc	UNPAIR
+Great coffee shop just up the street	Great coffee shop	PAIR
+we thought from the rating at the tine, we were getting a so so room in and old hotel in a great location.	great tine	UNPAIR
+It's a short walk to North Beach and China Town and close to the famous Swans Oyster Depot.	China Town	UNPAIR
+Union Square and some great eating places were right outside the door, along with coffee shops and great shopping - plus the hop on hop off buses leave from Union Square and the trolley cars go from the bottom of Powell.	right buses	UNPAIR
+THE HOTEL WAS AWSOME AND	AWSOME HOTEL	PAIR
+The hotel is located in the centre of San Francisco and able to access many places in.	many places	UNPAIR
+Staff was nice, room was clean and comfy.	nice room	PAIR
+OK with small rooms	small rooms	PAIR
+A proper place to be, be it for budget traveller or business-related trip.	business proper place	UNPAIR
+The location is excellent: we walked to Union Square, toured the area around the hotel which includes a splendid display of magnificent SF architecture, and the uniquely gorgeous St.	uniquely gorgeous hotel	UNPAIR
+Everything is walking distance which was nice.	nice Everything	UNPAIR
+Parc 55 by Hilton held a $1000 dollar deposit on my card for 2 nights of stay.	card Parc	UNPAIR
+The hotel was absolutely overrun with a student convention, blocking the lobby, the elevators, the cafe, and all of the common areas spilling onto the street.	absolutely overrun lobby	PAIR
+Really close to everything, and hotel staff gave great suggestions for restaurants, directions to where we wanted to go, and taxis!	great suggestions	UNPAIR
+I was only in my room at night, but overall it was a good experience.	good experience	PAIR
+The staff at the Herb & Market were rude and the food and drinks were way overpriced.	way overpriced Herb	UNPAIR
+Terrible service.	Terrible service	PAIR
+No complaints other than basic breakfast selection becomes even less than basic on some days!	days complaints	UNPAIR
+I stayed here in 2006 when it was the Cartwright and the service is even better now.	better service	UNPAIR
+Herb 'N Kitchen, the small store in the lobby, is ridiculously expensive.	ridiculously expensive small store	PAIR
+Got to the hotel pretty early was 1st told we probably couldn't check in until 4 pm, then 12pm then BOOM got a check in right at 9 am -- super lucky.	hotel BOOM	UNPAIR
+They have to double park the cars and keep the keys in the office if someone who is blocked needs to leave. . .	office someone	UNPAIR
+Nice room size, friendly and helpful staff, but somewhat loud at night.	Nice room size	PAIR
+Size of rooms generally - v small	small v	UNPAIR
+Overall, it was a good stay.	good stay	PAIR
+Good service, friendly staff, nice room, but the bed comforter looked questionable and had some trouble with the old curtains getting stuck.	nice room bed comforter	UNPAIR
+Every night we returned to the hotel, feet tired, to find free hot tea or fresh lemonade in the lobby and soft chairs to rest our legs from the walks up and down SF hills.	soft legs	UNPAIR
+Sure the rooms are small but this is not the Days Inn by the airport.	airport rooms	UNPAIR
+The staff is friendly and helpful and the hotel is spotless.	spotless staff	UNPAIR
+The staff was cheerful and helpful at all times.	cheerful and helpful staff	PAIR
+Stayed here plenty of times with no issues with the beds, but our bed was very squeaky.	plenty of Stayed	UNPAIR
+An old-world private club with a welcoming attitude, wonderful staff, the common areas are super comfortable and the value is amazing.	wonderful staff	PAIR
+The breakfast was in fact a marketing action for each participant to acquire shares with 90 minutes presentation : unexpected when you are looking for a good coffee with toasts and others traditional food you could find in a breakfast as a result no breakfast. . . .	shares breakfast	UNPAIR
+The hotel lobby is beautiful but it is often crowded with guests using the free wi-fi as you are charged $12.	beautiful hotel lobby	PAIR
+\n. Great location for a quick romantic jump into the heart of the city; easy access in every direction to what the city offers.	easy quick romantic jump	UNPAIR
+The free wi fi worked great and that was the deciding factor on choosing the Larkspur.	free deciding factor	UNPAIR
+\n. Great location for a quick romantic jump into the heart of the city; easy access in every direction to what the city offers.	Great access	UNPAIR
+The hotel has all of the trappings of a nice place, but the hotel staff was rude,	nice hotel	UNPAIR
+The location next to union square, cable cars, Restaurants, and other great venues !	other great venues	UNPAIR
+Walls are very thin and the TV from next door could be heard until thankfully they turned it off about 11 pm.	very thin Walls	PAIR
+The price is typically San Francisco- overpriced for a substandard hotel.	substandard hotel	PAIR
+Free parking in a big city have you immediately save 30 usd a day.	Free big city	UNPAIR
+The only major reservations with this hotel is the limited space in the bathroom and the check-in staff tended to be cold and distance.	hotel only major reservations	UNPAIR
+everything was fabulous except for the noisy people on our last night.	fabulous last night	UNPAIR
+Hotel is about a mile walking from Fishermans Warf.	about a mile walking Hotel	UNPAIR
+Hotel is about a mile walking from Fishermans Warf.	about a mile	UNPAIR
+I think these conditions are fine for students, which travel with little money.	little money conditions	UNPAIR
+- Room cleaned thoroughly if requested, including carpet shampooed : ) - Fast W-fi - Clean bathroom - Hot water in bath with strong water pressure - Courteous staff.	Courteous bath	UNPAIR
+It desperately needed better lighting, especially not for reading in one bed, but in both!	better lighting	UNPAIR
+Rooms are a little small but they are quiet, clean and nicely furnished.	a little small Rooms	PAIR
+The staff, whether it was the front desk or the maintenance/cleaning crews, were friendly and very polite to me.	maintenance staff	UNPAIR
+Union Square and some great eating places were right outside the door, along with coffee shops and great shopping - plus the hop on hop off buses leave from Union Square and the trolley cars go from the bottom of Powell.	coffee shops	UNPAIR
+Deep bath tub, corner room, quite room, nice large king bed, great location!	quite room	PAIR
+but if you're going to be there for a few days, a room with a view will help you keep your sanity.	sanity room	UNPAIR
+Concierge was polite and helpful in recommending places for dinner.	polite and helpful places	UNPAIR
+hotel is convenient to Union Square and China Town, also easy to catch the city sightseeing bus to Golden Gate and.	convenient to city sightseeing bus	UNPAIR
+hotel is convenient to Union Square and China Town, also easy to catch the city sightseeing bus to Golden Gate and.	convenient to Golden Gate	UNPAIR
+High class	High class	PAIR
+\nthe service is not good.	not good service	PAIR
+the club regency lounge has amazing views & the staff at the lounge were very attentive, our room on the 16th floor had amazing views of the the bay & the bridge	club regency lounge	UNPAIR
+A can of Diet coke should not cost $6. 00 along with deep service charges.	deep can	UNPAIR
+Not from the surrounding neighborhood but within the hotel.	surrounding neighborhood	UNPAIR
+The only downside was perhaps the room was a little small.	only downside	UNPAIR
+I had hoped, the location and friendly staff would bring me back to stay at Hotel Zetta.	Hotel Zetta location	PAIR
+The bed was not as comfortable as you'd expect from such a hotel.	not as comfortable bed	PAIR
+The neighborhood was a bit rough, but it is not the fault of the homeless that they are homeless.	homeless neighborhood	UNPAIR
+very helpful staff, great location, fabulous room.	great fabulous room	PAIR
+Location was great, awesome to have your car so close, and free parking is rare.	rare car	UNPAIR
+The decor in the lobby and the rooms were great.	lobby rooms	UNPAIR
+The bedspread had some crusty yellow stuff on it looks like you know what, the bathroom came with one towel for 2 people, the bathroom door handle fell off	crusty towel	UNPAIR
+I will say, however, is that the walls appear to be quite thin, as you can hear your neighbors quite easily.	quite thin walls	PAIR
+We read other reviews before booking but the noise was terrible.	terrible booking	UNPAIR
+Great location, very clean room, and a lot of facilities provided for guests	very clean Great location	PAIR
+Unfortunately, the guest was talking with security people outside in the hallway, vs. in their room - consequently, that was disruptive as well.	room guest	UNPAIR
+Every night we returned to the hotel, feet tired, to find free hot tea or fresh lemonade in the lobby and soft chairs to rest our legs from the walks up and down SF hills.	walks up and down SF hills	UNPAIR
+This hotel looked better online than in person.	better person	UNPAIR
+Soap, shampoo, and conditioner were lovely.	lovely Soap	PAIR
+Hotel is about a mile walking from Fishermans Warf.	about a mile Hotel	UNPAIR
+Nice room, basic.	Nice room	PAIR
+The location was pretty good--6 blocks to the Powell Street cable line.	Powell Street cable line location	UNPAIR
+Lovely room, great view of.	great view	PAIR
+All sidewalks are filthy and the streets are filled with traffic 24/7.	filthy traffic	UNPAIR
+Rooms are very small and backside of hotel looks at wall of building next door.	very small wall	UNPAIR
+No one from this hotel even called or emailed to acknowledge my message or apologize for the mistake and for wasting my time, UNBELIEVABLE! ! ! ! !	time one	UNPAIR
+I had very loud neighbors who woke me up with their rather drunken conversation in the wee hours of the morning.	wee hours	UNPAIR
+the Irish pub around the corner on Geary Street was great - full breakfast for under $10, kids welcome.	great corner	UNPAIR
+The staff at the Herb & Market were rude and the food and drinks were way overpriced.	way overpriced drinks	PAIR
+The hotel is in a good spot for shopping and for those interested in the Museum of Modern Art which is only steps away.	Museum hotel	UNPAIR
+Aveda moisturizer.	Aveda moisturizer	PAIR
+A very good choice of hotel to stay at in San Francisco when you are planning not to spend a fortune on lodging so that you can spend a fortune on all the fun things there are to do and see there.	fun things	UNPAIR
+2 parking drop off spots in hotel front.	hotel front	UNPAIR
+The hotel is convenienty located on Market Street in down town San Francisco, with the tram and Bart just outside the door.	convenienty Market Street	UNPAIR
+Clean with big room and comfy bed.	big comfy bed	UNPAIR
+Rooms could use an update but the beds are comfortable with great linens and fluffy towels.	fluffy great linens	UNPAIR
+The rooms were alright and the bathroom was ok.	ok bathroom	PAIR
+But the cleaners during my stay left it spotless.	stay cleaners	UNPAIR
+The hotel lobby is beautiful but it is often crowded with guests using the free wi-fi as you are charged $12.	free fi	UNPAIR
+Oatmeal and hashbrowns lacked flavor.	hashbrowns Oatmeal	UNPAIR
+I had stayed the first three days at Fairmont for a conference then moved to.	first three days	UNPAIR
+Close to Marina district, Palace of Fine Arts, a short walk through pacific park to the Wharf district.	Close to Marina district	PAIR
+It has the charm of a historic property, but it has been recently remodeled and so the furnishings are not dated and the amenities match any other hotel in its class.	not dated class	UNPAIR
+The breakfast was in fact a marketing action for each participant to acquire shares with 90 minutes presentation : unexpected when you are looking for a good coffee with toasts and others traditional food you could find in a breakfast as a result no breakfast. . . .	good minutes presentation	UNPAIR
+light snacks all added to the event.	light event	UNPAIR
+Beds were soft and lumpy and pillows were kind of old.	soft and lumpy Beds	PAIR
+they charged me $10 for a bottle of water, super expensive for the small room that we got, the parking was worst, we had to park in another building because the ballet parking there was super expensive,	small ballet parking	UNPAIR
+Westfield Mall is literally next door to the hotel and the Powell BART	next door	UNPAIR
+Very small and uncomfortable showers was just a toilet and the sink was in the middle of the corridor, the room was very small and not very clean, the bed was too small for two people.	small and uncomfortable people	UNPAIR
+For holiday makers the area is pretty quiet at weekends.	pretty quiet weekends	PAIR
+There are plenty of eateries and stores nearby if needed and the bus around the corner takes you straight to Pier 39.	plenty of Pier	UNPAIR
+Great, close to shops and restaurants	close to shops	PAIR
+Walls are very thin and the TV from next door could be heard until thankfully they turned it off about 11 pm.	very thin next door	UNPAIR
+Housekeeping also starts pretty early and is a little loud for first thing in the morning.	pretty early Housekeeping	PAIR
+Union Square and some great eating places were right outside the door, along with coffee shops and great shopping - plus the hop on hop off buses leave from Union Square and the trolley cars go from the bottom of Powell.	great Union Square	UNPAIR
+Good service, friendly staff, nice room, but the bed comforter looked questionable and had some trouble with the old curtains getting stuck.	nice Good service	PAIR
+Bathroom was clean, but shower couldn't be turned on from the side without getting wet-- poor design.	poor side	UNPAIR
+Bellman was in hurry and dumped my luggage - losing my ipad.	ipad Bellman	UNPAIR
+I was on the 5th floor this time- near the Ice machine/Vending/Laundry	5th floor	UNPAIR
+Unfriendly area	Unfriendly area	PAIR
+Breakfast not included in room price.	not included Breakfast	PAIR
+Front desk personnel were not very helpful when answering questions.	not very helpful Front desk personnel	PAIR
+We didn't walk around in the evening but in the day, the hotel staff advised us the best routes to get to where we needed to go	best hotel staff	UNPAIR
+Location is great, especially for going to conventions at the Moscone.	great Location	PAIR
+Bit like a Paris hotel room, very tight especially the bathroom but having said that it was beautifully appointed and all in all our stay was about as perfect as it gets.	very tight especially the bathroom	PAIR
+good clean room free coffee and tea at the lobby located at union square alot of high end shopping near the hotel right next to the entrance of chinatown 10-15mins walk from bart ceiling fan.	high end shopping	UNPAIR
+Convenient location for MUNI transportation - within one block in any direction.	within one block direction	UNPAIR
+That would have reduced our anxiety, an unnecessary call to accounting and the need for your accounting staff to need to make the explanation.	accounting staff	UNPAIR
+For being a hotel in the city, it did a very good job of keeping our three city	very good job	UNPAIR
+Bathroom is small and elevator super slow, always a long line, we ended up using the stair when we checked out, had to walked from 5th floor.	always a long line Bathroom	UNPAIR
+The room was clean and well kept, but a bit cold next to the window where the bed was situated.	bed room	UNPAIR
+Inexperienced staff, modern renovations, easy access to public transportation; only worth staying with discounts; bring your own shower cap.	modern renovations	PAIR
+But there are many appealing alternatives in the neighborhood, and the whole hotel experience was altogether good, better than good.	whole hotel experience	UNPAIR
+The room was very comfortable, quiet and great place to relax and unwind after a long day or for a quick nap during the day.	place room	UNPAIR
+It has the charm of a historic property, but it has been recently remodeled and so the furnishings are not dated and the amenities match any other hotel in its class.	historic property	PAIR
+The staff at the Herb & Market were rude and the food and drinks were way overpriced.	staff food	UNPAIR
+For being a hotel in the city, it did a very good job of keeping our three city	city noises	UNPAIR
+The only major reservations with this hotel is the limited space in the bathroom and the check-in staff tended to be cold and distance.	cold only major reservations	UNPAIR
+Rooms could use an update but the beds are comfortable with great linens and fluffy towels.	great update	UNPAIR
+Small room, great location in Chinatown close to Union Square.	great Union Square	UNPAIR
+The Palomar was a terrific hotel in the center of town and the staff was very knowledgeable and helpful.	very knowledgeable and helpful town	UNPAIR
+Bathroom is small and elevator super slow, always a long line, we ended up using the stair when we checked out, had to walked from 5th floor.	small stair	UNPAIR
+Proximity to downtown SFO Get the tour bus for SFO just next to the hotel and it will take you to all interesting places.	hotel Proximity	UNPAIR
+There are plenty of eateries and stores nearby if needed and the bus around the corner takes you straight to Pier 39.	plenty of eateries	PAIR
+However the gentleman at the front desk brought us up a fan for the night and then arranged for a room change the next day to solve this problem.	room change gentleman	UNPAIR
+Decent location for the price.	Decent location	PAIR
+The warm welcome is always a good start and that followed by being given a nice room with the view requested on booking confirms it.	view warm welcome	UNPAIR
+Finishings are getting worn,	getting worn Finishings	PAIR
+The staff at the Herb & Market were rude and the food and drinks were way overpriced.	rude Market	UNPAIR
+The staff at the Herb & Market were rude and the food and drinks were way overpriced.	rude food	UNPAIR
+Unique Quality: Great location.	Great location	PAIR
+Staff was nice, room was clean and comfy.	Staff room	UNPAIR
+The general cleanliness of the neighborhood is poor at best, especially 1 block south at the intersection of Van Ness and.	poor general cleanliness	PAIR
+It was perfectly located next to all public transport including the cable cars.	cable cars	UNPAIR
+\nnot much to dislike but the breakfast was just a cup cake and coffee.	just a cup cake breakfast	UNPAIR
+really good location but other…. .	really good location	PAIR
+The room was very comfortable, quiet and great place to relax and unwind after a long day or for a quick nap during the day.	quiet and great day	UNPAIR
+Walking distance to theaters, shopping, bars, bart, restaurants. . . .	Walking distance theaters	PAIR
+Room rates are not posted but rate paid expedia was definitely not a discounted rate and offers amenities under false pretense.	Room rates expedia	UNPAIR
+Good service, friendly staff, nice room, but the bed comforter looked questionable and had some trouble with the old curtains getting stuck.	bed comforter	UNPAIR
+Deep bath tub, corner room, quite room, nice large king bed, great location!	Deep bath tub	PAIR
+The hotel is nice, but the stuff wasn't friendly with us,	nice hotel	PAIR
+Old, classic elevator.	classic elevator	PAIR
+A proper place to be, be it for budget traveller or business-related trip.	trip proper place	UNPAIR
+The location is excellent: we walked to Union Square, toured the area around the hotel which includes a splendid display of magnificent SF architecture, and the uniquely gorgeous St.	excellent location	PAIR
+Good service, friendly staff, nice room, but the bed comforter looked questionable and had some trouble with the old curtains getting stuck.	Good service	PAIR
+The carpet was not very clean, it had many stains.	many stains carpet	PAIR
+The bedspread had some crusty yellow stuff on it looks like you know what, the bathroom came with one towel for 2 people, the bathroom door handle fell off	crusty yellow stuff	UNPAIR
+Location is excellent in that you can enjoy both the tourist hot spots with either a short transit ride or a short walk.	tourist hot spots Location	UNPAIR
+but it's an old hotel and that went away.	old hotel	PAIR
+This hotel was not in a very good neighborhood, and it looked a bit rundown.	not in a very good very good neighborhood	UNPAIR
+I have only two complaints.	only two complaints	UNPAIR
+The bar is pricy, but the atmosphere was, top notch!	pricy	UNPAIR
+The hotel is an evocation of glamorous hotels of the past.	past hotel	UNPAIR
+There are plenty of eateries and stores nearby if needed and the bus around the corner takes you straight to Pier 39.	nearby plenty	UNPAIR
+The fitness center was a good size and had a lot of variety.	good size variety	UNPAIR
+FAMILY OR FRIENDS DOWNSTAIRS WE ALWAYS CHALLENGE.	FAMILY OR FRIENDS DOWNSTAIRS WE ALWAYS CHALLENGE	PAIR
+Great hotel for a great price.	great price	PAIR
+The room was more than adequate and we picked a 'quiet' room -- no view but no noise.	view room	UNPAIR
+Top of the Mark, beautiful hotel, bathrooms are a bit small compared to modern standard but an awesome experience!	a bit small Mark	UNPAIR
+Fantastic stay - we were transfering over from another hotel and they were great about offering an early check-in.	Fantastic stay	PAIR
+the Irish pub around the corner on Geary Street was great - full breakfast for under $10, kids welcome.	corner Irish pub	UNPAIR
+The hotel was pleasant but we were startled by your rip-off parking fee.	parking fee	UNPAIR
+All in all, very old and run down hotel lacking basic amenities, but has helpful and nice staff.	lacking basic amenities	UNPAIR
+My only complaints: the elevator was slow and rickety, and the struggling ice machine was inconveniently located in the basement.	struggling ice machine elevator	UNPAIR
+The view of union square was spectacular.	spectacular view of union square	PAIR
+The hotel features pictures of both and says nothing about extra charges.	extra charges	UNPAIR
+It has the charm of a historic property, but it has been recently remodeled and so the furnishings are not dated and the amenities match any other hotel in its class.	furnishings amenities	UNPAIR
+For holiday makers the area is pretty quiet at weekends.	pretty quiet area	PAIR
+Location was 2 blocks from Fisherman’s Wharf with easy access to trolleys and public buses.	easy Fisherman’s Wharf	UNPAIR
+Nice bar and mixologists.	Nice bar	PAIR
+The hotel was pleasant but we were startled by your rip-off parking fee.	rip hotel	UNPAIR
+good clean room free coffee and tea at the lobby located at union square alot of high end shopping near the hotel right next to the entrance of chinatown 10-15mins walk from bart ceiling fan.	free chinatown	UNPAIR
+This small hotel is in that sort of area, so be warned .	small hotel	PAIR
+The valet service was convenient, the rooms were clean and comfortable, and it was located with easy access to public transportation.	convenient valet service	PAIR
+Certainly better than experienced in most of trip in San Francisco.	better San Francisco	UNPAIR
+Our room was somewhat noisy from the traffic as our room was street side.	room room	UNPAIR
+Any little move and the bed made a loud squeak, makes it hard to get a good night sleep	little move	UNPAIR
+I had very loud neighbors who woke me up with their rather drunken conversation in the wee hours of the morning.	drunken wee hours	UNPAIR
+everything was fabulous except for the noisy people on our last night.	last night	UNPAIR
+The carpet had a terrible smell.	terrible smell	UNPAIR
+they charged me $10 for a bottle of water, super expensive for the small room that we got, the parking was worst, we had to park in another building because the ballet parking there was super expensive,	small building	UNPAIR
+the hotel was in a great location within easy walking distance to fishermans wharf & accessible to major bus routes	great location hotel	PAIR
+The rooms were very small, none with two double beds, which we had requested and had confirmed by booking.	double beds rooms	UNPAIR
+The hotel is nice, but the stuff wasn't friendly with us,	n't friendly stuff	UNPAIR
+Fi access was the best.	best Fi access	PAIR
+IS GREAT, GREAT STAFF,	GREAT, GREAT STAFF	PAIR
+The diner across the street serves good food.	street diner	UNPAIR
+First, the water pressure is extremely low to the point that it was difficult to shower.	extremely low water pressure	PAIR
+good clean room free coffee and tea at the lobby located at union square alot of high end shopping near the hotel right next to the entrance of chinatown 10-15mins walk from bart ceiling fan.	ceiling fan	UNPAIR
+I stayed here in 2006 when it was the Cartwright and the service is even better now.	better Cartwright	UNPAIR
+After the room was fully paid for, the deposit was not released, despite 2 visits to the front desk, once during my stay when.	front desk	UNPAIR
+Bathroom was clean, but shower couldn't be turned on from the side without getting wet-- poor design.	wet-- Bathroom	UNPAIR
+Soap, shampoo, and conditioner were lovely.	conditioner Soap	UNPAIR
+very helpful staff, great location, fabulous room.	very helpful staff	PAIR
+My only complaints: the elevator was slow and rickety, and the struggling ice machine was inconveniently located in the basement.	basement elevator	UNPAIR
+Nice refurbished old hotel, great staff.	old hotel Nice	UNPAIR
+\n. Everything cost a lot extra: wifi, breakfast.	wifi Everything	UNPAIR
+Bathroom was clean, but shower couldn't be turned on from the side without getting wet-- poor design.	shower Bathroom	UNPAIR
+The general cleanliness of the neighborhood is poor at best, especially 1 block south at the intersection of Van Ness and.	poor Van Ness	UNPAIR
+Size of rooms generally - v small	Size v	UNPAIR
+The hotel lobby is beautiful but it is often crowded with guests using the free wi-fi as you are charged $12.	beautiful guests	UNPAIR
+If your visit isn't during Dreamforce, which mine was, the rates are pretty decent too.	mine rates	UNPAIR
+A/C & heat is a window unit, so it can be a little noisy	noisy A	UNPAIR
+The desk clerks Mark & Tony were very helpful with info about the city.	very helpful Tony	UNPAIR
+The hotel was clean and peaceful.	clean and peaceful hotel	PAIR
+My only complaints: the elevator was slow and rickety, and the struggling ice machine was inconveniently located in the basement.	struggling ice machine	PAIR
+Positive: Nice rooms, excellent service,	Nice Positive	UNPAIR
+But thanks to the friendly staff we could easily upgrade our booking and eventually stayed last two nights in a room with double bed and private bathroom.	private room	UNPAIR
+There is homeless people and others with various afflictions around the area.	homeless people	UNPAIR
+The extra charge should go away in 8 10 business days if you had no extra charges.	extra charges	UNPAIR
+Otherwise, the hotel is nice and the staff is very friendly.	nice hotel	PAIR
+The hotel was beautiful inside and the staff was excellent.	hotel staff	UNPAIR
+- I've never seen so many homless people.	so many homless people	PAIR
+Really close to everything, and hotel staff gave great suggestions for restaurants, directions to where we wanted to go, and taxis!	directions to where hotel staff	UNPAIR
+Near pick up points for hop on & off tour buses.	Near pick up points	PAIR
+Easy access to everything	Easy access to everything	PAIR
+\n. Great location for a quick romantic jump into the heart of the city; easy access in every direction to what the city offers.	Great heart	UNPAIR
+Luxurious, accessible, the view is great from my 18th floor room.	great 18th floor room	UNPAIR
+but it's in a good location , small rooms.	small good location	UNPAIR
+The hotel is right in front of the Bart station, the Muni, and the F bus that goes all the way to the Fisherman Wharf.	Muni hotel	UNPAIR
+Location, friendly staff.	friendly staff	PAIR
+The room levels and the rooms themselves are dated with old carpets, comforters and aged paint.	old rooms	UNPAIR
+Fantastic location, great attention to detail and friendly staff made a great trip even better.	Fantastic friendly staff	UNPAIR
+There are many good hole in the wall restaurants in the area and a nice coffee shop across the street.	nice coffee shop	PAIR
+No woman should be asked to wait at the front of taxi line for hotel shuttle which is not clearly marked only to find the establishment does not have a shuttle but uses taxi when.	taxi line establishment	UNPAIR
+Worst of all though it seems like a nicer neighborhood than where we usually stay our car was broken into.	nicer car	UNPAIR
+Elevator was a bit slow and bumpy.	a bit slow and bumpy Elevator	PAIR
+It's a few blocks from BART, not too far from Union Square.	not too far from Union Square	PAIR
+The other is - this hotel is on the edge of an area that is going through change.	edge hotel	UNPAIR
+The weather was cool enough to leave the window open the entire time.	entire time weather	UNPAIR
+In addition, our section can clearly hear the noise from garbage trunks at around 6 am.	around 6 am section	UNPAIR
+Proximity to downtown SFO Get the tour bus for SFO just next to the hotel and it will take you to all interesting places.	tour bus	UNPAIR
+If your visit isn't during Dreamforce, which mine was, the rates are pretty decent too.	pretty decent mine	UNPAIR
+This location is walking distance to Union Square and on the bus line.	walking distance to Union Square	PAIR
+Right next to the garbage was some cardboard on the ground.	Right next to the garbage	PAIR
+The hotel staff was knowledgeable and able to answer all of our questions in a prompt and courteous manner. .	prompt and courteous manner	UNPAIR
+The room was very comfortable, quiet and great place to relax and unwind after a long day or for a quick nap during the day.	quick nap	UNPAIR
+Top of the Mark, beautiful hotel, bathrooms are a bit small compared to modern standard but an awesome experience!	awesome Top	UNPAIR
+hotel is convenient to Union Square and China Town, also easy to catch the city sightseeing bus to Golden Gate and.	China Town	UNPAIR
+The room levels and the rooms themselves are dated with old carpets, comforters and aged paint.	old comforters	UNPAIR
+The room was quiet and nicely appointed.	quiet room	PAIR
+my massages and my phone calls.	phone calls	UNPAIR
+Any little move and the bed made a loud squeak, makes it hard to get a good night sleep	little move bed	UNPAIR
+This is a very good hotel for both business and pleasure.	very good pleasure	UNPAIR
+Friendly people, clean rooms, great pricing and free parking!	great clean rooms	PAIR
+The hotel is in a good spot for shopping and for those interested in the Museum of Modern Art which is only steps away.	only steps away Museum	PAIR
+- Room cleaned thoroughly if requested, including carpet shampooed : ) - Fast W-fi - Clean bathroom - Hot water in bath with strong water pressure - Courteous staff.	strong water pressure	UNPAIR
+Location is great, especially for going to conventions at the Moscone.	Moscone Location	UNPAIR
+The hotel features pictures of both and says nothing about extra charges.	nothing hotel	UNPAIR
+The breakfast was in fact a marketing action for each participant to acquire shares with 90 minutes presentation : unexpected when you are looking for a good coffee with toasts and others traditional food you could find in a breakfast as a result no breakfast. . . .	good toasts	UNPAIR
+The staff is friendly and helpful and the hotel is spotless.	friendly and helpful staff	PAIR
+Breakfast was delicious with a wonderful variety of food.	wonderful Breakfast	PAIR
+A 20 minute walk to Union Square and a 2o minute walk to.	Union Square	UNPAIR
+Great location just across the street from Powell BART station, with direct connection to.	Great street	UNPAIR
+The area is a bit run down with a large homeless population, which is incredibly sad.	a bit run down large homeless population	UNPAIR
+The free wi-fi desperately needs an upgrade.	free upgrade	UNPAIR
+Lovely room, great view of.	Lovely room	PAIR
+Friendly staff.	Friendly staff	PAIR
+Room was comfortable enough but maybe just a little bit on the small size for a family of 4 but manageable.	maybe just a little bit	UNPAIR
+good clean room free coffee and tea at the lobby located at union square alot of high end shopping near the hotel right next to the entrance of chinatown 10-15mins walk from bart ceiling fan.	good clean tea	UNPAIR
+We were given excellent advice and directions for dining and sightseeing.	excellent directions for dining	PAIR
+the club regency lounge has amazing views & the staff at the lounge were very attentive, our room on the 16th floor had amazing views of the the bay & the bridge	amazing views	PAIR
+No one from this hotel even called or emailed to acknowledge my message or apologize for the mistake and for wasting my time, UNBELIEVABLE! ! ! ! !	message one	UNPAIR
+Very limited option to park nearby to drop off luggage, had to pull up on kerb for 2minutes and run to reception to ask them to keep cases whilst parking car.	Very limited option	UNPAIR
+The only major reservations with this hotel is the limited space in the bathroom and the check-in staff tended to be cold and distance.	cold limited space	UNPAIR
+Concierge was polite and helpful in recommending places for dinner.	polite and helpful Concierge	PAIR
+At night the car and truck noise was very bad that my 10 year old daughter and.	very bad car and truck noise	PAIR
+Our first trip to SF , hotel was historic and elegant and service to match especially our experience with Raymond Huang ,	historic and elegant hotel	PAIR
+I believe has linens that are not bleached, no perfumes, no pets, no chemicals.	not bleached perfumes	UNPAIR
+The staff at the Herb & Market were rude and the food and drinks were way overpriced.	rude Herb	UNPAIR
+The hotel is in a good spot for shopping and for those interested in the Museum of Modern Art which is only steps away.	Modern Art hotel	UNPAIR
+The guy at front desk said accounting closed	guy accounting	UNPAIR
+Good wi-fi connection and friendly staff.	friendly fi connection	UNPAIR
+The location is excellent: we walked to Union Square, toured the area around the hotel which includes a splendid display of magnificent SF architecture, and the uniquely gorgeous St.	St. location	UNPAIR
+some torn wallpaper, etc, but the rooms are tidy and clean.	tidy and clean rooms	PAIR
+Staff were rude!	rude Staff	PAIR
+The room was nice, good value for the money, helpful staff.	money room	UNPAIR
+I felt completely safe in the area, and there was only one homeless person outside, who was pleasant.	pleasant only one homeless person	UNPAIR
+Deep bath tub, corner room, quite room, nice large king bed, great location!	large corner room	UNPAIR
+We didn't walk around in the evening but in the day, the hotel staff advised us the best routes to get to where we needed to go	best routes hotel staff	UNPAIR
+The breakfast was in fact a marketing action for each participant to acquire shares with 90 minutes presentation : unexpected when you are looking for a good coffee with toasts and others traditional food you could find in a breakfast as a result no breakfast. . . .	good fact	UNPAIR
+An old-world private club with a welcoming attitude, wonderful staff, the common areas are super comfortable and the value is amazing.	welcoming attitude value	UNPAIR
+Overall, very charming hotel at an excellent location.	very charming excellent location	PAIR
+And the location is perfect in the middel of everything.	everything location	UNPAIR
+Unfortunately our first room didn’t have a window that would stay open due to this we had issues with airflow and allergies did flare up.	issues airflow	UNPAIR
+good clean room free coffee and tea at the lobby located at union square alot of high end shopping near the hotel right next to the entrance of chinatown 10-15mins walk from bart ceiling fan.	good clean lobby	UNPAIR
+Great, close to shops and restaurants	close to restaurants	PAIR
+To be frank, these areas are often pretty grim, with lots of people sitting around, sleeping in the streets, wandering around drunk or drug affected.	sleeping areas	UNPAIR
+Rooms/bathrooms on small side	small bathrooms	PAIR
+Friendly people, clean rooms, great pricing and free parking!	free Friendly people	UNPAIR
+The room was way bigger than.	way bigger room	PAIR
+For holiday makers the area is pretty quiet at weekends.	weekends area	UNPAIR
+great people.	great people	PAIR
+Otherwise it's all very good Convenience and easy accessibility.	very good Convenience	PAIR
+everything was fabulous except for the noisy people on our last night.	last night everything	UNPAIR
+My room was 1610 and the noise was so bad that you could not hear the TV.	so bad TV	UNPAIR
+Room decor was pleasant and the staff was wonderful.	pleasant staff	UNPAIR
+Good service, friendly staff, nice room, but the bed comforter looked questionable and had some trouble with the old curtains getting stuck.	Good bed comforter	UNPAIR
+I thing there were homeless people and they were fighting at night and	homeless people	UNPAIR
+\n. Without Kuleto's' the entrance was less inviting and uninteresting.	less inviting and uninteresting Kuleto	UNPAIR
+Sure the rooms are small but this is not the Days Inn by the airport.	small Days Inn	UNPAIR
+No kettle in room and no real tea cups, just paper cups.	no real kettle	UNPAIR
+Breakfast is not good quality and the room is very crowded.	very crowded room	UNPAIR
+The room was amazing clean and comfy. . .	amazing clean and comfy room	PAIR
+Staff attitude, room quality, convenience, all top notch.	top notch	PAIR
+The hotel is convenienty located on Market Street in down town San Francisco, with the tram and Bart just outside the door.	convenienty door	UNPAIR
+The only negative that would really bother you would be that Market St is not well protected by the city that it smells urine from 4th street to 9th street .	not well protected 4th street	UNPAIR
+The bed quality and the central location was great.	great central location	PAIR
+BUT to stay this close to downtown SF in a better area would cost far far more than this place \n\n.	close to better area	UNPAIR
+Amenities near by.	near by Amenities	PAIR
+The rooms were very small, none with two double beds, which we had requested and had confirmed by booking.	very small booking	UNPAIR
+On the first day.	first day	UNPAIR
+Cable car right outside, precious.	right outside Cable car	PAIR
+People at the desk were very friendly and helpful.	very friendly and helpful People	PAIR
+Convenient location for MUNI transportation - within one block in any direction.	Convenient direction	PAIR
+Street noise from the busy Van Ness is a serious problem.	busy Van Ness	UNPAIR
+Our first trip to SF , hotel was historic and elegant and service to match especially our experience with Raymond Huang ,	SF hotel	UNPAIR
+The room was very comfortable, quiet and great place to relax and unwind after a long day or for a quick nap during the day.	very comfortable quick nap	UNPAIR
+The only major reservations with this hotel is the limited space in the bathroom and the check-in staff tended to be cold and distance.	limited space	UNPAIR
+The localization is very good, close to the main streets, drug store, restaurants.	close to main streets	PAIR
+The location was perfect, the staff were superb and the hotel was very modern.	perfect hotel	UNPAIR
+we thought from the rating at the tine, we were getting a so so room in and old hotel in a great location.	great old hotel	UNPAIR
+Rooms old but clean.	old but clean Rooms	PAIR
+Hotel is about a mile walking from Fishermans Warf.	about a mile walking about a mile	UNPAIR
+But the room did have a new fridge and microwave so meal preparation was possible.	new fridge meal preparation	UNPAIR
+the rooms were impecable, upscale toiletries and weclome, even spa machines that looked new free on request.	weclome rooms	UNPAIR
+Other than the fact that we had to move rooms due to the toilet being out of order, the room was fine for the price in San Fran for just one night.	just one night	UNPAIR
+- Room cleaned thoroughly if requested, including carpet shampooed : ) - Fast W-fi - Clean bathroom - Hot water in bath with strong water pressure - Courteous staff.	strong water	UNPAIR
+Size of rooms generally - v small	Size	UNPAIR
+The staff was very efficient and helpful in suggesting restaurants and in obtaining assistance to the airport.	very efficient and helpful assistance	PAIR
+Our rooms were comfortable and well appointed with all of our needs, just like home!	comfortable needs	UNPAIR
+The hotel is convenienty located on Market Street in down town San Francisco, with the tram and Bart just outside the door.	door hotel	UNPAIR
+Other than the fact that we had to move rooms due to the toilet being out of order, the room was fine for the price in San Fran for just one night.	toilet room	UNPAIR
+The ventilation system consists of radient heat and a window.	ventilation system	UNPAIR
+Good price.	Good price	PAIR
+My reoom was clean and comfortable, the wifi worked well and was free, and the hotel was very convenient to the Convention Center.	very convenient to Convention Center	PAIR
+Checking into a hotel is the 1st contact a guest has with the staff.	staff guest	UNPAIR
+Coffee downstairs was decent and beds were comfy.	comfy Coffee	UNPAIR
+2 parking drop off spots in hotel front.	spots parking	UNPAIR
+Inexperienced staff, modern renovations, easy access to public transportation; only worth staying with discounts; bring your own shower cap.	Inexperienced discounts	UNPAIR
+Enough space for 2 people	Enough space	PAIR
+Only small entry with counter and no dining area for breakfast.	Only small entry	UNPAIR
+Unique Quality: Great location.	Unique Great location	UNPAIR
+The Fairmont is the happening place for people in the know.	happening place Fairmont	UNPAIR
+Unfortunately our room was in the 4th floor but the shower were located at the end of the 3rd floor.	shower	UNPAIR
+Every night we returned to the hotel, feet tired, to find free hot tea or fresh lemonade in the lobby and soft chairs to rest our legs from the walks up and down SF hills.	free lobby	UNPAIR
+The location was perfect, the staff were superb and the hotel was very modern.	perfect location	PAIR
+Really close to everything, and hotel staff gave great suggestions for restaurants, directions to where we wanted to go, and taxis!	restaurants hotel staff	UNPAIR
+The hotel is convenienty located on Market Street in down town San Francisco, with the tram and Bart just outside the door.	Bart hotel	UNPAIR
+We had an excellent time in San Francisco.	San Francisco	UNPAIR
+The room was great, and the smart tv was a nice touch.	great room	PAIR
+Have to say that the hotel's neighbourhood in Pacific Heights was outstanding, Just lovely and very quiet!	Pacific Heights	UNPAIR
+Didn't like it at all, the room was dirty, walls had markings on them & no air conditioning	room walls	UNPAIR
+change the password occasionally so that the people in the apartments next door can't bog down the system so much.	apartments people	UNPAIR
+We had a great time at the Chancellor.	great Chancellor	UNPAIR
+Front desk staff always helpful.	always helpful Front desk staff	PAIR
+This is an older but nice hotel, with a good bar and coffee shop on the main floor.	good bar	PAIR
+Very well kept Hotel in the perfect location, just off Union Square in San Francisco.	Very well kept Hotel	PAIR
+As 2 female travellers not the safest location.	female travellers	UNPAIR
+I was told the deposit was for 'incidentals', and the second time at checkout where staff reassured me it will be refunded within 24 hours.	checkout staff	UNPAIR
+The diner across the street serves good food.	good food	PAIR
+Right next to\nthe garbage was some cardboard on the ground.	cardboard garbage	UNPAIR
+Price very reasonable.	very reasonable Price	PAIR
+This is a cheap hotel, so you can't expect too much.	cheap hotel	PAIR
+The decor in the lobby and the rooms were great.	great lobby	PAIR
+For holiday makers the area is pretty quiet at weekends.	holiday makers	UNPAIR
+Great location, very clean room, and a lot of facilities provided for guests	Great guests	UNPAIR
+Westfield Mall is literally next door to the hotel and the Powell BART	next door Westfield Mall	PAIR
+Renovated rooms were very comfortable, and the pillow menu was nice to take advantage of for sleeping comfort.	very comfortable pillow menu	UNPAIR
+Give guests enough towels, clean the room well and replace the old smelling duvets as well the carpets.	clean Give guests enough towels	UNPAIR
+The room was nice, good value for the money, helpful staff.	helpful staff	PAIR
+Service was HORBLE! ! !	HORBLE Service	PAIR
+My two pieces of advice: if you have heavy luggage, there is no elevator on the property	heavy luggage pieces	UNPAIR
+Expensive compared to other major cities.	Expensive	PAIR
+Good service.	Good service	PAIR
+The issue was resolved and the manager offered a low rate stay on my next trip.	next trip manager	UNPAIR
+The hotel is right in front of the Bart station, the Muni, and the F bus that goes all the way to the Fisherman Wharf.	Bart station	UNPAIR
+Lovely room, great view of.	great Lovely room	UNPAIR
+However luckily, I needed to use the bathroom after the long flight and found the toilet would not re-fill with water.	bathroom toilet	UNPAIR
+The hotel was absolutely overrun with a student convention, blocking the lobby, the elevators, the cafe, and all of the common areas spilling onto the street.	absolutely overrun hotel	PAIR
+\n. Great location for a quick romantic jump into the heart of the city; easy access in every direction to what the city offers.	city city	UNPAIR
+All in all, very old and run down hotel lacking basic amenities, but has helpful and nice staff.	helpful and nice staff	PAIR
+Our room was ample for the two of us with ample supply of linens, sundry items and reading materials regarding San Francisco.	ample room	PAIR
+Otherwise, the hotel is nice and the staff is very friendly.	very friendly staff	PAIR
+This was my first stay in a hotel in Union Square, and the location was great, you could walk 25 meters and get on the cable car at Powell and Bush.	great Bush	UNPAIR
+Staff was nice, room was clean and comfy.	clean and comfy room	PAIR
+However, housekeeping failed to provide the essentials in the bathroom during our entire stay.	entire stay	UNPAIR
+We walked all the way down to Fort Mason - a gorgeous walk, up and down the streets of the city.	Fort Mason	UNPAIR
+Property was in excellent condition, great looking furnishings .	excellent condition great looking furnishings	PAIR
+No kettle in room and no real tea cups, just paper cups.	no real just paper cups	UNPAIR
+Mattress was wore out pillows were about 1 inch thick, and the police were in the parking lot during the night with sirens at least 3 times during the night.	sirens police	UNPAIR
+The staff is friendly and helpful and the hotel is spotless.	staff hotel	UNPAIR
+In addition, our section can clearly hear the noise from garbage trunks at around 6 am.	garbage trunks	UNPAIR
+It was perfectly located next to all public transport including the cable cars.	public transport	UNPAIR
+Our waiter looked angry and never checked on us.	angry waiter	PAIR
+they charged me $10 for a bottle of water, super expensive for the small room that we got, the parking was worst, we had to park in another building because the ballet parking there was super expensive,	small water	UNPAIR
+Second, the free Internet sucks and is essentially useless.	free Internet sucks	PAIR
+No one from this hotel even called or emailed to acknowledge my message or apologize for the mistake and for wasting my time, UNBELIEVABLE! ! ! ! !	hotel one	UNPAIR
+The extra charge should go away in 8 10 business days if you had no extra charges.	business days	UNPAIR
+Our rooms were comfortable and well appointed with all of our needs, just like home!	comfortable rooms	PAIR
+My reoom was clean and comfortable, the wifi worked well and was free, and the hotel was very convenient to the Convention Center.	wifi hotel	UNPAIR
+I was least about staying at this hotel after reading the reviews but a friend told me it wasn't that bad.	hotel friend	UNPAIR
+Fantastic location, great attention to detail and friendly staff made a great trip even better.	great attention to detail	PAIR
+Being waked up on Saturday before 8am by a very loud drilling from the workers is not nice!	very loud Saturday	UNPAIR
+My reoom was clean and comfortable, the wifi worked well and was free, and the hotel was very convenient to the Convention Center.	very convenient to wifi	UNPAIR
+Mattress was wore out pillows were about 1 inch thick, and the police were in the parking lot during the night with sirens at least 3 times during the night.	parking lot	UNPAIR
+Clean with big room and comfy bed.	comfy bed	PAIR
+At night the car and truck noise was very bad that my 10 year old daughter and.	night car and truck noise	UNPAIR
+Friendly and helpful staff.	Friendly and helpful staff	PAIR
+Rooms could use an update but the beds are comfortable with great linens and fluffy towels.	comfortable Rooms	UNPAIR
+Since this is an old hotel, the in-room safe is on the shelf inside the closet.	old shelf	UNPAIR
+An old-world private club with a welcoming attitude, wonderful staff, the common areas are super comfortable and the value is amazing.	super comfortable world private club	UNPAIR
+I had very loud neighbors who woke me up with their rather drunken conversation in the wee hours of the morning.	very loud neighbors	PAIR
+This small hotel is in that sort of area, so be warned .	area small hotel	UNPAIR
+The guy at front desk said accounting closed	front desk accounting	UNPAIR
+Everything was over priced especially for the taste of room service! !	taste Everything	UNPAIR
+Walking distance to theaters, shopping, bars, bart, restaurants. . . .	Walking distance	UNPAIR
+It's an easy walk to shopping malls,	shopping malls	UNPAIR
+I spent several days in a room on the top floor with a shared however both were really dirty.	several days	UNPAIR
+No woman should be asked to wait at the front of taxi line for hotel shuttle which is not clearly marked only to find the establishment does not have a shuttle but uses taxi when.	shuttle establishment	UNPAIR
+If you are an electronics freak, there are not many outlets for charging things, which makes sense in a building this old - turn of the century, I think.	many outlets	UNPAIR
+Stayed here plenty of times with no issues with the beds, but our bed was very squeaky.	very squeaky bed	PAIR
+The nearest Polk street has plenty of shops, cafes and restaurants.	plenty of plenty	UNPAIR
+Perfect place to visit the attractions around.	Perfect place	PAIR
+And the location is perfect in the middel of everything.	perfect location	PAIR
+It's a few blocks from BART, not too far from Union Square.	Union Square	UNPAIR
+The bar is pricy, but the atmosphere was, top notch!	bar atmosphere	UNPAIR
+The staff was nice and they accepted to keep some stuff in the fridge for us.	nice stuff	PAIR
+Walls are very thin and the TV from next door could be heard until thankfully they turned it off about 11 pm.	next door Walls	UNPAIR
+I asked him for an ice bucket.	ice bucket	UNPAIR
+Nice room size, friendly and helpful staff, but somewhat loud at night.	friendly and helpful Nice room size	UNPAIR
+Expensive wifi.	Expensive wifi	PAIR
+The bedspread had some crusty yellow stuff on it looks like you know what, the bathroom came with one towel for 2 people, the bathroom door handle fell off	bedspread bathroom	UNPAIR
+We had to check in late due to a late flight, and arrived to be given the last room available not facing the busy main road, which we appreciated.	last busy main road	UNPAIR
+Comfortable and convenient location.	Comfortable and convenient convenient location	PAIR
+This was my first stay in a hotel in Union Square, and the location was great, you could walk 25 meters and get on the cable car at Powell and Bush.	Union Square	UNPAIR
+Rooms/bathrooms on small side	small Rooms	PAIR
+TV available but no remote instructions and no tv.	available TV	PAIR
+all the way - clean, good quality, friendly staff.	friendly way	UNPAIR
+change the password occasionally so that the people in the apartments next door can't bog down the system so much.	password people	UNPAIR
+No kettle in room and no real tea cups, just paper cups.	no real real tea cups	PAIR
+She explained it is a charge for possible services you might have used.	possible services	UNPAIR
+hotel is convenient to Union Square and China Town, also easy to catch the city sightseeing bus to Golden Gate and.	easy to catch city sightseeing bus	PAIR
+Closet was very small (with clothes on the hangers,	hangers Closet	UNPAIR
+Deep bath tub, corner room, quite room, nice large king bed, great location!	corner room	UNPAIR
+- Room cleaned thoroughly if requested, including carpet shampooed : ) - Fast W-fi - Clean bathroom - Hot water in bath with strong water pressure - Courteous staff.	strong bath	UNPAIR
+Mattress was wore out pillows were about 1 inch thick, and the police were in the parking lot during the night with sirens at least 3 times during the night.	wore out parking lot	UNPAIR
+The bed was adequate and the TV worked.	worked TV	PAIR
+Not within walking distance to most of the areas we wanted to go to	Not within walking distance areas	PAIR
+The free wi fi worked great and that was the deciding factor on choosing the Larkspur.	great free wi fi	PAIR
+Calls to the desk did not garner the expected service.	expected service	UNPAIR
+And the location is perfect in the middel of everything.	perfect location	PAIR
+Front desk personnel were not very helpful when answering questions.	Front desk personnel	UNPAIR
+The free wi-fi desperately needs an upgrade.	upgrade fi	UNPAIR
+Westfield Mall is literally next door to the hotel and the Powell BART	Westfield Mall	UNPAIR
+The valet service was convenient, the rooms were clean and comfortable, and it was located with easy access to public transportation.	clean and comfortable easy access to public transportation	PAIR
+I had very loud neighbors who woke me up with their rather drunken conversation in the wee hours of the morning.	rather drunken conversation	UNPAIR
+Closet was very small (with clothes on the hangers,	very small hangers	UNPAIR
+Close to pretty much everything you need in downtown SF.	downtown SF	UNPAIR
+Hotel located in central down-town area, close to good down-town resto and clubs.	close to clubs	PAIR
+- Room cleaned thoroughly if requested, including carpet shampooed : ) - Fast W-fi - Clean bathroom - Hot water in bath with strong water pressure - Courteous staff.	Clean bath	PAIR
+The Serrano is in a great location, has a great vibe, and offered a great price.	great location, has a great vibe	PAIR
+Best staff in the boutique hotel area of Bush.	Best Bush	UNPAIR
+Fantastic location, great attention to detail and friendly staff made a great trip even better.	great attention to detail Fantastic location	PAIR
+An old-world private club with a welcoming attitude, wonderful staff, the common areas are super comfortable and the value is amazing.	amazing wonderful staff	PAIR
+- Room cleaned thoroughly if requested, including carpet shampooed : ) - Fast W-fi - Clean bathroom - Hot water in bath with strong water pressure - Courteous staff.	Courteous water	UNPAIR
+Worst of all though it seems like a nicer neighborhood than where we usually stay our car was broken into.	nicer neighborhood	PAIR
+Inexperienced staff, modern renovations, easy access to public transportation; only worth staying with discounts; bring your own shower cap.	easy own shower cap	UNPAIR
+\nbathrooms were all time long really dirty thus you were afraid to use them . . .	really dirty \nbathrooms	PAIR

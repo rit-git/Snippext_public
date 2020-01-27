@@ -1,0 +1,866 @@
+[
+  {
+    "name": "hotel_tagging",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS",
+      "B-OP",
+      "I-OP"
+    ],
+    "trainset": "combined_data/hotel/train.txt.combined",
+    "validset": "combined_data/hotel/dev.txt",
+    "testset": "combined_data/hotel/dev.txt",
+    "unlabeled": "combined_data/hotel/unlabeled.txt"
+  },
+  {
+    "name": "pairing",
+    "task_type": "classification",
+    "vocab": [
+      "UNPAIR",
+      "PAIR"
+    ],
+    "trainset": "combined_data/hotel_pairing/train.txt.combined",
+    "validset": "combined_data/hotel_pairing/dev.txt",
+    "testset": "combined_data/hotel_pairing/dev.txt",
+    "unlabeled": "combined_data/hotel_pairing/unlabeled.txt"
+  },
+  {
+    "name": "hotel_classification",
+    "task_type": "classification",
+    "vocab": [
+      "room",
+      "facility",
+      "staff",
+      "drink",
+      "size",
+      "bathroom",
+      "view",
+      "wrong",
+      "price",
+      "wifi",
+      "parking",
+      "cleanliness",
+      "checkin",
+      "pool",
+      "gym",
+      "style",
+      "quietness",
+      "location",
+      "vibe",
+      "comfort",
+      "food",
+      "bed",
+      "general",
+      "safety",
+      "coffee"
+    ],
+    "trainset": "combined_data/hotel_classification/train.txt",
+    "validset": "combined_data/hotel_classification/dev.txt",
+    "testset": "combined_data/hotel_classification/dev.txt"
+  },
+  {
+    "name": "restaurant_asc",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/rest/train.txt",
+    "validset": "combined_data/absa/asc/rest/dev.txt",
+    "testset": "combined_data/absa/asc/rest/test.txt",
+    "unlabeled": "combined_data/absa/asc/rest/unlabeled.txt"
+  },
+  {
+    "name": "laptop_asc",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/laptop/train.txt",
+    "validset": "combined_data/absa/asc/laptop/dev.txt",
+    "testset": "combined_data/absa/asc/laptop/test.txt",
+    "unlabeled": "combined_data/absa/asc/laptop/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_ae_tagging",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/rest/train.txt",
+    "validset": "combined_data/absa/ae/rest/dev.txt",
+    "testset": "combined_data/absa/ae/rest/test.txt",
+    "unlabeled": "combined_data/absa/ae/rest/unlabeled.txt"
+  },
+  {
+    "name": "laptop_ae_tagging",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/laptop/train.txt",
+    "validset": "combined_data/absa/ae/laptop/dev.txt",
+    "testset": "combined_data/absa/ae/laptop/test.txt",
+    "unlabeled": "combined_data/absa/ae/laptop/unlabeled.txt",
+    "augmented": [
+      "combined_data/absa/ae/laptop/full/train.txt",
+      "combined_data/absa/ae/laptop/full/train.txt"
+    ]
+  },
+  {
+    "name": "restaurant_ae_tagging_250_1",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/rest16-old-sample-1/250/train.txt",
+    "validset": "combined_data/absa/ae/rest/dev.txt",
+    "testset": "combined_data/absa/ae/rest/test.txt",
+    "unlabeled": "combined_data/absa/ae/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_ae_tagging_500_1",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/rest16-old-sample-1/500/train.txt",
+    "validset": "combined_data/absa/ae/rest/dev.txt",
+    "testset": "combined_data/absa/ae/rest/test.txt",
+    "unlabeled": "combined_data/absa/ae/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_ae_tagging_750_1",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/rest16-old-sample-1/750/train.txt",
+    "validset": "combined_data/absa/ae/rest/dev.txt",
+    "testset": "combined_data/absa/ae/rest/test.txt",
+    "unlabeled": "combined_data/absa/ae/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_ae_tagging_1000_1",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/rest16-old-sample-1/1000/train.txt",
+    "validset": "combined_data/absa/ae/rest/dev.txt",
+    "testset": "combined_data/absa/ae/rest/test.txt",
+    "unlabeled": "combined_data/absa/ae/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_ae_tagging_full_1",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/rest16-old-sample-1/full/train.txt",
+    "validset": "combined_data/absa/ae/rest/dev.txt",
+    "testset": "combined_data/absa/ae/rest/test.txt",
+    "unlabeled": "combined_data/absa/ae/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_ae_tagging_250_2",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/rest16-old-sample-2/250/train.txt",
+    "validset": "combined_data/absa/ae/rest/dev.txt",
+    "testset": "combined_data/absa/ae/rest/test.txt",
+    "unlabeled": "combined_data/absa/ae/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_ae_tagging_500_2",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/rest16-old-sample-2/500/train.txt",
+    "validset": "combined_data/absa/ae/rest/dev.txt",
+    "testset": "combined_data/absa/ae/rest/test.txt",
+    "unlabeled": "combined_data/absa/ae/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_ae_tagging_750_2",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/rest16-old-sample-2/750/train.txt",
+    "validset": "combined_data/absa/ae/rest/dev.txt",
+    "testset": "combined_data/absa/ae/rest/test.txt",
+    "unlabeled": "combined_data/absa/ae/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_ae_tagging_1000_2",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/rest16-old-sample-2/1000/train.txt",
+    "validset": "combined_data/absa/ae/rest/dev.txt",
+    "testset": "combined_data/absa/ae/rest/test.txt",
+    "unlabeled": "combined_data/absa/ae/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_ae_tagging_full_2",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/rest16-old-sample-2/full/train.txt",
+    "validset": "combined_data/absa/ae/rest/dev.txt",
+    "testset": "combined_data/absa/ae/rest/test.txt",
+    "unlabeled": "combined_data/absa/ae/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_ae_tagging_250_3",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/rest16-old-sample-3/250/train.txt",
+    "validset": "combined_data/absa/ae/rest/dev.txt",
+    "testset": "combined_data/absa/ae/rest/test.txt",
+    "unlabeled": "combined_data/absa/ae/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_ae_tagging_500_3",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/rest16-old-sample-3/500/train.txt",
+    "validset": "combined_data/absa/ae/rest/dev.txt",
+    "testset": "combined_data/absa/ae/rest/test.txt",
+    "unlabeled": "combined_data/absa/ae/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_ae_tagging_750_3",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/rest16-old-sample-3/750/train.txt",
+    "validset": "combined_data/absa/ae/rest/dev.txt",
+    "testset": "combined_data/absa/ae/rest/test.txt",
+    "unlabeled": "combined_data/absa/ae/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_ae_tagging_1000_3",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/rest16-old-sample-3/1000/train.txt",
+    "validset": "combined_data/absa/ae/rest/dev.txt",
+    "testset": "combined_data/absa/ae/rest/test.txt",
+    "unlabeled": "combined_data/absa/ae/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_ae_tagging_full_3",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/rest16-old-sample-3/full/train.txt",
+    "validset": "combined_data/absa/ae/rest/dev.txt",
+    "testset": "combined_data/absa/ae/rest/test.txt",
+    "unlabeled": "combined_data/absa/ae/rest/unlabeled.txt"
+  },
+  {
+    "name": "laptop_ae_tagging_250_1",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/laptop-sample-1/250/train.txt",
+    "validset": "combined_data/absa/ae/laptop/dev.txt",
+    "testset": "combined_data/absa/ae/laptop/test.txt",
+    "unlabeled": "combined_data/absa/ae/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_ae_tagging_500_1",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/laptop-sample-1/500/train.txt",
+    "validset": "combined_data/absa/ae/laptop/dev.txt",
+    "testset": "combined_data/absa/ae/laptop/test.txt",
+    "unlabeled": "combined_data/absa/ae/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_ae_tagging_750_1",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/laptop-sample-1/750/train.txt",
+    "validset": "combined_data/absa/ae/laptop/dev.txt",
+    "testset": "combined_data/absa/ae/laptop/test.txt",
+    "unlabeled": "combined_data/absa/ae/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_ae_tagging_1000_1",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/laptop-sample-1/1000/train.txt",
+    "validset": "combined_data/absa/ae/laptop/dev.txt",
+    "testset": "combined_data/absa/ae/laptop/test.txt",
+    "unlabeled": "combined_data/absa/ae/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_ae_tagging_full_1",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/laptop-sample-1/full/train.txt",
+    "validset": "combined_data/absa/ae/laptop/dev.txt",
+    "testset": "combined_data/absa/ae/laptop/test.txt",
+    "unlabeled": "combined_data/absa/ae/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_ae_tagging_250_2",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/laptop-sample-2/250/train.txt",
+    "validset": "combined_data/absa/ae/laptop/dev.txt",
+    "testset": "combined_data/absa/ae/laptop/test.txt",
+    "unlabeled": "combined_data/absa/ae/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_ae_tagging_500_2",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/laptop-sample-2/500/train.txt",
+    "validset": "combined_data/absa/ae/laptop/dev.txt",
+    "testset": "combined_data/absa/ae/laptop/test.txt",
+    "unlabeled": "combined_data/absa/ae/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_ae_tagging_750_2",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/laptop-sample-2/750/train.txt",
+    "validset": "combined_data/absa/ae/laptop/dev.txt",
+    "testset": "combined_data/absa/ae/laptop/test.txt",
+    "unlabeled": "combined_data/absa/ae/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_ae_tagging_1000_2",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/laptop-sample-2/1000/train.txt",
+    "validset": "combined_data/absa/ae/laptop/dev.txt",
+    "testset": "combined_data/absa/ae/laptop/test.txt",
+    "unlabeled": "combined_data/absa/ae/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_ae_tagging_full_2",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/laptop-sample-2/full/train.txt",
+    "validset": "combined_data/absa/ae/laptop/dev.txt",
+    "testset": "combined_data/absa/ae/laptop/test.txt",
+    "unlabeled": "combined_data/absa/ae/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_ae_tagging_250_3",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/laptop-sample-3/250/train.txt",
+    "validset": "combined_data/absa/ae/laptop/dev.txt",
+    "testset": "combined_data/absa/ae/laptop/test.txt",
+    "unlabeled": "combined_data/absa/ae/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_ae_tagging_500_3",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/laptop-sample-3/500/train.txt",
+    "validset": "combined_data/absa/ae/laptop/dev.txt",
+    "testset": "combined_data/absa/ae/laptop/test.txt",
+    "unlabeled": "combined_data/absa/ae/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_ae_tagging_750_3",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/laptop-sample-3/750/train.txt",
+    "validset": "combined_data/absa/ae/laptop/dev.txt",
+    "testset": "combined_data/absa/ae/laptop/test.txt",
+    "unlabeled": "combined_data/absa/ae/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_ae_tagging_1000_3",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/laptop-sample-3/1000/train.txt",
+    "validset": "combined_data/absa/ae/laptop/dev.txt",
+    "testset": "combined_data/absa/ae/laptop/test.txt",
+    "unlabeled": "combined_data/absa/ae/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_ae_tagging_full_3",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS"
+    ],
+    "trainset": "combined_data/absa/ae/laptop-sample-3/full/train.txt",
+    "validset": "combined_data/absa/ae/laptop/dev.txt",
+    "testset": "combined_data/absa/ae/laptop/test.txt",
+    "unlabeled": "combined_data/absa/ae/laptop/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_asc_250_1",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/rest-sample-1/250/train.txt",
+    "validset": "combined_data/absa/asc/rest/dev.txt",
+    "testset": "combined_data/absa/asc/rest/test.txt",
+    "unlabeled": "combined_data/absa/asc/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_asc_500_1",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/rest-sample-1/500/train.txt",
+    "validset": "combined_data/absa/asc/rest/dev.txt",
+    "testset": "combined_data/absa/asc/rest/test.txt",
+    "unlabeled": "combined_data/absa/asc/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_asc_750_1",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/rest-sample-1/750/train.txt",
+    "validset": "combined_data/absa/asc/rest/dev.txt",
+    "testset": "combined_data/absa/asc/rest/test.txt",
+    "unlabeled": "combined_data/absa/asc/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_asc_1000_1",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/rest-sample-1/1000/train.txt",
+    "validset": "combined_data/absa/asc/rest/dev.txt",
+    "testset": "combined_data/absa/asc/rest/test.txt",
+    "unlabeled": "combined_data/absa/asc/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_asc_full_1",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/rest-sample-1/full/train.txt",
+    "validset": "combined_data/absa/asc/rest/dev.txt",
+    "testset": "combined_data/absa/asc/rest/test.txt",
+    "unlabeled": "combined_data/absa/asc/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_asc_250_2",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/rest-sample-2/250/train.txt",
+    "validset": "combined_data/absa/asc/rest/dev.txt",
+    "testset": "combined_data/absa/asc/rest/test.txt",
+    "unlabeled": "combined_data/absa/asc/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_asc_500_2",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/rest-sample-2/500/train.txt",
+    "validset": "combined_data/absa/asc/rest/dev.txt",
+    "testset": "combined_data/absa/asc/rest/test.txt",
+    "unlabeled": "combined_data/absa/asc/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_asc_750_2",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/rest-sample-2/750/train.txt",
+    "validset": "combined_data/absa/asc/rest/dev.txt",
+    "testset": "combined_data/absa/asc/rest/test.txt",
+    "unlabeled": "combined_data/absa/asc/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_asc_1000_2",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/rest-sample-2/1000/train.txt",
+    "validset": "combined_data/absa/asc/rest/dev.txt",
+    "testset": "combined_data/absa/asc/rest/test.txt",
+    "unlabeled": "combined_data/absa/asc/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_asc_full_2",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/rest-sample-2/full/train.txt",
+    "validset": "combined_data/absa/asc/rest/dev.txt",
+    "testset": "combined_data/absa/asc/rest/test.txt",
+    "unlabeled": "combined_data/absa/asc/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_asc_250_3",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/rest-sample-3/250/train.txt",
+    "validset": "combined_data/absa/asc/rest/dev.txt",
+    "testset": "combined_data/absa/asc/rest/test.txt",
+    "unlabeled": "combined_data/absa/asc/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_asc_500_3",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/rest-sample-3/500/train.txt",
+    "validset": "combined_data/absa/asc/rest/dev.txt",
+    "testset": "combined_data/absa/asc/rest/test.txt",
+    "unlabeled": "combined_data/absa/asc/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_asc_750_3",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/rest-sample-3/750/train.txt",
+    "validset": "combined_data/absa/asc/rest/dev.txt",
+    "testset": "combined_data/absa/asc/rest/test.txt",
+    "unlabeled": "combined_data/absa/asc/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_asc_1000_3",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/rest-sample-3/1000/train.txt",
+    "validset": "combined_data/absa/asc/rest/dev.txt",
+    "testset": "combined_data/absa/asc/rest/test.txt",
+    "unlabeled": "combined_data/absa/asc/rest/unlabeled.txt"
+  },
+  {
+    "name": "restaurant_asc_full_3",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/rest-sample-3/full/train.txt",
+    "validset": "combined_data/absa/asc/rest/dev.txt",
+    "testset": "combined_data/absa/asc/rest/test.txt",
+    "unlabeled": "combined_data/absa/asc/rest/unlabeled.txt"
+  },
+  {
+    "name": "laptop_asc_250_1",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/laptop-sample-1/250/train.txt",
+    "validset": "combined_data/absa/asc/laptop/dev.txt",
+    "testset": "combined_data/absa/asc/laptop/test.txt",
+    "unlabeled": "combined_data/absa/asc/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_asc_500_1",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/laptop-sample-1/500/train.txt",
+    "validset": "combined_data/absa/asc/laptop/dev.txt",
+    "testset": "combined_data/absa/asc/laptop/test.txt",
+    "unlabeled": "combined_data/absa/asc/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_asc_750_1",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/laptop-sample-1/750/train.txt",
+    "validset": "combined_data/absa/asc/laptop/dev.txt",
+    "testset": "combined_data/absa/asc/laptop/test.txt",
+    "unlabeled": "combined_data/absa/asc/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_asc_1000_1",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/laptop-sample-1/1000/train.txt",
+    "validset": "combined_data/absa/asc/laptop/dev.txt",
+    "testset": "combined_data/absa/asc/laptop/test.txt",
+    "unlabeled": "combined_data/absa/asc/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_asc_full_1",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/laptop-sample-1/full/train.txt",
+    "validset": "combined_data/absa/asc/laptop/dev.txt",
+    "testset": "combined_data/absa/asc/laptop/test.txt",
+    "unlabeled": "combined_data/absa/asc/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_asc_250_2",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/laptop-sample-2/250/train.txt",
+    "validset": "combined_data/absa/asc/laptop/dev.txt",
+    "testset": "combined_data/absa/asc/laptop/test.txt",
+    "unlabeled": "combined_data/absa/asc/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_asc_500_2",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/laptop-sample-2/500/train.txt",
+    "validset": "combined_data/absa/asc/laptop/dev.txt",
+    "testset": "combined_data/absa/asc/laptop/test.txt",
+    "unlabeled": "combined_data/absa/asc/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_asc_750_2",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/laptop-sample-2/750/train.txt",
+    "validset": "combined_data/absa/asc/laptop/dev.txt",
+    "testset": "combined_data/absa/asc/laptop/test.txt",
+    "unlabeled": "combined_data/absa/asc/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_asc_1000_2",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/laptop-sample-2/1000/train.txt",
+    "validset": "combined_data/absa/asc/laptop/dev.txt",
+    "testset": "combined_data/absa/asc/laptop/test.txt",
+    "unlabeled": "combined_data/absa/asc/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_asc_full_2",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/laptop-sample-2/full/train.txt",
+    "validset": "combined_data/absa/asc/laptop/dev.txt",
+    "testset": "combined_data/absa/asc/laptop/test.txt",
+    "unlabeled": "combined_data/absa/asc/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_asc_250_3",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/laptop-sample-3/250/train.txt",
+    "validset": "combined_data/absa/asc/laptop/dev.txt",
+    "testset": "combined_data/absa/asc/laptop/test.txt",
+    "unlabeled": "combined_data/absa/asc/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_asc_500_3",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/laptop-sample-3/500/train.txt",
+    "validset": "combined_data/absa/asc/laptop/dev.txt",
+    "testset": "combined_data/absa/asc/laptop/test.txt",
+    "unlabeled": "combined_data/absa/asc/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_asc_750_3",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/laptop-sample-3/750/train.txt",
+    "validset": "combined_data/absa/asc/laptop/dev.txt",
+    "testset": "combined_data/absa/asc/laptop/test.txt",
+    "unlabeled": "combined_data/absa/asc/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_asc_1000_3",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/laptop-sample-3/1000/train.txt",
+    "validset": "combined_data/absa/asc/laptop/dev.txt",
+    "testset": "combined_data/absa/asc/laptop/test.txt",
+    "unlabeled": "combined_data/absa/asc/laptop/unlabeled.txt"
+  },
+  {
+    "name": "laptop_asc_full_3",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "trainset": "combined_data/absa/asc/laptop-sample-3/full/train.txt",
+    "validset": "combined_data/absa/asc/laptop/dev.txt",
+    "testset": "combined_data/absa/asc/laptop/test.txt",
+    "unlabeled": "combined_data/absa/asc/laptop/unlabeled.txt"
+  }
+]
