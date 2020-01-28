@@ -89,6 +89,7 @@ python augment_index_builder.py \
 ```
 
 Simply replace ``restaurant_ae_tagging`` with ``laptop_ae_tagging``, ``restaurant_asc``, and ``laptop_asc`` to generate the other indices.
+Replace ``rest`` with ``laptop`` for the ``laptop_ae_tagging`` and ``laptop_asc`` indices.
 
 2. Train with:
 ```
@@ -126,7 +127,7 @@ Parameters:
 
 ## Training with MixMatchNL (MixDA + Semi-supervised Learning)
 
-To train with MixMatchNL:
+Our implementation of [MixMatch](https://arxiv.org/abs/1905.02249) with MixDA. To train with MixMatchNL:
 ```
 CUDA_VISIBLE_DEVICES=0 python train_mixmatchnl.py \
   --task restaurant_ae_tagging \
