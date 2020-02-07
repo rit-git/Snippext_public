@@ -17,7 +17,8 @@ class MultiTaskNet(nn.Module):
             self.bert = BertModel.from_pretrained(bert_pt)
         else:
             output_model_file = bert_path
-            model_state_dict = torch.load(output_model_file)
+            model_state_dict = torch.load(output_model_file,
+                                          map_location=lambda storage, loc: storage)
             self.bert = BertModel.from_pretrained(bert_pt, state_dict=model_state_dict)
 
         self.device = device

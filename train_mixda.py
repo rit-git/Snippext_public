@@ -230,9 +230,13 @@ if __name__=="__main__":
 
     # initialize model
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    model = MultiTaskNet(config_list, device,
+    if device == 'cpu':
+        model = MultiTaskNet(config_list, device,
+                         hp.finetuning, bert_path=hp.bert_path)
+    else:
+        model = MultiTaskNet(config_list, device,
                          hp.finetuning, bert_path=hp.bert_path).cuda()
-    model = nn.DataParallel(model)
+        model = nn.DataParallel(model)
     optimizer = AdamW(model.parameters(), lr = hp.lr)
 
     # create logging
