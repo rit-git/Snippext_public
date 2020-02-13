@@ -164,6 +164,8 @@ class SnippextDataset(data.Dataset):
             is_heads = [] # list. 1: the token is the first piece of a word
 
             for w, t in zip(words, tags):
+                # avoid bad tokens
+                w = w[:50]
                 tokens = tokenizer.tokenize(w) if w not in ("[CLS]", "[SEP]") else [w]
                 xx = tokenizer.convert_tokens_to_ids(tokens)
                 if len(xx) == 0:
