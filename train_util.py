@@ -35,7 +35,7 @@ def eval_tagging(model, iterator, idx2tag):
             loss_fct = nn.CrossEntropyLoss(ignore_index=0)
             batch_size = y.shape[0]
 
-            logits, y, y_hat = model(x, y, mask, task=taskname)  # y_hat: (N, T)
+            logits, y, y_hat = model(x, y, task=taskname)  # y_hat: (N, T)
 
             logits = logits.view(-1, logits.shape[-1])
             y = y.view(-1)
@@ -99,7 +99,7 @@ def eval_classifier(model, iterator):
         for i, batch in enumerate(iterator):
             words, x, is_heads, tags, mask, y, seqlens, taskname = batch
             taskname = taskname[0]
-            logits, y1, y_hat = model(x, y, mask, task=taskname)  # y_hat: (N, T)
+            logits, y1, y_hat = model(x, y, task=taskname)  # y_hat: (N, T)
 
             logits = logits.view(-1, logits.shape[-1]) # (N*T, VOCAB)
             y1 = y1.view(-1)  # (N*T,)

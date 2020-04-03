@@ -2,11 +2,32 @@ import numpy as np
 import torch
 
 from torch.utils import data
-# from pytorch_pretrained_bert import BertTokenizer
-from transformers import BertTokenizer
 from augment import Augmenter
 
-tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+tokenizer = None
+
+def get_tokenizer(lm='bert'):
+    """Return the tokenizer. Intiailize it if not initialized.
+
+    Args:
+        lm (string): the name of the language model (bert, albert, or distilbert)
+    Returns:
+        BertTokenizer or DistilBertTokenizer or AlbertTokenizer
+    """
+    global tokenizer
+    if tokenizer is None:
+        if lm == 'bert':
+            from transformers import BertTokenizer
+            tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+        elif lm == 'distilbert':
+            from transformers import DistilBertTokenizer
+            tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
+        elif lm == 'albert':
+            from transformers import AlbertTokenizer
+            tokenizer = AlbertTokenizer.from_pretrained('albert-base-v2')
+    else:
+        return tokenizer
+
 
 class SnippextDataset(data.Dataset):
     def __init__(self,
@@ -14,6 +35,7 @@ class SnippextDataset(data.Dataset):
                  vocab,
                  taskname,
                  max_len=512,
+                 lm='bert',
                  augment_index=None,
                  augment_op=None):
         """ TODO
@@ -23,6 +45,7 @@ class SnippextDataset(data.Dataset):
         # tokens and tags
         sents, tags_li = [], [] # list of lists
         self.max_len = max_len
+        get_tokenizer(lm)
 
         if type(source) is str:
             # read from file (for training/evaluation)

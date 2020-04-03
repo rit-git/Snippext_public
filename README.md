@@ -11,6 +11,7 @@ Paper: Zhengjie Miao, Yuliang Li, Xiaolan Wang, Wang-Chiew Tan, "Snippext: Semi-
 * Spacy with the ``em_core_web_sm`` models
 * NLTK (stopwords, wordnet)
 * Gensim
+* NVIDIA Apex (fp16 training)
 
 Install required packages
 ```
@@ -46,6 +47,11 @@ Parameters:
 * ``--save_model``: whether to save the best model
 * ``--batch_size``, ``--lr``, ``--n_epochs``: batch size, learning rate, and the number of epochs
 * ``--bert_path`` (Optional): the path of a fine-tuned BERT checkpoint. Use the base uncased model if not specified.
+* ``--max_len`` (Optional): maximum sequence length
+
+*(New)* (also in MixDA and MixMatchNL):
+* ``--fp16`` (Optional): whether to train with fp16 acceleration
+* ``--lm`` (Optional): other language models, e.g., "distilbert" or "albert"
 
 ### Task Specification
 

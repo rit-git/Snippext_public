@@ -68,41 +68,35 @@ def mixmatch(model, batch, num_aug=2, alpha=0.4, alpha_aug=0.4, u_lambda=0.5):
 
     # the unlabeled half
     u0 = x[batch_size:2*batch_size]
-    u_mask0 = mask[batch_size:2*batch_size]
 
     # augmented
     aug_x = x[2*batch_size:3*batch_size]
-    aug_mask = mask[2*batch_size:3*batch_size]
 
     # augmented unlabeled
     u_augs = []
-    u_masks = []
     for uid in range(num_aug):
         u_augs.append(x[(3+uid)*batch_size:(4+uid)*batch_size])
-        u_masks.append(mask[(3+uid)*batch_size:(4+uid)*batch_size])
 
     # labeled + original unlabeled
     x = torch.cat((x[:batch_size], x[3*batch_size:]))
-    mask = torch.cat((mask[:batch_size], mask[3*batch_size:]))
 
     # label guessing
     model.eval()
     u_guesses = []
     u_aug_enc_list = []
-    _, _, _, u_enc = model(u0, y, mask=u_mask0,
+    _, _, _, u_enc = model(u0, y,
             task=taskname, get_enc=True)
 
-    for x_u, mask_u in zip(u_augs, u_masks):
+    for x_u in u_augs:
         if alpha_aug <= 0:
             u_aug_lam = 1.0
         else:
             u_aug_lam = np.random.beta(alpha_aug, alpha_aug)
 
-        # it is fine to switch the order of (x_u, mask_u) and (u0, u_mask0) in this case
+        # it is fine to switch the order of x_u and u0 in this case
         u_logits, y, _, u_aug_enc = model(x_u, y,
-                               augment_batch=(u0, u_mask0, u_aug_lam),
+                               augment_batch=(u0, u_aug_lam),
                                aug_enc=u_enc,
-                               mask=mask_u,
                                task=taskname,
                                get_enc=True)
         # softmax
@@ -143,7 +137,6 @@ def mixmatch(model, batch, num_aug=2, alpha=0.4, alpha_aug=0.4, u_lambda=0.5):
 
     # x_aug_enc
     _, _, _, x_enc = model(x[:batch_size], y,
-                           mask=mask[:batch_size],
                            task=taskname,
                            get_enc=True)
     # concatenate the augmented encodings
@@ -155,8 +148,7 @@ def mixmatch(model, batch, num_aug=2, alpha=0.4, alpha_aug=0.4, u_lambda=0.5):
     else:
         aug_lam = np.random.beta(alpha_aug, alpha_aug)
     logits, y_concat, _ = model(x, y_concat,
-                            mask=mask,
-                            augment_batch=(aug_x, aug_mask, aug_lam),
+                            augment_batch=(aug_x, aug_lam),
                             x_enc=x_enc,
                             second_batch=(index, lam),
                             task=taskname)
@@ -178,7 +170,6 @@ def mixmatch(model, batch, num_aug=2, alpha=0.4, alpha_aug=0.4, u_lambda=0.5):
         loss_u = F.mse_loss(u_pred, u_y)
 
     loss = loss_x + loss_u * u_lambda
-    loss.backward()
     return loss
 
 
@@ -261,7 +252,8 @@ def train(model, l_set, aug_set, u_set, u_set_aug, optimizer,
           num_aug=2,
           alpha=0.4,
           alpha_aug=0.8,
-          u_lambda=1.0):
+          u_lambda=1.0,
+          fp16=False):
     """Perform one epoch of MixMatchNL
 
     Args:
@@ -271,6 +263,7 @@ def train(model, l_set, aug_set, u_set, u_set_aug, optimizer,
         u_dataset (SnippextDataset): the unlabeled set
         u_dataset_aug (SnippextDataset): the augmented unlabeled set
         optimizer (Optimizer): Adam
+        fp16 (boolean): whether to use fp16
         num_aug (int, Optional):
         batch_size (int, Optional): batch size
         alpha (float, Optional): the alpha for MixUp
@@ -299,12 +292,18 @@ def train(model, l_set, aug_set, u_set, u_set_aug, optimizer,
         optimizer.zero_grad()
         try:
             loss = mixmatch(model, batch, num_aug, alpha, alpha_aug, u_lambda)
+            if fp16:
+                with amp.scale_loss(loss, optimizer) as scaled_loss:
+                    scaled_loss.backward()
+            else:
+                loss.backward()
+
             optimizer.step()
             if i == 0:
                 print("=====sanity check======")
                 print("words:", words[0])
                 print("x:", x.cpu().numpy()[0][:seqlens[0]])
-                print("tokens:", tokenizer.convert_ids_to_tokens(x.cpu().numpy()[0])[:seqlens[0]])
+                print("tokens:", get_tokenizer().convert_ids_to_tokens(x.cpu().numpy()[0])[:seqlens[0]])
                 print("is_heads:", is_heads[0])
                 y_sample = _y.cpu().numpy()[0]
                 if np.isscalar(y_sample):
@@ -329,12 +328,15 @@ def train(model, l_set, aug_set, u_set, u_set_aug, optimizer,
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--task", type=str, default="hotel_tagging")
+    parser.add_argument("--lm", type=str, default="bert")
     parser.add_argument("--run_id", type=int, default=0)
     parser.add_argument("--batch_size", type=int, default=128)
     parser.add_argument("--lr", type=float, default=0.0001)
     parser.add_argument("--n_epochs", type=int, default=30)
+    parser.add_argument("--max_len", type=int, default=64)
     parser.add_argument("--finetuning", dest="finetuning", action="store_true")
     parser.add_argument("--save_model", dest="save_model", action="store_true")
+    parser.add_argument("--fp16", dest="fp16", action="store_true")
     parser.add_argument("--logdir", type=str, default="checkpoints/")
     parser.add_argument("--bert_path", type=str, default=None)
     parser.add_argument("--alpha", type=float, default=0.2)
@@ -349,8 +351,8 @@ if __name__=="__main__":
     task = hp.task # consider a single task for now
 
     # create the tag of the run
-    run_tag = 'mixmatchnl_task_%s_batch_size_%d_alpha_%.1f_alpha_aug_%.1f_num_aug_%d_u_lambda_%.1f_augment_op_%s_run_id_%d' % \
-        (task, hp.batch_size, hp.alpha, hp.alpha_aug, \
+    run_tag = 'mixmatchnl_task_%s_lm_%s_batch_size_%d_alpha_%.1f_alpha_aug_%.1f_num_aug_%d_u_lambda_%.1f_augment_op_%s_run_id_%d' % \
+        (task, hp.lm, hp.batch_size, hp.alpha, hp.alpha_aug, \
          hp.num_aug, hp.u_lambda, hp.augment_op, hp.run_id)
 
     # task config
@@ -369,22 +371,25 @@ if __name__=="__main__":
 
     # train dataset
     train_dataset = SnippextDataset(trainset, vocab, task,
-                                   max_len=64)
+                                   lm=hp.lm,
+                                   max_len=hp.max_len)
     # train dataset augmented
     augment_dataset = SnippextDataset(trainset, vocab, task,
-                                      max_len=64,
+                                      lm=hp.lm,
+                                      max_len=hp.max_len,
                                       augment_index=hp.augment_index,
                                       augment_op=hp.augment_op)
     # dev set
-    valid_dataset = SnippextDataset(validset, vocab, task)
+    valid_dataset = SnippextDataset(validset, vocab, task, lm=hp.lm)
 
     # test set
-    test_dataset = SnippextDataset(testset, vocab, task)
+    test_dataset = SnippextDataset(testset, vocab, task, lm=hp.lm)
 
     # unlabeled dataset and augmented
-    u_dataset = SnippextDataset(unlabeled, vocab, task, max_len=64)
+    u_dataset = SnippextDataset(unlabeled, vocab, task, max_len=hp.max_len, lm=hp.lm)
     u_dataset_aug = SnippextDataset(unlabeled, vocab, task,
-                                    max_len=64,
+                                    lm=hp.lm,
+                                    max_len=hp.max_len,
                                     augment_index=hp.augment_index,
                                     augment_op=hp.augment_op)
     padder = SnippextDataset.pad
@@ -407,13 +412,18 @@ if __name__=="__main__":
     if device == 'cpu':
         model = MultiTaskNet(config_list, device,
                          hp.finetuning, bert_path=hp.bert_path)
+        optimizer = AdamW(model.parameters(), lr = hp.lr)
     else:
         model = MultiTaskNet(config_list, device,
                          hp.finetuning, bert_path=hp.bert_path).cuda()
-        model = nn.DataParallel(model)
-
-    optimizer = AdamW(model.parameters(), lr = hp.lr)
-    # optimizer = AdamW(model.parameters(), lr = hp.lr, weight_decay=0.0004)
+        optimizer = AdamW(model.parameters(), lr = hp.lr)
+        try:
+            from apex import amp
+        except ImportError:
+            raise ImportError("Please install apex from"
+                              "https://www.github.com/nvidia/apex"
+                              " to use fp16 training.")
+        model, optimizer = amp.initialize(model, optimizer, opt_level='O2')
 
     # create logging
     if not os.path.exists(hp.logdir):
@@ -433,7 +443,8 @@ if __name__=="__main__":
               num_aug=hp.num_aug,
               alpha=hp.alpha,
               alpha_aug=hp.alpha_aug,
-              u_lambda=hp.u_lambda)
+              u_lambda=hp.u_lambda,
+              fp16=hp.fp16)
 
         print(f"=========eval at epoch={epoch}=========")
         dev_f1, test_f1 = eval_on_task(epoch,

@@ -41,17 +41,15 @@ def mixda(model, batch, alpha_aug=0.4):
     # augmented
     aug_x = x[batch_size:]
     aug_y = y[batch_size:]
-    aug_mask = mask[batch_size:]
     aug_lam = np.random.beta(alpha_aug, alpha_aug)
 
     # labeled
     x = x[:batch_size]
-    mask = mask[:batch_size]
 
     # back prop
-    logits, y, _ = model(x, y, mask=mask,
-                            augment_batch=(aug_x, aug_mask, aug_lam),
-                            task=taskname)
+    logits, y, _ = model(x, y,
+                         augment_batch=(aug_x, aug_lam),
+                         task=taskname)
     logits = logits.view(-1, logits.shape[-1])
 
     aug_y = y[batch_size:]
@@ -69,7 +67,6 @@ def mixda(model, batch, alpha_aug=0.4):
     loss = criterion(logits, y) * aug_lam + \
            criterion(logits, aug_y) * (1 - aug_lam)
 
-    loss.backward()
     return loss
 
 
@@ -110,6 +107,7 @@ def create_mixda_batches(l_set, aug_set, batch_size=16):
 
 
 def train(model, l_set, aug_set, optimizer,
+          fp16=False,
           batch_size=32,
           alpha_aug=0.8):
     """Perform one epoch of MixDA
@@ -119,6 +117,7 @@ def train(model, l_set, aug_set, optimizer,
         train_dataset (SnippextDataset): the train set
         augment_dataset (SnippextDataset): the augmented train set
         optimizer (Optimizer): Adam
+        fp16 (boolean, Optional): whether to use fp16
         batch_size (int, Optional): batch size
         alpha_aug (float, Optional): the alpha for MixDA
 
@@ -139,13 +138,18 @@ def train(model, l_set, aug_set, optimizer,
         # perform mixmatch
         optimizer.zero_grad()
         loss = mixda(model, batch, alpha_aug)
+        if fp16:
+            with amp.scale_loss(loss, optimizer) as scaled_loss:
+                scaled_loss.backward()
+        else:
+            loss.backward()
         optimizer.step()
 
         if i == 0:
             print("=====sanity check======")
             print("words:", words[0])
             print("x:", x.cpu().numpy()[0][:seqlens[0]])
-            print("tokens:", tokenizer.convert_ids_to_tokens(x.cpu().numpy()[0])[:seqlens[0]])
+            print("tokens:", get_tokenizer().convert_ids_to_tokens(x.cpu().numpy()[0])[:seqlens[0]])
             print("is_heads:", is_heads[0])
             y_sample = _y.cpu().numpy()[0]
             if np.isscalar(y_sample):
@@ -166,11 +170,14 @@ def train(model, l_set, aug_set, optimizer,
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--task", type=str, default="hotel_tagging")
+    parser.add_argument("--lm", type=str, default="bert")
     parser.add_argument("--run_id", type=int, default=0)
     parser.add_argument("--batch_size", type=int, default=128)
+    parser.add_argument("--max_len", type=int, default=64)
     parser.add_argument("--lr", type=float, default=0.0001)
     parser.add_argument("--n_epochs", type=int, default=30)
     parser.add_argument("--finetuning", dest="finetuning", action="store_true")
+    parser.add_argument("--fp16", dest="fp16", action="store_true")
     parser.add_argument("--save_model", dest="save_model", action="store_true")
     parser.add_argument("--logdir", type=str, default="checkpoints/")
     parser.add_argument("--bert_path", type=str, default=None)
@@ -183,8 +190,8 @@ if __name__=="__main__":
     task = hp.task # consider a single task for now
 
     # create the tag of the run
-    run_tag = 'mixda_task_%s_batch_size_%d_alpha_aug_%.1f_augment_op_%s_run_id_%d' % \
-        (task, hp.batch_size, hp.alpha_aug, hp.augment_op, hp.run_id)
+    run_tag = 'mixda_task_%s_lm_%s_batch_size_%d_alpha_aug_%.1f_augment_op_%s_run_id_%d' % \
+        (task, hp.lm, hp.batch_size, hp.alpha_aug, hp.augment_op, hp.run_id)
 
     # task config
     configs = json.load(open('configs.json'))
@@ -201,17 +208,19 @@ if __name__=="__main__":
 
     # train dataset
     train_dataset = SnippextDataset(trainset, vocab, task,
-                                   max_len=128)
+                                   lm=hp.lm,
+                                   max_len=hp.max_len)
     # train dataset augmented
     augment_dataset = SnippextDataset(trainset, vocab, task,
-                                      max_len=128,
+                                      lm=hp.lm,
+                                      max_len=hp.max_len,
                                       augment_index=hp.augment_index,
                                       augment_op=hp.augment_op)
     # dev set
-    valid_dataset = SnippextDataset(validset, vocab, task)
+    valid_dataset = SnippextDataset(validset, vocab, task, lm=hp.lm)
 
     # test set
-    test_dataset = SnippextDataset(testset, vocab, task)
+    test_dataset = SnippextDataset(testset, vocab, task, lm=hp.lm)
 
     padder = SnippextDataset.pad
 
@@ -232,12 +241,20 @@ if __name__=="__main__":
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     if device == 'cpu':
         model = MultiTaskNet(config_list, device,
-                         hp.finetuning, bert_path=hp.bert_path)
+                         hp.finetuning, lm=hp.lm, bert_path=hp.bert_path)
+        optimizer = AdamW(model.parameters(), lr = hp.lr)
     else:
         model = MultiTaskNet(config_list, device,
-                         hp.finetuning, bert_path=hp.bert_path).cuda()
-        model = nn.DataParallel(model)
-    optimizer = AdamW(model.parameters(), lr = hp.lr)
+                         hp.finetuning, lm=hp.lm, bert_path=hp.bert_path).cuda()
+        optimizer = AdamW(model.parameters(), lr = hp.lr)
+        if hp.fp16:
+            try:
+                from apex import amp
+            except ImportError:
+                raise ImportError("Please install apex from "
+                   "https://www.github.com/nvidia/apex"
+                   "to use fp16 training.")
+            model, optimizer = amp.initialize(model, optimizer, opt_level='O2')
 
     # create logging
     if not os.path.exists(hp.logdir):
@@ -251,6 +268,7 @@ if __name__=="__main__":
               train_dataset,
               augment_dataset,
               optimizer,
+              fp16=hp.fp16,
               batch_size=hp.batch_size,
               alpha_aug=hp.alpha_aug)
 

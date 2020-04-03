@@ -15,7 +15,7 @@ from tensorboardX import SummaryWriter
 from transformers import AdamW
 
 
-def train(model, train_set, optimizer, batch_size=32):
+def train(model, train_set, optimizer, batch_size=32, fp16=False):
     """Perfrom one epoch of the training process.
 
     Args:
@@ -23,6 +23,7 @@ def train(model, train_set, optimizer, batch_size=32):
         train_set (SnippextDataset): the training dataset
         optimizer: the optimizer for training (e.g., Adam)
         batch_size (int, optional): the batch size
+        fp16 (boolean): whether to use fp16
 
     Returns:
         None
@@ -50,20 +51,24 @@ def train(model, train_set, optimizer, batch_size=32):
 
         # forward
         optimizer.zero_grad()
-        logits, y, _ = model(x, y, mask=mask, task=taskname)
+        logits, y, _ = model(x, y, task=taskname)
         logits = logits.view(-1, logits.shape[-1])
         y = y.view(-1)
         loss = criterion(logits, y)
 
         # back propagation
-        loss.backward()
+        if fp16:
+            with amp.scale_loss(loss, optimizer) as scaled_loss:
+                scaled_loss.backward()
+        else:
+            loss.backward()
         optimizer.step()
 
         if i == 0:
             print("=====sanity check======")
             print("words:", words[0])
             print("x:", x.cpu().numpy()[0][:seqlens[0]])
-            print("tokens:", tokenizer.convert_ids_to_tokens(x.cpu().numpy()[0])[:seqlens[0]])
+            print("tokens:", get_tokenizer().convert_ids_to_tokens(x.cpu().numpy()[0])[:seqlens[0]])
             print("is_heads:", is_heads[0])
             y_sample = _y.cpu().numpy()[0]
             if np.isscalar(y_sample):
@@ -84,11 +89,14 @@ def train(model, train_set, optimizer, batch_size=32):
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--task", type=str, default="hotel_tagging")
+    parser.add_argument("--lm", type=str, default="bert")
     parser.add_argument("--run_id", type=int, default=0)
     parser.add_argument("--batch_size", type=int, default=128)
     parser.add_argument("--lr", type=float, default=0.0001)
     parser.add_argument("--n_epochs", type=int, default=30)
+    parser.add_argument("--max_len", type=int, default=64)
     parser.add_argument("--finetuning", dest="finetuning", action="store_true")
+    parser.add_argument("--fp16", dest="fp16", action="store_true")
     parser.add_argument("--save_model", dest="save_model", action="store_true")
     parser.add_argument("--logdir", type=str, default="checkpoints/")
     parser.add_argument("--bert_path", type=str, default=None)
@@ -99,7 +107,10 @@ if __name__=="__main__":
     task = hp.task
 
     # create the tag of the run
-    run_tag = 'baseline_task_%s_batch_size_%d_run_id_%d' % (task, hp.batch_size, hp.run_id)
+    run_tag = 'baseline_task_%s_lm_%s_batch_size_%d_run_id_%d' % (task,
+            hp.lm,
+            hp.batch_size,
+            hp.run_id)
 
     # load task configuration
     configs = json.load(open('configs.json'))
@@ -116,9 +127,12 @@ if __name__=="__main__":
 
     # load train/dev/test sets
     train_dataset = SnippextDataset(trainset, vocab, task,
-                                   max_len=64)
-    valid_dataset = SnippextDataset(validset, vocab, task)
-    test_dataset = SnippextDataset(testset, vocab, task)
+                                    lm=hp.lm,
+                                    max_len=hp.max_len)
+    valid_dataset = SnippextDataset(validset, vocab, task,
+                                    lm=hp.lm)
+    test_dataset = SnippextDataset(testset, vocab, task,
+                                   lm=hp.lm)
     padder = SnippextDataset.pad
 
     valid_iter = data.DataLoader(dataset=valid_dataset,
@@ -135,15 +149,28 @@ if __name__=="__main__":
     # initialize model
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     if device == 'cpu':
-        model = MultiTaskNet(config_list, device,
-                         hp.finetuning, bert_path=hp.bert_path)
+        model = MultiTaskNet(config_list,
+                         device,
+                         hp.finetuning,
+                         lm=hp.lm,
+                         bert_path=hp.bert_path)
+        optimizer = AdamW(model.parameters(), lr = hp.lr)
     else:
         model = MultiTaskNet(config_list, device,
-                         hp.finetuning, bert_path=hp.bert_path).cuda()
-        model = nn.DataParallel(model)
+                         hp.finetuning,
+                         lm=hp.lm,
+                         bert_path=hp.bert_path).cuda()
+        optimizer = AdamW(model.parameters(), lr = hp.lr)
+        if hp.fp16:
+            try:
+                from apex import amp
+            except ImportError:
+                raise ImportError("Please install apex from "
+				  "https://www.github.com/nvidia/apex"
+				  " to use fp16 training.")
+            model, optimizer = amp.initialize(model, optimizer, opt_level='O2')
+        # model = nn.DataParallel(model)
 
-    # optimizer = optim.Adam(model.parameters(), lr = hp.lr)
-    optimizer = AdamW(model.parameters(), lr = hp.lr)
 
     # create logging directory
     if not os.path.exists(hp.logdir):
@@ -156,7 +183,8 @@ if __name__=="__main__":
         train(model,
               train_dataset,
               optimizer,
-              batch_size=hp.batch_size)
+              batch_size=hp.batch_size,
+              fp16=hp.fp16)
 
         print(f"=========eval at epoch={epoch}=========")
         dev_f1, test_f1 = eval_on_task(epoch,
