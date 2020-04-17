@@ -1,0 +1,5000 @@
+great wine list	drink -> alcohol
+excellent Cocktails	drink -> alcohol
+adequate beers	drink -> alcohol
+cheap cocktails	drink -> alcohol
+increased cider selection	drink -> alcohol
+like keg	drink -> alcohol
+strong punch of whiskey	drink -> alcohol
+good Chocolate Martini	drink -> alcohol
+love beer selection	drink -> alcohol
+worth beer	drink -> alcohol
+big cans of beer	drink -> alcohol
+similar spring rolls	drink -> alcohol
+huge beer	drink -> alcohol
+great wine selection	drink -> alcohol
+high cocktails	drink -> alcohol
+cheap beer	drink -> alcohol
+hefty baklava	drink -> alcohol
+bad beer specials	drink -> alcohol
+large beer	drink -> alcohol
+wowed baguette	drink -> alcohol
+wide beer	drink -> alcohol
+superb cocktails	drink -> alcohol
+exciting brussels sprouts	drink -> alcohol
+worth tequila wall	drink -> alcohol
+decent beer list	drink -> alcohol
+good trout	drink -> alcohol
+unique ice cubes	drink -> alcohol
+like beer	drink -> alcohol
+impressed beers	drink -> alcohol
+well tapas	drink -> alcohol
+fun pints	drink -> alcohol
+hot bar tender	drink -> alcohol
+interested wine display	drink -> alcohol
+funky wine racks	drink -> alcohol
+enjoy cocktail	drink -> alcohol
+helpful beer choice	drink -> alcohol
+wide cocktails	drink -> alcohol
+loved imperial IPA	drink -> alcohol
+perfect molasses	drink -> alcohol
+much beer	drink -> alcohol
+killer beers	drink -> alcohol
+delicious beer wontons	drink -> alcohol
+original shawarma	drink -> alcohol
+awesome alcohol	drink -> alcohol
+untouched bar	drink -> alcohol
+loved IPA 's	drink -> alcohol
+forgotten bottle of wine	drink -> alcohol
+okay tapas	drink -> alcohol
+best house beers	drink -> alcohol
+cheap shots	drink -> alcohol
+good barrels	drink -> alcohol
+wrong spring rolls	drink -> alcohol
+killer cocktails	drink -> alcohol
+delicious shrimp cocktail	drink -> alcohol
+bigger tapas	drink -> alcohol
+great beer	drink -> alcohol
+average beer	drink -> alcohol
+good wines	drink -> alcohol
+enjoy beer	drink -> alcohol
+amazing wine list	drink -> alcohol
+sweet mango ginger ale soda	drink -> alcohol
+unique cocktails	drink -> alcohol
+favorite cilantro	drink -> alcohol
+great selection of wines	drink -> alcohol
+overpriced Martinis	drink -> alcohol
+loves Scotch	drink -> alcohol
+legit steel cutlery	drink -> alcohol
+well white bass ceviche	drink -> alcohol
+favourite tapas style	drink -> alcohol
+potent Duck liver	drink -> alcohol
+favorite Hemp Ale	drink -> alcohol
+sweet Wheat beer	drink -> alcohol
+favorite Keg	drink -> alcohol
+crispy bourbon	drink -> alcohol
+giant beer list	drink -> alcohol
+better cocktails	drink -> alcohol
+extensive craft beer menu	drink -> alcohol
+cool tapas	drink -> alcohol
+flavourless Bamboo shoots	drink -> alcohol
+inadequate Cider selection	drink -> alcohol
+delicious cocktails	drink -> alcohol
+tasty Beer cocktails	drink -> alcohol
+expensive house wine	drink -> alcohol
+lovely Wine paring	drink -> alcohol
+perfectly margaritas	drink -> alcohol
+perfect trout	drink -> alcohol
+pricey beers	drink -> alcohol
+nicely vino	drink -> alcohol
+glad cocktails	drink -> alcohol
+alright cocktails	drink -> alcohol
+excellent cocktails	drink -> alcohol
+good stout pie	drink -> alcohol
+good beer	drink -> alcohol
+gross beers	drink -> alcohol
+sweet sake	drink -> alcohol
+like beer	drink -> alcohol
+reasonably beer	drink -> alcohol
+good draft beers	drink -> alcohol
+extensive sake menu	drink -> alcohol
+pricier wines	drink -> alcohol
+funny brews	drink -> alcohol
+enjoyed cocktails	drink -> alcohol
+good cocktail menu	drink -> alcohol
+massive croissants	drink -> alcohol
+cheaper cocktail	drink -> alcohol
+tangy beer BBQ sauce	drink -> alcohol
+unique beers	drink -> alcohol
+perfect tapas	drink -> alcohol
+better selection of beers	drink -> alcohol
+cool cocktails	drink -> alcohol
+good beer	drink -> alcohol
+beautiful wine case display	drink -> alcohol
+good alcohol	drink -> alcohol
+extensive beer	drink -> alcohol
+great beer selection	drink -> alcohol
+classic rum	drink -> alcohol
+warm olives	drink -> quality
+half drink special	drink -> quality
+clear taste	drink -> quality
+expensive drip coffee	drink -> quality
+fuller Water	drink -> quality
+cold washrooms	drink -> quality
+pleasant styrofoam	drink -> quality
+thicker flavor	drink -> quality
+great sugary	drink -> quality
+serious drinks	drink -> quality
+better syrup	drink -> quality
+enjoying Corona	drink -> quality
+good organic fair trade coffee	drink -> quality
+enjoy sherry list	drink -> quality
+liked Jalapenos	drink -> quality
+limited OJ	drink -> quality
+excellent glass of champagne	drink -> quality
+hot tea	drink -> quality
+good lemon	drink -> quality
+light batter	drink -> quality
+good corona	drink -> quality
+chilled servers	drink -> quality
+well beets	drink -> quality
+well bowl	drink -> quality
+filling wraps	drink -> quality
+thin syrup	drink -> quality
+enough flavor	drink -> quality
+high pours	drink -> quality
+strong tea	drink -> quality
+better bubble tea	drink -> quality
+forgetting drink order	drink -> quality
+good glass of water	drink -> quality
+stinks portions	drink -> quality
+great drinks	drink -> quality
+crispy dosa	drink -> quality
+interesting fresh juices	drink -> quality
+average taste	drink -> quality
+pleasant bill	drink -> quality
+sweet brown sugar	drink -> quality
+backed drinks	drink -> quality
+drenched dressing	drink -> quality
+free drinks	drink -> quality
+nice lemon	drink -> quality
+average Taste	drink -> quality
+warm madeleines	drink -> quality
+sweet condensed milk	drink -> quality
+dry slices	drink -> quality
+strong plum	drink -> quality
+delicious iced matcha latte	drink -> quality
+fresh thick	drink -> quality
+favourite pearl milk tea	drink -> quality
+subjective Food	drink -> quality
+strong sangria	drink -> quality
+nice bowl	drink -> quality
+wrong beverage	drink -> quality
+full flavour	drink -> quality
+intricately drinks	drink -> quality
+rough coffee	drink -> quality
+nice selection of drinks	drink -> quality
+oily spring rolls	drink -> quality
+generous fajitas	drink -> quality
+good jasmine green iced tea	drink -> quality
+preferred mixed drinks	drink -> quality
+hot Coffee	drink -> quality
+disappointment ebi mayo	drink -> quality
+fast drinks	drink -> quality
+fantastic Margarita pitcher	drink -> quality
+moist bun	drink -> quality
+AMAZING Latte	drink -> quality
+filling ragout	drink -> quality
+good beets	drink -> quality
+prefer pho	drink -> quality
+watery kim chi	drink -> quality
+good Sapporo pitchers	drink -> quality
+nice sweetness	drink -> quality
+thick sauce	drink -> quality
+thinly strawberries	drink -> quality
+much shoyu	drink -> quality
+light croutons	drink -> quality
+great drinks	drink -> quality
+impress Maudite in bottle version	drink -> quality
+expensive drinks	drink -> quality
+sugary General Tso	drink -> quality
+well Beet	drink -> quality
+love perogies	drink -> quality
+average pho	drink -> quality
+under drink	drink -> quality
+great drinks	drink -> quality
+disaster drink	drink -> quality
+topped water	drink -> quality
+well cream	drink -> quality
+less cinnamon	drink -> quality
+great oil	drink -> quality
+nice paella	drink -> quality
+bad tip	drink -> quality
+good drinks	drink -> quality
+best filets	drink -> quality
+alright drinks	drink -> quality
+parched glasses of water	drink -> quality
+vibrant green	drink -> quality
+cheap drinks	drink -> quality
+clean dim sum	drink -> quality
+perf crust	drink -> quality
+warm bottle of fine Albarino	drink -> quality
+on flavours	drink -> quality
+properly bubble tea	drink -> quality
+nice glass of Malbec	drink -> quality
+overkill seabass	drink -> quality
+great drinks	drink -> quality
+low grease	drink -> quality
+like instant pho	drink -> quality
+warm queso fundido	drink -> quality
+maximize macaron experience	drink -> quality
+exciting drinks	drink -> quality
+bottomless Drinks	drink -> quality
+fizzy cherry press juice	drink -> quality
+thick Noodle	drink -> quality
+good filling	drink -> quality
+oily paranthas	drink -> quality
+best coffees	drink -> quality
+nice water	drink -> quality
+different chorizo quesadilla	drink -> quality
+filling poutine	drink -> quality
+good drinks	drink -> quality
+good Edamame	drink -> quality
+black candles	drink -> quality
+forgotten water refills	drink -> quality
+cutest glass of water	drink -> quality
+like taste	drink -> quality
+best cappuccino	drink -> quality
+pleasantly bill	drink -> quality
+rough banh mi	drink -> quality
+filling poke bowl	drink -> quality
+hand tea room	drink -> quality
+light white wine pasta	drink -> quality
+watery dumplings	drink -> quality
+moist served	drink -> quality
+lighter texture	drink -> quality
+smallest drink	drink -> quality
+loved drink	drink -> quality
+warm water	drink -> quality
+spilled drinks	drink -> quality
+watery churros	drink -> quality
+like lemons	drink -> quality
+decent drink deals	drink -> quality
+less plasma televisions	drink -> quality
+hotter tea	drink -> quality
+pleasantly BARQUE	drink -> quality
+friendly drinks	drink -> quality
+sweet filling	drink -> quality
+low bday	drink -> quality
+light sweet corn	drink -> quality
+overpriced ConsTacos	drink -> quality
+stellar booze	drink -> quality
+worth sugar laced churros	drink -> quality
+sweet taste	drink -> quality
+better Drinks	drink -> quality
+prompt water refills	drink -> quality
+darker sauce	drink -> quality
+great drinks	drink -> quality
+regular serving of pad	drink -> quality
+promptly round of drinks	drink -> quality
+- lemon	drink -> quality
+well glass of wine	drink -> quality
+different mains	drink -> quality
+thick batter	drink -> quality
+delicious latte	drink -> quality
+warm staff	drink -> quality
+great mains	drink -> quality
+best taste	drink -> quality
+relaxing drinks	drink -> quality
+slicker quality	drink -> quality
+fresh proscuitto	drink -> quality
+good espresso	drink -> quality
+mild spice level	drink -> quality
+below drinks	drink -> quality
+good red roe	drink -> quality
+firm tofu	drink -> quality
+strong drink	drink -> quality
+fresh filling	drink -> quality
+full bottle of wine	drink -> quality
+Glad bowl option	drink -> quality
+rudely bottle of Cava	drink -> quality
+good coffee	drink -> quality
+fantastic smoke fish	drink -> quality
+less flavour	drink -> quality
+more flavor	drink -> quality
+good Filling	drink -> quality
+average drinks	drink -> quality
+perfect wine	drink -> quality
+pathetic drink	drink -> quality
+quaint drinks	drink -> quality
+refreshing lime	drink -> quality
+under tea	drink -> quality
+flat Cokes	drink -> quality
+interesting drinks	drink -> quality
+warm udon	drink -> quality
+fun drink	drink -> quality
+great drinks	drink -> quality
+warm servers	drink -> quality
+good cactus pear juice )	drink -> quality
+lemony hollandaise	drink -> quality
+coconutty lemon taste	drink -> quality
+great drinks	drink -> quality
+tasty watermelon lemonade on special	drink -> quality
+nice coffee	drink -> quality
+free drink	drink -> quality
+flavourful spoonful	drink -> quality
+poor drinks	drink -> quality
+cool cups	drink -> quality
+less ice	drink -> quality
+enjoying cup of coffee	drink -> quality
+great coffee	drink -> quality
+undrinkable juice	drink -> quality
+disappointed passion fruit green tea	drink -> quality
+nice glass of wine	drink -> quality
+fresh lemon flavours	drink -> quality
+good coffee	drink -> quality
+better steam vegetables	drink -> quality
+bitter milk custard	drink -> quality
+fresh guac	drink -> quality
+enjoyed wine choices	drink -> quality
+crazy mixology drinks	drink -> quality
+unexpected lemon water	drink -> quality
+overpricing drink	drink -> quality
+smoothly Tea	drink -> quality
+good filler	drink -> quality
+delicate tastes	drink -> quality
+freshly orange juice	drink -> quality
+good lemon	drink -> quality
+deteriorated taste	drink -> quality
+perfect coffee shop	drink -> quality
+unlimited toppings	drink -> quality
+quickly drinks	drink -> quality
+impressed spring roll	drink -> quality
+warm owners	drink -> quality
+average taste	drink -> quality
+best sugar options	drink -> quality
+hot fillings	drink -> quality
+pleasantly lemon	drink -> quality
+good drinks	drink -> quality
+reasonably drinks	drink -> quality
+expensive drinks	drink -> quality
+rich wine sauce	drink -> quality
+strong taste	drink -> quality
+overdo servings	drink -> quality
+enjoy drink	drink -> quality
+out taste	drink -> quality
+phenomenal red	drink -> quality
+special mint humus	drink -> quality
+overwhelming drinks	drink -> quality
+nicely flavours	drink -> quality
+quickly dill dip	drink -> quality
+perfect coffee	drink -> quality
+delicious milkshakes	drink -> quality
+standard quesadillas	drink -> quality
+thinner soba	drink -> quality
+good cup of coffee	drink -> quality
+fresh counter	drink -> quality
+thick blueberries	drink -> quality
+hearty mains	drink -> quality
+nice drinks	drink -> quality
+enjoyed eegs	drink -> quality
+same drinkWe	drink -> quality
+decent taste	drink -> quality
+great porter	drink -> quality
+lovely drink	drink -> quality
+unreliable product	drink -> quality
+stiff risotto	drink -> quality
+nice olive	drink -> quality
+easy pot of tea	drink -> quality
+enjoyed drinks	drink -> quality
+awesome after work drinks	drink -> quality
+chilled spot	drink -> quality
+much.2 pierogi 's	drink -> quality
+downfall Gusto	drink -> quality
+juicy BP	drink -> quality
+alright Coffee	drink -> quality
+huge apple crumble flam	food -> healthiness
+overly sauce	food -> healthiness
+elevated rye kernels	food -> healthiness
+blobbed sprig of basil	food -> healthiness
+rare potatoes	food -> healthiness
+bland mushrooms	food -> healthiness
+standouts foie gras	food -> healthiness
+crunchy chicken knee cartilage	food -> healthiness
+organic msg	food -> healthiness
+thick noodles	food -> healthiness
+liked short ribs	food -> healthiness
+organic lettuce	food -> healthiness
+messy Carne Asada	food -> healthiness
+underdressed lettuce	food -> healthiness
+Disappointed mushroom gnocchi	food -> healthiness
+untrimmed fat	food -> healthiness
+undercooked waitress	food -> healthiness
+thin pizza	food -> healthiness
+lacking Beef	food -> healthiness
+thinner noodles	food -> healthiness
+free grass jelly	food -> healthiness
+lacked panna cotta	food -> healthiness
+clean roll lettuce	food -> healthiness
+good bibb lettuce	food -> healthiness
+crumbled vegetable pakora	food -> healthiness
+small sausages	food -> healthiness
+simple mushroom woody flavor	food -> healthiness
+packed server	food -> healthiness
+free cream cupcake	food -> healthiness
+sufficient appetite	food -> healthiness
+stringy sweet carmelized onions	food -> healthiness
+different tomato	food -> healthiness
+stood soup	food -> healthiness
+long watermelon with crushed iceMy meal	food -> healthiness
+overly crust	food -> healthiness
+greasy vegetable	food -> healthiness
+HUGE ginger molasses cookie	food -> healthiness
+lacked soup	food -> healthiness
+greasy quality of food	food -> healthiness
+creamiest homo milk	food -> healthiness
+solidly food	food -> healthiness
+poorly Brasseurs	food -> healthiness
+healthy lunch	food -> healthiness
+higher dishes	food -> healthiness
+thicker clotted cream	food -> healthiness
+fuzzy wine	food -> healthiness
+disappointed tapas portions	food -> healthiness
+tougher chew	food -> healthiness
+rubbery octopus	food -> healthiness
+excessive charring	food -> healthiness
+oily portions	food -> healthiness
+thinly enoki mushrooms	food -> healthiness
+well veal parm	food -> healthiness
+rich veal	food -> healthiness
+crispy side	food -> healthiness
+off cabbage roll	food -> healthiness
+right noodles	food -> healthiness
+decently Hamachi Ceviche	food -> healthiness
+dark cartilage	food -> healthiness
+out potato dumplings	food -> healthiness
+unevenly brussel sprouts	food -> healthiness
+centrally food	food -> healthiness
+nicely beans	food -> healthiness
+allergic fruit salad	food -> healthiness
+wide grilled	food -> healthiness
+much flatbread	food -> healthiness
+forgot pabst blue ribbon	food -> healthiness
+weak bulgogi ricecake in soy sauce	food -> healthiness
+rubbery rice	food -> healthiness
+unfortunate shaved ice	food -> healthiness
+LOVE pickled vegetables	food -> healthiness
+pleasant pickled vegetables	food -> healthiness
+longer maple bacon	food -> healthiness
+right noodles	food -> healthiness
+DELICIOUS quinoa dishes-	food -> healthiness
+small salad	food -> healthiness
+shorter bread	food -> healthiness
+small portion of food	food -> healthiness
+weak food	food -> healthiness
+big bowl of mussels with herbs , shallots	food -> healthiness
+disappointment gobernador tacos	food -> healthiness
+salty portions	food -> healthiness
+bad fat	food -> healthiness
+over pretzel	food -> healthiness
+sizable soup	food -> healthiness
+fresh vegetable toppings	food -> healthiness
+trendy Charcuterie	food -> healthiness
+alright soy nuggets	food -> healthiness
+MASSIVE fries	food -> healthiness
+right fat	food -> healthiness
+full lunch	food -> healthiness
+firm udon noodles	food -> healthiness
+inedible caramel	food -> healthiness
+overcharged waiter	food -> healthiness
+thick noodles	food -> healthiness
+thicker barbecue sauce	food -> healthiness
+greasy- bread	food -> healthiness
+thinly onions	food -> healthiness
+firm crust	food -> healthiness
+greasy shawarma	food -> healthiness
+healthy wheat	food -> healthiness
+thick noodles	food -> healthiness
+greasy dish	food -> healthiness
+silky red bean filling	food -> healthiness
+below smoked salmon	food -> healthiness
+sizeable SAUSAGE GRAVY	food -> healthiness
+large caramelized onions and peppers and cheese	food -> healthiness
+unhealthy fries	food -> healthiness
+stiff noodles	food -> healthiness
+plump pork belly	food -> healthiness
+oily soft shelf crab	food -> healthiness
+small chicken rec'dPrice	food -> healthiness
+overpowered fish	food -> healthiness
+lacked pork	food -> healthiness
+sugarcoated churro	food -> healthiness
+lacked seasoning	food -> healthiness
+chewy gyu carpaccio	food -> healthiness
+stretchy crust	food -> healthiness
+acidic salad	food -> healthiness
+lower potatoes	food -> healthiness
+mediocre mixed vege	food -> healthiness
+greasy chicken toast	food -> healthiness
+ugly faculty	food -> healthiness
+highest fish	food -> healthiness
+well proteins	food -> healthiness
+perfectly grain	food -> healthiness
+half snack	food -> healthiness
+empty lunch	food -> healthiness
+full scallop	food -> healthiness
+bland Mushroom empanada	food -> healthiness
+okay buffalo carpaccioCrispy	food -> healthiness
+soggy plate	food -> healthiness
+uninspired plating	food -> healthiness
+authentic diner	food -> quality
+yummy place	food -> quality
+awesome trio dip	food -> quality
+delicious friend tofu	food -> quality
+well braised beef	food -> quality
+interesting trout plating	food -> quality
+enjoy steak	food -> quality
+delectable aioli	food -> quality
+fantastic Fish tacos	food -> quality
+better instant noodles	food -> quality
+tender Ribs	food -> quality
+nicely ham	food -> quality
+fan Cake	food -> quality
+great pizza	food -> quality
+lovely pesto sauce	food -> quality
+well patty	food -> quality
+special meal	food -> quality
+juicy meat	food -> quality
+ideal lunch	food -> quality
+notable food	food -> quality
+enjoyed sushi	food -> quality
+slim slices of fish	food -> quality
+nice ploughman	food -> quality
+tasty wild boar	food -> quality
+perfectly sweet waffle	food -> quality
+best gelato flavours	food -> quality
+fantastic food	food -> quality
+good counter	food -> quality
+lighter broth	food -> quality
+rare steak	food -> quality
+delicious food	food -> quality
+disappointed lunch	food -> quality
+juicy veal	food -> quality
+good sushi	food -> quality
+perfect rib	food -> quality
+reasonable food	food -> quality
+delicious Kothey Momos	food -> quality
+interesting toppings	food -> quality
+best fried chicken	food -> quality
+perfectly pies	food -> quality
+good food	food -> quality
+favourite comfort foods	food -> quality
+condescending goji berries	food -> quality
+great roll	food -> quality
+nice mimosas	food -> quality
+well dish	food -> quality
+flavourful Mango	food -> quality
+great sauce	food -> quality
+good food	food -> quality
+sweet bread baskets	food -> quality
+small fish on the sushi	food -> quality
+beautiful food	food -> quality
+outstanding burgers	food -> quality
+wide dishes	food -> quality
+long brunch	food -> quality
+delicious dried sausage patty	food -> quality
+perfect tomato	food -> quality
+better Miso soup	food -> quality
+best cod	food -> quality
+like coconut	food -> quality
+great fries	food -> quality
+good Ping Gai	food -> quality
+okay cashew nut curry tofu	food -> quality
+perfectly flavour	food -> quality
+tasty meat	food -> quality
+fresh Peppercorn	food -> quality
+filling lunch entrée	food -> quality
+good food	food -> quality
+good food	food -> quality
+amazing tzatziki	food -> quality
+hightop booths	food -> quality
+good tacos	food -> quality
+charred fried stuff	food -> quality
+goodies cake	food -> quality
+firm Miso ramen	food -> quality
+delicious food	food -> quality
+fluffy cake	food -> quality
+enjoyed meal	food -> quality
+delicious bison burger	food -> quality
+delicious curry	food -> quality
+best mussels	food -> quality
+delicious dinner	food -> quality
+rich sauce	food -> quality
+good dressing	food -> quality
+favourite dish-	food -> quality
+old spicy salmon roll	food -> quality
+enjoyed burger	food -> quality
+good west indian food	food -> quality
+perfect.2 texture	food -> quality
+horror burger	food -> quality
+fresh appetizers	food -> quality
+betterOnto tacos	food -> quality
+reliable food	food -> quality
+good food	food -> quality
+perfectly cilantro	food -> quality
+unctuous Korean bbq sauce flavor	food -> quality
+inventive sushi dishes	food -> quality
+freshly noodles	food -> quality
+bright crushed ice	food -> quality
+nice Duck fat fries	food -> quality
+love food	food -> quality
+worse sushi	food -> quality
+excited dinner	food -> quality
+great stew	food -> quality
+delicious chicken satay	food -> quality
+soft chickpeas and	food -> quality
+like creamy ramen	food -> quality
+good food	food -> quality
+eggy taste	food -> quality
+good food	food -> quality
+loved noodles	food -> quality
+great popcorn chicken	food -> quality
+loved chips	food -> quality
+hard dish	food -> quality
+regret pizza	food -> quality
+fresh Ingredients	food -> quality
+wonderful dish	food -> quality
+cool dish	food -> quality
+like Halibut	food -> quality
+fast food	food -> quality
+liked coat check	food -> quality
+delicious brisket eggs benny on cornbread	food -> quality
+bland rice	food -> quality
+glad Zangi	food -> quality
+good sandwich	food -> quality
+loved charcuterie board	food -> quality
+love fried chicken	food -> quality
+high quality of food	food -> quality
+dry pork	food -> quality
+expensive food	food -> quality
+great brunch	food -> quality
+fresh ingredients	food -> quality
+tops food	food -> quality
+salty appetizers	food -> quality
+well cheese empanada	food -> quality
+perfectly eggs	food -> quality
+good falafel wrap	food -> quality
+loved potato puree	food -> quality
+marvelous.great Gorgonzola Gnocchi	food -> quality
+good Tonkotsu Ramen	food -> quality
+soft tortilla	food -> quality
+solid Salmon tataki	food -> quality
+nice scallop	food -> quality
+unfamiliar food	food -> quality
+best served	food -> quality
+hard Rice	food -> quality
+good fried chicken	food -> quality
+superb ribs	food -> quality
+top Food presentation	food -> quality
+incredible tuna salad	food -> quality
+well omelette	food -> quality
+nice pickled cucumber garnish	food -> quality
+good Cajun fries	food -> quality
+tender meat	food -> quality
+best Paella	food -> quality
+cheap food	food -> quality
+surprising spinach	food -> quality
+fake McCain fries	food -> quality
+sweetness dinner dish	food -> quality
+tough beef patty	food -> quality
+okay food	food -> quality
+reasonably ice cream	food -> quality
+fancy butternut squash	food -> quality
+average dishes	food -> quality
+phenomenal sushi	food -> quality
+appreciated tacos	food -> quality
+affordable sushi	food -> quality
+best burgers	food -> quality
+great side dishes	food -> quality
+exceptional Chicken in Jerk sauce	food -> quality
+sassy ribA	food -> quality
+lovely Puzza	food -> quality
+average Food	food -> quality
+best bacon	food -> quality
+stand seasoning of the burger	food -> quality
+best skin	food -> quality
+perfectly spicy	food -> quality
+fluffy mini donuts	food -> quality
+well spices	food -> quality
+favorites rice with beef in the egg pancake	food -> quality
+good tenderloin beef skewers	food -> quality
+fresh mushroom flavour	food -> quality
+awesome crackerjack pastry dish with ice cream	food -> quality
+limited dishes	food -> quality
+awful kiwi slush	food -> quality
+perfection Shrimp	food -> quality
+sweet sauce	food -> quality
+rare beef salad	food -> quality
+bland fries	food -> quality
+picky half fries	food -> quality
+satisfying meal	food -> quality
+favorite butter chicken	food -> quality
+loves biscuits	food -> quality
+sweet frozen hot chocolate	food -> quality
+nice burger	food -> quality
+favourite lunch spot	food -> quality
+decadent buffet	food -> quality
+flavourful dishes	food -> quality
+tasty Pad graprao	food -> quality
+expensive breakfast	food -> quality
+delicious meat skewers	food -> quality
+uninformed food	food -> quality
+plus brunch	food -> quality
+good noodle	food -> quality
+crisp filling	food -> quality
+light Indian Papadum	food -> quality
+amazing food	food -> quality
+fresh salmon sashimi	food -> quality
+fresh sashimi	food -> quality
+favourite meal	food -> quality
+watery soup	food -> quality
+good food	food -> quality
+lots meat portions	food -> quality
+sweet chocolate brownie	food -> quality
+smooth mango pudding	food -> quality
+sweet wurscht and eggs	food -> quality
+tasty karaage	food -> quality
+lovely food	food -> quality
+delicious food	food -> quality
+well food	food -> quality
+repetitive food options	food -> quality
+mediocre food	food -> quality
+overwhelming brunch menu	food -> quality
+neat toppings	food -> quality
+perfect spicing	food -> quality
+tasty kebab	food -> quality
+above food	food -> quality
+amazing cheese cake	food -> quality
+great food	food -> quality
+good food	food -> quality
+strong almond scented tofu gelatin	food -> quality
+soft bun	food -> quality
+crunchy fried chicken	food -> quality
+good food	food -> quality
+crispness batter	food -> quality
+perfect wrap	food -> quality
+yummy treats	food -> quality
+good fries	food -> quality
+superb Crispy duck salad	food -> quality
+good food	food -> quality
+tasty lemon grass soup	food -> quality
+tender Pork ribs	food -> quality
+decent meals	food -> quality
+best evaaarrrr	food -> quality
+hearty herbs	food -> quality
+standard flavours	food -> quality
+good food quality	food -> quality
+amazing beef tacos	food -> quality
+Worst dish	food -> quality
+dry dish	food -> quality
+full dessert	food -> quality
+craving steak	food -> quality
+good green onion	food -> quality
+good food	food -> quality
+exceptional food	food -> quality
+fatty meat	food -> quality
+standard chicken pieces	food -> quality
+Rare steak	food -> quality
+cheat egg	food -> quality
+good dish	food -> quality
+affordable food	food -> quality
+ridiculously side of french fries	food -> quality
+creamy ube ( purple yam ) flan and ice cream	food -> quality
+generous pork slices	food -> quality
+classic bacon	food -> quality
+good sushi	food -> quality
+cool food	food -> quality
+stringy cheese	food -> quality
+great dish	food -> quality
+messed food	food -> quality
+enjoyed tofu	food -> quality
+enjoyed matcha cake	food -> quality
+mediocre Soup	food -> quality
+nice tofu dish	food -> quality
+creamy Brie	food -> quality
+perfectly Eggs	food -> quality
+huge primavera pizza	food -> quality
+good fresh oysters	food -> quality
+Enjoyed beef	food -> quality
+delicious tonkotsu	food -> quality
+delicious meat	food -> quality
+interesting egg	food -> quality
+plush food	food -> quality
+gritty colour	food -> quality
+nice dinner	food -> quality
+perfect dinner	food -> quality
+warm rice	food -> quality
+amazing food	food -> quality
+good pull pork	food -> quality
+overdone truffle	food -> quality
+complimentary sweet apple purée	food -> quality
+tasty rolls	food -> quality
+loved Khao Soi 's	food -> quality
+like yam burrito	food -> quality
+best rice	food -> quality
+incredible meal	food -> quality
+prefer tacos	food -> quality
+bad FOOD	food -> quality
+pricey burgers	food -> quality
+FANTASTIC.My masala	food -> quality
+tasty fish	food -> quality
+favourite brunch	food -> quality
+delicious food	food -> quality
+cool food	food -> quality
+right fish	food -> quality
+crisp turnip cake	food -> quality
+favourite pasta ai funghi	food -> quality
+good sauces	food -> quality
+simple fried spring rolls	food -> quality
+best samosas	food -> quality
+cozy patio brunches	food -> quality
+memorable meal	food -> quality
+enjoy cheesecake	food -> quality
+crispy curry sauce	food -> quality
+great Food	food -> quality
+giant sushi	food -> quality
+perfectly toasted	food -> quality
+delicious salmon	food -> quality
+scrumptious rabbit	food -> quality
+velvety texture	food -> quality
+crunchy server	food -> quality
+good potato salad	food -> quality
+tender ramen	food -> quality
+best caesar salad	food -> quality
+sweet Beef	food -> quality
+delicious sauce	food -> quality
+bad food	food -> quality
+simple diner food	food -> quality
+succulent meat	food -> quality
+pretty meals	food -> quality
+miss meat	food -> quality
+good food	food -> quality
+favourite Eggplant	food -> quality
+fresh bread	food -> quality
+affordable meal	food -> quality
+well Toppings	food -> quality
+fresh ingredients	food -> quality
+soft fish	food -> quality
+delicious pizza	food -> quality
+decent foods	food -> quality
+fresh dishes	food -> quality
+tasty toasted sesame seeds	food -> quality
+better sandwiches	food -> quality
+fresh spinach	food -> quality
+decent food	food -> quality
+simple tomatoes with dressing	food -> quality
+fresh Food	food -> quality
+noteworthy brunch	food -> quality
+generous fries	food -> quality
+overwhelmed soya sauce	food -> quality
+well ramen	food -> quality
+expensive variety of lobster	food -> quality
+nice Schnitzel	food -> quality
+tasteless california roll	food -> quality
+delicate red velvet chocolate flavour	food -> quality
+great food	food -> quality
+bright tangy	food -> quality
+lacked rabbit food	food -> quality
+yummy salami	food -> quality
+better ramens	food -> quality
+perfect food	food -> quality
+authentic falooda	food -> quality
+delicious gyudon	food -> quality
+amazing food	food -> quality
+amazing sashimi salad	food -> quality
+good Vongole pasta	food -> quality
+crowded lunch	food -> quality
+plain spices	food -> quality
+delicious prime rib	food -> quality
+better spices	food -> quality
+love pickles	food -> quality
+below meal	food -> quality
+best Caesar	food -> quality
+satisfying lunch	food -> quality
+mediocre quality	food -> quality
+great ancho chilli powder	food -> quality
+incredible selection of steak	food -> quality
+savory flavor	food -> quality
+enjoy food	food -> quality
+flavourless meat	food -> quality
+supreme burger	food -> quality
+good Paneer Tikka Massala	food -> quality
+excellent dessert	food -> quality
+great food	food -> quality
+satisfied tortilla	food -> quality
+expensive food	food -> quality
+delicious Greek wine	food -> quality
+like rice water dessert	food -> quality
+crispy fries	food -> quality
+impress Konjiki Ramen	food -> quality
+flavourful corn tortillas	food -> quality
+perfectly sweet sauce	food -> quality
+great sauce	food -> quality
+decent tacos	food -> quality
+disappointing eggs Benedict	food -> quality
+shocked burger	food -> quality
+warm ribs	food -> quality
+enjoyed tomato relish	food -> quality
+fabulous pumkin pie cheesecake	food -> quality
+loved bread	food -> quality
+perfect halloumi	food -> quality
+great chicken korma	food -> quality
+drowned meals	food -> quality
+good dishes	food -> quality
+good takoyaki	food -> quality
+sweet dessert taste	food -> quality
+decent food	food -> quality
+disappointed miso ramen	food -> quality
+tasty Red Miso Ramen	food -> quality
+snails service	food -> quality
+good burger	food -> quality
+creamy pesto sauce	food -> quality
+great taiyaki	food -> quality
+unfailing dough	food -> quality
+special desserts	food -> quality
+soaks corn	food -> quality
+good Food	food -> quality
+popular sweet du	food -> quality
+nice food	food -> quality
+amazing food	food -> quality
+excellent rice to fish ratio	food -> quality
+well burger	food -> quality
+DELICIOUS fried chicken	food -> quality
+mediocre food	food -> quality
+good food	food -> quality
+nice pizza	food -> quality
+great Food	food -> quality
+good dish	food -> quality
+amazing food	food -> quality
+sweet jalapeno taste	food -> quality
+amazing salsa bar	food -> quality
+perfect noodles	food -> quality
+dry pasta	food -> quality
+enough dishes	food -> quality
+undercooked Calamari	food -> quality
+simple beef balls	food -> quality
+well appetizers	food -> quality
+great sauteed	food -> quality
+salty flavour	food -> quality
+bland quality	food -> quality
+delicious avocado smoothies	food -> quality
+excellent food	food -> quality
+fast Food	food -> quality
+great mealKorean fried chicken	food -> quality
+disappointing bacon	food -> quality
+quick meal	food -> quality
+fast desserts	food -> quality
+favourite spinach	food -> quality
+delicious food	food -> quality
+quickly dishes	food -> quality
+outstanding food	food -> quality
+stand dish	food -> quality
+amazing food	food -> quality
+impeccable flavours	food -> quality
+confused dishes	food -> quality
+amazing food	food -> quality
+home bread	food -> quality
+unique burger	food -> quality
+good jerk chicken	food -> quality
+fresh corn tortillas	food -> quality
+favourite White Fish	food -> quality
+right food	food -> quality
+limited dinner	food -> quality
+cute glassware	food -> quality
+similar toppings	food -> quality
+good b'skillet	food -> quality
+sweet whipped topping	food -> quality
+hot hot sauce	food -> quality
+delicious waffles	food -> quality
+popular dishes	food -> quality
+delicious bowl	food -> quality
+beautiful pan fried dumpling	food -> quality
+amazing Platter	food -> quality
+delicious meal	food -> quality
+good meat	food -> quality
+heavy salad dressing	food -> quality
+amazing ramen	food -> quality
+gross bowl of gravy	food -> quality
+fresh salmon sashimi	food -> quality
+flimsy dough	food -> quality
+tasty Food	food -> quality
+creamy frozen popsicles made	food -> quality
+good Khao Soi	food -> quality
+bad macaroons	food -> quality
+soft hot dog bun	food -> quality
+beyond Chipotle Mayo	food -> quality
+sweet fried chicken spicy	food -> quality
+soft nori flakes	food -> quality
+layered bananas	food -> quality
+niceness roti	food -> quality
+flavourful beef ribs	food -> quality
+romanced taste	food -> quality
+embarrassed honey	food -> quality
+salty olives	food -> quality
+good soup	food -> quality
+delicious crust	food -> quality
+good ramen	food -> quality
+good curry	food -> quality
+delicious meals	food -> quality
+fresh brunch	food -> quality
+good mashed potatoes	food -> quality
+cold kaftas	food -> quality
+delicious shortbread	food -> quality
+enjoyable seafood	food -> quality
+dry chicken	food -> quality
+beautiful bowls	food -> quality
+enticing main dish	food -> quality
+medium meat	food -> quality
+plump rice roll	food -> quality
+bland mozza	food -> quality
+good portion of food	food -> quality
+disappointed food	food -> quality
+suited burger	food -> quality
+quickly Food	food -> quality
+pleasured meaty	food -> quality
+excellent challenge burger	food -> quality
+cheap sashimi	food -> quality
+great breakfast food	food -> quality
+good fish	food -> quality
+good food	food -> quality
+delicious pancakes	food -> quality
+happy dining hall	food -> quality
+best Baja fish	food -> quality
+love spicy food	food -> quality
+amazing food	food -> quality
+better meal	food -> quality
+good Burger	food -> quality
+quick food	food -> quality
+better plate	food -> quality
+simple rice ball with cheese	food -> quality
+cold burger	food -> quality
+delicious salted	food -> quality
+neat ramen	food -> quality
+helpful food	food -> quality
+warm brie salad	food -> quality
+gooey guacamole	food -> quality
+perfection mackerel	food -> quality
+cheap quality of food	food -> quality
+crunchy raw scallion in	food -> quality
+like roasted rice	food -> quality
+lovely meal	food -> quality
+staple breakfast foods	food -> quality
+excellent guacamole	food -> quality
+ridiculous family meal	food -> quality
+warm cookies	food -> quality
+heavy fried chicken drumsticks	food -> quality
+right flavour	food -> quality
+perfection french fries	food -> quality
+stale nacho chips	food -> quality
+nice sauce	food -> quality
+delicious food	food -> quality
+refreshing cucumbers	food -> quality
+disappointing chai	food -> quality
+favourite kaas sausage+	food -> quality
+awesome napkinz	food -> quality
+busy dinner	food -> quality
+must dishes	food -> quality
+fancy jambalaya	food -> quality
+nice ravoili	food -> quality
+homemade back ribs	food -> quality
+salty meatballs	food -> quality
+happy food	food -> quality
+signature dishes	food -> quality
+good cheese	food -> quality
+good food	food -> quality
+infamous lunch	food -> quality
+better food	food -> quality
+oily tempura bits	food -> quality
+fabulous dishes	food -> quality
+love BBQ pork ramen	food -> quality
+good egg yolk bun	food -> quality
+moist carrot cake	food -> quality
+great brunch	food -> quality
+happy meat	food -> quality
+delicious Pitas	food -> quality
+crispy grilled mackerel	food -> quality
+great food	food -> quality
+okay Burgers	food -> quality
+memorable dinner	food -> quality
+good Yakitori	food -> quality
+like herbs	food -> quality
+dope pineapple dessert	food -> quality
+delicious homemade labneh with za'atar	food -> quality
+filling mushroom soup	food -> quality
+flaky biscuit	food -> quality
+great dishes	food -> quality
+delicious meal	food -> quality
+tasty bubble tea place	food -> quality
+good risotto with beets	food -> quality
+lacked kimchi burger	food -> quality
+fresh taco	food -> quality
+outstanding broth	food -> quality
+tasty dish	food -> quality
+crisp sweet	food -> quality
+spicy kimchi	food -> quality
+good artichokes	food -> quality
+cold French fries	food -> quality
+love deep fried seafood	food -> quality
+perfection cheese curds	food -> quality
+toasty fries	food -> quality
+favourite potatoes	food -> quality
+delicious food	food -> quality
+like tobiko	food -> quality
+pricey food	food -> quality
+good poutine 's gravy	food -> quality
+full dessert	food -> quality
+enough fries	food -> quality
+good burger	food -> quality
+cheerful haute cuisine	food -> quality
+nicely eggs	food -> quality
+undercooked seafood	food -> quality
+enough salmon	food -> quality
+expensive food	food -> quality
+crispy cake	food -> quality
+amazing potatoes	food -> quality
+good pork cutlet	food -> quality
+uniquely Steak tartare	food -> quality
+delectable cucumbers	food -> quality
+love burger	food -> quality
+disappoint grilled chicken bun	food -> quality
+chewy macarons	food -> quality
+dry sauce	food -> quality
+excellent food quality	food -> quality
+ordinary sauce	food -> quality
+better meals	food -> quality
+interesting balsamic beef	food -> quality
+perfection duck	food -> quality
+quick appetizers	food -> quality
+normal dishes	food -> quality
+tough meat	food -> quality
+great spring rolls	food -> quality
+fresh food	food -> quality
+alright taste	food -> quality
+strong food	food -> quality
+amazing crust	food -> quality
+good pork	food -> quality
+warm food	food -> quality
+good seitan	food -> quality
+loved duck confit rolls	food -> quality
+delightful mussels with cajun sauce	food -> quality
+good food	food -> quality
+fast Food	food -> quality
+fluffy cheese flavour	food -> quality
+finished brunch	food -> quality
+good food	food -> quality
+delicious dish	food -> quality
+overcooked Chicken	food -> quality
+phenomenal croissant	food -> quality
+slow sashimi	food -> quality
+perfectly beef khao soi	food -> quality
+worst food	food -> quality
+bland chicken club	food -> quality
+soft naan	food -> quality
+nice meal	food -> quality
+amazing dill cream sauce	food -> quality
+unique truffle oil	food -> quality
+flavourful served	food -> quality
+good food	food -> quality
+talkative dinner	food -> quality
+tasty eggs	food -> quality
+crispy shrimps	food -> quality
+hard frying	food -> quality
+solid brunch	food -> quality
+happy dishes	food -> quality
+rude creme brulee	food -> quality
+adventurous Kara Miso Ramen	food -> quality
+good flavour	food -> quality
+loves cut of fish	food -> quality
+good sushi	food -> quality
+love cheese	food -> quality
+amazing msg	food -> quality
+better Flavour	food -> quality
+dissapointed pasta choices	food -> quality
+like Burgers	food -> quality
+awful rice	food -> quality
+hot Green Curry	food -> quality
+homey brunch place	food -> quality
+crispy spring rolls	food -> quality
+irrationally Food	food -> quality
+salty poutine	food -> quality
+delish bread	food -> quality
+good potatoes	food -> quality
+bad food	food -> quality
+favourite uni hand rolls	food -> quality
+different BBQ	food -> quality
+floppy pizzas	food -> quality
+wonderful dining	food -> quality
+delicious cumin fries	food -> quality
+better- Pork ribs	food -> quality
+dry taco shells	food -> quality
+best Rotis	food -> quality
+memorable candy bar dessert special	food -> quality
+fresh ingredients	food -> quality
+obscene oil	food -> quality
+quickly food	food -> quality
+love smoked salmon	food -> quality
+loved curry	food -> quality
+like miso soup	food -> quality
+different poke bowls	food -> quality
+tender roasted beets	food -> quality
+warm dip	food -> quality
+bitter carrot cake	food -> quality
+fast food	food -> quality
+amazing Tofu cheese cake	food -> quality
+fresh chicken	food -> quality
+okay bento box	food -> quality
+salty Duck ( fried )	food -> quality
+romantic fresh ground horse radish	food -> quality
+romantic dinner	food -> quality
+great Dishes	food -> quality
+fast food	food -> quality
+flavorful chicken in the chicken and waffles	food -> quality
+loved pineapple in the	food -> quality
+good Red Lobster	food -> quality
+favorite french fries	food -> quality
+bland umeboshi drink	food -> quality
+pleasant avocado	food -> quality
+trendy chinese decor setting	food -> quality
+enjoyable flavor	food -> quality
+nice food experiences	food -> quality
+sweet Pad Thai taste	food -> quality
+great food	food -> quality
+like fish	food -> quality
+pleased dishes	food -> quality
+love soup	food -> quality
+decent Food	food -> quality
+good burger	food -> quality
+nice fries	food -> quality
+fishy noodle soup broth	food -> quality
+great Fanny Bay oyster	food -> quality
+good chocolate desserts	food -> quality
+fantastic meal	food -> quality
+okay food	food -> quality
+lukewarm food	food -> quality
+tasty meat	food -> quality
+delicious chicken	food -> quality
+better flavour	food -> quality
+amazing army base soup	food -> quality
+well flavors	food -> quality
+springy Noodles	food -> quality
+loved Chilean dining	food -> quality
+Delicious yuzu pepper	food -> quality
+great dining	food -> quality
+good burger	food -> quality
+thick hot sauce	food -> quality
+amazing taste	food -> quality
+delightful plates	food -> quality
+fresh meat	food -> quality
+love crab	food -> quality
+mild Chicken	food -> quality
+average sushi	food -> quality
+delicious breakfast sandwiches	food -> quality
+tender beef	food -> quality
+delicious food	food -> quality
+great Kit Kat	food -> quality
+terrible plating	food -> quality
+cheap lamb fried dumplings	food -> quality
+edible sashimi	food -> quality
+Fantastic Avocado	food -> quality
+great sinigang	food -> quality
+light salad	food -> quality
+great gelato	food -> quality
+flavourful tuna dish	food -> quality
+great food	food -> quality
+tender tongue on	food -> quality
+yummy miso	food -> quality
+nice steamed pork	food -> quality
+amazing hot sauce	food -> quality
+crispy salmon skin	food -> quality
+like pork grinds	food -> quality
+liked Shrimp	food -> quality
+good lunch	food -> quality
+amazing pasta	food -> quality
+amazing horseradish flavor	food -> quality
+prefer meat	food -> quality
+enjoying meals	food -> quality
+great food	food -> quality
+fun yaki udon	food -> quality
+loved foie gras	food -> quality
+warm baked feta	food -> quality
+full Fried apple pie	food -> quality
+good cut of	food -> quality
+nice fries	food -> quality
+delicious food	food -> quality
+ordinary ramen bowl	food -> quality
+spicy Lamb Madras	food -> quality
+under chicken	food -> quality
+failing lobster roll	food -> quality
+best dish	food -> quality
+love dish	food -> quality
+good mac and cheese with fries and salad	food -> quality
+delicious- Hash	food -> quality
+incredible food	food -> quality
+strong oil flavour	food -> quality
+sweet corn	food -> quality
+like food	food -> quality
+tough bowl of broth	food -> quality
+great thrive salad	food -> quality
+good food	food -> quality
+like habanero hot sauce	food -> quality
+loved chicken chilli	food -> quality
+nice meal	food -> quality
+lacking main course	food -> quality
+enjoyed breakfast sandwich	food -> quality
+meaty beef	food -> quality
+rich tonkotsu	food -> quality
+prefer noodle dumplings ( boiled )	food -> quality
+flavorful fish	food -> quality
+cheap food	food -> quality
+perfectly steak	food -> quality
+perfect noodles	food -> quality
+closer cornmeal muffin	food -> quality
+fresh side salad	food -> quality
+light soup	food -> quality
+pricey food	food -> quality
+better food	food -> quality
+great Sugar cake	food -> quality
+refreshing tuna tartare	food -> quality
+loved food	food -> quality
+mushy steamed	food -> quality
+better Deep fried spring rolls	food -> quality
+fancy brunch	food -> quality
+delicious tuna salad	food -> quality
+excellent root chips	food -> quality
+extensive desserts (	food -> quality
+traditional sushi	food -> quality
+happy food	food -> quality
+nauseating soft shell tacos	food -> quality
+good curry	food -> quality
+nice Roncesvalles	food -> quality
+unique sushi	food -> quality
+great seafood	food -> quality
+enjoyed Greek salad	food -> quality
+enough Poutine	food -> quality
+love salt	food -> quality
+fresh cakes	food -> quality
+sweet dinner.3.5	food -> quality
+exceptional flavours	food -> quality
+long tacos	food -> quality
+better flavour	food -> quality
+spicy green curry	food -> quality
+great fried calamari	food -> quality
+scorching drinking	food -> quality
+good food	food -> quality
+good Soup	food -> quality
+attentive sushi chef	food -> quality
+perfect seasoning with soy and avocado	food -> quality
+bad pani puris	food -> quality
+delightful vegan dessert	food -> quality
+memorable Food	food -> quality
+decent pasta section	food -> quality
+hearty breakfast	food -> quality
+dislike goat cheese	food -> quality
+lame cheese	food -> quality
+rare waffles with	food -> quality
+mediocre brie	food -> quality
+okay flavoring	food -> quality
+great fries	food -> quality
+excellent foods	food -> quality
+blandest SAUSAGE	food -> quality
+loved creamsicle float	food -> quality
+deceiving Cuban sandwiches	food -> quality
+delicious dessert	food -> quality
+flavourless theri batter	food -> quality
+great Chicken Wrap	food -> quality
+favourites scallops	food -> quality
+okay appetizer	food -> quality
+salty salad	food -> quality
+excellent brunch	food -> quality
+delicious broth	food -> quality
+okay Bellini	food -> quality
+love Chipotle	food -> quality
+mediocre saag paneer	food -> quality
+watery sauce	food -> quality
+wowed dish	food -> quality
+fresh taro chips	food -> quality
+like spices	food -> quality
+love steamed white rice	food -> quality
+tasteless veggie burger	food -> quality
+good flavour	food -> quality
+sweet sandwich	food -> quality
+good food	food -> quality
+delicious duck fat	food -> quality
+hit roasted eggplants	food -> quality
+good spicy chicken ramen	food -> quality
+underwhelming tacos	food -> quality
+different Tom Yum soup	food -> quality
+tasty spinach omelette	food -> quality
+enjoyable breakfast	food -> quality
+perfectly toasted	food -> quality
+enjoyed sausage	food -> quality
+nice washrooms	food -> quality
+popular Beast 's burgers	food -> quality
+impressive food	food -> quality
+good green beans	food -> quality
+tasty chicken	food -> quality
+right green curry	food -> quality
+reasonably food	food -> quality
+nicely flavor	food -> quality
+bland soup	food -> quality
+oily food	food -> quality
+best Rolls	food -> quality
+love exotic mushrooms	food -> quality
+forgot cilantro	food -> quality
+amazing fries with the steak	food -> quality
+flavourful Chilli shrimp	food -> quality
+high Breakfast	food -> quality
+crunchy- food	food -> quality
+subtle marscapone cheese	food -> quality
+special Eye beef	food -> quality
+bad burger	food -> quality
+easier dipping plate	food -> quality
+delicious egg	food -> quality
+tasty food	food -> quality
+enjoyed steak	food -> quality
+love food	food -> quality
+well meal-	food -> quality
+favourites sweet and sour pork belly	food -> quality
+overpriced dinner	food -> quality
+great meatball sub	food -> quality
+warm banana cake with caramelized bananas on	food -> quality
+filling dishes	food -> quality
+fair mussels	food -> quality
+enjoy squid	food -> quality
+good chicken adobo	food -> quality
+sweet relish	food -> quality
+warm dish	food -> quality
+delicious torched sushi	food -> quality
+liked food	food -> quality
+enjoyed dishes	food -> quality
+quickly food	food -> quality
+full steak	food -> quality
+delicious hot pot	food -> quality
+crispy skin	food -> quality
+perfectly steak	food -> quality
+tasteless dough	food -> quality
+delicious pizza cosi	food -> quality
+bad soft boiled egg	food -> quality
+better tres leche cake	food -> quality
+great Chicken Madeira	food -> quality
+expensive brunch	food -> quality
+good Lobster roll	food -> quality
+nice business lunch	food -> quality
+good food	food -> quality
+cool food	food -> quality
+delight tomato	food -> quality
+under meals	food -> quality
+fresh sesame seeds	food -> quality
+happily leftovers	food -> quality
+great poutine options	food -> quality
+good rolls	food -> quality
+decent burger	food -> quality
+decent Cobb	food -> quality
+poorly Meat	food -> quality
+delicious gnocchis	food -> quality
+splendid dessert	food -> quality
+fantastic grilled squid	food -> quality
+rushed meal	food -> quality
+cozy breakfast spot	food -> quality
+stylish diner	food -> quality
+prefer egg tart filling	food -> quality
+miss Food	food -> quality
+good calamari	food -> quality
+crispy dough	food -> quality
+forgetting beef balls	food -> quality
+solid salad	food -> quality
+goodDessert ice cream	food -> quality
+good food	food -> quality
+fancy oysters	food -> quality
+disappointed food	food -> quality
+loved sauce	food -> quality
+great food	food -> quality
+decent flavour	food -> quality
+good Pineapple friend rice with chickenPad sew with chickenRed curry chickenCurry puffs	food -> quality
+individualized dining experience	food -> quality
+enjoy food	food -> quality
+quickly food	food -> quality
+great fried Marz bar	food -> quality
+special waffle fries	food -> quality
+enjoyed smoked meat sandwich	food -> quality
+juicy carrots	food -> quality
+yummy Japango roll	food -> quality
+good soy	food -> quality
+easily main dish	food -> quality
+flavorful bean sprouts	food -> quality
+liked Yakitori	food -> quality
+full brunch	food -> quality
+interesting food	food -> quality
+like corn	food -> quality
+better food	food -> quality
+awesome dip	food -> quality
+favorites shrimp	food -> quality
+delicious tuna	food -> quality
+addictive pad thai fries	food -> quality
+defeated waffles	food -> quality
+nice salmon sushi	food -> quality
+like croissants	food -> quality
+fluffy polenta	food -> quality
+amazing spices	food -> quality
+flavorful mushrooms	food -> quality
+fresh ingredients	food -> quality
+awesome fries	food -> quality
+excellent cheeseburger spring roll	food -> quality
+delicious curry tempura shrimp udon	food -> quality
+terrific food	food -> quality
+fresh green salad	food -> quality
+inclusive meals	food -> quality
+original Chicken fingers	food -> quality
+funky rice	food -> quality
+amazing pancakes	food -> quality
+stronger BBQ sauce	food -> quality
+basic Cheese served	food -> quality
+good taco	food -> quality
+excited Filipino food	food -> quality
+great filling brunch	food -> quality
+brilliant pork chop	food -> quality
+soft fettuccine noodles	food -> quality
+torched fire cracker pressed sushi	food -> quality
+novel Ramen choices	food -> quality
+good burger	food -> quality
+well tortilla	food -> quality
+good food	food -> quality
+refreshing chopped salad	food -> quality
+overly dish	food -> quality
+nicely eggs	food -> quality
+favorite dishes	food -> quality
+perfectly dressing	food -> quality
+enjoyable dining	food -> quality
+tasty check	food -> quality
+gooey hush puppies	food -> quality
+tasty ingredients	food -> quality
+love chicken	food -> quality
+like coconut shrimp	food -> quality
+delicious gnocchi	food -> quality
+beautiful Parmesan Truffle Fries	food -> quality
+dry meat	food -> quality
+INCREDIBLE chocolate cake	food -> quality
+great Food	food -> quality
+easy eggs with turkey bacon	food -> quality
+good food	food -> quality
+delicious avocado sandwich	food -> quality
+juicy burgers	food -> quality
+perfectly fish	food -> quality
+good buttermilk chicken	food -> quality
+great sink	food -> quality
+sweet cake	food -> quality
+love Shahi shrimp	food -> quality
+hearty starter	food -> quality
+amazing food	food -> quality
+dense tomato soup	food -> quality
+fresh toppings	food -> quality
+incredible sourdough bread	food -> quality
+good food	food -> quality
+disappointment steak	food -> quality
+dry spaghetti	food -> quality
+amazing seafood version	food -> quality
+creamy soft	food -> quality
+good Fries	food -> quality
+fast dessert	food -> quality
+nice fish	food -> quality
+flavourful dish	food -> quality
+special meatball dish	food -> quality
+unique food presentation	food -> quality
+minimalistic main course	food -> quality
+good steamed lobster	food -> quality
+good food	food -> quality
+fresh Naan	food -> quality
+favorite ramen joint	food -> quality
+quickly food	food -> quality
+well salmon oshi	food -> quality
+flaky pastry	food -> quality
+weird tacos	food -> quality
+great toppings	food -> quality
+well food	food -> quality
+best tofu	food -> quality
+good food	food -> quality
+pricy food	food -> quality
+good burger	food -> quality
+moist cakes	food -> quality
+fancy Korean food	food -> quality
+crispy fish tacos	food -> quality
+hot food	food -> quality
+hearty meals	food -> quality
+pricier food	food -> quality
+awesome gnocchi	food -> quality
+housemade fresh salsas	food -> quality
+typical steak	food -> quality
+recommendable pork chop entree	food -> quality
+disappointment dish	food -> quality
+satisfying poutine	food -> quality
+predictable pasta	food -> quality
+average cured meat plate	food -> quality
+excellent food	food -> quality
+well Ebi Oshizushi	food -> quality
+love clams	food -> quality
+delicious Food	food -> quality
+good pizza	food -> quality
+rich broth	food -> quality
+rich broth	food -> quality
+fine tuna sashimi	food -> quality
+best food	food -> quality
+cold food	food -> quality
+delicious breakfast steak	food -> quality
+fresh radicchio	food -> quality
+microwaved served	food -> quality
+positive pizza	food -> quality
+flavorful cheese	food -> quality
+fresh halibut	food -> quality
+good food	food -> quality
+wonderful bagels	food -> quality
+fantastic Yuzu Maki	food -> quality
+tasty food	food -> quality
+fresh agave syrup	food -> quality
+delicious dishes	food -> quality
+golden egg noodle	food -> quality
+flavorful meat	food -> quality
+happy specials	food -> quality
+average waffle	food -> quality
+loved soup	food -> quality
+enjoyed baja fish tacos	food -> quality
+favorite octopus	food -> quality
+tasty salmon donburi	food -> quality
+great sandwiches	food -> quality
+good Tomato bread	food -> quality
+well rice	food -> quality
+cool sauce	food -> quality
+pricey food	food -> quality
+special food	food -> quality
+wide variety of dishes	food -> quality
+hot soup	food -> quality
+well beef	food -> quality
+quick lunch	food -> quality
+flavourful seasoning in	food -> quality
+fresh entree	food -> quality
+awesome pub food	food -> quality
+fresh Dessert	food -> quality
+favorite BURGERS	food -> quality
+fresh scallops	food -> quality
+like pudding	food -> quality
+good ribs	food -> quality
+delicious food	food -> quality
+love food	food -> quality
+like spicy food	food -> quality
+awesome Korean beef rib dog	food -> quality
+underwhelming tacos	food -> quality
+great food	food -> quality
+moist fried fish with rice and mango salad	food -> quality
+phenomenal food	food -> quality
+local food	food -> quality
+favorites Nasu Dengaki ( eggplant )	food -> quality
+incredible meal	food -> quality
+liked Achari Paneer Tikka Roll	food -> quality
+fun family dinner	food -> quality
+flavourful meat	food -> quality
+yummy chicken	food -> quality
+great chef	food -> quality
+salty meal	food -> quality
+great brunch	food -> quality
+heavy dish	food -> quality
+mediocre Food	food -> quality
+free meal	food -> quality
+beautiful Momofuku ( ramen	food -> quality
+friendly lunch	food -> quality
+AMAZING steak	food -> quality
+richness dish	food -> quality
+hearty Japanese style curry	food -> quality
+good food	food -> quality
+better fish roe	food -> quality
+better fish and chips	food -> quality
+good food	food -> quality
+simple ramen	food -> quality
+decent meal	food -> quality
+like pancakes	food -> quality
+interesting salad	food -> quality
+enjoy cooked ducked	food -> quality
+love lamb	food -> quality
+tasteless praline mousse	food -> quality
+irritated dessert	food -> quality
+tender chicken	food -> quality
+limited fish dish	food -> quality
+happy leftovers	food -> quality
+fan brunch	food -> quality
+tasty Salmon	food -> quality
+love flavourings	food -> quality
+good sandwich	food -> quality
+favoured sauces	food -> quality
+contaminated mash potatoes	food -> quality
+lean beef	food -> quality
+spicy noodles	food -> quality
+nice blueberry sauce	food -> quality
+overcooked food	food -> quality
+enjoyed duck	food -> quality
+enjoy cabbage roll dinner	food -> quality
+good salad	food -> quality
+fresh sashimi	food -> quality
+dirty dishes	food -> quality
+excellent broth	food -> quality
+enjoyed dish	food -> quality
+soft chewy	food -> quality
+awesome burger	food -> quality
+soft dumpling skin	food -> quality
+generous chicken	food -> quality
+excellent food	food -> quality
+on sandwich	food -> quality
+terrific panna cotta	food -> quality
+moist tiramisu	food -> quality
+earthy cabinets	food -> quality
+sweet meat	food -> quality
+awful deep fried fish dishes	food -> quality
+mediocre nachos with salsa	food -> quality
+great feta cheese	food -> quality
+delicious steak	food -> quality
+delicious slices	food -> quality
+amazingggg California chicken wrap	food -> quality
+delicious food	food -> quality
+good food	food -> quality
+adorable served	food -> quality
+underwhelming food	food -> quality
+special flavoring	food -> quality
+tasty Chicken	food -> quality
+rare steak	food -> quality
+quick lunch	food -> quality
+INCREDIBLE food	food -> quality
+liked fondue set	food -> quality
+unique Brunch	food -> quality
+favourite fresh hot waffles	food -> quality
+loved breakfast place	food -> quality
+disappointed bread basket	food -> quality
+bad fries	food -> quality
+same shrimp rolls	food -> quality
+lost meal	food -> quality
+good food	food -> quality
+nicely chicken skins	food -> quality
+love dish	food -> quality
+beautiful pizzas	food -> quality
+overwhelming tonkutsu broth	food -> quality
+enjoyed Ahi Tuna	food -> quality
+strong sauce	food -> quality
+disappoint Oktoberfest	food -> quality
+unique dining	food -> quality
+fancy toppings	food -> quality
+good khao soi	food -> quality
+ridiculously cake	food -> quality
+fresh Scallop carpaccio	food -> quality
+good mussels	food -> quality
+DIVINE bread	food -> quality
+unique dish	food -> quality
+okay food	food -> quality
+creamy housemade mozzarella	food -> quality
+freshly tortilla chips	food -> quality
+overcooked chef	food -> quality
+perfectly pickerel	food -> quality
+favourite food	food -> quality
+happy sauce	food -> quality
+spectacular tacos	food -> quality
+satisfying snack	food -> quality
+bad dish	food -> quality
+bad brothOverall	food -> quality
+favourite dishes	food -> quality
+delicious tomato	food -> quality
+highlight meal	food -> quality
+rich burger options	food -> quality
+hates ketchup	food -> quality
+divine atlantic salmon	food -> quality
+upbeat food	food -> quality
+amazing fish	food -> quality
+good fries	food -> quality
+fresh peach taste	food -> quality
+good Shrimp tempura appetizer	food -> quality
+high almond flavor	food -> quality
+hot served	food -> quality
+salty salsa on the	food -> quality
+ridiculously cheese plate	food -> quality
+upscale food quality	food -> quality
+alright flat iron steak	food -> quality
+best broth	food -> quality
+popular brunch	food -> quality
+buttery biscuits	food -> quality
+good team lunch	food -> quality
+good chilling	food -> quality
+average cold shrimp rolls	food -> quality
+fun dining	food -> quality
+bad chicken brie pizza	food -> quality
+gamey meats	food -> quality
+good burgers	food -> quality
+sweet waffle batter	food -> quality
+simply Seafood	food -> quality
+awesome food	food -> quality
+awesome pepper	food -> quality
+original tom yum soup	food -> quality
+below food quality	food -> quality
+good specials	food -> quality
+great breakfast meeting	food -> quality
+amazing sampler meal	food -> quality
+forgot food	food -> quality
+right eggs	food -> quality
+creamy carbonara	food -> quality
+tender pork	food -> quality
+desired food quality	food -> quality
+loved paring	food -> quality
+great meat	food -> quality
+good junk food	food -> quality
+great Tiramisu	food -> quality
+easy Burger	food -> quality
+happy salmon benedict	food -> quality
+hollowed toast	food -> quality
+like crispy cheung fun	food -> quality
+wide sausages	food -> quality
+well food	food -> quality
+rich butter	food -> quality
+well huevos rancheros	food -> quality
+special curry	food -> quality
+delicious cheesy	food -> quality
+good fish	food -> quality
+love gelato	food -> quality
+good Food menu	food -> quality
+unique dishes	food -> quality
+crunchy bamboo shoots	food -> quality
+juicy bread	food -> quality
+satisfied meal	food -> quality
+love hot stone bibimbap	food -> quality
+forgivable flavour	food -> quality
+creative burgers	food -> quality
+cheap eats	food -> quality
+enjoyable breakfast	food -> quality
+enjoy Toffee pudding	food -> quality
+exceptional dinner	food -> quality
+great soft serve vanilla ice cream	food -> quality
+amazing food	food -> quality
+perfect meal	food -> quality
+friendly dishes	food -> quality
+good chocolate cake	food -> quality
+good Roasted Beet salad	food -> quality
+better dishes	food -> quality
+awesome beef burger	food -> quality
+secret Chicken	food -> quality
+soft duck fat	food -> quality
+tender squid	food -> quality
+phenomenal pasta	food -> quality
+good Unagi pancake	food -> quality
+crispy pork	food -> quality
+large pancake appetizer	food -> quality
+wrong meal	food -> quality
+delicious basil	food -> quality
+better peanut butter cookie recipe	food -> quality
+succulent three meats	food -> quality
+strong beet salad	food -> quality
+tasty calamari	food -> quality
+crisp chicken	food -> quality
+annoying broth	food -> quality
+higher taco	food -> quality
+fresh fruit	food -> quality
+awesome omakase	food -> quality
+liked pistachio crumble	food -> quality
+blande duck pizza	food -> quality
+hard cornstarch	food -> quality
+good Food	food -> quality
+tasty salad	food -> quality
+like fish	food -> quality
+tiny grilled cheese mini sandwiches	food -> quality
+awesome spreads	food -> quality
+heaven raw	food -> quality
+mind Food	food -> quality
+spicy bulgogi	food -> quality
+chewy lamb	food -> quality
+Tasty chipotle aioli	food -> quality
+gooey pancake	food -> quality
+massacred dish	food -> quality
+decent main course surf and turf with fries	food -> quality
+Gooey Toffee pudding	food -> quality
+hot meals	food -> quality
+delicious dessert	food -> quality
+unappealing Guangdong style vinegar	food -> quality
+authentic house hot sauce	food -> quality
+great meal	food -> quality
+soft bread	food -> quality
+good food	food -> quality
+outstanding Cake	food -> quality
+wonderfully mayo	food -> quality
+emphasized flavours	food -> quality
+cheap lunch	food -> quality
+favourite daikon and	food -> quality
+enjoyed food	food -> quality
+flat pumpkin risotto	food -> quality
+subpar food	food -> quality
+underwhelmingShared salad	food -> quality
+packed brunch	food -> quality
+hate water	food -> quality
+nicely food	food -> quality
+overpriced food	food -> quality
+salty Chicken knees	food -> quality
+great tacos	food -> quality
+average Fries	food -> quality
+dry chocolate torta	food -> quality
+gooey katage waa	food -> quality
+delicious Sweet potato wedgesEverything	food -> quality
+favourite Avocado and	food -> quality
+heavy rice dishes	food -> quality
+crunchy chips	food -> quality
+nutty scallop	food -> quality
+enjoyed food	food -> quality
+great Food	food -> quality
+good crunch	food -> quality
+flavorful chicken	food -> quality
+well.- pomegranates	food -> quality
+disgusting onion ring	food -> quality
+best food	food -> quality
+good honey	food -> quality
+favourites pork	food -> quality
+happily pizzas	food -> quality
+good lunch	food -> quality
+beautiful food	food -> quality
+delicious eggs on scones	food -> quality
+safe food handling	food -> quality
+favourites collards	food -> quality
+simple dessert	food -> quality
+disappoint Rack of lamb	food -> quality
+great Khao Soi	food -> quality
+awesome charcuterie	food -> quality
+good porchetta sandwich	food -> quality
+favorite salad	food -> quality
+refreshing meal	food -> quality
+good grilled salmon	food -> quality
+forgot celery sticks	food -> quality
+liked rice	food -> quality
+hearty kimchi poutine fries	food -> quality
+better food	food -> quality
+standard sushi	food -> quality
+cheap food	food -> quality
+flavourful butter crust	food -> quality
+savoury pork kai dao	food -> quality
+moist chicken	food -> quality
+stood english muffin	food -> quality
+loved burrito	food -> quality
+ready food	food -> quality
+enjoyable meal	food -> quality
+good french fries	food -> quality
+good aburi	food -> quality
+good Brunch	food -> quality
+perfectly shrimp	food -> quality
+soft boil egg	food -> quality
+good meal	food -> quality
+flavourful buns	food -> quality
+excellent meal	food -> quality
+disappointing tomato jam	food -> quality
+homey appetite	food -> quality
+changed food	food -> quality
+delicious pizza	food -> quality
+best business breakfast	food -> quality
+fluffy texture	food -> quality
+great Meat	food -> quality
+amazing dishes	food -> quality
+wonderful food	food -> quality
+in steak & frite	food -> quality
+great food	food -> quality
+great wonton	food -> quality
+burned fries	food -> quality
+appealing dessert )	food -> quality
+hot pizza	food -> quality
+best chocolate mint candy	food -> quality
+good burger	food -> quality
+full cake	food -> quality
+top food	food -> quality
+super gook )	food -> quality
+nice chili pimento	food -> quality
+syrupy waffles	food -> quality
+nice beef	food -> quality
+fresh pizza slices	food -> quality
+best food	food -> quality
+great Food	food -> quality
+crispy taco shell	food -> quality
+best food	food -> quality
+crispy Chicken karage	food -> quality
+fresh stuff	food -> quality
+lacked butter chicken	food -> quality
+nice Seaweed and greens with	food -> quality
+tasty food	food -> quality
+yummy crab legs	food -> quality
+decent Food	food -> quality
+bad eggs Benedict	food -> quality
+wet fish	food -> quality
+enjoyed dining	food -> quality
+favorite margherita pizza	food -> quality
+enjoys board games	food -> quality
+excellent fries	food -> quality
+yummy seasoning	food -> quality
+yummy food	food -> quality
+great food	food -> quality
+good croquettas	food -> quality
+enjoyed ramen	food -> quality
+easy dinner	food -> quality
+different Pablo cheesecakes	food -> quality
+special crepe	food -> quality
+good food	food -> quality
+tainted Food	food -> quality
+frustrating side dishes	food -> quality
+like soba noodles	food -> quality
+enjoyed salmon ,	food -> quality
+quiet gelato	food -> quality
+delicious food	food -> quality
+enjoyed zucchini coconut curry soup	food -> quality
+under food	food -> quality
+cool Monster ice cream	food -> quality
+tasty Cotijo cheese	food -> quality
+soggy fried chicken club	food -> quality
+good Desserts	food -> quality
+hot food	food -> quality
+oily Spaghetti	food -> quality
+soft spices	food -> quality
+delicious oysters	food -> quality
+good thin crust pizza	food -> quality
+good black herbal chicken soup	food -> quality
+great food	food -> quality
+enjoyed meals	food -> quality
+tasty Seafood Pancake	food -> quality
+standard calamari	food -> quality
+fresh bacon	food -> quality
+sweet house dressing	food -> quality
+amazing tiramisu	food -> quality
+sour fish	food -> quality
+amazing food	food -> quality
+long brunch	food -> quality
+expensive seafood	food -> quality
+sweet beet salad	food -> quality
+mediocre taste	food -> quality
+good Food	food -> quality
+light matcha flavor	food -> quality
+disappointing dish	food -> quality
+good Taiwanese food	food -> quality
+good turkey confit torpedo sandwich	food -> quality
+overkill Ginger	food -> quality
+best dishes	food -> quality
+good Bhajis	food -> quality
+rich coconut milk	food -> quality
+full entree	food -> quality
+good Sushis	food -> quality
+better burger	food -> quality
+fresh sashimi slices	food -> quality
+worth Italian food lists	food -> quality
+flakey croissant	food -> quality
+love noodles	food -> quality
+best lamb	food -> quality
+fresh ingredients	food -> quality
+great appetizers	food -> quality
+unique Viet buns	food -> quality
+good desserts	food -> quality
+crispy pork	food -> quality
+average nachos	food -> quality
+fresh fish taste	food -> quality
+favourite sauce	food -> quality
+good Elvis	food -> quality
+awesome bahn mi sandwiches	food -> quality
+cheap food	food -> quality
+like fries	food -> quality
+amazed sunchokes	food -> quality
+good stewed pork belly sauce	food -> quality
+favorite sushi	food -> quality
+terrible food	food -> quality
+plus dessert	food -> quality
+good food	food -> quality
+careful food	food -> quality
+relaxed desserts	food -> quality
+good lamb meat offerings	food -> quality
+good sauce	food -> quality
+good food	food -> quality
+amazing mix of flavours	food -> quality
+disgusting red bean	food -> quality
+awesome burger	food -> quality
+lovely salmon	food -> quality
+perfectly chicken	food -> quality
+dry lechon sauce	food -> quality
+rich flavor	food -> quality
+friendly Thai food	food -> quality
+nice ketchup	food -> quality
+romantic dinner out	food -> quality
+flavorful potatoes	food -> quality
+amazing sushi	food -> quality
+mediocre portions	food -> quality
+amazing crepes	food -> quality
+love rolls	food -> quality
+pink meat	food -> quality
+perfectly sauces	food -> quality
+overdressed salads	food -> quality
+good salad	food -> quality
+disappointed momofuku ramen	food -> quality
+nice amount of sauce	food -> quality
+authentic Ethiopian food	food -> quality
+loved grilled veggies	food -> quality
+great food	food -> quality
+strange Dolce de Lecha	food -> quality
+good burger	food -> quality
+wonderful broth	food -> quality
+good bread	food -> quality
+disappointed food	food -> quality
+amazing food	food -> quality
+wide pizza sauces	food -> quality
+amazing food	food -> quality
+loved salsas	food -> quality
+good chow mein	food -> quality
+loved octopus	food -> quality
+solid food	food -> quality
+great food	food -> quality
+soft croissant	food -> quality
+delicious huevos placero	food -> quality
+fan pizza	food -> quality
+perfect kimchi	food -> quality
+quickly food	food -> quality
+authentic wood oven pizza	food -> quality
+nice meal	food -> quality
+terrible appetizers	food -> quality
+snippy reservation	food -> quality
+gross broth	food -> quality
+quickly bread	food -> quality
+salty Pad Thai	food -> quality
+exceptional date pudding	food -> quality
+good food	food -> quality
+dry chicken	food -> quality
+dry Pad Thai	food -> quality
+great flour	food -> quality
+nice minestrone soup	food -> quality
+good spicy sauce	food -> quality
+enough cheese	food -> quality
+superior tacos	food -> quality
+enjoy tonkatsu black	food -> quality
+love crust	food -> quality
+salty hot sauce	food -> quality
+good alan burger	food -> quality
+yummy noodles	food -> quality
+fancy dishes	food -> quality
+popular black sesame udon	food -> quality
+plentiful dish	food -> quality
+well glaze	food -> quality
+interesting food	food -> quality
+dry cake	food -> quality
+uncooked mussels	food -> quality
+enjoyed dishes	food -> quality
+nice dining	food -> quality
+great cookies	food -> quality
+shocked onion rings	food -> quality
+sticky Agedashi Tofu	food -> quality
+perfect injera	food -> quality
+better pasta	food -> quality
+best risotto	food -> quality
+favourite ramen	food -> quality
+appetizing presentation	food -> quality
+sweet rice	food -> quality
+delicious Kinton ball	food -> quality
+appealing topping combinations	food -> quality
+loves ramen	food -> quality
+excessive food	food -> quality
+good Hummus	food -> quality
+different meats	food -> quality
+well noodles	food -> quality
+best BBQ	food -> quality
+great egged florentine	food -> quality
+spicy dish	food -> quality
+pesky nutrition	food -> quality
+tasty babaganoush	food -> quality
+extraordinary food	food -> quality
+excellent meal	food -> quality
+lovely sushi	food -> quality
+warm Chicken	food -> quality
+delicious onions	food -> quality
+good dish	food -> quality
+prefer dishes	food -> quality
+decent food	food -> quality
+memorable meal	food -> quality
+yummy dish	food -> quality
+nicely pork	food -> quality
+tasty yam frites	food -> quality
+salty salt noodle	food -> quality
+free appetizers	food -> quality
+unreal fries	food -> quality
+authentic food	food -> quality
+hot food	food -> quality
+good desserts	food -> quality
+disappointment pasta	food -> quality
+bad plates	food -> quality
+cheap dishes	food -> quality
+different pork blend	food -> quality
+plain mayonnaise	food -> quality
+fun food	food -> quality
+enormous dishes	food -> quality
+good Curry dishes	food -> quality
+good food	food -> quality
+dry hot sauce	food -> quality
+enjoy ramen	food -> quality
+lukewarm.2 Chiu Chow Dumpling	food -> quality
+full condiments	food -> quality
+disappointed pancakes	food -> quality
+amazing dishes	food -> quality
+great sauce	food -> quality
+delicious chicken teriyaki	food -> quality
+right taco	food -> quality
+stars beets	food -> quality
+good foie gras	food -> quality
+enjoyed hummus	food -> quality
+delicious tacos	food -> quality
+perfect naan	food -> quality
+edible ingredients	food -> quality
+excellent gravy	food -> quality
+good lobster roll	food -> quality
+amazing Affumicato pizza	food -> quality
+amazing Food	food -> quality
+great dish	food -> quality
+rich creamy marscapone with lemon cake	food -> quality
+chewy tartar	food -> quality
+normal chili sauce	food -> quality
+good Pad Cha Hett	food -> quality
+less mustard flavour	food -> quality
+tasteless Ricotta	food -> quality
+delicious Thai	food -> quality
+better Beef	food -> quality
+paper tomato	food -> quality
+great new england clam chowder	food -> quality
+excellent jerk spiced pork ribs	food -> quality
+drenched hollandaise	food -> quality
+knowledgable dishes	food -> quality
+bad items	food -> quality
+massive burritos	food -> quality
+great Fries	food -> quality
+RAW chicken	food -> quality
+enjoyed veggie dishes	food -> quality
+juicy shake shack patties	food -> quality
+lovely peaches	food -> quality
+like meal	food -> quality
+great dish	food -> quality
+soggy bun	food -> quality
+great bannock	food -> quality
+good dumplings	food -> quality
+good duck	food -> quality
+perfect pistachio pieces	food -> quality
+excellent corn ships	food -> quality
+good tenderloin	food -> quality
+watery meatballs	food -> quality
+Awesome Burgers	food -> quality
+winner fries	food -> quality
+great Food	food -> quality
+fresh tuna wraps	food -> quality
+juicy fried chicken	food -> quality
+incredible Food	food -> quality
+divine chorizo pasta dish	food -> quality
+pricier toppings	food -> quality
+enjoyed rice dish	food -> quality
+rich broth	food -> quality
+fresh food	food -> quality
+tasty vegan brunch	food -> quality
+enough fries	food -> quality
+like steak	food -> quality
+fine food	food -> quality
+homemade sriracha	food -> quality
+unacceptable food	food -> quality
+highlight dinner	food -> quality
+nice honey	food -> quality
+more salad with tax	food -> quality
+medium noodle soup	food -> quality
+good food	food -> quality
+classic Margherita pizza	food -> quality
+crunchy pan fried dumplings	food -> quality
+perfect roti	food -> quality
+AMAZING chocolate	food -> quality
+loved hummus	food -> quality
+healthy english muffin topped	food -> quality
+liked black cod	food -> quality
+good fish	food -> quality
+nice dessert options	food -> quality
+forgot fries	food -> quality
+well dish	food -> quality
+Good pork cheek ( pork jowl )	food -> quality
+creative food	food -> quality
+good tacos	food -> quality
+perfection dishes	food -> quality
+good entrees	food -> quality
+delicious fried chicken platter	food -> quality
+good food	food -> quality
+stellar food	food -> quality
+quality cheddar cheese	food -> quality
+good ribs	food -> quality
+authentic Parisian crêpe	food -> quality
+okay food	food -> quality
+ridiculous smoked marlin taco with	food -> quality
+sweet Toffee Pudding	food -> quality
+good pasta	food -> quality
+amazing meal	food -> quality
+hot rice	food -> quality
+charred potatoes	food -> quality
+light cheesecake	food -> quality
+incredible cheese plate	food -> quality
+pickled brioche	food -> quality
+salty entree	food -> quality
+torched sushi	food -> quality
+decent meal	food -> quality
+tasty dishesNever	food -> quality
+fresh micro greens	food -> quality
+stingy sauce	food -> quality
+oily baja fish	food -> quality
+wowed croissant	food -> quality
+dry chicken	food -> quality
+delicious ratatouille with poached eggs	food -> quality
+decent oysters	food -> quality
+good food	food -> quality
+great food	food -> quality
+dry gravy	food -> quality
+differently seafood terrine	food -> quality
+enjoyed chicken burger	food -> quality
+out chicken broth	food -> quality
+delicious seafood	food -> quality
+charred rabbit	food -> quality
+flat waffle	food -> quality
+better tacos	food -> quality
+freshness flavours	food -> quality
+love watermelon	food -> quality
+best main course	food -> quality
+right rice	food -> quality
+magnificent tar tare	food -> quality
+good pork skewer	food -> quality
+expensive lunch	food -> quality
+fresh oysters	food -> quality
+friendly lunch	food -> quality
+delicious Gyoza	food -> quality
+great hot sauce	food -> quality
+nice duck skin	food -> quality
+rich dish	food -> quality
+best Breakfast	food -> quality
+delicate bread	food -> quality
+favorite chorizo ( pork ) tacos	food -> quality
+reasonable taco	food -> quality
+complicated dish	food -> quality
+tasty patty	food -> quality
+disappoint porchetta sandwiches	food -> quality
+delicious red sauce	food -> quality
+under bacon	food -> quality
+fast food	food -> quality
+delicious fries	food -> quality
+plain dish	food -> quality
+nice chocolate sauce	food -> quality
+decent pizza	food -> quality
+great food	food -> quality
+good food	food -> quality
+refillable side dishes	food -> quality
+love fresh lobster	food -> quality
+right dessert	food -> quality
+patiently dishes	food -> quality
+vanilla apple pie	food -> quality
+uneventful pork shoulder taco	food -> quality
+buttery mini bacon	food -> quality
+great greenbeans with dried shrimp	food -> quality
+delish cassava cake	food -> quality
+decent katsu burger	food -> quality
+sweet dishes	food -> quality
+great shrimp dumplings	food -> quality
+salty spicy rice	food -> quality
+perfect- meringue	food -> quality
+fantastic broth	food -> quality
+nice food	food -> quality
+tasteless kimchi	food -> quality
+sad food	food -> quality
+sweet kale	food -> quality
+delight nigiri	food -> quality
+authentic fish	food -> quality
+good steamed beef balls	food -> quality
+tender meat	food -> quality
+plentiful Food	food -> quality
+good Food	food -> quality
+love food choices	food -> quality
+delicious Crepe	food -> quality
+yummy iceberg lettuce	food -> quality
+mediocre food	food -> quality
+hated consistency	food -> quality
+loved parsley	food -> quality
+failed pizzas	food -> quality
+disappointing sushi	food -> quality
+enjoyed meal	food -> quality
+different salad	food -> quality
+perfectly grilled tender steak	food -> quality
+love zucchini noodles	food -> quality
+delicious lime tart	food -> quality
+fine salad	food -> quality
+flavourless shrimp teriyaki special	food -> quality
+inspiring dish	food -> quality
+lovely Nutella hot chocolate	food -> quality
+different rice	food -> quality
+top cheese game	food -> quality
+traditional serving	food -> quality
+tastier McDonalds bun	food -> quality
+awfully ladies	food -> quality
+perfect chicken sesame cold noodles	food -> quality
+simple raw tomatoes	food -> quality
+favorites kimchi fries	food -> quality
+fancy jam	food -> quality
+good chaats	food -> quality
+delicious bowls	food -> quality
+kind stuffed meatball with focaccia	food -> quality
+good ice cream	food -> quality
+airy meringue	food -> quality
+great dishes	food -> quality
+fresh deep	food -> quality
+dissapointing coleslaw	food -> quality
+best tiger shrimp ( fried tempura shrimp )	food -> quality
+tough Steak	food -> quality
+good shrimp	food -> quality
+missing coleslaw	food -> quality
+Loved grana padano	food -> quality
+flavourful dishes	food -> quality
+undercooked carrots in	food -> quality
+delicious spicy chicken	food -> quality
+delicious tori karaage	food -> quality
+interesting hoisin sauce	food -> quality
+great garlic dipping sauce	food -> quality
+special garlic mash potatoes	food -> quality
+terrible brunch	food -> quality
+favorite Tiramisu	food -> quality
+fresh catch	food -> quality
+good food	food -> quality
+good donburi rice bowl	food -> quality
+crisp skin	food -> quality
+good food	food -> quality
+love butter chicken	food -> quality
+favourite ingredient	food -> quality
+fortunate dinner	food -> quality
+better meal options	food -> quality
+flavorful stew	food -> quality
+disappointed Crepe cake	food -> quality
+excellent guacamole	food -> quality
+disappointment burger	food -> quality
+soft bun	food -> quality
+loved ingredients	food -> quality
+simple salt	food -> quality
+best meal preparation	food -> quality
+amazing pickle fries	food -> quality
+perfectly broth	food -> quality
+decent sushi	food -> quality
+hate meal	food -> quality
+cuteness food	food -> quality
+best soup	food -> quality
+best thick noodles	food -> quality
+good crispy	food -> quality
+unsure hummus on the salad	food -> quality
+excellent shrimp	food -> quality
+nice Benedict	food -> quality
+satisfying hot	food -> quality
+amazing meat	food -> quality
+well Chipotle	food -> quality
+tasty food	food -> quality
+nicely Eggs	food -> quality
+scorched scallop	food -> quality
+best steak	food -> quality
+salty foods	food -> quality
+tasteless soup	food -> quality
+available lunch	food -> quality
+juicy chicken	food -> quality
+nice oyster sauce	food -> quality
+disappoints food	food -> quality
+best meal	food -> quality
+unique grits with shave truffle	food -> quality
+best platter	food -> quality
+better spring roll	food -> quality
+flavourful gravy	food -> quality
+perfect rice texture	food -> quality
+unreal broth	food -> quality
+delicious burger	food -> quality
+better food	food -> quality
+tasty pulled pork	food -> quality
+tasteless sashimi	food -> quality
+good meatballs	food -> quality
+tasty hummus	food -> quality
+bland coconut flavour	food -> quality
+hard cone	food -> quality
+different meals	food -> quality
+incredible avocado Aioli	food -> quality
+worse club sandwich	food -> quality
+great pasta	food -> quality
+sweet meat	food -> quality
+freshly appetizers	food -> quality
+tasty bread	food -> quality
+like okra	food -> quality
+mediocre quality	food -> quality
+fresh biscuits	food -> quality
+better tuna salad	food -> quality
+good food	food -> quality
+clean sauteed preparation	food -> quality
+so Food	food -> quality
+outstanding food	food -> quality
+best salsa bar	food -> quality
+missing dish	food -> quality
+available cheeses	food -> quality
+fresh ingredients	food -> quality
+delicious meal	food -> quality
+good Food	food -> quality
+helpful meal	food -> quality
+best sweet potato	food -> quality
+delicious food	food -> quality
+soft rice cakes	food -> quality
+dry roasted half chicken	food -> quality
+great chicken and waffles	food -> quality
+messy brunch menu	food -> quality
+forgotten prosecco	food -> quality
+nice gizzard	food -> quality
+good bacon sandwiches	food -> quality
+excited salsas	food -> quality
+awful pizza bread	food -> quality
+crispy churros	food -> quality
+tender flavor	food -> quality
+salty nduja	food -> quality
+delicious food	food -> quality
+deliciously fish	food -> quality
+bad cereal soft serve	food -> quality
+great arancini	food -> quality
+nice shrimp	food -> quality
+right Mexican tacos	food -> quality
+undercooked pasta	food -> quality
+good dishes	food -> quality
+pricey dessert	food -> quality
+good Ramen soup	food -> quality
+better ramen	food -> quality
+great chef	food -> quality
+better fluke	food -> quality
+enough dinner	food -> quality
+best servings of sweet potato fries	food -> quality
+love beans	food -> quality
+love seaweed salad	food -> quality
+good dumplings	food -> quality
+blown sushi	food -> quality
+delicious soup	food -> quality
+happy hot course	food -> quality
+impressive entree	food -> quality
+plentiful Dinner	food -> quality
+lovely dessert crepe	food -> quality
+awesome food	food -> quality
+best sushi options	food -> quality
+bad cheese.-	food -> quality
+interesting sauces	food -> quality
+good Lentil soup	food -> quality
+juicy pork	food -> quality
+flavorful mortadella	food -> quality
+joke pasta noodle	food -> quality
+under soup	food -> quality
+overpowered chicken option	food -> quality
+best Cajun fries	food -> quality
+special mustard based sauce	food -> quality
+rubbery bread	food -> quality
+wide sushi	food -> quality
+buttery herb aioli	food -> quality
+tasty sauces	food -> quality
+loved Nutella crepe	food -> quality
+top cheesecakes	food -> quality
+artificial fries	food -> quality
+favorite scone	food -> quality
+loved Caesar salad	food -> quality
+disappointed dessert	food -> quality
+okay food	food -> quality
+delicious Food	food -> quality
+good food	food -> quality
+garlicy garlic bread	food -> quality
+Crispy Polenta	food -> quality
+delicious chicken pad kee Mao	food -> quality
+enjoy spicy options	food -> quality
+bad chocolate milk shake	food -> quality
+like serving comfort food	food -> quality
+great dishes	food -> quality
+moist burrito	food -> quality
+liked octopus pieces	food -> quality
+heaven rub	food -> quality
+nice slice of baguette topped with melted	food -> quality
+fancy food court	food -> quality
+preferred vegan food	food -> quality
+nice food	food -> quality
+crispy toppings	food -> quality
+sweet pancake	food -> quality
+memorable food	food -> quality
+loved chef	food -> quality
+cold rice	food -> quality
+rich carbonara sauce	food -> quality
+good shrimp tacos	food -> quality
+good ricotta pasta	food -> quality
+awesome pub food	food -> quality
+crispy crust	food -> quality
+favorite age mochi ( fried rice cakes )	food -> quality
+tough bread	food -> quality
+surprised spicy food	food -> quality
+loved dessert	food -> quality
+great dinner combos	food -> quality
+nice meal	food -> quality
+good Bao buns	food -> quality
+delicious bison tartar	food -> quality
+enough tacos	food -> quality
+disappointment Dessert	food -> quality
+cold rice	food -> quality
+enjoyed dinner	food -> quality
+nice prosecco	food -> quality
+yummyness dressing	food -> quality
+different rice dishes	food -> quality
+excellent food	food -> quality
+better brunch	food -> quality
+underrepresented cuisines	food -> quality
+like food	food -> quality
+incredible food	food -> quality
+good pizza	food -> quality
+enjoy pasta	food -> quality
+great pool	food -> quality
+well mochi	food -> quality
+confusing food	food -> quality
+fantastic bread	food -> quality
+homemade chips	food -> quality
+good food	food -> quality
+easy food	food -> quality
+fair food	food -> quality
+Fantastic French Toast	food -> quality
+nice kaya	food -> quality
+juicy meats	food -> quality
+good black diamond roll	food -> quality
+delicious appetizer nachos with salsa and guac	food -> quality
+fresh dish	food -> quality
+incredible dessert	food -> quality
+enjoyed lunch	food -> quality
+liking food	food -> quality
+worth tacos	food -> quality
+disappointing food	food -> quality
+textural kobujime	food -> quality
+delicious sauce	food -> quality
+enjoyed ikura nigiri	food -> quality
+delicious balls	food -> quality
+tender slaw	food -> quality
+creamy uni	food -> quality
+good burgers	food -> quality
+better Malbec	food -> quality
+great dessert	food -> quality
+better fish	food -> quality
+delight dish	food -> quality
+friendly food	food -> quality
+good food	food -> quality
+memorable dining experience	food -> quality
+exploded food	food -> quality
+best burger	food -> quality
+reliable food	food -> quality
+interesting Snacks	food -> quality
+unique pizzas	food -> quality
+salty potato wedges	food -> quality
+good food	food -> quality
+bad food	food -> quality
+well food	food -> quality
+fresh ingredients	food -> quality
+ordinary lemon tart for dessert	food -> quality
+crispy noodles	food -> quality
+enjoyed red chicken curry	food -> quality
+amazing comfort food	food -> quality
+special flavour	food -> quality
+good biscotti	food -> quality
+tender tangy spicy cream sauce	food -> quality
+delicious black sesame udon	food -> quality
+chewy kimchi type of picked cabbage	food -> quality
+enjoy chips	food -> quality
+clean catch	food -> quality
+burnt kebab skewers	food -> quality
+amazing bakery	food -> quality
+incredible Rose sauce	food -> quality
+love paper crane	food -> quality
+like cheese tart	food -> quality
+good seafood ( oyster , mussel , shrimp ) tofu soup	food -> quality
+picky steak	food -> quality
+nicely chocolate	food -> quality
+delicious food	food -> quality
+solid dish	food -> quality
+favourite rajas poblanos	food -> quality
+bad sundae for dessert	food -> quality
+best food	food -> quality
+perfect icing on the cake	food -> quality
+live lobster	food -> quality
+exquisite food	food -> quality
+amazing Green sauce	food -> quality
+okay yellow pickled radish meh	food -> quality
+favourites chicken	food -> quality
+good food	food -> quality
+friendly food	food -> quality
+yummy portion	food -> quality
+favorite dish	food -> quality
+overrated food	food -> quality
+rich lunch	food -> quality
+old fish	food -> quality
+good food	food -> quality
+inoffensive ramen	food -> quality
+fantastic food	food -> quality
+beautiful escarole	food -> quality
+better cheesecake	food -> quality
+desired lunch	food -> quality
+odd dining	food -> quality
+barely chicken	food -> quality
+amazing Edamame	food -> quality
+hazelnut dessert special	food -> quality
+yummy broth	food -> quality
+best nachos	food -> quality
+right BBQ sauce	food -> quality
+amazing desserts	food -> quality
+special asparagus	food -> quality
+tasty fresh	food -> quality
+oily pizza	food -> quality
+tasty quality	food -> quality
+good food	food -> quality
+juicy Grilled squid	food -> quality
+winner super salmon avocado rolls	food -> quality
+mouthwatering breakfast staples	food -> quality
+good shrimps	food -> quality
+unique soup bases	food -> quality
+good arugula salad	food -> quality
+apparent cheese flavour	food -> quality
+fun chiffon cake	food -> quality
+great dish	food -> quality
+tough goat roti	food -> quality
+best brunch	food -> quality
+creamy cured fish plate	food -> quality
+different noodle	food -> quality
+horrible dining	food -> quality
+burnt pork souvlaki	food -> quality
+good Guacamole	food -> quality
+fresh kimchi fries	food -> quality
+nice hollandaise sauce	food -> quality
+loved blueberry pancakes	food -> quality
+different curry	food -> quality
+moist cake	food -> quality
+gross bathroom	food -> quality
+plain meal	food -> quality
+good meal special	food -> quality
+lack dessert	food -> quality
+good meat	food -> quality
+outstanding food	food -> quality
+worth dessertService	food -> quality
+favourite dish	food -> quality
+liked pulled pork dish	food -> quality
+salty dishes	food -> quality
+love breakfast options	food -> quality
+miniature chicken	food -> quality
+like foie gras	food -> quality
+perfection meal	food -> quality
+tender beef	food -> quality
+great fish and chips	food -> quality
+fresh chicken	food -> quality
+great food	food -> quality
+delicious pig ears	food -> quality
+quirky dinner	food -> quality
+nice food	food -> quality
+fan meats	food -> quality
+beautiful inasal flavor	food -> quality
+spicy BBQ chicken bites	food -> quality
+nicer Food	food -> quality
+dry truck taco ( pulled chicken )	food -> quality
+amazing coco shrimp plate	food -> quality
+perfectly peanuts	food -> quality
+mediocre oysters	food -> quality
+good food	food -> quality
+loved meal	food -> quality
+quiet dishes	food -> quality
+fresh boiled dumplings	food -> quality
+unnecessary Blue cheese dipping sauce	food -> quality
+awesome fries	food -> quality
+good meals	food -> quality
+better marinate shrimps	food -> quality
+good california roll	food -> quality
+delish coconut sorbet	food -> quality
+happy lunch	food -> quality
+great food	food -> quality
+delicious smoked burrata	food -> quality
+dry crust	food -> quality
+great custard flan	food -> quality
+great food	food -> quality
+fast Food	food -> quality
+good lobster	food -> quality
+good Fish	food -> quality
+favourite dish	food -> quality
+stale buns	food -> quality
+delicious dish	food -> quality
+good sandwich	food -> quality
+fresh lettuce	food -> quality
+awful Stawberry shortcake	food -> quality
+real cheese	food -> quality
+sweet pistachios	food -> quality
+prefer sushi	food -> quality
+nicely rhubarb sauce	food -> quality
+great honey butter dip	food -> quality
+disappointingly fries	food -> quality
+great Pizza	food -> quality
+tasty protein	food -> quality
+liked platter	food -> quality
+brighter fried chicken	food -> quality
+moist pork	food -> quality
+spoiled mixed seafood platter	food -> quality
+better fried chicken	food -> quality
+best bread	food -> quality
+bland chicken	food -> quality
+lacking Chicken Tikka Masala-	food -> quality
+tasty tiramisu	food -> quality
+great food	food -> quality
+happy sushi	food -> quality
+good food	food -> quality
+overcooked potato wedges	food -> quality
+delicious starters	food -> quality
+wonderful flavored	food -> quality
+prominently shrimps	food -> quality
+good bread	food -> quality
+disappointed platter of sashimi	food -> quality
+flavourful elk sausage	food -> quality
+best burger	food -> quality
+adventure food	food -> quality
+AMAZING food	food -> quality
+fresh food	food -> quality
+amazing breakfast	food -> quality
+surprised goat cheese	food -> quality
+delightful cheese	food -> quality
+hip dinner	food -> quality
+compact beef noodle soup	food -> quality
+liked food	food -> quality
+best sushi quality	food -> quality
+excellent potato flavour	food -> quality
+perfect Kimchi fries with bulgogi beef	food -> quality
+impressed food	food -> quality
+amazing houjicha soft serve	food -> quality
+good potatoes	food -> quality
+cold food	food -> quality
+best lemon pepper sauce	food -> quality
+great souffle	food -> quality
+crispy cheesy goodness	food -> quality
+bland food	food -> quality
+juicy Cochinita taco	food -> quality
+best wurst sampler	food -> quality
+enjoy dessert	food -> quality
+delicious food	food -> quality
+bad dips	food -> quality
+great dinner	food -> quality
+okay fish tacos	food -> quality
+creative pizzas	food -> quality
+runny egg	food -> quality
+liking pork jowl	food -> quality
+perfect frozen pies	food -> quality
+divine ice cream	food -> quality
+disappointed meat imitation	food -> quality
+great dish	food -> quality
+saved lamb	food -> quality
+bland broth	food -> quality
+mediocre dim sum	food -> quality
+favourite brisket	food -> quality
+dry meatballs	food -> quality
+great arugula salad with pear and shaved parmesan	food -> quality
+flavourful tacos	food -> quality
+well foodIt	food -> quality
+soft bun	food -> quality
+bland flavour	food -> quality
+favourite ramen	food -> quality
+sweet dish	food -> quality
+stringier sausage	food -> quality
+best soy bacon bits	food -> quality
+average food	food -> quality
+enjoyed Caesar Salad	food -> quality
+deliciously comfort food	food -> quality
+decent food	food -> quality
+love cheese	food -> quality
+good burger	food -> quality
+awesome bacon	food -> quality
+pleasing pho burger	food -> quality
+good eats	food -> quality
+good food	food -> quality
+cool seaweed dumping	food -> quality
+bland Polenta	food -> quality
+awful BBQ	food -> quality
+mediocre food	food -> quality
+good persian kale rice	food -> quality
+cheap burgers	food -> quality
+ice food	food -> quality
+hearty stews	food -> quality
+basic soup	food -> quality
+fabulous desserts	food -> quality
+favourite croquetas de manchego	food -> quality
+slimy fried chicken	food -> quality
+good nigiri	food -> quality
+expensive dish	food -> quality
+authentic spicy burger	food -> quality
+different alfredo salmon udon	food -> quality
+gamey Lamb meat	food -> quality
+good BBQ sauce dip	food -> quality
+great spice level	food -> quality
+better food	food -> quality
+nicely radish garnish	food -> quality
+enjoy tacos	food -> quality
+chewy steak	food -> quality
+good lunch	food -> quality
+delicious mussels	food -> quality
+solid potato and fried cauliflower	food -> quality
+loved mushroom	food -> quality
+better sauce	food -> quality
+good bread	food -> quality
+heavy rice	food -> quality
+better Boiling Crab	food -> quality
+unique fish and chips	food -> quality
+average sausage	food -> quality
+cheap tso beef dishes	food -> quality
+different spaghetti choices	food -> quality
+efficient food	food -> quality
+sweet spinach salad	food -> quality
+favourite fried dumplings	food -> quality
+chewy scones	food -> quality
+decent pork belly	food -> quality
+decent BBQ'ing	food -> quality
+tasty meatballs	food -> quality
+enjoying Likkle Soulja Sandwiches	food -> quality
+perfectly steamed boa	food -> quality
+enjoy meal	food -> quality
+good curry	food -> quality
+excited Kanga	food -> quality
+repulsive food	food -> quality
+sad sushi sashimi boat	food -> quality
+best Food	food -> quality
+right soup	food -> quality
+good sauce	food -> quality
+best margherita	food -> quality
+passable Halibut Quesadilla	food -> quality
+amazing food	food -> quality
+boring mushroom pasta	food -> quality
+exceptional flatbread	food -> quality
+hilarious chicken dishes	food -> quality
+love gelato	food -> quality
+great cuisine	food -> quality
+hot served	food -> quality
+lightly smoked turkey	food -> quality
+great tacos	food -> quality
+awesome steak	food -> quality
+crispy bottom	food -> quality
+perfect Egg Benny 's	food -> quality
+perfect green tea cake	food -> quality
+classic pork	food -> quality
+scrumptious Smoked salmon plate	food -> quality
+excellent fish taco	food -> quality
+good udon noodles	food -> quality
+unbearable spiciness	food -> quality
+delicious Poultine	food -> quality
+good dinner	food -> quality
+tasty uni	food -> quality
+plain pork	food -> quality
+winner venison pie	food -> quality
+infamous Indian sauces	food -> quality
+nice cow meat	food -> quality
+watery Matcha Creme Brulee	food -> quality
+good tofu	food -> quality
+full Meal	food -> quality
+Cozy menu	food -> variety
+limited menu	food -> variety
+cheap menu	food -> variety
+favourite Communal seating	food -> variety
+stands menu	food -> variety
+downside waiter	food -> variety
+beautiful layout	food -> variety
+downside room	food -> variety
+good menu	food -> variety
+terrible reservation	food -> variety
+worthy Manhattan	food -> variety
+different ingredients	food -> variety
+unable reservations	food -> variety
+surprised menu	food -> variety
+easier menu selection	food -> variety
+free pop	food -> variety
+off menu items	food -> variety
+cheapest menu	food -> variety
+good menu	food -> variety
+classic dim sum menu	food -> variety
+refreshing menu	food -> variety
+multiple matcha	food -> variety
+eclectic menu	food -> variety
+lacked flavour	food -> variety
+double menu	food -> variety
+lacked flavor	food -> variety
+different bland	food -> variety
+lack manager	food -> variety
+separate privacy	food -> variety
+weakness food	food -> variety
+favourite menu items	food -> variety
+good menu	food -> variety
+favourites ff	food -> variety
+different offerings	food -> variety
+satisfied- reservations	food -> variety
+typical Choices	food -> variety
+disappointment menu	food -> variety
+different Match combosCons	food -> variety
+chosen Meat	food -> variety
+missed menu	food -> variety
+good menu graphic design	food -> variety
+barely menu	food -> variety
+good menu	food -> variety
+fixed menu	food -> variety
+great pedigree	food -> variety
+wide hostess	food -> variety
+acceptable line	food -> variety
+simple menu	food -> variety
+wonderful bill	food -> variety
+great menu selection	food -> variety
+extensive menu	food -> variety
+interesting menu	food -> variety
+good lineup	food -> variety
+wonderful menu	food -> variety
+neat twist	food -> variety
+like menu	food -> variety
+reasonable menu	food -> variety
+delicious menu	food -> variety
+hot menu	food -> variety
+great menu	food -> variety
+delicious menu	food -> variety
+lack taste	food -> variety
+special menu	food -> variety
+small Menu	food -> variety
+busy menu	food -> variety
+knowledgeable menu	food -> variety
+summerlicious menu	food -> variety
+better convention food	food -> variety
+mind bar	food -> variety
+different sweetness	food -> variety
+nice selection of wine	food -> variety
+nice menu	food -> variety
+confusing menu	food -> variety
+huge selection	food -> variety
+helpful menu	food -> variety
+preferred reservation	food -> variety
+extensive Menu	food -> variety
+standardized menu	food -> variety
+please menu	food -> variety
+different gentleman	food -> variety
+different topping choices	food -> variety
+convenient ordering system	food -> variety
+clean menu	food -> variety
+turned menu	food -> variety
+overpower dish	food -> variety
+perfectly reduction	food -> variety
+okay reservation	food -> variety
+mediocre options	food -> variety
+small brunch menu	food -> variety
+enjoy menu	food -> variety
+overwhelmed choices	food -> variety
+sharing menu	food -> variety
+sparse menu	food -> variety
+dirty Menus	food -> variety
+wise menu	food -> variety
+disappoint menu	food -> variety
+sweet menu options	food -> variety
+unfortunate menu	food -> variety
+good menu	food -> variety
+lost reservation	food -> variety
+limited menu	food -> variety
+best menu	food -> variety
+ample bar	food -> variety
+forgot menu	food -> variety
+basic menu	food -> variety
+good sides	food -> variety
+good menu	food -> variety
+up menu	food -> variety
+shareable menus	food -> variety
+tiny menu	food -> variety
+bad ingredients	food -> variety
+free internet	food -> variety
+overpowers culinary style	food -> variety
+thrilled menu	food -> variety
+enough selection	food -> variety
+latest menu boards	food -> variety
+efficiently business menus	food -> variety
+small menu	food -> variety
+double choices	food -> variety
+normal menu	food -> variety
+picky menu	food -> variety
+lacked flavour	food -> variety
+insufficient demerit	food -> variety
+bold menu	food -> variety
+unreasonable combos	food -> variety
+excellent menu	food -> variety
+amazing menu	food -> variety
+screwed bill	food -> variety
+lacking flavour	food -> variety
+tantalizing menu	food -> variety
+disappointing options	food -> variety
+tasty menu	food -> variety
+good menu	food -> variety
+skimpy menu	food -> variety
+good menu	food -> variety
+bonus places	food -> variety
+small selection	food -> variety
+free board games	food -> variety
+different menu items	food -> variety
+absent menu	food -> variety
+acquired taste	food -> variety
+lacked flavour	food -> variety
+okay karage	food -> variety
+simple menu	food -> variety
+smaller menu	food -> variety
+bad menu	food -> variety
+interesting menu	food -> variety
+good menu	food -> variety
+simple gyoza	food -> variety
+lacking topping	food -> variety
+fixed 4 course menu	food -> variety
+declined noodle	food -> variety
+separate privacy	food -> variety
+full menu	food -> variety
+overwhelming menu	food -> variety
+savoury menu	food -> variety
+long lineups	food -> variety
+creative menu of fusion pizzas	food -> variety
+difficult seated	food -> variety
+lack bar	food -> variety
+good Variety	food -> variety
+lacked flavor	food -> variety
+exciting menu	food -> variety
+easy ingredients	food -> variety
+limited menu	food -> variety
+extensive options	food -> variety
+pleasently menu	food -> variety
+confusing baqali polo	food -> variety
+small lunch menu	food -> variety
+small menu	food -> variety
+variety food	food -> variety
+lacked flavor	food -> variety
+decadent menu items	food -> variety
+abysmal served	food -> vegetarian option
+enjoy veggie dogs	food -> vegetarian option
+great Bok Choy	food -> vegetarian option
+overhyped waiter	food -> vegetarian option
+inexperienced hot tea pot	food -> vegetarian option
+legitimate meal	food -> vegetarian option
+nice veggie options	food -> vegetarian option
+overdone batter	food -> vegetarian option
+overdone poached	food -> vegetarian option
+amazing Veggie pakora	food -> vegetarian option
+experimental guy	food -> vegetarian option
+excellent venons	food -> vegetarian option
+favourite Bao	food -> vegetarian option
+knowledgeable bivalves	food -> vegetarian option
+refresh veggie	food -> vegetarian option
+like falafels	food -> vegetarian option
+chewy veggies	food -> vegetarian option
+picky interiors	food -> vegetarian option
+healthy menu	food -> vegetarian option
+assertive braised beef	food -> vegetarian option
+amazing veggies	food -> vegetarian option
+awesome veggie choices	food -> vegetarian option
+better gigantes beans	food -> vegetarian option
+delicious gluten free	food -> vegetarian option
+dominant potatoes	food -> vegetarian option
+rich bok choi	food -> vegetarian option
+bland veg cold rolls	food -> vegetarian option
+nice vegetarian dinner	food -> vegetarian option
+wrong veg	food -> vegetarian option
+kind dog	food -> vegetarian option
+bottomless coffee	food -> vegetarian option
+happy vegetarian menu	food -> vegetarian option
+more vegetarian selections	food -> vegetarian option
+friendly vegan	food -> vegetarian option
+nicely Homefries	food -> vegetarian option
+- Choupette	food -> vegetarian option
+rustic salt	food -> vegetarian option
+amazing vegan	food -> vegetarian option
+active bar	food -> vegetarian option
+fantastic vegan options	food -> vegetarian option
+unremarkable served	food -> vegetarian option
+uncious tendon	food -> vegetarian option
+tasty Vegetarian option	food -> vegetarian option
+mistake veggie ramen	food -> vegetarian option
+massive portion	food-quantity
+huge wings	food-quantity
+largeness space	food-quantity
+bigger serving	food-quantity
+small meats	food-quantity
+big washroom	food-quantity
+big steak	food-quantity
+small brunch	food-quantity
+big portion	food-quantity
+big seaweed salad	food-quantity
+small portions	food-quantity
+big burrito	food-quantity
+bigger container	food-quantity
+well portions	food-quantity
+tiny chicken breast	food-quantity
+huge portions	food-quantity
+big workers	food-quantity
+thin Slices	food-quantity
+large portions	food-quantity
+bad Portions	food-quantity
+large sandwich	food-quantity
+tiny drink	food-quantity
+tiny cup	food-quantity
+good portion	food-quantity
+generous red fife	food-quantity
+huge meat	food-quantity
+big toppings	food-quantity
+tall glass	food-quantity
+petite glasses	food-quantity
+large chicken	food-quantity
+fast portions	food-quantity
+exceeded food	food-quantity
+smaller oysters	food-quantity
+small size	food-quantity
+small flavors	food-quantity
+empty white	food-quantity
+small pot	food-quantity
+large tacos	food-quantity
+small portion	food-quantity
+small portion	food-quantity
+big serving size	food-quantity
+small space	food-quantity
+huge line	food-quantity
+small plates	food-quantity
+lot food	food-quantity
+reAsonable portions	food-quantity
+bigger portion	food-quantity
+tiny tapas	food-quantity
+small Spring Rolls	food-quantity
+huge staff	food-quantity
+reasonably bowl	food-quantity
+huge sandwiches	food-quantity
+huge portions	food-quantity
+big fruits	food-quantity
+small dinner	food-quantity
+small burger	food-quantity
+small glass	food-quantity
+large fast food	food-quantity
+hard portions	food-quantity
+large function	food-quantity
+huge lobster	food-quantity
+good portion	food-quantity
+tiny walnut	food-quantity
+decadent portion	food-quantity
+large takoyaki balls	food-quantity
+great plate	food-quantity
+larger dishes	food-quantity
+larger oysters	food-quantity
+huge plates	food-quantity
+tiny chicken	food-quantity
+huge portions	food-quantity
+generous size	food-quantity
+average portion	food-quantity
+smaller ramen portion	food-quantity
+amazing portion	food-quantity
+filling portion size	food-quantity
+huge iced	food-quantity
+big wings	food-quantity
+well Tongue	food-quantity
+small writing	food-quantity
+huge Char	food-quantity
+large mashed potatoes	food-quantity
+small onion	food-quantity
+small portion sizes	food-quantity
+thin crust	food-quantity
+nice portions	food-quantity
+fancy plate	food-quantity
+large sign	food-quantity
+bigger bowl	food-quantity
+smaller portion	food-quantity
+high portions	food-quantity
+smaller Portions	food-quantity
+small quality	food-quantity
+full front	food-quantity
+right weight	food-quantity
+tiny size	food-quantity
+small oysters	food-quantity
+good portion sizes	food-quantity
+tiny ebi	food-quantity
+reasonable Portion	food-quantity
+large meat	food-quantity
+full portions	food-quantity
+smallest cream filling	food-quantity
+small chicken	food-quantity
+big egg	food-quantity
+dense flan	food-quantity
+well portioned	food-quantity
+perfectly sides	food-quantity
+small set	food-quantity
+big food	food-quantity
+huge baguettes	food-quantity
+good portions	food-quantity
+large tiger shrimp	food-quantity
+large room	food-quantity
+small appetizer size pastas	food-quantity
+large Taro chips	food-quantity
+exceeded Boil	food-quantity
+small portion	food-quantity
+fine components	food-quantity
+small dishes	food-quantity
+decent portion size	food-quantity
+small bowl	food-quantity
+large greek salad	food-quantity
+great portion size	food-quantity
+great portions	food-quantity
+large ramen	food-quantity
+huge wings	food-quantity
+above portion sizes	food-quantity
+small dishes	food-quantity
+big mug	food-quantity
+massive Portions	food-quantity
+generous Portion sizes	food-quantity
+small numbers	food-quantity
+huge tomatoes	food-quantity
+separate bar	food-quantity
+large tented areas	food-quantity
+BIG entrée	food-quantity
+smallest portioning	food-quantity
+right portions	food-quantity
+good portion sizes	food-quantity
+big lunch crowds	food-quantity
+large tanks	food-quantity
+small mushroom variety	food-quantity
+small dish	food-quantity
+generous Portions	food-quantity
+small toppings	food-quantity
+enormous bread	food-quantity
+small Teppanyaki	food-quantity
+shorter cheesecake	food-quantity
+small portion	food-quantity
+large glass	food-quantity
+bigger spaghetti	food-quantity
+big tortilla chips	food-quantity
+small Portions	food-quantity
+small lobster roll	food-quantity
+large pork	food-quantity
+big Portion size	food-quantity
+small snacks	food-quantity
+delicious portion	food-quantity
+tiny space	food-quantity
+tiny tacos	food-quantity
+small bar	food-quantity
+reasonable portions	food-quantity
+small space	food-quantity
+huge taste	food-quantity
+large portions	food-quantity
+small private room	food-quantity
+small portions	food-quantity
+large water	food-quantity
+smaller portion	food-quantity
+large sharing plates	food-quantity
+small spot	food-quantity
+showy dim sum shaped in bunnies	food-quantity
+small Eggs benny	food-quantity
+lose onion	food-quantity
+small portions	food-quantity
+modest buffet	food-quantity
+large windows	food-quantity
+smaller fruit dipped in curry	food-quantity
+great serving sizes	food-quantity
+small imo	food-quantity
+delicious portions	food-quantity
+larger portion	food-quantity
+bigger capacity	food-quantity
+sufficient portions	food-quantity
+large portions	food-quantity
+right portion	food-quantity
+reasonable portion	food-quantity
+thin crust	food-quantity
+big portions of protein	food-quantity
+sizable meal	food-quantity
+miniscule portion	food-quantity
+small portions	food-quantity
+great short rib	food-quantity
+bigger cups	food-quantity
+shorter matcha flavoured cakes	food-quantity
+massive wing flavours	food-quantity
+thin crust	food-quantity
+greated owner	good-for-groups
+friendly games	good-for-groups
+friendly owners	good-for-groups
+nicely crowd	good-for-groups
+enjoy homefries	good-for-groups
+excited dining partner	good-for-groups
+little meat parties	good-for-groups
+perfect homefries	good-for-groups
+loved Reuben	good-for-groups
+fan karaage	good-for-groups
+excited children 's	kid-friendliness
+good location	location
+lots patio	location
+small place	location
+gorgeous location	location
+hard location	location
+good location	location
+good location	location
+approachable place	location
+convenient location	location
+right location	location
+good place	location
+convenient location	location
+rammed place	location
+convenient location	location
+surprise location	location
+refreshing place	recommendation
+annoying souvenir photo	recommendation
+complain turf	recommendation
+helpful seat	recommendation
+loves place	recommendation
+disappointed smell	recommendation
+better location	recommendation
+disappointment shrimp	recommendation
+exceptional bill	recommendation
+creative sauce	recommendation
+perfect Cafe	recommendation
+recommend reservations	recommendation
+recommended server	recommendation
+disappointing cheese	recommendation
+nice place	recommendation
+enough quality	recommendation
+unique place	recommendation
+recommended mashed potatoes	recommendation
+reasonable quality	recommendation
+complimented flavour	recommendation
+recommend Halibut Burrito	recommendation
+merits service	recommendation
+recommended app	recommendation
+recommended oysters	recommendation
+complain fat	recommendation
+recommended benny dishes	recommendation
+reasonable quality	recommendation
+recommended menu	recommendation
+recommend miso gravy sauce	recommendation
+recommended server	recommendation
+satisfied appetite	recommendation
+recommend eggs benedict	recommendation
+satisfy portion	recommendation
+recommended server	recommendation
+lacking signs	recommendation
+recommend dinner	recommendation
+recommend fish	recommendation
+liked logo	recommendation
+recommended special noodle soup	recommendation
+enjoyed course	recommendation
+recommended desert	recommendation
+recommend bake goods	recommendation
+liked handles	recommendation
+recommend spot	recommendation
+impressed venue	recommendation
+recommended cuts	recommendation
+promptly reservation	recommendation
+recommend food	recommendation
+saving taste	recommendation
+better quality	recommendation
+recommend brunch	recommendation
+recommending meal	recommendation
+disappointed attitude	recommendation
+satisfied owner	recommendation
+recommend cafe	recommendation
+recommend wait	recommendation
+pleasing bar	recommendation
+extensive counter	recommendation
+recommend service	recommendation
+recommended 3rd beer	recommendation
+appreciate Delerium Tremens beer	recommendation
+recommend Gusto	recommendation
+enjoyed sides	recommendation
+impressed patio	recommendation
+recommend lunch	recommendation
+impressed udon	recommendation
+liked spice	recommendation
+recommend ramen	recommendation
+worth presentation	recommendation
+disappointing jackets	recommendation
+recommend burrata ball	recommendation
+complimentary sides	recommendation
+recommend sakes	recommendation
+recommend lunch	recommendation
+recommend apple crepe-	recommendation
+disappointing quality	recommendation
+correctly flame	recommendation
+recommended chicken pot pie	recommendation
+recommended counter	recommendation
+recommend chocolate	recommendation
+recommend sushi legend roll	recommendation
+recommend Gindara	recommendation
+disappointed bar	recommendation
+disappointing presentation	recommendation
+regret poutine	recommendation
+recommends Iranian food	recommendation
+excellent presentation	recommendation
+comparable quality	recommendation
+recommend ramen	recommendation
+recommend hollandaise sauce	recommendation
+clever No	recommendation
+recommend grilled octopus salad	recommendation
+recommend jasmine rice	recommendation
+satisfied stomach	recommendation
+enjoy reservation	recommendation
+recommend prix fixe menu	recommendation
+recommended eggs benny	recommendation
+recommend menu	recommendation
+recommend bar top	recommendation
+ignored tips	recommendation
+recommend house burger	recommendation
+perfect served	recommendation
+enjoy tip	recommendation
+acceptable attitude	recommendation
+recommend drink	recommendation
+outstanding found	recommendation
+best place	recommendation
+quirky place	recommendation
+love place	recommendation
+okay shack special	recommendation
+favorite location	recommendation
+downside place	recommendation
+suitable place	recommendation
+awesome place	recommendation
+good place	recommendation
+life place	recommendation
+nice place	recommendation
+great place	recommendation
+great place	recommendation
+rustic place	recommendation
+love place	recommendation
+great place	recommendation
+love place	recommendation
+low place	recommendation
+nice cafe	recommendation
+good Place	recommendation
+friendly location	recommendation
+lovely spot	recommendation
+interesting place	recommendation
+favorite garage door	recommendation
+favorite bars	recommendation
+hit sides	recommendation
+nice place	recommendation
+alright location	recommendation
+great place	recommendation
+spot flavours	recommendation
+nice bar	recommendation
+dope music	restaurant -> atmosphere
+love vibe	restaurant -> atmosphere
+amazing views	restaurant -> atmosphere
+nice decor	restaurant -> atmosphere
+great affagato	restaurant -> atmosphere
+updated décor	restaurant -> atmosphere
+warm music	restaurant -> atmosphere
+great atmosphere	restaurant -> atmosphere
+calmer floor	restaurant -> atmosphere
+like ambiance	restaurant -> atmosphere
+weird vibe	restaurant -> atmosphere
+working fireplace	restaurant -> atmosphere
+good decor	restaurant -> atmosphere
+dark room	restaurant -> atmosphere
+under water	restaurant -> atmosphere
+great bar	restaurant -> atmosphere
+spectacular vibe	restaurant -> atmosphere
+nice roll	restaurant -> atmosphere
+good music	restaurant -> atmosphere
+charm place	restaurant -> atmosphere
+cozy space	restaurant -> atmosphere
+colorful presentation	restaurant -> atmosphere
+uncomfortable heater	restaurant -> atmosphere
+mellow flavour	restaurant -> atmosphere
+highlight decor	restaurant -> atmosphere
+nice environment	restaurant -> atmosphere
+loud patio	restaurant -> atmosphere
+cold seating	restaurant -> atmosphere
+modern place	restaurant -> atmosphere
+nice TV	restaurant -> atmosphere
+small place	restaurant -> atmosphere
+safe benjamin	restaurant -> atmosphere
+impress exterior	restaurant -> atmosphere
+great music	restaurant -> atmosphere
+loved interior decor	restaurant -> atmosphere
+cozy place	restaurant -> atmosphere
+loud lunch	restaurant -> atmosphere
+great bar	restaurant -> atmosphere
+trendy feel	restaurant -> atmosphere
+elegant decor	restaurant -> atmosphere
+cozy decor	restaurant -> atmosphere
+amazing entertainment	restaurant -> atmosphere
+crammed space	restaurant -> atmosphere
+nice place	restaurant -> atmosphere
+nice interior renovations	restaurant -> atmosphere
+nice patio	restaurant -> atmosphere
+cool motif	restaurant -> atmosphere
+magnificent view	restaurant -> atmosphere
+small location	restaurant -> atmosphere
+fresh overhead vents	restaurant -> atmosphere
+cool vibe	restaurant -> atmosphere
+nice ambience	restaurant -> atmosphere
+awesome outdoors seating	restaurant -> atmosphere
+cool vibes	restaurant -> atmosphere
+nicer interior	restaurant -> atmosphere
+fine decor	restaurant -> atmosphere
+full outdoor patio	restaurant -> atmosphere
+entertaining dj	restaurant -> atmosphere
+fresh patio	restaurant -> atmosphere
+narrow atmosphere	restaurant -> atmosphere
+tight Space	restaurant -> atmosphere
+beautiful banquet hall	restaurant -> atmosphere
+nice interior	restaurant -> atmosphere
+immaculate view	restaurant -> atmosphere
+over atmosphere	restaurant -> atmosphere
+nice view	restaurant -> atmosphere
+limited parking	restaurant -> atmosphere
+lively communal	restaurant -> atmosphere
+dusty walls	restaurant -> atmosphere
+right dj	restaurant -> atmosphere
+classy lighting	restaurant -> atmosphere
+modern decor	restaurant -> atmosphere
+dim lighting	restaurant -> atmosphere
+nice vibe	restaurant -> atmosphere
+perfect view	restaurant -> atmosphere
+fresh interior	restaurant -> atmosphere
+loudness atmosphere	restaurant -> atmosphere
+upbeat lady	restaurant -> atmosphere
+nice Atmosphere	restaurant -> atmosphere
+sparkling Bathroom facilities	restaurant -> atmosphere
+wonderfully visual	restaurant -> atmosphere
+stunning decor	restaurant -> atmosphere
+intense bum	restaurant -> atmosphere
+dated decor	restaurant -> atmosphere
+perfect texture	restaurant -> atmosphere
+off Vibe	restaurant -> atmosphere
+loud crowd noise	restaurant -> atmosphere
+great texture	restaurant -> atmosphere
+nice flavour	restaurant -> atmosphere
+high ceilings	restaurant -> atmosphere
+delicateness flavour	restaurant -> atmosphere
+nice vibe	restaurant -> atmosphere
+fancy chandeliers	restaurant -> atmosphere
+nightmare Parking	restaurant -> atmosphere
+Loved vibe	restaurant -> atmosphere
+incredible flavors	restaurant -> atmosphere
+love set	restaurant -> atmosphere
+okay interior	restaurant -> atmosphere
+nice decor	restaurant -> atmosphere
+better room	restaurant -> atmosphere
+sweet exterior	restaurant -> atmosphere
+surprising jazz	restaurant -> atmosphere
+nice patio	restaurant -> atmosphere
+clean Decor	restaurant -> atmosphere
+delicious Ambiance	restaurant -> atmosphere
+trendy décor	restaurant -> atmosphere
+excellent bangers	restaurant -> atmosphere
+noisy atmosphere	restaurant -> atmosphere
+unique flavor	restaurant -> atmosphere
+great flowers	restaurant -> atmosphere
+fun vibes	restaurant -> atmosphere
+dark Dining room	restaurant -> atmosphere
+best quality	restaurant -> atmosphere
+simple atmosphere	restaurant -> atmosphere
+great feel	restaurant -> atmosphere
+exquisite wood furniture	restaurant -> atmosphere
+bad outside	restaurant -> atmosphere
+modern decor	restaurant -> atmosphere
+good elevator music	restaurant -> atmosphere
+delightful bar	restaurant -> atmosphere
+excellent texture	restaurant -> atmosphere
+airy space	restaurant -> atmosphere
+elegant space	restaurant -> atmosphere
+cute chandeliers	restaurant -> atmosphere
+comfortable ambiance	restaurant -> atmosphere
+uptight atmosphere	restaurant -> atmosphere
+liked atmosphere	restaurant -> atmosphere
+loved sides	restaurant -> atmosphere
+enjoyable music	restaurant -> atmosphere
+nice open kitchen	restaurant -> atmosphere
+spacious interior	restaurant -> atmosphere
+extraordinary flavor	restaurant -> atmosphere
+enjoyable lounge	restaurant -> atmosphere
+old decoration	restaurant -> atmosphere
+chill crowd	restaurant -> atmosphere
+clean Decor	restaurant -> atmosphere
+complaint air conditioning	restaurant -> atmosphere
+simple space	restaurant -> atmosphere
+beautiful skins	restaurant -> atmosphere
+huge patio	restaurant -> atmosphere
+unique honey	restaurant -> atmosphere
+nice atmosphere	restaurant -> atmosphere
+packed bar	restaurant -> atmosphere
+best ambiance	restaurant -> atmosphere
+clear pathways	restaurant -> atmosphere
+great patio	restaurant -> atmosphere
+nice flavor	restaurant -> atmosphere
+friendly dining	restaurant -> atmosphere
+interactive seat	restaurant -> atmosphere
+dark lighting	restaurant -> atmosphere
+great land animals	restaurant -> atmosphere
+warm atmosphere	restaurant -> atmosphere
+enjoy vibe	restaurant -> atmosphere
+similar vibe	restaurant -> atmosphere
+distressed content	restaurant -> atmosphere
+loved ambience.-	restaurant -> atmosphere
+quiet chef	restaurant -> atmosphere
+cool Ambiance	restaurant -> atmosphere
+loud music	restaurant -> atmosphere
+liked warmth	restaurant -> atmosphere
+friendly televisions	restaurant -> atmosphere
+incredible texture	restaurant -> atmosphere
+neat entrance	restaurant -> atmosphere
+comfortable atmosphere	restaurant -> atmosphere
+charming setup	restaurant -> atmosphere
+good atmosphere	restaurant -> atmosphere
+perfect ambiance	restaurant -> atmosphere
+cute interior	restaurant -> atmosphere
+quiet seating	restaurant -> atmosphere
+delicious Bar	restaurant -> atmosphere
+nice ambiance	restaurant -> atmosphere
+nice safe	restaurant -> atmosphere
+phenomenal brisket	restaurant -> atmosphere
+like live music	restaurant -> atmosphere
+old atmosphere	restaurant -> atmosphere
+nice interior	restaurant -> atmosphere
+loud noise	restaurant -> atmosphere
+good setting	restaurant -> atmosphere
+light rolls	restaurant -> atmosphere
+tasty Wings	restaurant -> atmosphere
+fun decor	restaurant -> atmosphere
+dark bar	restaurant -> atmosphere
+loud crowd	restaurant -> atmosphere
+relaxed atmosphere	restaurant -> atmosphere
+great atmosphere	restaurant -> atmosphere
+significant atmosphere	restaurant -> atmosphere
+superior ambiance	restaurant -> atmosphere
+cool vibe	restaurant -> atmosphere
+perfect plate	restaurant -> atmosphere
+nice ambience	restaurant -> atmosphere
+busy Atmosphere	restaurant -> atmosphere
+awesome live music acts	restaurant -> atmosphere
+higher side of	restaurant -> atmosphere
+difficult seats	restaurant -> atmosphere
+comfortable setting	restaurant -> atmosphere
+cool spot	restaurant -> atmosphere
+perfect heat level	restaurant -> atmosphere
+awful parking	restaurant -> atmosphere
+nice heat	restaurant -> atmosphere
+love taste	restaurant -> atmosphere
+great atmosphere	restaurant -> atmosphere
+less music	restaurant -> atmosphere
+perfect texture	restaurant -> atmosphere
+cozy space	restaurant -> atmosphere
+creative interior decor	restaurant -> atmosphere
+welcoming cleanliness	restaurant -> atmosphere
+enjoyed uni	restaurant -> atmosphere
+narrow open space	restaurant -> atmosphere
+like setting	restaurant -> atmosphere
+notable flavour	restaurant -> atmosphere
+good music	restaurant -> atmosphere
+miss patio	restaurant -> atmosphere
+flashy interiors	restaurant -> atmosphere
+busy seats	restaurant -> atmosphere
+famous view	restaurant -> atmosphere
+light texture	restaurant -> atmosphere
+open kitchen	restaurant -> atmosphere
+chic rooms	restaurant -> atmosphere
+delicious atmosphere	restaurant -> atmosphere
+aromatic smell	restaurant -> atmosphere
+like views	restaurant -> atmosphere
+tasty Wings	restaurant -> atmosphere
+full rinks	restaurant -> atmosphere
+stand ambiance	restaurant -> atmosphere
+great band	restaurant -> atmosphere
+bland décor	restaurant -> atmosphere
+simple Ambiance	restaurant -> atmosphere
+casual atmosphere	restaurant -> atmosphere
+perfect Music	restaurant -> atmosphere
+heavenly smell	restaurant -> atmosphere
+chill ambiance	restaurant -> atmosphere
+surprising candy	restaurant -> atmosphere
+gorgeous view	restaurant -> atmosphere
+good ambiance	restaurant -> atmosphere
+warm atmosphere	restaurant -> atmosphere
+phenomenal ambiance	restaurant -> atmosphere
+confusing Ambiance	restaurant -> atmosphere
+dark interior	restaurant -> atmosphere
+soft opening	restaurant -> atmosphere
+best Screens	restaurant -> atmosphere
+good wings	restaurant -> atmosphere
+fan wing	restaurant -> atmosphere
+inviting decor	restaurant -> atmosphere
+love decor	restaurant -> atmosphere
+beautiful mug	restaurant -> atmosphere
+relaxed atmosphere	restaurant -> atmosphere
+good ambiance	restaurant -> atmosphere
+like flavors	restaurant -> atmosphere
+loud Music	restaurant -> atmosphere
+deserted vibe	restaurant -> atmosphere
+open patio	restaurant -> atmosphere
+nice vibe	restaurant -> atmosphere
+nice decor	restaurant -> atmosphere
+prompt decor	restaurant -> atmosphere
+delicious wings	restaurant -> atmosphere
+unpretentious atmosphere	restaurant -> atmosphere
+love look	restaurant -> atmosphere
+delicious wings	restaurant -> atmosphere
+best summer patios	restaurant -> atmosphere
+industrial Environment	restaurant -> atmosphere
+lovely walls	restaurant -> atmosphere
+sanitized beer hall decor	restaurant -> atmosphere
+lovely music	restaurant -> atmosphere
+traditional texture	restaurant -> atmosphere
+loud bar area	restaurant -> atmosphere
+great decor	restaurant -> atmosphere
+nice atmosphere	restaurant -> atmosphere
+nice atmosphere	restaurant -> atmosphere
+great decorations	restaurant -> atmosphere
+nice setting	restaurant -> atmosphere
+sprawling space	restaurant -> atmosphere
+nice patio	restaurant -> atmosphere
+remarkable ambiance	restaurant -> atmosphere
+clean interior	restaurant -> atmosphere
+fan dressing	restaurant -> atmosphere
+enjoyable room temperature	restaurant -> atmosphere
+right taste	restaurant -> atmosphere
+realistic flameless	restaurant -> atmosphere
+great view	restaurant -> atmosphere
+loud music	restaurant -> atmosphere
+great patio	restaurant -> atmosphere
+appreciate greens	restaurant -> atmosphere
+average noise level	restaurant -> atmosphere
+good atmosphere	restaurant -> atmosphere
+wonderful space	restaurant -> atmosphere
+pretty views	restaurant -> atmosphere
+loud coke	restaurant -> atmosphere
+trickiest ambiance	restaurant -> atmosphere
+clean interior	restaurant -> atmosphere
+delicious layers	restaurant -> atmosphere
+cozy atmosphere	restaurant -> atmosphere
+spectacular flavor	restaurant -> atmosphere
+great performers	restaurant -> atmosphere
+soft music	restaurant -> atmosphere
+fun music	restaurant -> atmosphere
+great atmosphere	restaurant -> atmosphere
+loud seating	restaurant -> atmosphere
+romantic setting	restaurant -> atmosphere
+like ambiance	restaurant -> atmosphere
+clean lighting	restaurant -> atmosphere
+interesting surroundings	restaurant -> atmosphere
+tasteful mirrors	restaurant -> atmosphere
+enjoy decor	restaurant -> atmosphere
+fun shape	restaurant -> atmosphere
+unique rec room	restaurant -> atmosphere
+warm welcome	restaurant -> atmosphere
+negligent decor	restaurant -> atmosphere
+better dim sum	restaurant -> atmosphere
+great atmosphere	restaurant -> atmosphere
+good space	restaurant -> atmosphere
+modern artwork	restaurant -> atmosphere
+classic signage	restaurant -> atmosphere
+loud atmosphere	restaurant -> atmosphere
+good Atmosphere	restaurant -> atmosphere
+massive light fixtures	restaurant -> atmosphere
+love atmosphere	restaurant -> atmosphere
+comfortable decor	restaurant -> atmosphere
+crowded playing area	restaurant -> atmosphere
+lively patio	restaurant -> atmosphere
+friendly environment	restaurant -> atmosphere
+pleasant folks	restaurant -> atmosphere
+incredible flavors	restaurant -> atmosphere
+great decor	restaurant -> atmosphere
+nice lounge	restaurant -> atmosphere
+spacious decor	restaurant -> atmosphere
+aromatic flavours	restaurant -> atmosphere
+excellent sides	restaurant -> atmosphere
+great atmosphere	restaurant -> atmosphere
+packed football	restaurant -> atmosphere
+good texture	restaurant -> atmosphere
+amazing ambiance	restaurant -> atmosphere
+nice room	restaurant -> atmosphere
+adventurous scotch	restaurant -> atmosphere
+bad Dining room ambience	restaurant -> atmosphere
+beautiful presentation	restaurant -> atmosphere
+great decor	restaurant -> atmosphere
+forgot music	restaurant -> atmosphere
+amazing aroma	restaurant -> atmosphere
+great atmosphere	restaurant -> atmosphere
+enjoyed ambience	restaurant -> atmosphere
+cool environment	restaurant -> atmosphere
+trendy decor	restaurant -> atmosphere
+modern decor	restaurant -> atmosphere
+dimly space	restaurant -> atmosphere
+enjoyable ambiance	restaurant -> atmosphere
+favourite vibe	restaurant -> atmosphere
+typicalPho ambience	restaurant -> atmosphere
+like quality	restaurant -> atmosphere
+exceptional flavor	restaurant -> atmosphere
+liked atmosphere	restaurant -> atmosphere
+great view	restaurant -> atmosphere
+wonderful acoustic guitar	restaurant -> atmosphere
+loud atmosphere	restaurant -> atmosphere
+great atmosphere	restaurant -> atmosphere
+mesmerizing decor	restaurant -> atmosphere
+nice sides	restaurant -> atmosphere
+beautiful dining spaces	restaurant -> atmosphere
+excellent bar	restaurant -> atmosphere
+perfect moisture	restaurant -> atmosphere
+high noise level	restaurant -> atmosphere
+nice vibe	restaurant -> atmosphere
+worst gyro	restaurant -> atmosphere
+typical decor	restaurant -> atmosphere
+intense flavours	restaurant -> atmosphere
+romantic back room	restaurant -> atmosphere
+great flavors	restaurant -> atmosphere
+great layout	restaurant -> atmosphere
+consistent music	restaurant -> atmosphere
+great atmosphere	restaurant -> atmosphere
+laid atmosphere	restaurant -> atmosphere
+nice bulbs	restaurant -> atmosphere
+nice flavour	restaurant -> atmosphere
+liked sliders	restaurant -> atmosphere
+fresh ambiance	restaurant -> atmosphere
+interesting lighting	restaurant -> atmosphere
+interesting taste	restaurant -> atmosphere
+great music	restaurant -> atmosphere
+busyness space	restaurant -> atmosphere
+amazing DJ	restaurant -> atmosphere
+enjoy view	restaurant -> atmosphere
+friendly rustic ambience	restaurant -> atmosphere
+great ambiance	restaurant -> atmosphere
+gorgeous private room	restaurant -> atmosphere
+loud atmosphere	restaurant -> atmosphere
+great patio	restaurant -> atmosphere
+refreshing dress	restaurant -> atmosphere
+impressed atmosphere	restaurant -> atmosphere
+low bar	restaurant -> atmosphere
+hard environment	restaurant -> atmosphere
+comfortable vibe	restaurant -> atmosphere
+loved atmosphere	restaurant -> atmosphere
+packed patio	restaurant -> atmosphere
+love atmosphere	restaurant -> atmosphere
+eclectic Ambiance	restaurant -> atmosphere
+modern lighting	restaurant -> atmosphere
+bad Ambiance	restaurant -> atmosphere
+unique taste	restaurant -> atmosphere
+beautiful space	restaurant -> atmosphere
+loud Employees	restaurant -> atmosphere
+distracting TVs	restaurant -> atmosphere
+love atomsphere	restaurant -> atmosphere
+nice venue	restaurant -> atmosphere
+love decor	restaurant -> atmosphere
+great atmosphere	restaurant -> atmosphere
+good ambiance	restaurant -> atmosphere
+nice atmosphere	restaurant -> atmosphere
+nice interior	restaurant -> atmosphere
+wonderful taste	restaurant -> atmosphere
+decent view	restaurant -> atmosphere
+disappoint atmosphere	restaurant -> atmosphere
+average dim sum	restaurant -> atmosphere
+good quality	restaurant -> atmosphere
+chill place	restaurant -> atmosphere
+upscale vibe	restaurant -> atmosphere
+loud music	restaurant -> atmosphere
+clean ambiance	restaurant -> atmosphere
+busy atmosphere	restaurant -> atmosphere
+sweet patio	restaurant -> atmosphere
+unhepful environment	restaurant -> atmosphere
+lovely patio	restaurant -> atmosphere
+hard sight	restaurant -> atmosphere
+authentic kitchen sounds	restaurant -> atmosphere
+fantastic space	restaurant -> atmosphere
+calm place	restaurant -> atmosphere
+enjoy flavors	restaurant -> atmosphere
+pretty decor	restaurant -> atmosphere
+loud noise	restaurant -> atmosphere
+memorable sweetness	restaurant -> atmosphere
+loud sound system	restaurant -> atmosphere
+warm atmosphere	restaurant -> atmosphere
+enjoyable top floor	restaurant -> atmosphere
+expansive bar	restaurant -> atmosphere
+loud music	restaurant -> atmosphere
+cool pop	restaurant -> atmosphere
+nice doors	restaurant -> atmosphere
+bad smell	restaurant -> atmosphere
+lovely interior decor	restaurant -> atmosphere
+love arcades	restaurant -> atmosphere
+great atmosphere	restaurant -> atmosphere
+small place	restaurant -> atmosphere
+upscale place	restaurant -> atmosphere
+hip place	restaurant -> atmosphere
+fun places	restaurant -> atmosphere
+clean place	restaurant -> atmosphere
+large place	restaurant -> atmosphere
+packed place	restaurant -> atmosphere
+old feel	restaurant -> atmosphere
+lovely spot	restaurant -> atmosphere
+busy place	restaurant -> atmosphere
+good bar area	restaurant -> atmosphere
+classy place	restaurant -> atmosphere
+amazing pub fare	restaurant -> atmosphere
+busy place	restaurant -> atmosphere
+cool place	restaurant -> atmosphere
+nice place	restaurant -> atmosphere
+full place	restaurant -> atmosphere
+stunning venue	restaurant -> atmosphere
+cool place	restaurant -> atmosphere
+hopping place	restaurant -> atmosphere
+beautiful place	restaurant -> atmosphere
+beautiful spot	restaurant -> atmosphere
+packed place	restaurant -> atmosphere
+popular place	restaurant -> atmosphere
+noisy place	restaurant -> atmosphere
+upscale bar	restaurant -> atmosphere
+dark place	restaurant -> atmosphere
+casual tables	restaurant -> comfort
+buzzing tables	restaurant -> comfort
+comfortable bar	restaurant -> comfort
+good tables	restaurant -> comfort
+tall stool	restaurant -> comfort
+easily table	restaurant -> comfort
+lacking seating	restaurant -> comfort
+disposable table	restaurant -> comfort
+better seat	restaurant -> comfort
+big tables	restaurant -> comfort
+available table	restaurant -> comfort
+good Chairs	restaurant -> comfort
+long table service	restaurant -> comfort
+limited seating	restaurant -> comfort
+close chairs	restaurant -> comfort
+ample seating	restaurant -> comfort
+small booths	restaurant -> comfort
+unstable stools	restaurant -> comfort
+comfortable Chairs	restaurant -> comfort
+comfortably bar stool style chairs	restaurant -> comfort
+small dining area	restaurant -> comfort
+same tables	restaurant -> comfort
+full bar	restaurant -> comfort
+good seating	restaurant -> comfort
+accessible front door	restaurant -> comfort
+good table	restaurant -> comfort
+free tables	restaurant -> comfort
+interesting communal table	restaurant -> comfort
+plenty table	restaurant -> comfort
+clean tables	restaurant -> comfort
+great tables	restaurant -> comfort
+neglect table	restaurant -> comfort
+proper seating	restaurant -> comfort
+noisy tables	restaurant -> comfort
+quiet couches	restaurant -> comfort
+busy table	restaurant -> comfort
+long table	restaurant -> comfort
+big table	restaurant -> comfort
+largest table	restaurant -> comfort
+sturdy back room	restaurant -> comfort
+cramped tables	restaurant -> comfort
+huge dining area	restaurant -> comfort
+close seats	restaurant -> comfort
+long table	restaurant -> comfort
+torn seat covers	restaurant -> comfort
+empty seats	restaurant -> comfort
+kindly chefs table	restaurant -> comfort
+plenty chairs	restaurant -> comfort
+comfy bar	restaurant -> comfort
+small Tables	restaurant -> comfort
+long table	restaurant -> comfort
+hip walls	restaurant -> comfort
+full bar	restaurant -> comfort
+airy tables	restaurant -> comfort
+short table	restaurant -> comfort
+smaller communal tables	restaurant -> comfort
+amazing tableside service	restaurant -> comfort
+ready table	restaurant -> comfort
+cozy booths	restaurant -> comfort
+white wire chairs	restaurant -> comfort
+slow table	restaurant -> comfort
+cool table	restaurant -> comfort
+cramped booth	restaurant -> comfort
+good booth	restaurant -> comfort
+comfortable seating	restaurant -> comfort
+great communal blonde wood tables	restaurant -> comfort
+refilled table	restaurant -> comfort
+much seating	restaurant -> comfort
+small tables	restaurant -> comfort
+nice booth	restaurant -> comfort
+nicely tables	restaurant -> comfort
+larger table	restaurant -> comfort
+small seats	restaurant -> comfort
+sleek tables	restaurant -> comfort
+small tables	restaurant -> comfort
+rude table management	restaurant -> comfort
+enjoyable table	restaurant -> comfort
+high table	restaurant -> comfort
+small tables	restaurant -> comfort
+charming table	restaurant -> comfort
+empty dining room	restaurant -> comfort
+creepy tables	restaurant -> comfort
+low tables	restaurant -> comfort
+lower table	restaurant -> comfort
+cute picnic tables	restaurant -> comfort
+limited tables	restaurant -> comfort
+good table	restaurant -> comfort
+excellent table	restaurant -> comfort
+closed dining area	restaurant -> comfort
+cramped tables	restaurant -> comfort
+loud tables	restaurant -> comfort
+great chef 's table	restaurant -> comfort
+wrong tables	restaurant -> comfort
+awkward seat	restaurant -> comfort
+cramped seat	restaurant -> comfort
+busy table	restaurant -> comfort
+bad tables	restaurant -> comfort
+gorgeous second floor	restaurant -> comfort
+comfy seating	restaurant -> comfort
+casual seating	restaurant -> comfort
+empty tables	restaurant -> comfort
+good table	restaurant -> comfort
+quiet table	restaurant -> comfort
+odd tables	restaurant -> comfort
+extensive tables	restaurant -> comfort
+quickly tables	restaurant -> comfort
+enough chairs	restaurant -> comfort
+good tables	restaurant -> comfort
+limited seating	restaurant -> comfort
+condescending table	restaurant -> comfort
+tall tables	restaurant -> comfort
+sucky chairs	restaurant -> comfort
+bigger table	restaurant -> comfort
+forgot table	restaurant -> comfort
+more seats	restaurant -> comfort
+comfy seating	restaurant -> comfort
+clean tables	restaurant -> comfort
+open casual dining spot	restaurant -> comfort
+fine table	restaurant -> comfort
+busy table	restaurant -> comfort
+wrong table	restaurant -> comfort
+hard table	restaurant -> comfort
+hot table	restaurant -> comfort
+great nook seating	restaurant -> comfort
+small place	restaurant -> comfort
+tiny establishment	restaurant -> comfort
+big place	restaurant -> comfort
+small place	restaurant -> comfort
+large place	restaurant -> comfort
+nice place	restaurant -> comfort
+small place	restaurant -> comfort
+small place	restaurant -> comfort
+small place	restaurant -> comfort
+small place	restaurant -> comfort
+comfy place	restaurant -> comfort
+small cafe	restaurant -> comfort
+small Place	restaurant -> comfort
+packed place	restaurant -> comfort
+spacious place	restaurant -> comfort
+clean place	restaurant -> comfort
+packed place	restaurant -> comfort
+tiny place	restaurant -> comfort
+lots seating	restaurant -> comfort
+Cozy place	restaurant -> comfort
+fresh place	restaurant -> comfort
+big place	restaurant -> comfort
+packed place	restaurant -> comfort
+packed place	restaurant -> comfort
+small place	restaurant -> comfort
+small place	restaurant -> comfort
+cozy place	restaurant -> comfort
+busy place	restaurant -> comfort
+bigger place	restaurant -> comfort
+lots dining area	restaurant -> comfort
+clean place	restaurant -> comfort
+busy place	restaurant -> comfort
+comfortable location	restaurant -> comfort
+packed place	restaurant -> comfort
+clean place	restaurant -> comfort
+outstanding parfait	staff
+better service	staff
+forgetting waitress	staff
+friendly owner	staff
+impeccable service	staff
+friendly staff	staff
+awesome server	staff
+poorly service	staff
+Good Service	staff
+beautifully service	staff
+portable meal	staff
+fabulous master chef	staff
+nice servers	staff
+love server	staff
+happy presentation	staff
+attentive place	staff
+clean staff	staff
+loved manager	staff
+average waitress	staff
+unhappy service	staff
+existent service	staff
+kind waitress	staff
+good waitress	staff
+average service	staff
+intimidating server behind	staff
+excellent service	staff
+polite waiter	staff
+excellent Service	staff
+spectacular Service	staff
+good service	staff
+friendly staff	staff
+dirty waiter	staff
+courteous servers	staff
+welcoming owner	staff
+rude staff	staff
+attentive demeanor	staff
+amazing Service	staff
+tolerate servers	staff
+nice hostess	staff
+like served	staff
+extensive service	staff
+lacks service	staff
+friendly service	staff
+efficient Service	staff
+standard service	staff
+attentive Service	staff
+excellent service	staff
+rude waitress	staff
+overpriced quality	staff
+well staff	staff
+good waitress	staff
+pleasant servers	staff
+lovely Service	staff
+nice service	staff
+fantastic service	staff
+friendly serve	staff
+famous offerings	staff
+good service	staff
+friendly service	staff
+great service	staff
+good service	staff
+gracious staff	staff
+friendly owner	staff
+better service	staff
+better service	staff
+okay Service	staff
+amazing service	staff
+stellar service	staff
+friendly service	staff
+great wait staff	staff
+unpretentious service	staff
+nice staffs	staff
+pushy waitress	staff
+outstanding Service	staff
+impressed homefries	staff
+fun lady owner	staff
+attentive wait staff	staff
+good served	staff
+friendly coffee	staff
+exhausted service	staff
+adorable waitress	staff
+nice staff	staff
+attentive service	staff
+laxer service	staff
+fast server	staff
+surprised interior	staff
+friendly waitress	staff
+saving food	staff
+friendly kitchen staff	staff
+worst service	staff
+comfortable staffCons	staff
+good service	staff
+great Service	staff
+terrible service	staff
+good service	staff
+great Service	staff
+great service	staff
+nice server	staff
+unchanged waitstaff	staff
+fine service	staff
+decent Service	staff
+cheerful waitress	staff
+smiling serve	staff
+clean service	staff
+standout service	staff
+rush server	staff
+amazed service	staff
+friendly staff	staff
+accomidating Waitstaff	staff
+poor waiter service	staff
+harried staff	staff
+awkward server	staff
+great service	staff
+clean staff	staff
+excellent service	staff
+friendly staff	staff
+good service	staff
+rude manager	staff
+great service	staff
+great service	staff
+well served	staff
+poor waitresses	staff
+excellent service	staff
+misheard waitress	staff
+inconsistent service	staff
+prompt Service	staff
+awkward servers	staff
+asshole manager	staff
+great service	staff
+good service	staff
+pleasant servers	staff
+nice waiter	staff
+poor service	staff
+friendly staff	staff
+pleasure Staff	staff
+fine manager	staff
+good service	staff
+fresh waitress	staff
+kind staff	staff
+accommodating pianist	staff
+great service	staff
+lacking service	staff
+great server	staff
+nice sales staff	staff
+knowledgable server	staff
+friendly serving	staff
+fake quality	staff
+new Management	staff
+accommodating servers	staff
+friendly waitress	staff
+fun waiter	staff
+minimal service	staff
+efficient service	staff
+interested staff	staff
+forgot server	staff
+eager staff	staff
+touristy people	staff
+existent service	staff
+knowledgeable server	staff
+minimum Service	staff
+great service	staff
+good service	staff
+average staff	staff
+disappoint yakisoba	staff
+big service	staff
+clean service	staff
+friendly Service	staff
+welcoming waiters	staff
+unique water serving apparatuses	staff
+friendly waiters	staff
+polite staff	staff
+acclaimed server	staff
+helpful service	staff
+great service	staff
+friendly staff	staff
+unprofessional waitstaff	staff
+ignore customers	staff
+amazing service	staff
+HORRIBLE service	staff
+nice server	staff
+happy staff	staff
+friendly servers	staff
+intimidating staff	staff
+proper chef	staff
+good Service	staff
+friendly staff	staff
+lovely service	staff
+bad service	staff
+stood service	staff
+lacking service	staff
+small staff	staff
+confused orders	staff
+best server	staff
+great service	staff
+professional service	staff
+dynamic service	staff
+happy staff	staff
+personable customer service	staff
+amazing served	staff
+friendly service	staff
+generously service	staff
+friendly service	staff
+good service	staff
+overpriced amount	staff
+attentive service	staff
+friendly servers	staff
+great bartender	staff
+friendly owner	staff
+well service	staff
+good service	staff
+relaxed Service	staff
+polite wait staff	staff
+polite staff	staff
+grateful host	staff
+mediocre service	staff
+decent service	staff
+worth service	staff
+patient hostess	staff
+attentive server	staff
+friendly waiters	staff
+so service	staff
+busy reservations	staff
+knowledgeable servers	staff
+lacking service	staff
+good service	staff
+gracious host	staff
+easy staff	staff
+smiling server	staff
+helpful servant	staff
+knowledgeable waiter	staff
+attentive wine glasses	staff
+nice staff	staff
+polite server	staff
+friendly people	staff
+friendly staff	staff
+over server	staff
+good service	staff
+rude lady	staff
+outstanding customer	staff
+accommodating kitchen	staff
+okay Service	staff
+terrible hostess	staff
+professional staff	staff
+gentle bartender	staff
+meticulous bar	staff
+long staff	staff
+great service	staff
+friendly counter	staff
+attentive glasses	staff
+desired service	staff
+fantastic service	staff
+dark service	staff
+great service	staff
+excellent Service	staff
+better serving	staff
+efficient service	staff
+upbeat servers	staff
+uncomfortable waitress	staff
+attentive service	staff
+nice serving	staff
+tasty Service	staff
+non Service	staff
+friendly staff	staff
+pleasant hostess	staff
+difficult serve	staff
+funky server	staff
+nice Host	staff
+acceptable Service	staff
+polite cashier	staff
+exciting servers	staff
+rude services	staff
+great service	staff
+great servers	staff
+attentive service	staff
+friendly Service	staff
+worst service	staff
+friendly servers	staff
+kind employees	staff
+higher service	staff
+good service	staff
+friendly people	staff
+trendy wait staff	staff
+great service	staff
+attentive bottles	staff
+awful service	staff
+quick staff	staff
+terrible service	staff
+pleasant server	staff
+friendly Service	staff
+professional service	staff
+welcoming service	staff
+adequate Hostess greeting	staff
+better service	staff
+attentiveness chef	staff
+loved service	staff
+happy servers	staff
+rude carts	staff
+pleasant waitress	staff
+attentive Service	staff
+well server	staff
+pleasant/ servers	staff
+helpful front	staff
+attentive server	staff
+top Service	staff
+amazing service	staff
+genuine staff	staff
+nice cart service	staff
+indifferent service	staff
+nice service	staff
+great service	staff
+attentive service	staff
+worst services	staff
+consummate cooks	staff
+nice waitress	staff
+attentive line	staff
+amazing service	staff
+nicest waitress	staff
+fabulous service	staff
+attentive Servers	staff
+excellent service	staff
+amiable service	staff
+short waiter	staff
+decent line	staff
+patiently service	staff
+fantastic owners	staff
+properly counter	staff
+attentive ingredients	staff
+nice waiter	staff
+annoyed bill	staff
+rude hostess	staff
+satisfied Staff	staff
+friendly service	staff
+varied service	staff
+friendly service	staff
+intimate godmother	staff
+friendly staff	staff
+slower waiters	staff
+great service	staff
+friendly specials	staff
+unfriendly pastries	staff
+quickly served	staff
+efficient Service	staff
+good service	staff
+bad server	staff
+perfunctory Service	staff
+friendly Staff	staff
+nice waiters	staff
+obnoxious waitresses	staff
+nice service	staff
+polite Staff members	staff
+efficient waitress	staff
+friendly waitress	staff
+friendly host	staff
+fantastic service	staff
+surprised server	staff
+cranky waitress	staff
+lovely waiter	staff
+glorified diner	staff
+friendly staff	staff
+great waitress	staff
+bad service	staff
+good general	staff
+good service	staff
+crappy service	staff
+scantily Waitresses	staff
+polite server	staff
+saved surrounding	staff
+reasonable service	staff
+nice staff	staff
+great staff	staff
+good services	staff
+pleasant waiter	staff
+smiled server	staff
+fantastic service	staff
+spectacular Service	staff
+unprofessional server	staff
+friendly server	staff
+knowledgeable Service	staff
+nice server	staff
+nice Staff	staff
+rude servers	staff
+inattentiveness server	staff
+reliable Service	staff
+amazing service	staff
+better service	staff
+nice waiters	staff
+nice serving lady	staff
+quickly server	staff
+interesting service	staff
+well staff	staff
+ignored waitress	staff
+grumpy server	staff
+welcomed service	staff
+fabulous servers	staff
+awesome bartender	staff
+sweet service	staff
+rude waitresses	staff
+overbearing service	staff
+friendly Staff	staff
+rare waitress	staff
+friendly management	staff
+surprising chef	staff
+friendly servers	staff
+rude hostesses	staff
+okay service	staff
+talented chefs	staff
+good Service	staff
+friendly Staff	staff
+grouchy service staff	staff
+louder waiter	staff
+amazing service	staff
+friendly servers	staff
+attentive server	staff
+quick owner	staff
+friendly Service	staff
+attentive bartender	staff
+attentive waitress	staff
+amazing waitress	staff
+decent Service	staff
+great Staff	staff
+inefficiently administrative	staff
+lack service	staff
+accommodating staff	staff
+courteous Service	staff
+friendly Service	staff
+friendly service	staff
+friendly server Sophie	staff
+good Service	staff
+good service	staff
+impressed servers	staff
+nice service	staff
+nice waitresses	staff
+surprised employee	staff
+courteous waiter	staff
+affordable staff	staff
+bad server	staff
+attentive meats	staff
+worth service	staff
+unbelievably Service	staff
+appointed meal	staff
+unusual service	staff
+rude staff	staff
+weird waiter	staff
+lacking service	staff
+attentive dinner	staff
+subpar service	staff
+good server	staff
+terrible manager	staff
+decent service	staff
+attentive service	staff
+Great Service	staff
+awful service	staff
+outstanding service	staff
+love staffs	staff
+accommodating staff	staff
+faulty server	staff
+calm manager	staff
+competitive server	staff
+good service	staff
+interesting server	staff
+better service	staff
+fine service	staff
+excellent serving staff	staff
+friendly service	staff
+kind waitress	staff
+disappointed service	staff
+knowledgeable staff	staff
+disorganized Staff	staff
+great Service	staff
+great bartender	staff
+unique service-	staff
+friendlier service	staff
+excellent server Tyson	staff
+caring staff	staff
+nice server	staff
+impatient staff	staff
+rushes staff	staff
+lovely Service	staff
+friendly service	staff
+nice service	staff
+enjoyed server	staff
+good server	staff
+friendly staff	staff
+warm service	staff
+legitimate staff	staff
+terrible service	staff
+good service	staff
+impressed staff	staff
+annoyed hostess	staff
+attentive bar	staff
+attentive service	staff
+divine sommelier	staff
+fairly service	staff
+satisfied service	staff
+helpful service	staff
+speedy Service	staff
+friendly staff	staff
+efficiently.2 servers	staff
+friendly staff	staff
+good service	staff
+amazing service	staff
+Stingy owners	staff
+nicely served	staff
+disappointed delivery	staff
+rude tone	staff
+authentic owner	staff
+terrible service	staff
+wonderful service	staff
+good service	staff
+favourite Porterhouse	staff
+friendly bill	staff
+good server	staff
+patient staff	staff
+friendly servers	staff
+speedy service	staff
+accommodating hostess	staff
+attentive server	staff
+sassy waitress	staff
+aggressive service	staff
+amazing service	staff
+Bad- service	staff
+nice waiters	staff
+impeccable bar	staff
+busy reservations	staff
+rude ladies	staff
+prompt Service	staff
+friendly staff	staff
+genuine chefs	staff
+casual service	staff
+wrong service	staff
+friendly service	staff
+knowledgeable bartender	staff
+awful server	staff
+friendly Greek service	staff
+quick server	staff
+bad service	staff
+good staff	staff
+wonderful Service	staff
+greatest service	staff
+perfectly served	staff
+sweet girl	staff
+small price	value-for-money
+superb Prices	value-for-money
+better price	value-for-money
+high Prices	value-for-money
+high prices	value-for-money
+good value	value-for-money
+decent price	value-for-money
+good tax	value-for-money
+disappointing price	value-for-money
+high cost	value-for-money
+fair price	value-for-money
+fair price	value-for-money
+affordable price	value-for-money
+reasonable prices	value-for-money
+high prices	value-for-money
+put bills	value-for-money
+pricey dinner	value-for-money
+better price	value-for-money
+better price	value-for-money
+reasonably priced	value-for-money
+decent quantity	value-for-money
+reasonably priced	value-for-money
+high price	value-for-money
+fitting Prices	value-for-money
+met price	value-for-money
+high bill	value-for-money
+over priced	value-for-money
+pricey dimsum	value-for-money
+over prices	value-for-money
+pricey slice	value-for-money
+high Prices	value-for-money
+on prices	value-for-money
+worth Sunday special	value-for-money
+easy platter	value-for-money
+decent price	value-for-money
+worth watermelon poke	value-for-money
+small price	value-for-money
+happy price	value-for-money
+reasonably priced	value-for-money
+Worth dinner/	value-for-money
+higher prices	value-for-money
+better price	value-for-money
+reasonable prices	value-for-money
+on Pricing	value-for-money
+worth price	value-for-money
+better price	value-for-money
+pricey menu	value-for-money
+worth food	value-for-money
+worth price	value-for-money
+expensive bottle	value-for-money
+average cost	value-for-money
+affordable price	value-for-money
+great price	value-for-money
+good prices	value-for-money
+worth Food	value-for-money
+great price	value-for-money
+cheap Price	value-for-money
+excellent price	value-for-money
+bad price	value-for-money
+good price	value-for-money
+cheapest fav	value-for-money
+reasonable price	value-for-money
+small price	value-for-money
+same price	value-for-money
+worth food	value-for-money
+large price	value-for-money
+plenty price	value-for-money
+well plate	value-for-money
+high Prices	value-for-money
+great price	value-for-money
+expensive sever	value-for-money
+reasonable prices	value-for-money
+hard price	value-for-money
+worth ingredients	value-for-money
+similarly priced	value-for-money
+worth price	value-for-money
+cheap price	value-for-money
+high price point	value-for-money
+worth smoothie bowl	value-for-money
+expensive Prices	value-for-money
+ridiculous bill	value-for-money
+different price point	value-for-money
+different price	value-for-money
+expensive budget	value-for-money
+pricey drink	value-for-money
+higher fare	value-for-money
+worth Knish	value-for-money
+worth cheese	value-for-money
+worth food	value-for-money
+expensive Pints	value-for-money
+awesome price	value-for-money
+good price	value-for-money
+amazing price	value-for-money
+decent quantity	value-for-money
+mediocre price	value-for-money
+special price	value-for-money
+worth price	value-for-money
+higher prices	value-for-money
+great price tag	value-for-money
+pricey drinks	value-for-money
+reasonably priced	value-for-money
+worth sea urchin shooter	value-for-money
+like priced	value-for-money
+steep pricing	value-for-money
+worth dinner	value-for-money
+small priced	value-for-money
+good prices	value-for-money
+cheaper delivery	value-for-money
+over priced	value-for-money
+good price	value-for-money
+worth environment	value-for-money
+reasonable fare	value-for-money
+cheap Prices	value-for-money
+high price	value-for-money
+reasonable food price point	value-for-money
+over priced	value-for-money
+smaller value	value-for-money
+stupid price	value-for-money
+worth served	value-for-money
+right amount	value-for-money
+worth dish	value-for-money
+decreased price	value-for-money
+same prices	value-for-money
+good price	value-for-money
+worth price	value-for-money
+interesting price tag	value-for-money
+cheap Prices	value-for-money
+awful money	value-for-money
+worth chicken	value-for-money
+tasty maftouls	value-for-money
+great price	value-for-money
+reasonable prices	value-for-money
+under Price	value-for-money
+reasonable Price	value-for-money
+great prices	value-for-money
+high price	value-for-money
+reasonable price	value-for-money
+inexpensive food	value-for-money
+worth the nachos	value-for-money
+cheap price	value-for-money
+inexpensive prices	value-for-money
+insanely priced	value-for-money
+cheap prices	value-for-money
+reasonably priced	value-for-money
+awesome value	value-for-money
+higher prices	value-for-money
+ridiculous prices	value-for-money
+worth burger	value-for-money
+better prices	value-for-money
+great owner	value-for-money
+great price wine menu	value-for-money
+lower price	value-for-money
+reasonable prices	value-for-money
+reasonable priced	value-for-money
+decent price	value-for-money
+pricey taxes	value-for-money
+easy price	value-for-money
+great prices	value-for-money
+good price	value-for-money
+worth atmosphere	value-for-money
+reasonably price	value-for-money
+overpriced location	value-for-money
+expensive place	value-for-money
+affordable place	value-for-money
+worth place	value-for-money
+quickly Owner	wait-time
+worth wait	wait-time
+slow service	wait-time
+faster line	wait-time
+slow Service	wait-time
+cold wait	wait-time
+long line	wait-time
+fast Service	wait-time
+closed Service	wait-time
+long wait	wait-time
+slow service	wait-time
+okay space	wait-time
+fast service	wait-time
+high Wait staff	wait-time
+enjoyable Attack roll	wait-time
+downside service	wait-time
+fast service	wait-time
+faster service	wait-time
+rude wait	wait-time
+long lunch	wait-time
+slow service	wait-time
+worth wait	wait-time
+slowly Food	wait-time
+slow waitress	wait-time
+worth wait	wait-time
+friendly services	wait-time
+slow Service	wait-time
+long waiting list	wait-time
+fast service	wait-time
+slow Service	wait-time
+quick service	wait-time
+worth wait	wait-time
+2-hour dishes	wait-time
+slow Service	wait-time
+worth wait	wait-time
+busy Service	wait-time
+ZERO.Waited delivery	wait-time
+smooth serve	wait-time
+worth waiting	wait-time
+starving waiting	wait-time
+slow employee	wait-time
+slow wifi	wait-time
+problem waiting	wait-time
+well kitchen	wait-time
+cute waiting	wait-time
+worth wait	wait-time
+long food	wait-time
+longer food	wait-time
+nice wait staff	wait-time
+flexible hours	wait-time
+tender jerk wings	wait-time
+frustrating kitchen	wait-time
+bad wait	wait-time
+long served	wait-time
+slower waiter	wait-time
+quickly line	wait-time
+slow service	wait-time
+notch service	wait-time
+slow Service	wait-time
+spot service	wait-time
+quick Service	wait-time
+long lunch	wait-time
+closer food	wait-time
+slow service	wait-time
+slow service	wait-time
+slow service	wait-time
+small wait	wait-time
+quick Service	wait-time
+24-hour diner	wait-time
+long food	wait-time
+long wait	wait-time
+fast Service	wait-time
+quick tofu	wait-time
+up specials	wait-time
+fast guys	wait-time
+surprised pho ga	wait-time
+hand wait	wait-time
+liked waiting	wait-time
+long wait	wait-time
+worth wait	wait-time
+quick service	wait-time
+up Taste	wait-time
+slow ServiceCan	wait-time
+slow lunch	wait-time
+slow service	wait-time
+busy dinner hours	wait-time
+easier plates	wait-time
+enjoy bowl	wait-time
+longer waiting time	wait-time
+fast seat	wait-time
+fast Patio	wait-time
+quickly spring rolls	wait-time
+reasonable wait time	wait-time
+busy Service	wait-time
+quick service	wait-time
+worth wait	wait-time
+long wait time	wait-time
+long water	wait-time
+short wait	wait-time
+longer wait times	wait-time
+forgot water	wait-time
+worth wait	wait-time
+satisfied servings	wait-time
+crowded line	wait-time
+busy counter	wait-time
+love Bahn	wait-time
+longer wait	wait-time
+awkward silences	wait-time
+cramped service	wait-time
+slow service	wait-time
+quick pho	wait-time
+worth wait	wait-time
+promptly bills	wait-time
+slow service	wait-time
+longish wait time	wait-time
+slow drinks	wait-time
+off Service	wait-time
+fast service	wait-time
+expensive service fee	wait-time
+slower wait times	wait-time
+long food	wait-time
+long wait	wait-time
+annoys wait	wait-time

@@ -15,6 +15,7 @@ Paper: Zhengjie Miao, Yuliang Li, Xiaolan Wang, Wang-Chiew Tan, "Snippext: Semi-
 
 Install required packages
 ```
+conda install -c conda-forge nvidia-apex
 pip install -r requirements.txt
 ```
 

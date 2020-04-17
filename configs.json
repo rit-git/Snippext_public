@@ -1,5 +1,44 @@
 [
   {
+    "name": "restaurant_classification",
+    "task_type": "classification",
+    "vocab": [
+      "food-quantity", 
+      "recommendation", 
+      "food -> healthiness", 
+      "location", 
+      "staff", 
+      "food -> vegetarian option", 
+      "food -> variety", 
+      "drink -> alcohol", 
+      "restaurant -> comfort", 
+      "value-for-money", 
+      "wait-time", 
+      "food -> quality", 
+      "good-for-groups", 
+      "restaurant -> atmosphere", 
+      "kid-friendliness", 
+      "drink -> quality"
+    ],
+    "trainset": "combined_data/restaurant/classification/train.txt",
+    "validset": "combined_data/restaurant/classification/dev.txt",
+    "testset": "combined_data/restaurant/classification/dev.txt"
+  },
+  {
+    "name": "restaurant_tagging",
+    "task_type": "tagging",
+    "vocab": [
+      "B-AS",
+      "I-AS",
+      "B-OP",
+      "I-OP"
+    ],
+    "trainset": "combined_data/restaurant/train.txt",
+    "validset": "combined_data/restaurant/dev.txt",
+    "testset": "combined_data/restaurant/dev.txt",
+    "unlabeled": "combined_data/absa/ae/rest/unlabeled.txt"
+  },
+  {
     "name": "hotel_tagging",
     "task_type": "tagging",
     "vocab": [
@@ -8,10 +47,10 @@
       "B-OP",
       "I-OP"
     ],
-    "trainset": "combined_data/hotel/train.txt.combined",
-    "validset": "combined_data/hotel/dev.txt",
-    "testset": "combined_data/hotel/dev.txt",
-    "unlabeled": "combined_data/hotel/unlabeled.txt"
+    "trainset": "combined_data/hotel_tagging/train.txt.combined",
+    "validset": "combined_data/hotel_tagging/dev.txt",
+    "testset": "combined_data/hotel_tagging/dev.txt",
+    "unlabeled": "combined_data/hotel_tagging/unlabeled.txt"
   },
   {
     "name": "pairing",
@@ -26,7 +65,7 @@
     "unlabeled": "combined_data/hotel_pairing/unlabeled.txt"
   },
   {
-    "name": "hotel_classification",
+    "name": "sf_hotel_classification",
     "task_type": "classification",
     "vocab": [
       "room",
