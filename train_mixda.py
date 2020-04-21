@@ -167,70 +167,37 @@ def train(model, l_set, aug_set, optimizer,
             del loss
 
 
-if __name__=="__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--task", type=str, default="hotel_tagging")
-    parser.add_argument("--lm", type=str, default="bert")
-    parser.add_argument("--run_id", type=int, default=0)
-    parser.add_argument("--batch_size", type=int, default=128)
-    parser.add_argument("--max_len", type=int, default=64)
-    parser.add_argument("--lr", type=float, default=0.0001)
-    parser.add_argument("--n_epochs", type=int, default=30)
-    parser.add_argument("--finetuning", dest="finetuning", action="store_true")
-    parser.add_argument("--fp16", dest="fp16", action="store_true")
-    parser.add_argument("--save_model", dest="save_model", action="store_true")
-    parser.add_argument("--logdir", type=str, default="checkpoints/")
-    parser.add_argument("--bert_path", type=str, default=None)
-    parser.add_argument("--alpha_aug", type=float, default=0.8)
-    parser.add_argument("--augment_index", type=str, default=None)
-    parser.add_argument("--augment_op", type=str, default=None)
 
-    hp = parser.parse_args()
+def initialize_and_train(task_config,
+                         trainset,
+                         augmentset,
+                         validset,
+                         testset,
+                         hp,
+                         run_tag):
+    """The train process.
 
-    task = hp.task # consider a single task for now
+    Args:
+        task_config (dictionary): the configuration of the task
+        trainset (SnippextDataset): the training set
+        augmentset (SnippextDataset): the augmented training set
+        validset (SnippextDataset): the validation set
+        testset (SnippextDataset): the testset
+        hp (Namespace): the parsed hyperparameters
+        run_tag (string): the tag of the run (for logging purpose)
 
-    # create the tag of the run
-    run_tag = 'mixda_task_%s_lm_%s_batch_size_%d_alpha_aug_%.1f_augment_op_%s_run_id_%d' % \
-        (task, hp.lm, hp.batch_size, hp.alpha_aug, hp.augment_op, hp.run_id)
-
-    # task config
-    configs = json.load(open('configs.json'))
-    configs = {conf['name'] : conf for conf in configs}
-    config = configs[task]
-    config_list = [config]
-
-    trainset = config['trainset']
-    validset = config['validset']
-    testset = config['testset']
-    task_type = config['task_type']
-    vocab = config['vocab']
-    tasknames = [task]
-
-    # train dataset
-    train_dataset = SnippextDataset(trainset, vocab, task,
-                                   lm=hp.lm,
-                                   max_len=hp.max_len)
-    # train dataset augmented
-    augment_dataset = SnippextDataset(trainset, vocab, task,
-                                      lm=hp.lm,
-                                      max_len=hp.max_len,
-                                      augment_index=hp.augment_index,
-                                      augment_op=hp.augment_op)
-    # dev set
-    valid_dataset = SnippextDataset(validset, vocab, task, lm=hp.lm)
-
-    # test set
-    test_dataset = SnippextDataset(testset, vocab, task, lm=hp.lm)
-
+    Returns:
+        None
+    """
     padder = SnippextDataset.pad
 
     # iterators for dev/test set
-    valid_iter = data.DataLoader(dataset=valid_dataset,
+    valid_iter = data.DataLoader(dataset=validset,
                                  batch_size=hp.batch_size,
                                  shuffle=False,
                                  num_workers=0,
                                  collate_fn=padder)
-    test_iter = data.DataLoader(dataset=test_dataset,
+    test_iter = data.DataLoader(dataset=testset,
                                  batch_size=hp.batch_size,
                                  shuffle=False,
                                  num_workers=0,
@@ -240,20 +207,14 @@ if __name__=="__main__":
     # initialize model
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     if device == 'cpu':
-        model = MultiTaskNet(config_list, device,
+        model = MultiTaskNet([task_config], device,
                          hp.finetuning, lm=hp.lm, bert_path=hp.bert_path)
-        optimizer = AdamW(model.parameters(), lr = hp.lr)
+        optimizer = AdamW(model.parameters(), lr=hp.lr)
     else:
-        model = MultiTaskNet(config_list, device,
+        model = MultiTaskNet([task_config], device,
                          hp.finetuning, lm=hp.lm, bert_path=hp.bert_path).cuda()
-        optimizer = AdamW(model.parameters(), lr = hp.lr)
+        optimizer = AdamW(model.parameters(), lr=hp.lr)
         if hp.fp16:
-            try:
-                from apex import amp
-            except ImportError:
-                raise ImportError("Please install apex from "
-                   "https://www.github.com/nvidia/apex"
-                   "to use fp16 training.")
             model, optimizer = amp.initialize(model, optimizer, opt_level='O2')
 
     # create logging
@@ -265,8 +226,8 @@ if __name__=="__main__":
     best_dev_f1 = best_test_f1 = 0.0
     for epoch in range(1, hp.n_epochs+1):
         train(model,
-              train_dataset,
-              augment_dataset,
+              trainset,
+              augmentset,
               optimizer,
               fp16=hp.fp16,
               batch_size=hp.batch_size,
@@ -292,3 +253,74 @@ if __name__=="__main__":
                 torch.save(model.state_dict(), run_tag + '_test.pt')
 
     writer.close()
+
+if __name__=="__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--task", type=str, default="hotel_tagging")
+    parser.add_argument("--lm", type=str, default="bert")
+    parser.add_argument("--run_id", type=int, default=0)
+    parser.add_argument("--batch_size", type=int, default=128)
+    parser.add_argument("--max_len", type=int, default=64)
+    parser.add_argument("--lr", type=float, default=0.0001)
+    parser.add_argument("--n_epochs", type=int, default=30)
+    parser.add_argument("--finetuning", dest="finetuning", action="store_true")
+    parser.add_argument("--fp16", dest="fp16", action="store_true")
+    parser.add_argument("--save_model", dest="save_model", action="store_true")
+    parser.add_argument("--logdir", type=str, default="checkpoints/")
+    parser.add_argument("--bert_path", type=str, default=None)
+    parser.add_argument("--alpha_aug", type=float, default=0.8)
+    parser.add_argument("--augment_index", type=str, default=None)
+    parser.add_argument("--augment_op", type=str, default=None)
+
+    hp = parser.parse_args()
+
+    task = hp.task # consider a single task for now
+
+    # import nvidia apex if fp16 is on
+    if hp.fp16:
+        try:
+            from apex import amp
+        except ImportError:
+            raise ImportError("Please install apex from "
+                              "https://www.github.com/nvidia/apex"
+                              " to use fp16 training.")
+
+    # create the tag of the run
+    run_tag = 'mixda_task_%s_lm_%s_batch_size_%d_alpha_aug_%.1f_augment_op_%s_run_id_%d' % \
+        (task, hp.lm, hp.batch_size, hp.alpha_aug, hp.augment_op, hp.run_id)
+
+    # task config
+    configs = json.load(open('configs.json'))
+    configs = {conf['name'] : conf for conf in configs}
+    config = configs[task]
+
+    trainset = config['trainset']
+    validset = config['validset']
+    testset = config['testset']
+    task_type = config['task_type']
+    vocab = config['vocab']
+    tasknames = [task]
+
+    # train dataset
+    train_dataset = SnippextDataset(trainset, vocab, task,
+                                   lm=hp.lm,
+                                   max_len=hp.max_len)
+    # train dataset augmented
+    augment_dataset = SnippextDataset(trainset, vocab, task,
+                                      lm=hp.lm,
+                                      max_len=hp.max_len,
+                                      augment_index=hp.augment_index,
+                                      augment_op=hp.augment_op)
+    # dev set
+    valid_dataset = SnippextDataset(validset, vocab, task, lm=hp.lm)
+
+    # test set
+    test_dataset = SnippextDataset(testset, vocab, task, lm=hp.lm)
+
+    # run the training process
+    initialize_and_train(config,
+                         train_dataset,
+                         augment_dataset,
+                         valid_dataset,
+                         test_dataset,
+                         hp, run_tag)

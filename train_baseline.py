@@ -85,6 +85,88 @@ def train(model, train_set, optimizer, batch_size=32, fp16=False):
             print(f"step: {i}, task: {taskname}, loss: {loss.item()}")
             del loss
 
+def initialize_and_train(task_config,
+                         trainset,
+                         validset,
+                         testset,
+                         hp,
+                         run_tag):
+    """The train process.
+
+    Args:
+        task_config (dictionary): the configuration of the task
+        trainset (SnippextDataset): the training set
+        validset (SnippextDataset): the validation set
+        testset (SnippextDataset): the testset
+        hp (Namespace): the parsed hyperparameters
+        run_tag (string): the tag of the run (for logging purpose)
+
+    Returns:
+        None
+    """
+    # create iterators for validation and test
+    padder = SnippextDataset.pad
+    valid_iter = data.DataLoader(dataset=valid_dataset,
+                                 batch_size=hp.batch_size,
+                                 shuffle=False,
+                                 num_workers=0,
+                                 collate_fn=padder)
+    test_iter = data.DataLoader(dataset=test_dataset,
+                                 batch_size=hp.batch_size,
+                                 shuffle=False,
+                                 num_workers=0,
+                                 collate_fn=padder)
+
+    # initialize model
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    model = MultiTaskNet([task_config],
+                     device,
+                     hp.finetuning,
+                     lm=hp.lm,
+                     bert_path=hp.bert_path)
+    if device == 'cpu':
+        optimizer = AdamW(model.parameters(), lr=hp.lr)
+    else:
+        model = model.cuda()
+        optimizer = AdamW(model.parameters(), lr=hp.lr)
+        if hp.fp16:
+            model, optimizer = amp.initialize(model, optimizer, opt_level='O2')
+
+    # create logging directory
+    if not os.path.exists(hp.logdir):
+        os.makedirs(hp.logdir)
+    writer = SummaryWriter(log_dir=hp.logdir)
+
+    # start training
+    best_dev_f1 = best_test_f1 = 0.0
+    for epoch in range(1, hp.n_epochs+1):
+        train(model,
+              trainset,
+              optimizer,
+              batch_size=hp.batch_size,
+              fp16=hp.fp16)
+
+        print(f"=========eval at epoch={epoch}=========")
+        dev_f1, test_f1 = eval_on_task(epoch,
+                            model,
+                            task,
+                            valid_iter,
+                            validset,
+                            test_iter,
+                            testset,
+                            writer,
+                            run_tag)
+
+        if hp.save_model:
+            if dev_f1 > best_dev_f1:
+                best_dev_f1 = dev_f1
+                torch.save(model.state_dict(), run_tag + '_dev.pt')
+            if test_f1 > best_test_f1:
+                best_test_f1 = dev_f1
+                torch.save(model.state_dict(), run_tag + '_test.pt')
+
+    writer.close()
+
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
@@ -106,6 +188,15 @@ if __name__=="__main__":
     # only a single task for baseline
     task = hp.task
 
+    # import nvidia apex if fp16 is on
+    if hp.fp16:
+        try:
+            from apex import amp
+        except ImportError:
+            raise ImportError("Please install apex from "
+                              "https://www.github.com/nvidia/apex"
+                              " to use fp16 training.")
+
     # create the tag of the run
     run_tag = 'baseline_task_%s_lm_%s_batch_size_%d_run_id_%d' % (task,
             hp.lm,
@@ -116,7 +207,6 @@ if __name__=="__main__":
     configs = json.load(open('configs.json'))
     configs = {conf['name'] : conf for conf in configs}
     config = configs[task]
-    config_list = [config]
 
     trainset = config['trainset']
     validset = config['validset']
@@ -133,77 +223,11 @@ if __name__=="__main__":
                                     lm=hp.lm)
     test_dataset = SnippextDataset(testset, vocab, task,
                                    lm=hp.lm)
-    padder = SnippextDataset.pad
 
-    valid_iter = data.DataLoader(dataset=valid_dataset,
-                                 batch_size=hp.batch_size,
-                                 shuffle=False,
-                                 num_workers=0,
-                                 collate_fn=padder)
-    test_iter = data.DataLoader(dataset=test_dataset,
-                                 batch_size=hp.batch_size,
-                                 shuffle=False,
-                                 num_workers=0,
-                                 collate_fn=padder)
-
-    # initialize model
-    device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    if device == 'cpu':
-        model = MultiTaskNet(config_list,
-                         device,
-                         hp.finetuning,
-                         lm=hp.lm,
-                         bert_path=hp.bert_path)
-        optimizer = AdamW(model.parameters(), lr = hp.lr)
-    else:
-        model = MultiTaskNet(config_list, device,
-                         hp.finetuning,
-                         lm=hp.lm,
-                         bert_path=hp.bert_path).cuda()
-        optimizer = AdamW(model.parameters(), lr = hp.lr)
-        if hp.fp16:
-            try:
-                from apex import amp
-            except ImportError:
-                raise ImportError("Please install apex from "
-				  "https://www.github.com/nvidia/apex"
-				  " to use fp16 training.")
-            model, optimizer = amp.initialize(model, optimizer, opt_level='O2')
-        # model = nn.DataParallel(model)
-
-
-    # create logging directory
-    if not os.path.exists(hp.logdir):
-        os.makedirs(hp.logdir)
-    writer = SummaryWriter(log_dir=hp.logdir)
-
-    # start training
-    best_dev_f1 = best_test_f1 = 0.0
-    for epoch in range(1, hp.n_epochs+1):
-        train(model,
-              train_dataset,
-              optimizer,
-              batch_size=hp.batch_size,
-              fp16=hp.fp16)
-
-        print(f"=========eval at epoch={epoch}=========")
-        dev_f1, test_f1 = eval_on_task(epoch,
-                            model,
-                            task,
-                            valid_iter,
-                            valid_dataset,
-                            test_iter,
-                            test_dataset,
-                            writer,
-                            run_tag)
-
-        if hp.save_model:
-            if dev_f1 > best_dev_f1:
-                best_dev_f1 = dev_f1
-                torch.save(model.state_dict(), run_tag + '_dev.pt')
-            if test_f1 > best_test_f1:
-                best_test_f1 = dev_f1
-                torch.save(model.state_dict(), run_tag + '_test.pt')
-
-    writer.close()
-
+    # run the training process
+    initialize_and_train(config,
+                         train_dataset,
+                         valid_dataset,
+                         test_dataset,
+                         hp,
+                         run_tag)
