@@ -416,7 +416,9 @@ if __name__ == "__main__":
     parser.add_argument("--fp16", dest="fp16", action="store_true")
     parser.add_argument("--checkpoint_path", type=str, default='checkpoints/')
     parser.add_argument("--lm", type=str, default='bert')
+    parser.add_argument("--tasks", type=str, default='hotel_tagging,pairing,sf_hotel_classification,restaurant_asc')
     hp = parser.parse_args()
 
-    config_list, models = initialize(hp.checkpoint_path, hp.use_gpu, lm=hp.lm, fp16=hp.fp16)
+    config_list, models = initialize(hp.checkpoint_path, hp.use_gpu,
+            lm=hp.lm, fp16=hp.fp16, tasks=hp.tasks.split(','))
     predict(hp.input_fn, hp.output_fn, config_list, models)
