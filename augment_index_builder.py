@@ -7,7 +7,7 @@ import argparse
 import torch
 
 from augment_utils import *
-from transformers import BertTokenizer, BertModel
+from transformers import BertModel
 from nltk.corpus import wordnet
 from nltk.corpus.reader.sentiwordnet import SentiWordNetCorpusReader
 from gensim.models import Word2Vec
@@ -28,9 +28,9 @@ class IndexBuilder(object):
         index (dict): a dictionary containing both the token and span level index
         all_spans (list of str): a list of all the spans in the index
         span_freqs (list of int): the document frequency of each span in all_spans
+        lm (string): the language model; 'bert' by default
     """
-
-    def __init__(self, train_fn, idf_fn, w2v, task, bert_path):
+    def __init__(self, train_fn, idf_fn, w2v, task, bert_path, lm='bert'):
         if 'tagging' in task or 'qa' in task:
             self.tokens, self.labels = read_tagging_file(train_fn)
         else:
@@ -47,6 +47,7 @@ class IndexBuilder(object):
         if self.task == 'classification':
             # sentiment sensitive
             self.calc_senti_score()
+        self.tokenizer = get_tokenizer(lm=lm)
         self.init_token_index(idf_dict)
         self.init_span_index(bert_path=bert_path)
         self.index_token_replacement()
@@ -63,7 +64,7 @@ class IndexBuilder(object):
                         self.index['token'][w]['idf'] = oov_th
                     else:
                         self.index['token'][w]['idf'] = idf_dict[wl]
-                    tokenized_w = tokenizer.tokenize(w)
+                    tokenized_w = self.tokenizer.tokenize(w)
                     self.index['token'][w]['bert_token'] = tokenized_w
                     self.index['token'][w]['bert_length'] = len(tokenized_w)
                     self.index['token'][w]['similar_words'] = None
@@ -97,7 +98,7 @@ class IndexBuilder(object):
 
                 # as_labels
                 as_labels = []
-                tokenized_as = tokenizer.tokenize(as_term)
+                tokenized_as = self.tokenizer.tokenize(as_term)
                 for idx_t, t in enumerate(tokenized_as):
                     if idx_t == 0:
                         as_labels.append(1 if idx_t == 0 else 2)
@@ -155,7 +156,7 @@ class IndexBuilder(object):
                     tokenized_as = []
                     as_labels = []
                     for idx_as, w in enumerate(as_term):
-                        tokenized_w = tokenizer.tokenize(w)
+                        tokenized_w = self.tokenizer.tokenize(w)
                         for idx_t, t in enumerate(tokenized_w):
                             if idx_t == 0:
                                 as_labels.append(1 if idx_as == 0 else 2)
@@ -184,7 +185,7 @@ class IndexBuilder(object):
                     tokenized_op = []
                     op_labels = []
                     for idx_op, w in enumerate(op_term):
-                        tokenized_w = tokenizer.tokenize(w)
+                        tokenized_w = self.tokenizer.tokenize(w)
                         for idx_t, t in enumerate(tokenized_w):
                             if idx_t == 0:
                                 op_labels.append(3 if idx_op == 0 else 4)
@@ -214,10 +215,10 @@ class IndexBuilder(object):
         # Pad to max length and convert to ids
         for as_term in aspect_token_list:
             tk_as = ['[CLS]'] + as_term + ['[SEP]'] + ['[PAD]' for k in range(max_len_as - len(as_term))]
-            as_ids.append(tokenizer.convert_tokens_to_ids(tk_as))
+            as_ids.append(self.tokenizer.convert_tokens_to_ids(tk_as))
         # for op_term in opinion_token_list:
         #     tk_op = ['[CLS]'] + op_term + ['[SEP]'] + ['[PAD]' for k in range(max_len_op - len(op_term))]
-        #     op_ids.append(tokenizer.convert_tokens_to_ids(tk_op))
+        #     op_ids.append(self.tokenizer.convert_tokens_to_ids(tk_op))
         X_as = torch.LongTensor(as_ids)
         # as_encoded_layers, _ = bert_model(X_as)
         # migrated to transformers
@@ -313,7 +314,7 @@ class IndexBuilder(object):
                             similar_words_dict[s_arr[0]] = True
                         else:
                             continue
-                        tokenized_s = tokenizer.tokenize(s_arr[0])
+                        tokenized_s = self.tokenizer.tokenize(s_arr[0])
                         l_s = len(tokenized_s)
                         self.index['token'][w]['similar_words'].append([s_arr[0], s[1]])
                         # self.index['token'][w]['similar_words_bert'].append(tokenized_s)
@@ -470,6 +471,8 @@ if __name__ == '__main__':
     else:
         idf_fn = hp.idf_path
 
-    tokenizer = get_tokenizer(lm=hp.lm)
-    ib = IndexBuilder(train_fn, idf_fn, w2v, config['task_type'], hp.bert_path)
+    ib = IndexBuilder(train_fn, idf_fn, w2v,
+                      config['task_type'],
+                      hp.bert_path,
+                      lm=hp.lm)
     ib.dump_index(hp.index_output_path)

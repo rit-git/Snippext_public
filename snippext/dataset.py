@@ -25,8 +25,7 @@ def get_tokenizer(lm='bert'):
         elif lm == 'albert':
             from transformers import AlbertTokenizer
             tokenizer = AlbertTokenizer.from_pretrained('albert-base-v2')
-    else:
-        return tokenizer
+    return tokenizer
 
 
 class SnippextDataset(data.Dataset):
