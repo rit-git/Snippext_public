@@ -13,10 +13,11 @@ import argparse
 import sys
 
 from torch.utils import data
-from model import MultiTaskNet
-from dataset import SnippextDataset
 from tqdm import tqdm
 from collections import OrderedDict
+
+from snippext.model import MultiTaskNet
+from snippext.dataset import SnippextDataset
 
 csv.field_size_limit(sys.maxsize)
 nlp = spacy.load('en_core_web_sm')

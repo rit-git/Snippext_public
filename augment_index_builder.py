@@ -11,7 +11,8 @@ from transformers import BertTokenizer, BertModel
 from nltk.corpus import wordnet
 from nltk.corpus.reader.sentiwordnet import SentiWordNetCorpusReader
 from gensim.models import Word2Vec
-from dataset import tokenizer
+
+from snippext.dataset import get_tokenizer
 
 
 class IndexBuilder(object):
@@ -448,6 +449,7 @@ if __name__ == '__main__':
     parser.add_argument("--train_path", type=str, default=None)
     parser.add_argument("--w2v_path", type=str, default="../rest_w2v.model")
     parser.add_argument("--bert_path", type=str, default=None)
+    parser.add_argument("--lm", type=str, default='bert')
     parser.add_argument("--idf_path", type=str, default=None)
     parser.add_argument("--index_output_path", type=str, default="augment_index.json")
 
@@ -468,5 +470,6 @@ if __name__ == '__main__':
     else:
         idf_fn = hp.idf_path
 
+    tokenizer = get_tokenizer(lm=hp.lm)
     ib = IndexBuilder(train_fn, idf_fn, w2v, config['task_type'], hp.bert_path)
     ib.dump_index(hp.index_output_path)

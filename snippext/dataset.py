@@ -2,7 +2,7 @@ import numpy as np
 import torch
 
 from torch.utils import data
-from augment import Augmenter
+from .augment import Augmenter
 
 tokenizer = None
 

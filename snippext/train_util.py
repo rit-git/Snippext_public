@@ -5,7 +5,7 @@ import torch.nn.functional as F
 import sklearn.metrics as metrics
 import uuid
 
-from conlleval import evaluate_conll_file
+from .conlleval import evaluate_conll_file
 
 
 def eval_tagging(model, iterator, idx2tag):
