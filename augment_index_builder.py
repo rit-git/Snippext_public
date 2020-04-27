@@ -128,29 +128,25 @@ class IndexBuilder(object):
                 opinions = []
                 m = len(self.tokens[j])
                 k = 0
-                asflag = 0
                 while k < m:
                     if 'B-AS' in self.labels[j][k]:
                         aspects.append([self.tokens[j][k]])
-                        asflag = 1
                         k += 1
                     elif 'I-AS' in self.labels[j][k]:
-                        if asflag != 1:
-                            print('Wrong label!')
-                            print(self.tokens[j])
-                        aspects[-1].append(self.tokens[j][k])
+                        # ignore spans that are incorrectly labeled
+                        if len(aspects) > 0:
+                            aspects[-1].append(self.tokens[j][k])
                         k += 1
                     elif 'B-OP' in self.labels[j][k]:
                         opinions.append([self.tokens[j][k]])
                         k += 1
-                        asflag = 0
                     elif 'I-OP' in self.labels[j][k]:
-                        opinions[-1].append(self.tokens[j][k])
+                        # ignore spans that are incorrectly labeled
+                        if len(opinions) > 0:
+                            opinions[-1].append(self.tokens[j][k])
                         k += 1
-                        asflag = 0
                     else:
                         k += 1
-                        asflag = 0
 
                 for as_term in aspects:
                     tokenized_as = []
@@ -216,18 +212,18 @@ class IndexBuilder(object):
         for as_term in aspect_token_list:
             tk_as = ['[CLS]'] + as_term + ['[SEP]'] + ['[PAD]' for k in range(max_len_as - len(as_term))]
             as_ids.append(self.tokenizer.convert_tokens_to_ids(tk_as))
-        # for op_term in opinion_token_list:
-        #     tk_op = ['[CLS]'] + op_term + ['[SEP]'] + ['[PAD]' for k in range(max_len_op - len(op_term))]
-        #     op_ids.append(self.tokenizer.convert_tokens_to_ids(tk_op))
-        X_as = torch.LongTensor(as_ids)
-        # as_encoded_layers, _ = bert_model(X_as)
+        for op_term in opinion_token_list:
+            tk_op = ['[CLS]'] + op_term + ['[SEP]'] + ['[PAD]' for k in range(max_len_op - len(op_term))]
+            op_ids.append(self.tokenizer.convert_tokens_to_ids(tk_op))
+
         # migrated to transformers
+        X_as = torch.LongTensor(as_ids)
         as_encoded_layers = bert_model(X_as)[2]
         X_as = as_encoded_layers[-2].detach()
 
-        # X_op = torch.LongTensor(op_ids)
-        # op_encoded_layers, _ = bert_model(X_op)
-        # X_op = op_encoded_layers[-2].detach()
+        X_op = torch.LongTensor(op_ids)
+        op_encoded_layers = bert_model(X_op)[2]
+        X_op = op_encoded_layers[-2].detach()
 
         # Compute the dot-product between all pairs of spans
         for i in range(len(aspect_token_list)):
@@ -262,36 +258,36 @@ class IndexBuilder(object):
                 else:
                     break
 
-        # for i in range(len(opinion_token_list)):
-        #     if sim_token == 'all':
-        #         # using all tokens
-        #         q = X_op[i]
-        #         z = q * X_op
-        #         score = torch.sum(z, dim=(1,2)) / torch.tensor(
-        #             np.linalg.norm(q) * np.linalg.norm(X_op, axis=(1,2)))
-        #     elif sim_token == 'cls':
-        #         # using the CLS token
-        #         q = X_op[i][0]
-        #         z = q * X_op[:, 0, :]
-        #         score = torch.sum(z, dim=(1)) / torch.tensor(
-        #             np.linalg.norm(q) * np.linalg.norm(X_op[:, 0, :], axis=(1)))
-        #     elif sim_token == 'bas':
-        #         # using the first token of the span
-        #         q = X_op[i][1]
-        #         z = q * X_op[:, 1, :]
-        #         score = torch.sum(z, dim=(1)) / torch.tensor(
-        #             np.linalg.norm(q) * np.linalg.norm(X_op[:, 1, :], axis=(1)))
-        #     topk_idx = torch.argsort(score, dim=0, descending=True)
-        #     for idx in topk_idx:
-        #         if idx == i:
-        #             continue
-        #         if len(opinion_dict[opinion_raw_token_list[i]]['similar_spans']) < sim_topk:
-        #             opinion_dict[opinion_raw_token_list[i]]['similar_spans'].append(
-        #                 [opinion_raw_token_list[idx], score[idx].item()])
-        #             opinion_dict[opinion_raw_token_list[i]]['similar_spans_length'].append(
-        #                 opinion_dict[opinion_raw_token_list[idx]]['bert_length'])
-        #         else:
-        #             break
+        for i in range(len(opinion_token_list)):
+            if sim_token == 'all':
+                # using all tokens
+                q = X_op[i]
+                z = q * X_op
+                score = torch.sum(z, dim=(1,2)) / torch.tensor(
+                    np.linalg.norm(q) * np.linalg.norm(X_op, axis=(1,2)))
+            elif sim_token == 'cls':
+                # using the CLS token
+                q = X_op[i][0]
+                z = q * X_op[:, 0, :]
+                score = torch.sum(z, dim=(1)) / torch.tensor(
+                    np.linalg.norm(q) * np.linalg.norm(X_op[:, 0, :], axis=(1)))
+            elif sim_token == 'bas':
+                # using the first token of the span
+                q = X_op[i][1]
+                z = q * X_op[:, 1, :]
+                score = torch.sum(z, dim=(1)) / torch.tensor(
+                    np.linalg.norm(q) * np.linalg.norm(X_op[:, 1, :], axis=(1)))
+            topk_idx = torch.argsort(score, dim=0, descending=True)
+            for idx in topk_idx:
+                if idx == i:
+                    continue
+                if len(opinion_dict[opinion_raw_token_list[i]]['similar_spans']) < sim_topk:
+                    opinion_dict[opinion_raw_token_list[i]]['similar_spans'].append(
+                        [opinion_raw_token_list[idx], score[idx].item()])
+                    opinion_dict[opinion_raw_token_list[i]]['similar_spans_length'].append(
+                        opinion_dict[opinion_raw_token_list[idx]]['bert_length'])
+                else:
+                    break
         self.index['span'] =  {'aspect': aspect_dict, 'opinion': opinion_dict}
 
 
