@@ -143,6 +143,7 @@ def do_pairing(all_tokens, all_tags, config, model):
     sent_ids = []
     candidates = []
     positions = []
+    all_spans = {}
 
     sid = 0
     for tokens, tags in zip(all_tokens, all_tags):
@@ -158,8 +159,16 @@ def do_pairing(all_tokens, all_tags, config, model):
                     end += 1
                 if tag == 'B-AS':
                     aspects.append((start, end))
+                    all_spans[(sid, start, end)] = {'aspect': ' '.join(tokens[start:end+1]),
+                            'sid': sid,
+                            'asp_start': start,
+                            'asp_end': end}
                 else:
                     opinions.append((start, end))
+                    all_spans[(sid, start, end)] = {'opinion': ' '.join(tokens[start:end+1]),
+                            'sid': sid,
+                            'op_start': start,
+                            'op_end': end}
 
         candidate_pairs = []
         for asp in aspects:
@@ -235,6 +244,18 @@ def do_pairing(all_tokens, all_tags, config, model):
                 results[sent_ids[i]]['extractions'].append(candidates[i])
                 for tid in positions[i]:
                     used.add(tid)
+                # drop from all_spans
+                sid = candidates[i]['sid']
+                del all_spans[(sid,
+                    candidates[i]['asp_start'],
+                    candidates[i]['asp_end'])]
+                del all_spans[(sid,
+                    candidates[i]['op_start'],
+                    candidates[i]['op_end'])]
+
+    # add aspects/opinions that are not paired
+    for sid, start, end in all_spans:
+        results[sid]['extractions'].append(all_spans[(sid, start, end)])
 
     return results
 
@@ -257,9 +278,17 @@ def classify(extractions, config, model, sents=None):
     for sid, sent in enumerate(extractions):
         for eid, ext in enumerate(sent['extractions']):
             if 'asc' in config['name']:
-                phrase = ' '.join(sents[ext['sid']]) + '\t' + ext['aspect']
+                if 'aspect' in ext:
+                    phrase = ' '.join(sents[ext['sid']]) + '\t' + ext['aspect']
+                else:
+                    phrase = ' '.join(sents[ext['sid']]) + '\t' + ext['opinion']
             else:
-                phrase = ext['opinion'] + ' ' + ext['aspect']
+                if 'aspect' in ext and 'opinion' in ext:
+                    phrase = ext['opinion'] + ' ' + ext['aspect']
+                elif 'aspect' in ext:
+                    phrase = ext['aspect']
+                else:
+                    phrase = ext['opinion']
             phrases.append(phrase)
             index.append((sid, eid))
 
