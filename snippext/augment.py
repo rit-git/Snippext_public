@@ -9,20 +9,20 @@ class Augmenter(object):
 
     Attributes:
         index (dict): a dictionary containing both the token and span level index
-        all_spans (list of str): a list of all the spans in the index
-        span_freqs (list of int): the document frequency of each span in all_spans
+        all_spans (dict): a dictionary from span type to a list of all the spans in the index
+        span_freqs (dict): a dictionary from span type to the document frequency of each span in all_spans
     """
 
     def __init__(self, index_fn, valid_spans=None):
         self.index = json.load(open(index_fn))
-        # consider aspect only for now
-        self.index['span'] = self.index['span']['aspect']
-        self.all_spans = list(self.index['span'].keys())
-        self.span_freqs = [self.index['span'][sp]['document_freq'] \
-                           for sp in self.all_spans]
-        self.span_freqs = np.array(self.span_freqs) / sum(self.span_freqs)
+        self.all_spans = {}
+        self.span_freqs = {}
 
-
+        for span_type in self.index['span']:
+            self.all_spans[span_type] = list(self.index['span'][span_type].keys())
+            span_freqs_tmp = [self.index['span'][span_type][sp]['document_freq'] \
+                               for sp in self.all_spans[span_type]]
+            self.span_freqs[span_type] = np.array(span_freqs_tmp) / np.sum(span_freqs_tmp)
 
     def augment(self, tokens, labels, op='token_del_tfidf'):
         """ Performs data augmentation on a tagging example.
@@ -64,15 +64,20 @@ class Augmenter(object):
             else:
                 labelI = label
 
+            if 'AS' in label:
+                span_type = 'aspect'
+            else:
+                span_type = 'opinion'
+
             if 'sim' in op:
-                candidates = self.index['span'][span]['similar_spans']
+                candidates = self.index['span'][span_type][span]['similar_spans']
                 new_span = random.choice(candidates)[0]
             elif 'freq' in op:
-                candidates = self.all_spans
+                candidates = self.all_spans[span_type]
                 new_span = np.random.choice(candidates, 1,
-                                            p=self.span_freqs)[0]
+                                            p=self.span_freqs[span_type])[0]
             else:
-                candidates = self.all_spans
+                candidates = self.all_spans[span_type]
                 new_span = random.choice(candidates)
 
             new_span_len = len(new_span.split(' '))

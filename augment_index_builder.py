@@ -217,13 +217,15 @@ class IndexBuilder(object):
             op_ids.append(self.tokenizer.convert_tokens_to_ids(tk_op))
 
         # migrated to transformers
-        X_as = torch.LongTensor(as_ids)
-        as_encoded_layers = bert_model(X_as)[2]
-        X_as = as_encoded_layers[-2].detach()
+        if len(aspect_token_list) > 0:
+            X_as = torch.LongTensor(as_ids)
+            as_encoded_layers = bert_model(X_as)[2]
+            X_as = as_encoded_layers[-2].detach()
 
-        X_op = torch.LongTensor(op_ids)
-        op_encoded_layers = bert_model(X_op)[2]
-        X_op = op_encoded_layers[-2].detach()
+        if len(opinion_token_list) > 0:
+            X_op = torch.LongTensor(op_ids)
+            op_encoded_layers = bert_model(X_op)[2]
+            X_op = op_encoded_layers[-2].detach()
 
         # Compute the dot-product between all pairs of spans
         for i in range(len(aspect_token_list)):
@@ -394,7 +396,7 @@ class IndexBuilder(object):
                 else:
                     return arr
 
-    def calc_senti_score(self, swn_filename='SentiWordNet_3.0.0_20100705.txt'):
+    def calc_senti_score(self, swn_filename='combined_data/SentiWordNet_3.0.0_20100705.txt'):
         # aggregate sentiment score of tokens using SentiWordNet
         swn = SentiWordNetCorpusReader('./', [swn_filename])
         for senti_synset in swn.all_senti_synsets():
