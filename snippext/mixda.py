@@ -15,6 +15,7 @@ from .train_util import *
 from .dataset import *
 from tensorboardX import SummaryWriter
 from transformers import AdamW
+from apex import amp
 
 # criterion for tagging
 tagging_criterion = nn.CrossEntropyLoss(ignore_index=0)
