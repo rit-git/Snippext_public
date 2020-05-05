@@ -166,10 +166,12 @@ def eval_on_task(epoch,
     """
     t_prec = t_recall = t_f1 = t_loss = None
     if 'tagging' in task:
+        print('Validation:')
         prec, recall, f1, v_loss = eval_tagging(model,
                              valid_iter,
                              valid_dataset.idx2tag)
         if test_iter is not None:
+            print('Test:')
             t_prec, t_recall, t_f1, t_loss = eval_tagging(model,
                              test_iter,
                              test_dataset.idx2tag)
@@ -182,9 +184,11 @@ def eval_on_task(epoch,
                    't_f1': t_f1,
                    't_loss': t_loss}
     else:
+        print('Validation:')
         v_output = eval_classifier(model, valid_iter)
 
         if test_iter is not None:
+            print('Test:')
             t_output = eval_classifier(model, test_iter)
 
         if len(v_output) == 5:
