@@ -39,7 +39,7 @@ CUDA_VISIBLE_DEVICES=0 python train_baseline.py \
   --batch_size 32 \
   --lr 5e-5 \
   --n_epochs 20 \
-  --bert_path finetuned_bert/pytorch_model.bin
+  --bert_path finetuned_bert/rest_model.bin
 ```
 
 Parameters:
