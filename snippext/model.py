@@ -1,9 +1,11 @@
 import torch
 import torch.nn as nn
-from transformers import BertModel, AlbertModel, DistilBertModel
+from transformers import BertModel, AlbertModel, DistilBertModel, RobertaModel, XLNetModel
 
 model_ckpts = {'bert': "bert-base-uncased",
                'albert': "albert-base-v2",
+               'roberta': "roberta-base",
+               'xlnet': "xlnet-base-cased",
                'distilbert': "distilbert-base-uncased"}
 
 class MultiTaskNet(nn.Module):
@@ -25,6 +27,10 @@ class MultiTaskNet(nn.Module):
                 self.bert = DistilBertModel.from_pretrained(model_ckpts[lm])
             elif lm == 'albert':
                 self.bert = AlbertModel.from_pretrained(model_ckpts[lm])
+            elif lm == 'xlnet':
+                self.bert = XLNetModel.from_pretrained(model_ckpts[lm])
+            elif lm == 'roberta':
+                self.bert = RobertaModel.from_pretrained(model_ckpts[lm])
         else:
             output_model_file = bert_path
             model_state_dict = torch.load(output_model_file,
@@ -37,6 +43,12 @@ class MultiTaskNet(nn.Module):
                         state_dict=model_state_dict)
             elif lm == 'albert':
                 self.bert = AlbertModel.from_pretrained(model_ckpts[lm],
+                        state_dict=model_state_dict)
+            elif lm == 'xlnet':
+                self.bert = XLNetModel.from_pretrained(model_ckpts[lm],
+                        state_dict=model_state_dict)
+            elif lm == 'roberta':
+                self.bert = RobertaModel.from_pretrained(model_ckpts[lm],
                         state_dict=model_state_dict)
 
         self.device = device

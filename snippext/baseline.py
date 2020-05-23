@@ -12,10 +12,10 @@ from .model import MultiTaskNet
 from .dataset import *
 from .train_util import *
 from tensorboardX import SummaryWriter
-from transformers import AdamW
+from transformers import AdamW, get_linear_schedule_with_warmup
 from apex import amp
 
-def train(model, train_set, optimizer, batch_size=32, fp16=False):
+def train(model, train_set, optimizer, scheduler=None, batch_size=32, fp16=False):
     """Perfrom one epoch of the training process.
 
     Args:
@@ -63,6 +63,8 @@ def train(model, train_set, optimizer, batch_size=32, fp16=False):
         else:
             loss.backward()
         optimizer.step()
+        if scheduler:
+            scheduler.step()
 
         if i == 0:
             print("=====sanity check======")
@@ -132,6 +134,12 @@ def initialize_and_train(task_config,
         if hp.fp16:
             model, optimizer = amp.initialize(model, optimizer, opt_level='O2')
 
+    # learning rate scheduler
+    num_steps = (len(trainset) // hp.batch_size) * hp.n_epochs
+    scheduler = get_linear_schedule_with_warmup(optimizer,
+                                                num_warmup_steps=0,
+                                                num_training_steps=num_steps)
+
     # create logging directory
     if not os.path.exists(hp.logdir):
         os.makedirs(hp.logdir)
@@ -143,6 +151,7 @@ def initialize_and_train(task_config,
         train(model,
               trainset,
               optimizer,
+              scheduler=scheduler,
               batch_size=hp.batch_size,
               fp16=hp.fp16)
 

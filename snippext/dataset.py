@@ -25,6 +25,12 @@ def get_tokenizer(lm='bert'):
         elif lm == 'albert':
             from transformers import AlbertTokenizer
             tokenizer = AlbertTokenizer.from_pretrained('albert-base-v2')
+        elif lm == 'roberta':
+            from transformers import RobertaTokenizer
+            tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
+        elif lm == 'xlnet':
+            from transformers import XLNetTokenizer
+            tokenizer = XLNetTokenizer.from_pretrained('xlnet-base-cased')
     return tokenizer
 
 
