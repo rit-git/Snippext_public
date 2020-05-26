@@ -103,7 +103,10 @@ def eval_classifier(model, iterator):
             logits, y1, y_hat = model(x, y, task=taskname)
             logits = logits.view(-1, logits.shape[-1])
             y1 = y1.view(-1)
-            loss = nn.CrossEntropyLoss()(logits, y1)
+            if taskname == 'sts-b':
+                loss = nn.MSELoss()(logits, y1)
+            else:
+                loss = nn.CrossEntropyLoss()(logits, y1)
 
             loss_list.append(loss.item() * y.shape[0])
             total_size += y.shape[0]
@@ -117,7 +120,7 @@ def eval_classifier(model, iterator):
 
     # for glue
     if taskname in glue_processors:
-        Y_hat = np.array(Y_hat)
+        Y_hat = np.array(Y_hat).squeeze()
         Y = np.array(Y)
         metrics = glue_compute_metrics(taskname, Y_hat, Y)
         metrics['loss'] = loss

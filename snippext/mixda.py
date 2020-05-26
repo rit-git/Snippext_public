@@ -23,6 +23,9 @@ tagging_criterion = nn.CrossEntropyLoss(ignore_index=0)
 # criterion for classification
 classifier_criterion = nn.CrossEntropyLoss()
 
+# criterion for regression
+regression_criterion = nn.MSELoss()
+
 def mixda(model, batch, alpha_aug=0.4):
     """Perform one iteration of MixDA
 
@@ -61,6 +64,8 @@ def mixda(model, batch, alpha_aug=0.4):
     # cross entropy
     if 'tagging' in taskname:
         criterion = tagging_criterion
+    elif taskname == 'sts-b':
+        criterion = regression_criterion
     else:
         criterion = classifier_criterion
 
