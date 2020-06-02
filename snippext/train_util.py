@@ -1,12 +1,13 @@
 import torch
 import os
+import numpy as np
 import torch.nn as nn
 import torch.nn.functional as F
 import sklearn.metrics as metrics
 import uuid
 
 from .conlleval import evaluate_conll_file
-
+from transformers.data import glue_processors, glue_compute_metrics
 
 def eval_tagging(model, iterator, idx2tag):
     """Evaluate a tagging model state on a dev/test set.
@@ -97,13 +98,15 @@ def eval_classifier(model, iterator):
     total_size = 0
     with torch.no_grad():
         for i, batch in enumerate(iterator):
-            words, x, is_heads, tags, mask, y, seqlens, taskname = batch
+            _, x, _, _, _, y, _, taskname = batch
             taskname = taskname[0]
-            logits, y1, y_hat = model(x, y, task=taskname)  # y_hat: (N, T)
-
-            logits = logits.view(-1, logits.shape[-1]) # (N*T, VOCAB)
-            y1 = y1.view(-1)  # (N*T,)
-            loss = nn.CrossEntropyLoss()(logits, y1)
+            logits, y1, y_hat = model(x, y, task=taskname)
+            logits = logits.view(-1, logits.shape[-1])
+            y1 = y1.view(-1)
+            if taskname == 'sts-b':
+                loss = nn.MSELoss()(logits, y1)
+            else:
+                loss = nn.CrossEntropyLoss()(logits, y1)
 
             loss_list.append(loss.item() * y.shape[0])
             total_size += y.shape[0]
@@ -114,28 +117,37 @@ def eval_classifier(model, iterator):
     loss = sum(loss_list) / total_size
 
     print("=============%s==================" % taskname)
-    num_classes = len(set(Y))
 
-    # Binary classification
-    if num_classes <= 2:
-        accuracy = metrics.accuracy_score(Y, Y_hat)
-        precision = metrics.precision_score(Y, Y_hat)
-        recall = metrics.recall_score(Y, Y_hat)
-        f1 = metrics.f1_score(Y, Y_hat)
-        print("accuracy=%.3f"%accuracy)
-        print("precision=%.3f"%precision)
-        print("recall=%.3f"%recall)
-        print("f1=%.3f"%f1)
-        print("======================================")
-        return accuracy, precision, recall, f1, loss
+    # for glue
+    if taskname in glue_processors:
+        Y_hat = np.array(Y_hat).squeeze()
+        Y = np.array(Y)
+        metrics = glue_compute_metrics(taskname, Y_hat, Y)
+        metrics['loss'] = loss
+        print(metrics)
+        return metrics
     else:
-        accuracy = metrics.accuracy_score(Y, Y_hat)
-        f1 = metrics.f1_score(Y, Y_hat, average='macro')
-        precision = recall = accuracy # We might just not return anything
-        print("accuracy=%.3f"%accuracy)
-        print("macro_f1=%.3f"%f1)
-        print("======================================")
-        return accuracy, f1, loss
+        num_classes = len(set(Y))
+        # Binary classification
+        if num_classes <= 2:
+            accuracy = metrics.accuracy_score(Y, Y_hat)
+            precision = metrics.precision_score(Y, Y_hat)
+            recall = metrics.recall_score(Y, Y_hat)
+            f1 = metrics.f1_score(Y, Y_hat)
+            print("accuracy=%.3f"%accuracy)
+            print("precision=%.3f"%precision)
+            print("recall=%.3f"%recall)
+            print("f1=%.3f"%f1)
+            print("======================================")
+            return accuracy, precision, recall, f1, loss
+        else:
+            accuracy = metrics.accuracy_score(Y, Y_hat)
+            f1 = metrics.f1_score(Y, Y_hat, average='macro')
+            precision = recall = accuracy # We might just not return anything
+            print("accuracy=%.3f"%accuracy)
+            print("macro_f1=%.3f"%f1)
+            print("======================================")
+            return accuracy, f1, loss
 
 
 def eval_on_task(epoch,
@@ -183,6 +195,10 @@ def eval_on_task(epoch,
                    't_recall': t_recall,
                    't_f1': t_f1,
                    't_loss': t_loss}
+    elif task in glue_processors:
+        print('Validation:')
+        scalars = eval_classifier(model, valid_iter)
+        f1, t_f1 = 0.0, 0.0
     else:
         print('Validation:')
         v_output = eval_classifier(model, valid_iter)

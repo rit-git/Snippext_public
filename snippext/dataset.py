@@ -285,4 +285,8 @@ class SnippextDataset(data.Dataset):
             y = f(5)
 
         f = torch.LongTensor
-        return words, f(x), is_heads, tags, f(mask), f(y), seqlens, name
+        if isinstance(y[0], float):
+            y = torch.Tensor(y)
+        else:
+            y = torch.LongTensor(y)
+        return words, f(x), is_heads, tags, f(mask), y, seqlens, name

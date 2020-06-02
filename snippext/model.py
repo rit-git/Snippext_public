@@ -174,7 +174,10 @@ class MultiTaskNet(nn.Module):
                 pooled_output = pooled_output * lam + pooled_output[index] * (1 - lam)
 
             logits = fc(pooled_output)
-            y_hat = logits.argmax(-1)
+            if 'sts-b' in task:
+                y_hat = logits
+            else:
+                y_hat = logits.argmax(-1)
             if get_enc:
                 return logits, y, y_hat, pooled_output
             else:

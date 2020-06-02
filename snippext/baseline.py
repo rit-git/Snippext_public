@@ -36,6 +36,7 @@ def train(model, train_set, optimizer, scheduler=None, batch_size=32, fp16=False
 
     tagging_criterion = nn.CrossEntropyLoss(ignore_index=0)
     classifier_criterion = nn.CrossEntropyLoss()
+    regression_criterion = nn.MSELoss()
 
     model.train()
     for i, batch in enumerate(iterator):
@@ -46,13 +47,18 @@ def train(model, train_set, optimizer, scheduler=None, batch_size=32, fp16=False
 
         if 'tagging' in taskname:
             criterion = tagging_criterion
+        elif taskname == 'sts-b':
+            criterion = regression_criterion
         else:
             criterion = classifier_criterion
 
         # forward
         optimizer.zero_grad()
         logits, y, _ = model(x, y, task=taskname)
-        logits = logits.view(-1, logits.shape[-1])
+        if taskname == 'sts-b':
+            logits = logits.view(-1)
+        else:
+            logits = logits.view(-1, logits.shape[-1])
         y = y.view(-1)
         loss = criterion(logits, y)
 
