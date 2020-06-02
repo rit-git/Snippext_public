@@ -14,7 +14,7 @@ from .model import MultiTaskNet
 from .train_util import *
 from .dataset import *
 from tensorboardX import SummaryWriter
-from transformers import AdamW
+from transformers import AdamW, get_linear_schedule_with_warmup
 from apex import amp
 
 # criterion for tagging
@@ -108,6 +108,7 @@ def create_mixda_batches(l_set, aug_set, batch_size=16):
 
 
 def train(model, l_set, aug_set, optimizer,
+          scheduler=None,
           fp16=False,
           batch_size=32,
           alpha_aug=0.8):
@@ -145,6 +146,8 @@ def train(model, l_set, aug_set, optimizer,
         else:
             loss.backward()
         optimizer.step()
+        if scheduler:
+            scheduler.step()
 
         if i == 0:
             print("=====sanity check======")
@@ -218,6 +221,11 @@ def initialize_and_train(task_config,
         if hp.fp16:
             model, optimizer = amp.initialize(model, optimizer, opt_level='O2')
 
+    # learning rate scheduler
+    num_steps = (len(trainset) // hp.batch_size) * hp.n_epochs
+    scheduler = get_linear_schedule_with_warmup(optimizer,
+                                                num_warmup_steps=0,
+                                                num_training_steps=num_steps)
     # create logging
     if not os.path.exists(hp.logdir):
         os.makedirs(hp.logdir)
@@ -230,6 +238,7 @@ def initialize_and_train(task_config,
               trainset,
               augmentset,
               optimizer,
+              scheduler=scheduler,
               fp16=hp.fp16,
               batch_size=hp.batch_size,
               alpha_aug=hp.alpha_aug)
