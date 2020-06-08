@@ -122,10 +122,10 @@ def eval_classifier(model, iterator):
     if taskname in glue_processors:
         Y_hat = np.array(Y_hat).squeeze()
         Y = np.array(Y)
-        metrics = glue_compute_metrics(taskname, Y_hat, Y)
-        metrics['loss'] = loss
-        print(metrics)
-        return metrics
+        result = glue_compute_metrics(taskname, Y_hat, Y)
+        result['loss'] = loss
+        print(result)
+        return result
     else:
         num_classes = len(set(Y))
         # Binary classification
