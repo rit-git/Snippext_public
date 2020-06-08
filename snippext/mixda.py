@@ -54,7 +54,10 @@ def mixda(model, batch, alpha_aug=0.4):
     logits, y, _ = model(x, y,
                          augment_batch=(aug_x, aug_lam),
                          task=taskname)
-    logits = logits.view(-1, logits.shape[-1])
+    if 'sts-b' in taskname:
+        logits = logits.view(-1)
+    else:
+        logits = logits.view(-1, logits.shape[-1])
 
     aug_y = y[batch_size:]
     y = y[:batch_size]
@@ -64,7 +67,7 @@ def mixda(model, batch, alpha_aug=0.4):
     # cross entropy
     if 'tagging' in taskname:
         criterion = tagging_criterion
-    elif taskname == 'sts-b':
+    elif 'sts-b' in taskname:
         criterion = regression_criterion
     else:
         criterion = classifier_criterion

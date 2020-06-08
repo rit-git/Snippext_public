@@ -103,7 +103,7 @@ def eval_classifier(model, iterator):
             logits, y1, y_hat = model(x, y, task=taskname)
             logits = logits.view(-1, logits.shape[-1])
             y1 = y1.view(-1)
-            if taskname == 'sts-b':
+            if 'sts-b' in taskname:
                 loss = nn.MSELoss()(logits, y1)
             else:
                 loss = nn.CrossEntropyLoss()(logits, y1)

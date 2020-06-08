@@ -47,7 +47,7 @@ def train(model, train_set, optimizer, scheduler=None, batch_size=32, fp16=False
 
         if 'tagging' in taskname:
             criterion = tagging_criterion
-        elif taskname == 'sts-b':
+        elif 'sts-b' in taskname:
             criterion = regression_criterion
         else:
             criterion = classifier_criterion
@@ -55,7 +55,7 @@ def train(model, train_set, optimizer, scheduler=None, batch_size=32, fp16=False
         # forward
         optimizer.zero_grad()
         logits, y, _ = model(x, y, task=taskname)
-        if taskname == 'sts-b':
+        if 'sts-b' in taskname:
             logits = logits.view(-1)
         else:
             logits = logits.view(-1, logits.shape[-1])
