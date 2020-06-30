@@ -1,12 +1,13 @@
 import torch
 import torch.nn as nn
-from transformers import BertModel, AlbertModel, DistilBertModel, RobertaModel, XLNetModel
+from transformers import BertModel, AlbertModel, DistilBertModel, RobertaModel, XLNetModel, LongformerModel
 
 model_ckpts = {'bert': "bert-base-uncased",
                'albert': "albert-base-v2",
                'roberta': "roberta-base",
                'xlnet': "xlnet-base-cased",
-               'distilbert': "distilbert-base-uncased"}
+               'distilbert': "distilbert-base-uncased",
+               'longformer': "allenai/longformer-base-4096"}
 
 class MultiTaskNet(nn.Module):
     def __init__(self, task_configs=[],
@@ -30,6 +31,8 @@ class MultiTaskNet(nn.Module):
             elif lm == 'xlnet':
                 self.bert = XLNetModel.from_pretrained(model_ckpts[lm])
             elif lm == 'roberta':
+                self.bert = RobertaModel.from_pretrained(model_ckpts[lm])
+            elif lm == 'longformer':
                 self.bert = RobertaModel.from_pretrained(model_ckpts[lm])
         else:
             output_model_file = bert_path

@@ -31,6 +31,9 @@ def get_tokenizer(lm='bert'):
         elif lm == 'xlnet':
             from transformers import XLNetTokenizer
             tokenizer = XLNetTokenizer.from_pretrained('xlnet-base-cased')
+        elif lm == 'longformer':
+            from transformers import LongformerTokenizer
+            tokenizer = LongformerTokenizer.from_pretrained('allenai/longformer-base-4096')
     return tokenizer
 
 

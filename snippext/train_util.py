@@ -126,6 +126,14 @@ def eval_classifier(model, iterator):
         result['loss'] = loss
         print(result)
         return result
+    elif taskname[:5] == 'glue_':
+        task = taskname.split('_')[1].lower()
+        Y_hat = np.array(Y_hat).squeeze()
+        Y = np.array(Y)
+        result = glue_compute_metrics(task, Y_hat, Y)
+        result['loss'] = loss
+        print(result)
+        return result
     else:
         num_classes = len(set(Y))
         # Binary classification
@@ -198,6 +206,17 @@ def eval_on_task(epoch,
     elif task in glue_processors:
         print('Validation:')
         scalars = eval_classifier(model, valid_iter)
+        f1, t_f1 = 0.0, 0.0
+    elif task[:5] == 'glue_':
+        print('Validation:')
+        scalars = eval_classifier(model, valid_iter)
+
+        if test_iter is not None:
+            print('Test:')
+            t_output = eval_classifier(model, test_iter)
+            for key in t_output:
+                scalars['t_' + key] = t_output[key]
+
         f1, t_f1 = 0.0, 0.0
     else:
         print('Validation:')
