@@ -280,15 +280,15 @@ class SnippextDataset(data.Dataset):
                     words, tags = random.choice(self.augmented_examples[idx])
 
             if ' [SEP] ' in words:
-                sents = words.split(' [SEP] ')
-                tokens = ["[CLS]"] + \
-                         tokenizer.tokenize(sents[0]) + \
-                         ['[SEP]'] + \
-                         tokenizer.tokenize(sents[1]) + \
-                         ["[SEP]"]
+                sent_a, sent_b = words.split(' [SEP] ')
             else:
-                tokens = ["[CLS]"] + tokenizer.tokenize(words) + ["[SEP]"]
-            x = tokenizer.convert_tokens_to_ids(tokens)[:self.max_len]
+                sent_a, sent_b = words, None
+
+            x = tokenizer.encode(sent_a, text_pair=sent_b,
+                    truncation="longest_first",
+                    max_length=self.max_len,
+                    add_special_tokens=True)
+
             y = self.tag2idx[tags] # label
             is_heads = [1] * len(x)
             mask = [1] * len(x)

@@ -178,7 +178,7 @@ class Augmenter(object):
                 if tid + len(span_tokens) <= len(tokens) and \
                    tokens[tid:tid+len(span_tokens)] == span_tokens:
                     for i in range(tid, tid+len(span_tokens)):
-                        labels[i] = 'SP%d' % idx
+                        labels[i] = 'AS%d' % idx
 
         # print(tokens)
         # print(labels)
@@ -188,7 +188,7 @@ class Augmenter(object):
         # check consistency
         tid = 0
         while tid < len(tokens):
-            if labels[tid][:2] == 'SP':
+            if labels[tid][:2] == 'AS':
                 new_span = tokens[tid]
                 idx = int(labels[tid][2:])
                 while tid + 1 < len(tokens) and \
@@ -321,7 +321,8 @@ class Augmenter(object):
                 end = idx
 
                 span = ' '.join(tokens[start:end+1]) # .lower()
-                if span in index:
+                if span in index['aspect'] or \
+                   span in index['opinion']:
                     candidates.append((start, end))
             idx += 1
 
