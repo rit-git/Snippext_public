@@ -1,5 +1,7 @@
 import numpy as np
 import torch
+import random
+import jsonlines
 
 from torch.utils import data
 from .augment import Augmenter
@@ -45,7 +47,8 @@ class SnippextDataset(data.Dataset):
                  max_len=512,
                  lm='bert',
                  augment_index=None,
-                 augment_op=None):
+                 augment_op=None,
+                 size=None):
         """ TODO
         Args:
 
@@ -61,6 +64,8 @@ class SnippextDataset(data.Dataset):
                 sents, tags_li = self.read_tagging_file(source)
             else:
                 sents, tags_li = self.read_classification_file(source)
+            if size is not None:
+                sents, tags_li = sents[:size], tags_li[:size]
         else:
             # read from list of tokens (for prediction)
             if '_tagging' in taskname or '_qa' in taskname:
@@ -102,11 +107,33 @@ class SnippextDataset(data.Dataset):
         if augment_index != None:
             self.augmenter = Augmenter(augment_index)
             self.augment_op = augment_op
+        elif augment_op == 't5':
+            self.augmenter = None
+            self.augment_op = augment_op
+            # read augmented examples
+            self.augmented_examples = []
+            if '_tagging' in taskname:
+                with jsonlines.open(source + '.augment.jsonl', mode='r') as reader:
+                    for row in reader:
+                        exms = []
+                        for entry in row['augment']:
+                            tokens, labels = self.read_tagging_file(entry, is_file=False)
+                            exms.append((tokens[0], labels[0]))
+                        self.augmented_examples.append(exms)
+            else:
+                with jsonlines.open(source + '.augment.jsonl', mode='r') as reader:
+                    for row in reader:
+                        exms = []
+                        label = row['label']
+                        for entry in row['augment']:
+                            sent = ' [SEP] '.join(entry.split('\t'))
+                            exms.append((sent, label))
+                        self.augmented_examples.append(exms)
         else:
             self.augmenter = None
+            self.augment_op = None
 
-
-    def read_tagging_file(self, path):
+    def read_tagging_file(self, path, is_file=True):
         """Read a train/eval tagging dataset from file
 
         The input file should contain multiple entries separated by empty lines.
@@ -127,7 +154,11 @@ class SnippextDataset(data.Dataset):
             list of list of str: the labels
         """
         sents, tags_li = [], []
-        entries = open(path, 'r').read().strip().split("\n\n")
+        if is_file:
+            entries = open(path, 'r').read().strip().split("\n\n")
+        else:
+            entries = [path.strip()]
+
         for entry in entries:
             try:
                 words = [line.split()[0] for line in entry.splitlines()]
@@ -154,7 +185,8 @@ class SnippextDataset(data.Dataset):
             list of str: the labels
         """
         sents, labels = [], []
-        for line in open(path):
+        lines = open(path).readlines()
+        for line in lines:
             items = line.strip().split('\t')
             # only consider sentence and sentence pairs
             if len(items) < 2 or len(items) > 3:
@@ -175,6 +207,13 @@ class SnippextDataset(data.Dataset):
         """Return the length of the dataset"""
         return len(self.sents)
 
+    def get(self, idx, op=[]):
+        ag = self.augmenter
+        self.augmenter = None
+        item = self.__getitem__(idx)
+        self.augmenter = ag
+        return item
+
     def __getitem__(self, idx):
         """Return the ith item of in the dataset.
 
@@ -189,6 +228,9 @@ class SnippextDataset(data.Dataset):
             # apply data augmentation if specified
             if self.augmenter != None:
                 words, tags = self.augmenter.augment(words, tags, self.augment_op)
+            elif self.augment_op == 't5':
+                if len(self.augmented_examples[idx]) > 0:
+                    words, tags = random.choice(self.augmented_examples[idx])
 
             # We give credits only to the first piece.
             x, y = [], [] # list of ids
@@ -233,6 +275,9 @@ class SnippextDataset(data.Dataset):
         else: # classification
             if self.augmenter != None:
                 words = self.augmenter.augment_sent(words, self.augment_op)
+            elif self.augment_op == 't5':
+                if len(self.augmented_examples[idx]) > 0:
+                    words, tags = random.choice(self.augmented_examples[idx])
 
             if ' [SEP] ' in words:
                 sents = words.split(' [SEP] ')

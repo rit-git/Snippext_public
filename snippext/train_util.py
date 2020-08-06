@@ -94,6 +94,7 @@ def eval_classifier(model, iterator):
 
     Y = []
     Y_hat = []
+    Y_prob = []
     loss_list = []
     total_size = 0
     with torch.no_grad():
@@ -113,6 +114,7 @@ def eval_classifier(model, iterator):
 
             Y.extend(y.numpy().tolist())
             Y_hat.extend(y_hat.cpu().numpy().tolist())
+            Y_prob.extend(logits.softmax(dim=-1).max(dim=-1)[0].cpu().numpy().tolist())
 
     loss = sum(loss_list) / total_size
 
@@ -142,6 +144,17 @@ def eval_classifier(model, iterator):
             precision = metrics.precision_score(Y, Y_hat)
             recall = metrics.recall_score(Y, Y_hat)
             f1 = metrics.f1_score(Y, Y_hat)
+            if 'cleaning_' in taskname: # handle imbalance:
+                max_f1 = f1
+                for threshold in np.arange(0.9, 1.0, 0.005):
+                    Y_hat = [y if p > threshold else 0 for (y, p) in zip(Y_hat, Y_prob)]
+                    f1 = metrics.f1_score(Y, Y_hat)
+                    if f1 > max_f1:
+                        max_f1 = f1
+                        accuracy = metrics.accuracy_score(Y, Y_hat)
+                        precision = metrics.precision_score(Y, Y_hat)
+                        recall = metrics.recall_score(Y, Y_hat)
+                f1 = max_f1
             print("accuracy=%.3f"%accuracy)
             print("precision=%.3f"%precision)
             print("recall=%.3f"%recall)

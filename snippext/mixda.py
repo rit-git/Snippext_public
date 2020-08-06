@@ -205,12 +205,12 @@ def initialize_and_train(task_config,
 
     # iterators for dev/test set
     valid_iter = data.DataLoader(dataset=validset,
-                                 batch_size=hp.batch_size,
+                                 batch_size=hp.batch_size * 4,
                                  shuffle=False,
                                  num_workers=0,
                                  collate_fn=padder)
     test_iter = data.DataLoader(dataset=testset,
-                                 batch_size=hp.batch_size,
+                                 batch_size=hp.batch_size * 4,
                                  shuffle=False,
                                  num_workers=0,
                                  collate_fn=padder)
