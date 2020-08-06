@@ -104,10 +104,7 @@ class SnippextDataset(data.Dataset):
         self.taskname = taskname
 
         # augmentation index and op
-        if augment_index != None:
-            self.augmenter = Augmenter(augment_index)
-            self.augment_op = augment_op
-        elif augment_op == 't5':
+        if augment_op == 't5':
             self.augmenter = None
             self.augment_op = augment_op
             # read augmented examples
@@ -129,6 +126,9 @@ class SnippextDataset(data.Dataset):
                             sent = ' [SEP] '.join(entry.split('\t'))
                             exms.append((sent, label))
                         self.augmented_examples.append(exms)
+        elif augment_index != None:
+            self.augmenter = Augmenter(augment_index)
+            self.augment_op = augment_op
         else:
             self.augmenter = None
             self.augment_op = None
@@ -226,11 +226,11 @@ class SnippextDataset(data.Dataset):
 
         if '_tagging' in self.taskname:
             # apply data augmentation if specified
-            if self.augmenter != None:
-                words, tags = self.augmenter.augment(words, tags, self.augment_op)
-            elif self.augment_op == 't5':
+            if self.augment_op == 't5':
                 if len(self.augmented_examples[idx]) > 0:
                     words, tags = random.choice(self.augmented_examples[idx])
+            elif self.augmenter != None:
+                words, tags = self.augmenter.augment(words, tags, self.augment_op)
 
             # We give credits only to the first piece.
             x, y = [], [] # list of ids
@@ -273,11 +273,11 @@ class SnippextDataset(data.Dataset):
             words = " ".join(words)
             tags = " ".join(tags)
         else: # classification
-            if self.augmenter != None:
+            if self.augment_op == 't5':
+              if len(self.augmented_examples[idx]) > 0:
+                  words, tags = random.choice(self.augmented_examples[idx])
+            elif self.augmenter != None:
                 words = self.augmenter.augment_sent(words, self.augment_op)
-            elif self.augment_op == 't5':
-                if len(self.augmented_examples[idx]) > 0:
-                    words, tags = random.choice(self.augmented_examples[idx])
 
             if ' [SEP] ' in words:
                 sent_a, sent_b = words.split(' [SEP] ')
