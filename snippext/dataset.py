@@ -233,13 +233,17 @@ class SnippextDataset(data.Dataset):
                 words, tags = self.augmenter.augment(words, tags, self.augment_op)
 
             # We give credits only to the first piece.
+            model_input = {}
             x, y = [], [] # list of ids
             is_heads = [] # list. 1: the token is the first piece of a word
+            attention_mask = []
+            token_type_ids = []
 
+            special_tokens = set(tokenizer.special_tokens_map.values())
             for w, t in zip(words, tags):
                 # avoid bad tokens
                 w = w[:50]
-                tokens = tokenizer.tokenize(w) if w not in ("[CLS]", "[SEP]") else [w]
+                tokens = tokenizer.tokenize(w) if w not in special_tokens else [w]
                 xx = tokenizer.convert_tokens_to_ids(tokens)
                 if len(xx) == 0:
                     continue
@@ -249,29 +253,29 @@ class SnippextDataset(data.Dataset):
                 t = [t] + ["<PAD>"] * (len(tokens) - 1)  # <PAD>: no decision
                 yy = [self.tag2idx[each] for each in t]  # (T,)
 
-                x.extend(xx)
-                is_heads.extend(is_head)
-                y.extend(yy)
+                is_heads += is_head
+                x += xx
+                y += yy
+                if w in special_tokens:
+                    attention_mask += [0] * len(tokens)
+                else:
+                    attention_mask += [1] * len(tokens)
+                token_type_ids += [0] * len(tokens)
+
                 # make sure that the length of x is not too large
                 if len(x) > self.max_len:
                     break
 
-            assert len(x)==len(y)==len(is_heads), \
-              f"len(x)={len(x)}, len(y)={len(y)}, len(is_heads)={len(is_heads)}, {' '.join(tokens)}"
-
-            # seqlen
-            seqlen = len(y)
-
-            mask = [1] * seqlen
-            # masking for QA
-            for i, t in enumerate(tags):
-                if t != '<PAD>':
-                    break
-                mask[i] = 0
-
             # to string
             words = " ".join(words)
             tags = " ".join(tags)
+
+            # construct the model's input
+            model_input['input_ids'] = x
+            model_input['attention_mask'] = attention_mask
+            model_input['token_type_ids'] = token_type_ids
+            model_input['y'] = y
+            model_input['is_heads'] = is_heads
         else: # classification
             if self.augment_op == 't5':
               if len(self.augmented_examples[idx]) > 0:
@@ -284,57 +288,54 @@ class SnippextDataset(data.Dataset):
             else:
                 sent_a, sent_b = words, None
 
-            x = tokenizer.encode(sent_a, text_pair=sent_b,
+            model_input = tokenizer.encode_plus(sent_a, text_pair=sent_b,
                     truncation="longest_first",
                     max_length=self.max_len,
                     add_special_tokens=True)
 
-            y = self.tag2idx[tags] # label
-            is_heads = [1] * len(x)
-            mask = [1] * len(x)
+            model_input['is_heads'] = []
+            model_input['y'] = self.tag2idx[tags]
 
-            assert len(x)==len(mask)==len(is_heads), \
-              f"len(x)={len(x)}, len(y)={len(y)}, len(is_heads)={len(is_heads)}"
-            # seqlen
-            seqlen = len(mask)
-
-        return words, x, is_heads, tags, mask, y, seqlen, self.taskname
+        model_input['words'] = words
+        model_input['labels'] = tags
+        model_input['taskname'] = self.taskname
+        return model_input
 
     @staticmethod
     def pad(batch):
         '''Pads to the longest sample
 
         Args:
-            batch:
+            batch (list of Dict): a list of model inputs to be batched
 
-        Returns (TODO):
-            return words, f(x), is_heads, tags, f(mask), f(y), seqlens, name
+        Returns:
+            Dictionary: the batched inputs
         '''
-        f = lambda x: [sample[x] for sample in batch]
-        g = lambda x, seqlen, val: \
+        nopad = lambda x: [sample[x] for sample in batch]
+        pad = lambda x, seqlen, val: \
               [sample[x] + [val] * (seqlen - len(sample[x])) \
                for sample in batch] # 0: <pad>
 
-        # get maximal sequence length
-        seqlens = f(6)
-        maxlen = np.array(seqlens).max()
+        max_len = max([len(e['input_ids']) for e in batch])
 
-        # get task name
-        name = f(7)
+        name = batch[0]['taskname']
+        res = {'taskname': name}
+        for attr, val in zip(['input_ids', 'attention_mask', 'token_type_ids'],
+                [0, 0, 1]):
+            res[attr] = torch.LongTensor(pad(attr, max_len, val))
 
-        words = f(0)
-        x = g(1, maxlen, 0)
-        is_heads = f(2)
-        tags = f(3)
-        mask = g(4, maxlen, 1)
-        if '_tagging' in name[0]:
-            y = g(5, maxlen, 0)
+        for attr in ['is_heads', 'words', 'labels']:
+            res[attr] = nopad(attr)
+
+        if '_tagging' in name:
+            y = pad('y', max_len, 0)
         else:
-            y = f(5)
+            y = nopad('y')
 
-        f = torch.LongTensor
-        if isinstance(y[0], float):
+        if 'sts-b' in name:
             y = torch.Tensor(y)
         else:
             y = torch.LongTensor(y)
-        return words, f(x), is_heads, tags, f(mask), y, seqlens, name
+        res['y'] = y
+
+        return res # words, f(x), f(is_heads), tags, y, seqlens, name

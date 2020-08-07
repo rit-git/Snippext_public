@@ -30,13 +30,22 @@ def eval_tagging(model, iterator, idx2tag):
         loss_list = []
         total_size = 0
         for i, batch in enumerate(iterator):
-            words, x, is_heads, tags, mask, y, seqlens, taskname = batch
+            words = batch['words']
+            is_heads = batch['is_heads']
+            tags = batch['labels']
+            x = batch['input_ids']
+            attention_mask = batch['attention_mask']
+            token_type_ids = batch['token_type_ids']
+            y = batch['y']
 
-            taskname = taskname[0]
+            taskname = batch['taskname']
             loss_fct = nn.CrossEntropyLoss(ignore_index=0)
             batch_size = y.shape[0]
 
-            logits, y, y_hat = model(x, y, task=taskname)  # y_hat: (N, T)
+            logits, y, y_hat = model(x, y,
+                    attention_mask=attention_mask,
+                    token_type_ids=token_type_ids,
+                    task=taskname)  # y_hat: (N, T)
 
             logits = logits.view(-1, logits.shape[-1])
             y = y.view(-1)
@@ -68,7 +77,7 @@ def eval_tagging(model, iterator, idx2tag):
     ## calc metric
     precision, recall, f1 = evaluate_conll_file(open(eval_fname))
     loss = sum(loss_list) / total_size
-    os.remove(eval_fname)
+    # os.remove(eval_fname)
     print("=============%s==================" % taskname)
     print("precision=%.3f"%precision)
     print("recall=%.3f"%recall)
@@ -99,9 +108,16 @@ def eval_classifier(model, iterator):
     total_size = 0
     with torch.no_grad():
         for i, batch in enumerate(iterator):
-            _, x, _, _, _, y, _, taskname = batch
-            taskname = taskname[0]
-            logits, y1, y_hat = model(x, y, task=taskname)
+            x = batch['input_ids']
+            y = batch['y']
+            attention_mask = batch['attention_mask']
+            token_type_ids = batch['token_type_ids']
+            taskname = batch['taskname']
+
+            logits, y1, y_hat = model(x, y,
+                    attention_mask=attention_mask,
+                    token_type_ids=token_type_ids,
+                    task=taskname)
             logits = logits.view(-1, logits.shape[-1])
             y1 = y1.view(-1)
             if 'sts-b' in taskname:

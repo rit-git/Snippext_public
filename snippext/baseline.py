@@ -41,8 +41,11 @@ def train(model, train_set, optimizer, scheduler=None, batch_size=32, fp16=False
     model.train()
     for i, batch in enumerate(iterator):
         # for monitoring
-        words, x, is_heads, tags, mask, y, seqlens, taskname = batch
-        taskname = taskname[0]
+        x = batch['input_ids']
+        y = batch['y']
+        token_type_ids = batch['token_type_ids']
+        attention_mask = batch['attention_mask']
+        taskname = batch['taskname']
         _y = y
 
         if 'tagging' in taskname:
@@ -54,7 +57,10 @@ def train(model, train_set, optimizer, scheduler=None, batch_size=32, fp16=False
 
         # forward
         optimizer.zero_grad()
-        logits, y, _ = model(x, y, task=taskname)
+        logits, y, _ = model(x, y,
+                token_type_ids=token_type_ids,
+                attention_mask=attention_mask,
+                task=taskname)
         if 'sts-b' in taskname:
             logits = logits.view(-1)
         else:
@@ -74,18 +80,15 @@ def train(model, train_set, optimizer, scheduler=None, batch_size=32, fp16=False
 
         if i == 0:
             print("=====sanity check======")
-            print("words:", words[0])
-            print("x:", x.cpu().numpy()[0][:seqlens[0]])
-            print("tokens:", get_tokenizer().convert_ids_to_tokens(x.cpu().numpy()[0])[:seqlens[0]])
-            print("is_heads:", is_heads[0])
+            print("words:", batch['words'][0])
+            print("x:", x.cpu().numpy()[0])
+            print("tokens:", get_tokenizer().convert_ids_to_tokens(x.cpu().numpy()[0]))
+            print("is_heads:", batch['is_heads'][0])
             y_sample = _y.cpu().numpy()[0]
-            if np.isscalar(y_sample):
-                print("y:", y_sample)
-            else:
-                print("y:", y_sample[:seqlens[0]])
-            print("tags:", tags[0])
-            print("mask:", mask[0])
-            print("seqlen:", seqlens[0])
+            print("y:", y_sample)
+            print("tags:", batch['labels'][0])
+            print("attention_mask:", attention_mask.cpu().numpy()[0])
+            print("token_type_ids:", token_type_ids.cpu().numpy()[0])
             print("task_name:", taskname)
             print("=======================")
 
@@ -128,8 +131,7 @@ def initialize_and_train(task_config,
     # initialize model
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     model = MultiTaskNet([task_config],
-                     device,
-                     hp.finetuning,
+                     device=device,
                      lm=hp.lm,
                      bert_path=hp.bert_path)
     if device == 'cpu':
@@ -173,15 +175,14 @@ def initialize_and_train(task_config,
                             writer,
                             run_tag)
 
-        if dev_f1 > 1e-6:
-            epoch += 1
-            if hp.save_model:
-                if dev_f1 > best_dev_f1:
-                    best_dev_f1 = dev_f1
-                    torch.save(model.state_dict(), run_tag + '_dev.pt')
-                if test_f1 > best_test_f1:
-                    best_test_f1 = dev_f1
-                    torch.save(model.state_dict(), run_tag + '_test.pt')
+        epoch += 1
+        if hp.save_model:
+            if dev_f1 > best_dev_f1:
+                best_dev_f1 = dev_f1
+                torch.save(model.state_dict(), run_tag + '_dev.pt')
+            if test_f1 > best_test_f1:
+                best_test_f1 = dev_f1
+                torch.save(model.state_dict(), run_tag + '_test.pt')
 
     writer.close()
 

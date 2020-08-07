@@ -37,23 +37,28 @@ def mixda(model, batch, alpha_aug=0.4):
     Returns:
         Tensor: the loss (of 0-d)
     """
-    _, x, _, _, mask, y, _, taskname = batch
-    taskname = taskname[0]
+    y = batch['y']
+    taskname = batch['taskname']
     # two batches
-    batch_size = x.size()[0] // 2
+    batch_size = y.size()[0] // 2
 
     # augmented
-    aug_x = x[batch_size:]
-    aug_y = y[batch_size:]
-    aug_lam = np.random.beta(alpha_aug, alpha_aug)
+    y = y[:batch_size]
 
     # labeled
-    x = x[:batch_size]
+    x_enc = model(x=batch['input_ids'],
+            attention_mask=batch['attention_mask'],
+            token_type_ids=batch['token_type_ids'],
+            task=taskname, get_enc=True)
+    x_enc_a = x_enc[:batch_size]
+    x_enc_b = x_enc[batch_size:]
 
-    # back prop
-    logits, y, _ = model(x, y,
-                         augment_batch=(aug_x, aug_lam),
-                         task=taskname)
+    # mixup
+    aug_lam = np.random.beta(alpha_aug, alpha_aug)
+    x_enc = x_enc_a * aug_lam + x_enc_b * (1.0 - aug_lam)
+
+    logits, y, _ = model(x_enc=x_enc, y=y, task=taskname)
+
     if 'sts-b' in taskname:
         logits = logits.view(-1)
     else:
@@ -102,6 +107,10 @@ def create_mixda_batches(l_set, aug_set, batch_size=16):
     padder = l_set.pad
 
     for i, idx in enumerate(l_index):
+        if i == 0:
+            print(l_set[idx]['words'])
+            print(aug_set[idx]['words'])
+
         l_batch.append(l_set[idx])
         l_batch_aug.append(aug_set[idx])
 
@@ -141,9 +150,7 @@ def train(model, l_set, aug_set, optimizer,
     model.train()
     for i, batch in enumerate(mixda_batches):
         # for monitoring
-        words, x, is_heads, tags, mask, y, seqlens, taskname = batch
-        taskname = taskname[0]
-        _y = y
+        taskname = batch['taskname']
 
         # perform mixmatch
         optimizer.zero_grad()
@@ -154,23 +161,20 @@ def train(model, l_set, aug_set, optimizer,
         else:
             loss.backward()
         optimizer.step()
-        if scheduler:
-            scheduler.step()
+        # if scheduler:
+        #     scheduler.step()
 
         if i == 0:
             print("=====sanity check======")
-            print("words:", words[0])
-            print("x:", x.cpu().numpy()[0][:seqlens[0]])
-            print("tokens:", get_tokenizer().convert_ids_to_tokens(x.cpu().numpy()[0])[:seqlens[0]])
-            print("is_heads:", is_heads[0])
-            y_sample = _y.cpu().numpy()[0]
-            if np.isscalar(y_sample):
-                print("y:", y_sample)
-            else:
-                print("y:", y_sample[:seqlens[0]])
-            print("tags:", tags[0])
-            print("mask:", mask[0])
-            print("seqlen:", seqlens[0])
+            print("words:", batch['words'][0])
+            x = batch['input_ids'].cpu().numpy()[0]
+            print("x:", x)
+            print("tokens:", get_tokenizer().convert_ids_to_tokens(x))
+            print("is_heads:", batch['is_heads'][0])
+            print("y:", batch['y'].cpu().numpy()[0])
+            print("tags:", batch['labels'][0])
+            print("attention_mask:", batch['attention_mask'].cpu().numpy()[0])
+            print("token_type_ids:", batch['token_type_ids'].cpu().numpy()[0])
             print("task_name:", taskname)
             print("=======================")
 
@@ -219,12 +223,12 @@ def initialize_and_train(task_config,
     # initialize model
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     if device == 'cpu':
-        model = MultiTaskNet([task_config], device,
-                         hp.finetuning, lm=hp.lm, bert_path=hp.bert_path)
+        model = MultiTaskNet([task_config], device=device,
+                         lm=hp.lm, bert_path=hp.bert_path)
         optimizer = AdamW(model.parameters(), lr=hp.lr)
     else:
-        model = MultiTaskNet([task_config], device,
-                         hp.finetuning, lm=hp.lm, bert_path=hp.bert_path).cuda()
+        model = MultiTaskNet([task_config], device=device,
+                         lm=hp.lm, bert_path=hp.bert_path).cuda()
         optimizer = AdamW(model.parameters(), lr=hp.lr)
         if hp.fp16:
             model, optimizer = amp.initialize(model, optimizer, opt_level='O2')
@@ -263,16 +267,14 @@ def initialize_and_train(task_config,
                             writer,
                             run_tag)
 
-        # skip the epochs with zero f1
-        if dev_f1 > 1e-6:
-            epoch += 1
-            if hp.save_model:
-                if dev_f1 > best_dev_f1:
-                    best_dev_f1 = dev_f1
-                    torch.save(model.state_dict(), run_tag + '_dev.pt')
-                if test_f1 > best_test_f1:
-                    best_test_f1 = dev_f1
-                    torch.save(model.state_dict(), run_tag + '_test.pt')
+        epoch += 1
+        if hp.save_model:
+            if dev_f1 > best_dev_f1:
+                best_dev_f1 = dev_f1
+                torch.save(model.state_dict(), run_tag + '_dev.pt')
+            if test_f1 > best_test_f1:
+                best_test_f1 = dev_f1
+                torch.save(model.state_dict(), run_tag + '_test.pt')
 
     writer.close()
 
