@@ -104,34 +104,38 @@ class SnippextDataset(data.Dataset):
         self.taskname = taskname
 
         # augmentation index and op
+        self.augment_op = augment_op
         if augment_op == 't5':
-            self.augmenter = None
-            self.augment_op = augment_op
-            # read augmented examples
-            self.augmented_examples = []
-            if '_tagging' in taskname:
-                with jsonlines.open(source + '.augment.jsonl', mode='r') as reader:
-                    for row in reader:
-                        exms = []
-                        for entry in row['augment']:
-                            tokens, labels = self.read_tagging_file(entry, is_file=False)
-                            exms.append((tokens[0], labels[0]))
-                        self.augmented_examples.append(exms)
-            else:
-                with jsonlines.open(source + '.augment.jsonl', mode='r') as reader:
-                    for row in reader:
-                        exms = []
-                        label = row['label']
-                        for entry in row['augment']:
-                            sent = ' [SEP] '.join(entry.split('\t'))
-                            exms.append((sent, label))
-                        self.augmented_examples.append(exms)
+            self.load_t5_examples(source)
         elif augment_index != None:
             self.augmenter = Augmenter(augment_index)
-            self.augment_op = augment_op
         else:
             self.augmenter = None
             self.augment_op = None
+
+
+    def load_t5_examples(self, source):
+        self.augmenter = None
+        # read augmented examples
+        self.augmented_examples = []
+        if '_tagging' in self.taskname:
+            with jsonlines.open(source + '.augment.jsonl', mode='r') as reader:
+                for row in reader:
+                    exms = []
+                    for entry in row['augment']:
+                        tokens, labels = self.read_tagging_file(entry, is_file=False)
+                        exms.append((tokens[0], labels[0]))
+                    self.augmented_examples.append(exms)
+        else:
+            with jsonlines.open(source + '.augment.jsonl', mode='r') as reader:
+                for row in reader:
+                    exms = []
+                    label = row['label']
+                    for entry in row['augment']:
+                        sent = ' [SEP] '.join(entry.split('\t'))
+                        exms.append((sent, label))
+                    self.augmented_examples.append(exms)
+
 
     def read_tagging_file(self, path, is_file=True):
         """Read a train/eval tagging dataset from file
