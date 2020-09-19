@@ -77,18 +77,21 @@ def eval_tagging(model, iterator, idx2tag):
     print("=====================================")
     return precision, recall, f1, loss
 
-def eval_classifier(model, iterator):
+def eval_classifier(model, iterator, threshold=None, get_threshold=False):
     """Evaluate a classification model state on a dev/test set.
 
     Args:
         model (MultiTaskNet): the model state
         iterator (DataLoader): a batch iterator of the dev/test set
+        threshold (float, optional): the cut-off threshold for binary cls
+        get_threshold (boolean, optional): return the selected threshold if True
 
     Returns:
         float: Precision (or accuracy if more than 2 classes)
         float: Recall (or accuracy if more than 2 classes)
         float: F1 (or macro F1 if more than 2 classes)
         float: The Loss
+        float: The cut-off threshold
     """
     model.eval()
 
@@ -144,23 +147,36 @@ def eval_classifier(model, iterator):
             precision = metrics.precision_score(Y, Y_hat)
             recall = metrics.recall_score(Y, Y_hat)
             f1 = metrics.f1_score(Y, Y_hat)
-            if 'cleaning_' in taskname: # handle imbalance:
+            if any([prefix in taskname for prefix in \
+                ['cleaning_', 'Structured', 'Textual', 'Dirty']]): # handle imbalance:
                 max_f1 = f1
-                for threshold in np.arange(0.9, 1.0, 0.005):
+                if threshold is None:
+                    for th in np.arange(0.9, 1.0, 0.005):
+                        Y_hat = [y if p > th else 0 for (y, p) in zip(Y_hat, Y_prob)]
+                        f1 = metrics.f1_score(Y, Y_hat)
+                        if f1 > max_f1:
+                            max_f1 = f1
+                            accuracy = metrics.accuracy_score(Y, Y_hat)
+                            precision = metrics.precision_score(Y, Y_hat)
+                            recall = metrics.recall_score(Y, Y_hat)
+                            threshold = th
+                    f1 = max_f1
+                else:
                     Y_hat = [y if p > threshold else 0 for (y, p) in zip(Y_hat, Y_prob)]
+                    accuracy = metrics.accuracy_score(Y, Y_hat)
+                    precision = metrics.precision_score(Y, Y_hat)
+                    recall = metrics.recall_score(Y, Y_hat)
                     f1 = metrics.f1_score(Y, Y_hat)
-                    if f1 > max_f1:
-                        max_f1 = f1
-                        accuracy = metrics.accuracy_score(Y, Y_hat)
-                        precision = metrics.precision_score(Y, Y_hat)
-                        recall = metrics.recall_score(Y, Y_hat)
-                f1 = max_f1
+
             print("accuracy=%.3f"%accuracy)
             print("precision=%.3f"%precision)
             print("recall=%.3f"%recall)
             print("f1=%.3f"%f1)
             print("======================================")
-            return accuracy, precision, recall, f1, loss
+            if get_threshold:
+                return accuracy, precision, recall, f1, loss, threshold
+            else:
+                return accuracy, precision, recall, f1, loss
         else:
             accuracy = metrics.accuracy_score(Y, Y_hat)
             f1 = metrics.f1_score(Y, Y_hat, average='macro')
@@ -231,6 +247,22 @@ def eval_on_task(epoch,
                 scalars['t_' + key] = t_output[key]
 
         f1, t_f1 = 0.0, 0.0
+    elif any([prefix in task for prefix in \
+            ['cleaning_', 'Structured', 'Textual', 'Dirty']]): # handle imbalance:
+        print('Validation:')
+        acc, prec, recall, f1, v_loss, th = eval_classifier(model, valid_iter, get_threshold=True)
+        print('Test:')
+        t_acc, t_prec, t_recall, t_f1, t_loss = eval_classifier(model, test_iter, threshold=th)
+        scalars = {'acc': acc,
+                   'precision': prec,
+                   'recall': recall,
+                   'f1': f1,
+                   'v_loss': v_loss,
+                   't_acc': t_acc,
+                   't_precision': t_prec,
+                   't_recall': t_recall,
+                   't_f1': t_f1,
+                   't_loss': t_loss}
     else:
         print('Validation:')
         v_output = eval_classifier(model, valid_iter)
