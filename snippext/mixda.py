@@ -232,7 +232,7 @@ def initialize_and_train(task_config,
     # learning rate scheduler
     num_steps = (len(trainset) // hp.batch_size) * hp.n_epochs
     scheduler = get_linear_schedule_with_warmup(optimizer,
-                                                num_warmup_steps=0,
+                                                num_warmup_steps=num_steps // 10,
                                                 num_training_steps=num_steps)
     # create logging
     if not os.path.exists(hp.logdir):

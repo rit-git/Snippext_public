@@ -58,6 +58,7 @@ class MultiTaskNet(nn.Module):
         self.finetuning = finetuning
         self.task_configs = task_configs
         self.module_dict = nn.ModuleDict({})
+        self.lm = lm
 
         # hard corded for now
         hidden_size = 768

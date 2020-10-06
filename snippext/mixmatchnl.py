@@ -11,7 +11,7 @@ import random
 
 from torch.utils import data
 from tensorboardX import SummaryWriter
-from transformers import AdamW
+from transformers import AdamW, get_linear_schedule_with_warmup
 from apex import amp
 
 from .model import MultiTaskNet
@@ -250,6 +250,7 @@ def create_mixmatch_batches(l_set, aug_set, u_set, u_set_aug,
 
 
 def train(model, l_set, aug_set, u_set, u_set_aug, optimizer,
+          scheduler=None,
           batch_size=32,
           num_aug=2,
           alpha=0.4,
@@ -265,6 +266,7 @@ def train(model, l_set, aug_set, u_set, u_set_aug, optimizer,
         u_dataset (SnippextDataset): the unlabeled set
         u_dataset_aug (SnippextDataset): the augmented unlabeled set
         optimizer (Optimizer): Adam
+        scheduler (Scheduler, optional): the learning rate scheduler
         fp16 (boolean): whether to use fp16
         num_aug (int, Optional):
         batch_size (int, Optional): batch size
@@ -301,6 +303,9 @@ def train(model, l_set, aug_set, u_set, u_set_aug, optimizer,
                 loss.backward()
 
             optimizer.step()
+            if scheduler:
+                scheduler.step()
+
             if i == 0:
                 print("=====sanity check======")
                 print("words:", words[0])
@@ -378,6 +383,12 @@ def initialize_and_train(task_config,
         optimizer = AdamW(model.parameters(), lr = hp.lr)
         model, optimizer = amp.initialize(model, optimizer, opt_level='O2')
 
+    # learning rate scheduler
+    num_steps = (len(trainset) // hp.batch_size * 2) * hp.n_epochs
+    scheduler = get_linear_schedule_with_warmup(optimizer,
+                                                num_warmup_steps=num_steps // 10,
+                                                num_training_steps=num_steps)
+
     # create logging
     if not os.path.exists(hp.logdir):
         os.makedirs(hp.logdir)
@@ -392,6 +403,7 @@ def initialize_and_train(task_config,
               uset,
               uset_aug,
               optimizer,
+              scheduler=scheduler,
               batch_size=hp.batch_size,
               num_aug=hp.num_aug,
               alpha=hp.alpha,

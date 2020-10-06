@@ -88,7 +88,9 @@ def do_tagging(text, config, model):
         source.append(tokens)
         token_pos_list.append(token_pos)
 
-    dataset = SnippextDataset(source, config['vocab'], config['name'], max_len=64)
+    dataset = SnippextDataset(source, config['vocab'], config['name'],
+                              lm=model.lm,
+                              max_len=64)
     iterator = data.DataLoader(dataset=dataset,
                                  batch_size=32,
                                  shuffle=False,
@@ -205,7 +207,8 @@ def do_pairing(all_tokens, all_tags, config, model):
             positions.append(token_ids)
         sid += 1
 
-    dataset = SnippextDataset(samples, config['vocab'], config['name'])
+    dataset = SnippextDataset(samples, config['vocab'], config['name'],
+                              lm=model.lm)
     iterator = data.DataLoader(dataset=dataset,
                                  batch_size=32,
                                  shuffle=False,
@@ -292,7 +295,8 @@ def classify(extractions, config, model, sents=None):
             phrases.append(phrase)
             index.append((sid, eid))
 
-    dataset = SnippextDataset(phrases, config['vocab'], config['name'])
+    dataset = SnippextDataset(phrases, config['vocab'], config['name'],
+                              lm=model.lm)
     iterator = data.DataLoader(dataset=dataset,
                                  batch_size=32,
                                  shuffle=False,
@@ -439,7 +443,7 @@ def initialize(checkpoint_path,
 # running the command line version
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input_fn", type=str, default='input/trustyou_reviews_sampled.csv')
+    parser.add_argument("--input_fn", type=str, default='input/trustyou_raw_review_sampled.csv')
     parser.add_argument("--output_fn", type=str, default='trustyou_reviews_with_extractions.jsonl')
     parser.add_argument("--use_gpu", dest="use_gpu", action="store_true")
     parser.add_argument("--fp16", dest="fp16", action="store_true")
