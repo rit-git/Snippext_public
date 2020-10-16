@@ -93,7 +93,6 @@ def create_mixda_batches(l_set, aug_set, batch_size=16):
     Returns:
         list of list: the created batches
     """
-    mixed_batches = []
     num_labeled = len(l_set)
     l_index = np.random.permutation(num_labeled)
 
@@ -107,12 +106,13 @@ def create_mixda_batches(l_set, aug_set, batch_size=16):
 
         if len(l_batch) == batch_size or i == len(l_index) - 1:
             batches = l_batch + l_batch_aug
-            mixed_batches.append(padder(batches))
+            yield padder(batches)
             l_batch.clear()
             l_batch_aug.clear()
 
-    random.shuffle(mixed_batches)
-    return mixed_batches
+    if len(l_batch) > 0:
+        batches = l_batch + l_batch_aug
+        yield padder(batches)
 
 
 def train(model, l_set, aug_set, optimizer,
