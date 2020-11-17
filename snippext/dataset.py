@@ -12,9 +12,11 @@ def get_tokenizer(lm='bert'):
     """Return the tokenizer. Intiailize it if not initialized.
 
     Args:
-        lm (string): the name of the language model (bert, albert, or distilbert)
+        lm (string, optional): the name of the language model
+            (bert, albert, roberta, distilbert, etc.)
+
     Returns:
-        BertTokenizer or DistilBertTokenizer or AlbertTokenizer
+        Tokenizer: the tokenizer to be used
     """
     global tokenizer
     if tokenizer is None:

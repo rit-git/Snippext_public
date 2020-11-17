@@ -33,7 +33,7 @@ class MultiTaskNet(nn.Module):
             elif lm == 'roberta':
                 self.bert = RobertaModel.from_pretrained(model_ckpts[lm])
             elif lm == 'longformer':
-                self.bert = RobertaModel.from_pretrained(model_ckpts[lm])
+                self.bert = LongformerModel.from_pretrained(model_ckpts[lm])
         else:
             output_model_file = bert_path
             model_state_dict = torch.load(output_model_file,
