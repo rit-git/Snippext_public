@@ -14,7 +14,7 @@ from .model import MultiTaskNet
 from .train_util import *
 from .dataset import *
 from tensorboardX import SummaryWriter
-from transformers import AdamW, get_linear_schedule_with_warmup
+from transformers import AdamW, get_constant_schedule_with_warmup, get_linear_schedule_with_warmup
 from apex import amp
 
 # criterion for tagging
@@ -93,6 +93,7 @@ def create_mixda_batches(l_set, aug_set, batch_size=16):
     Returns:
         list of list: the created batches
     """
+    mixed_batches = []
     num_labeled = len(l_set)
     l_index = np.random.permutation(num_labeled)
 
@@ -106,13 +107,12 @@ def create_mixda_batches(l_set, aug_set, batch_size=16):
 
         if len(l_batch) == batch_size or i == len(l_index) - 1:
             batches = l_batch + l_batch_aug
-            yield padder(batches)
+            mixed_batches.append(padder(batches))
             l_batch.clear()
             l_batch_aug.clear()
 
-    if len(l_batch) > 0:
-        batches = l_batch + l_batch_aug
-        yield padder(batches)
+    random.shuffle(mixed_batches)
+    return mixed_batches
 
 
 def train(model, l_set, aug_set, optimizer,
@@ -232,8 +232,10 @@ def initialize_and_train(task_config,
     # learning rate scheduler
     num_steps = (len(trainset) // hp.batch_size) * hp.n_epochs
     scheduler = get_linear_schedule_with_warmup(optimizer,
-                                                num_warmup_steps=num_steps // 10,
+                                                num_warmup_steps=num_steps / 10,
                                                 num_training_steps=num_steps)
+    # scheduler = get_constant_schedule_with_warmup(optimizer,
+    #                                             num_warmup_steps=num_steps / 10)
     # create logging
     if not os.path.exists(hp.logdir):
         os.makedirs(hp.logdir)
@@ -264,15 +266,15 @@ def initialize_and_train(task_config,
                             run_tag)
 
         # skip the epochs with zero f1
-        if dev_f1 > 1e-6:
-            epoch += 1
-            if hp.save_model:
-                if dev_f1 > best_dev_f1:
-                    best_dev_f1 = dev_f1
-                    torch.save(model.state_dict(), run_tag + '_dev.pt')
-                if test_f1 > best_test_f1:
-                    best_test_f1 = test_f1
-                    torch.save(model.state_dict(), run_tag + '_test.pt')
+        # if dev_f1 > 1e-6:
+        epoch += 1
+        if hp.save_model:
+            if dev_f1 > best_dev_f1:
+                best_dev_f1 = dev_f1
+                torch.save(model.state_dict(), run_tag + '_dev.pt')
+            if test_f1 > best_test_f1:
+                best_test_f1 = dev_f1
+                torch.save(model.state_dict(), run_tag + '_test.pt')
 
     writer.close()
 

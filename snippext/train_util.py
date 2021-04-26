@@ -6,76 +6,7 @@ import torch.nn.functional as F
 import sklearn.metrics as metrics
 import uuid
 
-from .conlleval import evaluate_conll_file
 from transformers.data import glue_processors, glue_compute_metrics
-
-def eval_tagging(model, iterator, idx2tag):
-    """Evaluate a tagging model state on a dev/test set.
-
-    Args:
-        model (MultiTaskNet): the model state
-        iterator (DataLoader): a batch iterator of the dev/test set
-        idx2tag (dict): a mapping from tag indices to tag names
-
-    Returns:
-        float: precision
-        float: recall
-        float: f1
-        float: loss
-    """
-    model.eval()
-
-    Words, Is_heads, Tags, Y, Y_hat = [], [], [], [], []
-    with torch.no_grad():
-        loss_list = []
-        total_size = 0
-        for i, batch in enumerate(iterator):
-            words, x, is_heads, tags, mask, y, seqlens, taskname = batch
-
-            taskname = taskname[0]
-            loss_fct = nn.CrossEntropyLoss(ignore_index=0)
-            batch_size = y.shape[0]
-
-            logits, y, y_hat = model(x, y, task=taskname)  # y_hat: (N, T)
-
-            logits = logits.view(-1, logits.shape[-1])
-            y = y.view(-1)
-            loss = loss_fct(logits, y)
-            loss_list.append(loss.item() * batch_size)
-            total_size += batch_size
-
-            Words.extend(words)
-            Is_heads.extend(is_heads)
-            Tags.extend(tags)
-            Y.extend(y.cpu().numpy().tolist())
-            Y_hat.extend(y_hat.cpu().numpy().tolist())
-
-    # gets results and save
-    eval_fname = "temp_da_" + taskname +'_' + uuid.uuid4().hex
-    with open(eval_fname, 'w') as fout:
-        for words, is_heads, tags, y_hat in zip(Words, Is_heads, Tags, Y_hat):
-            y_hat = [hat for head, hat in zip(is_heads, y_hat) if head == 1]
-            preds = [idx2tag[hat] for hat in y_hat]
-            if len(preds)==len(words.split())==len(tags.split()):
-                for w, t, p in zip(words.split()[1:-1], tags.split()[1:-1], preds[1:-1]):
-                    if p == '<PAD>':
-                        p = 'O'
-                    if t == '<PAD>':
-                        p = t = 'O'
-                    fout.write(f"{w} {t} {p}\n")
-                fout.write("\n")
-
-    ## calc metric
-    precision, recall, f1 = evaluate_conll_file(open(eval_fname))
-    loss = sum(loss_list) / total_size
-    os.remove(eval_fname)
-    print("=============%s==================" % taskname)
-    print("precision=%.3f"%precision)
-    print("recall=%.3f"%recall)
-    print("f1=%.3f"%f1)
-    print("loss=%.3f"%loss)
-    print("=====================================")
-    return precision, recall, f1, loss
 
 def eval_classifier(model, iterator, threshold=None, get_threshold=False):
     """Evaluate a classification model state on a dev/test set.
@@ -148,10 +79,10 @@ def eval_classifier(model, iterator, threshold=None, get_threshold=False):
             recall = metrics.recall_score(Y, Y_hat)
             f1 = metrics.f1_score(Y, Y_hat)
             if any([prefix in taskname for prefix in \
-                ['cleaning_', 'Structured', 'Textual', 'Dirty']]): # handle imbalance:
+                ['cleaning_', 'em_']]): # handle imbalance:
                 max_f1 = f1
                 if threshold is None:
-                    for th in np.arange(0.9, 1.0, 0.005):
+                    for th in np.arange(0.0, 1.0, 0.005):
                         Y_hat = [y if p > th else 0 for (y, p) in zip(Y_hat, Y_prob)]
                         f1 = metrics.f1_score(Y, Y_hat)
                         if f1 > max_f1:
@@ -214,44 +145,12 @@ def eval_on_task(epoch,
         float: test F1
     """
     t_prec = t_recall = t_f1 = t_loss = None
-    if 'tagging' in task:
-        print('Validation:')
-        prec, recall, f1, v_loss = eval_tagging(model,
-                             valid_iter,
-                             valid_dataset.idx2tag)
-        if test_iter is not None:
-            print('Test:')
-            t_prec, t_recall, t_f1, t_loss = eval_tagging(model,
-                             test_iter,
-                             test_dataset.idx2tag)
-        scalars = {'precision': prec,
-                   'recall': recall,
-                   'f1': f1,
-                   'v_loss': v_loss,
-                   't_precision': t_prec,
-                   't_recall': t_recall,
-                   't_f1': t_f1,
-                   't_loss': t_loss}
-    elif task in glue_processors:
-        print('Validation:')
-        scalars = eval_classifier(model, valid_iter)
-        f1, t_f1 = 0.0, 0.0
-    elif task[:5] == 'glue_':
-        print('Validation:')
-        scalars = eval_classifier(model, valid_iter)
-
-        if test_iter is not None:
-            print('Test:')
-            t_output = eval_classifier(model, test_iter)
-            for key in t_output:
-                scalars['t_' + key] = t_output[key]
-
-        f1, t_f1 = 0.0, 0.0
-    elif any([prefix in task for prefix in \
-            ['cleaning_', 'Structured', 'Textual', 'Dirty']]): # handle imbalance:
+    if any([prefix in task for prefix in \
+            ['cleaning_', 'em_']]): # handle imbalance:
         print('Validation:')
         acc, prec, recall, f1, v_loss, th = eval_classifier(model, valid_iter, get_threshold=True)
         print('Test:')
+        # t_acc, t_prec, t_recall, t_f1, t_loss = eval_classifier(model, test_iter)
         t_acc, t_prec, t_recall, t_f1, t_loss = eval_classifier(model, test_iter, threshold=th)
         scalars = {'acc': acc,
                    'precision': prec,

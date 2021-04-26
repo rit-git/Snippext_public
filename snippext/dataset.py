@@ -12,11 +12,9 @@ def get_tokenizer(lm='bert'):
     """Return the tokenizer. Intiailize it if not initialized.
 
     Args:
-        lm (string, optional): the name of the language model
-            (bert, albert, roberta, distilbert, etc.)
-
+        lm (string): the name of the language model (bert, albert, or distilbert)
     Returns:
-        Tokenizer: the tokenizer to be used
+        BertTokenizer or DistilBertTokenizer or AlbertTokenizer
     """
     global tokenizer
     if tokenizer is None:
@@ -107,7 +105,7 @@ class SnippextDataset(data.Dataset):
 
         # augmentation index and op
         self.augment_op = augment_op
-        if augment_op == 't5':
+        if augment_op in ['t5', 'invda']:
             self.load_t5_examples(source)
         elif augment_index != None:
             self.augmenter = Augmenter(augment_index)
@@ -232,7 +230,7 @@ class SnippextDataset(data.Dataset):
 
         if '_tagging' in self.taskname:
             # apply data augmentation if specified
-            if self.augment_op == 't5':
+            if self.augment_op in ['t5', 'invda']:
                 if len(self.augmented_examples[idx]) > 0:
                     words, tags = random.choice(self.augmented_examples[idx])
             elif self.augmenter != None:
@@ -279,7 +277,7 @@ class SnippextDataset(data.Dataset):
             words = " ".join(words)
             tags = " ".join(tags)
         else: # classification
-            if self.augment_op == 't5':
+            if self.augment_op == ['t5', 'invda']:
               if len(self.augmented_examples[idx]) > 0:
                   words, tags = random.choice(self.augmented_examples[idx])
             elif self.augmenter != None:

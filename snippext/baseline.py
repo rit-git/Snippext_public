@@ -173,15 +173,15 @@ def initialize_and_train(task_config,
                             writer,
                             run_tag)
 
-        if dev_f1 > 1e-6:
-            epoch += 1
-            if hp.save_model:
-                if dev_f1 > best_dev_f1:
-                    best_dev_f1 = dev_f1
-                    torch.save(model.state_dict(), run_tag + '_dev.pt')
-                if test_f1 > best_test_f1:
-                    best_test_f1 = test_f1
-                    torch.save(model.state_dict(), run_tag + '_test.pt')
+        # if dev_f1 > 1e-6:
+        epoch += 1
+        if hp.save_model:
+            if dev_f1 > best_dev_f1:
+                best_dev_f1 = dev_f1
+                torch.save(model.state_dict(), run_tag + '_dev.pt')
+            if test_f1 > best_test_f1:
+                best_test_f1 = dev_f1
+                torch.save(model.state_dict(), run_tag + '_test.pt')
 
     writer.close()
 
