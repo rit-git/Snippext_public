@@ -1,0 +1,27 @@
+[
+  {
+    "name": "laptop_ae_tagging",
+    "task_type": "tagging",
+    "vocab": [
+      "B",
+      "I",
+      "O"
+    ],
+    "trainset": "/data/laptop_ae_tagging/train.json",
+    "validset": "/data/laptop_ae_tagging/dev.json",
+    "testset": "/data/laptop_ae_tagging/test.json",
+    "unlabeled": "/data/laptop_ae_tagging/unlabeled.json"
+  },
+  {
+    "name": "sentiment_analysis",
+    "task_type": "classification",
+    "vocab": [
+      "positive",
+      "negative"
+    ],
+    "trainset": "/data/sentiment_analysis/sa_train.csv",
+    "validset": "/data/sentiment_analysis/sa_dev.csv",
+    "testset": "/data/sentiment_analysis/sa_test.csv",
+    "unlabeled": "/data/sentiment_analysis/sa_unlabeled.csv"
+  }
+]
