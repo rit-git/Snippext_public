@@ -10,11 +10,9 @@ tokenizer = None
 
 def get_tokenizer(lm='bert'):
     """Return the tokenizer. Intiailize it if not initialized.
-
     Args:
         lm (string, optional): the name of the language model
             (bert, albert, roberta, distilbert, etc.)
-
     Returns:
         Tokenizer: the tokenizer to be used
     """
@@ -38,6 +36,9 @@ def get_tokenizer(lm='bert'):
         elif lm == 'longformer':
             from transformers import LongformerTokenizer
             tokenizer = LongformerTokenizer.from_pretrained('allenai/longformer-base-4096')
+        elif lm == 'stsb-mpnet':
+            from transformers import AutoTokenizer
+            tokenizer = AutoTokenizer.from_pretrained('sentence-transformers/stsb-mpnet-base-v2')
     return tokenizer
 
 
@@ -53,7 +54,6 @@ class SnippextDataset(data.Dataset):
                  size=None):
         """ TODO
         Args:
-
         """
         # tokens and tags
         sents, tags_li = [], [] # list of lists
@@ -141,20 +141,16 @@ class SnippextDataset(data.Dataset):
 
     def read_tagging_file(self, path, is_file=True):
         """Read a train/eval tagging dataset from file
-
         The input file should contain multiple entries separated by empty lines.
         The format of each entry:
-
         The O
         room B-AS
         is O
         very B-OP
         clean I-OP
         . O
-
         Args:
             path (str): the path to the dataset file
-
         Returns:
             list of list of str: the tokens
             list of list of str: the labels
@@ -178,14 +174,11 @@ class SnippextDataset(data.Dataset):
 
     def read_classification_file(self, path):
         """Read a train/eval classification dataset from file
-
         The input file should contain multiple lines where each line is an example.
         The format of each line:
         The room is clean.\troom\tpositive
-
         Args:
             path (str): the path to the dataset file
-
         Returns:
             list of str: the input sequences
             list of str: the labels
@@ -222,7 +215,6 @@ class SnippextDataset(data.Dataset):
 
     def __getitem__(self, idx):
         """Return the ith item of in the dataset.
-
         Args:
             idx (int): the element index
         Returns (TODO):
@@ -309,10 +301,8 @@ class SnippextDataset(data.Dataset):
     @staticmethod
     def pad(batch):
         '''Pads to the longest sample
-
         Args:
             batch:
-
         Returns (TODO):
             return words, f(x), is_heads, tags, f(mask), f(y), seqlens, name
         '''
