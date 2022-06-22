@@ -1,5 +1,5 @@
 gensim==3.8.1
-numpy==1.19.2
+numpy==1.22.0
 regex==2019.12.20
 spacy==2.2.3
 sentencepiece==0.1.85
